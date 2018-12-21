@@ -6,14 +6,13 @@
 
 There are many ways to setup your RaspberryPi, and while it is outside the scope of this document to show you how. We will give you a breif overview of the process. The outline to getting setup is as follows:
 
-1. Download a recent version of Raspbian
-2. Write the Raspbian operating system image to an SD card
+1. Download a recent version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+2. Write the Raspbian operating system image to an SD card. We recommend [Etcher](https://www.balena.io/etcher/)
 3. Configure SSH on your Pi
-4. ..........
 
 ### Setup Raspbian
 
-We recommend [following this guide first](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0). It should get you 90% the way towards having a working RaspberryPi using a "heaadless" install. A headless install allows you to setup a RaspberryPi without needing a monitor, keyboard or mouse.
+For more details we recommend [following this guide first](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0). It should get you 90% the way towards having a working RaspberryPi using a "heaadless" install. A headless install allows you to setup a RaspberryPi without needing a monitor, keyboard or mouse.
 
 In essence, you should download a Raspbian image and flash it to an SD card. Once you do that, you need to enable SSH. To do that, you need to create a blank file at the root of the operating system called `ssh`.
 
@@ -76,6 +75,14 @@ sudo raspi-config
 5. Enter your network password, or leave blank if you’re on an open network
 
 Now you should be connected to your Wifi network, congrats!
+
+\*Note: Once WiFi is configured your pi will no longer be available at raspberrypi.local. If you need to reconnect to your pi before you have remote.it installed you will need to make note of it's IP address. This can be found by running `ifconfig` and searching for it at the [top of the output](https://stackoverflow.com/questions/8529181/which-terminal-command-to-get-just-ip-address-and-nothing-else).
+
+### Celular modem
+
+One of the key benefits of using remote.it is that we fully support connections over cellular.
+
+Setup is similar to the WiFi setup above, only you will configure setup to attach to a local hot-spot or internal modem.
 
 ## Check your network connection
 
