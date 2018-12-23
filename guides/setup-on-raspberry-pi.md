@@ -106,6 +106,21 @@ To close this `ping`, type `Ctrl + c`.
 
 ## Install remote.it
 
+There are two ways to install remote.it on your pi
+
+### Quick install
+
+1. Login to your remote.it account and click the 'download' link in the menu.
+2. Select the linux version of remote.it
+3. Copy the custom download and install link
+4. Log it your pi and paste the link into your terminal
+
+```shell
+wget https://remote.it/downloads/app?uuid=123e4567-e89b-12d3-a456-426655440000
+```
+
+### Manual install
+
 ```shell
 sudo apt−get dist−upgrade
 sudo apt-get update
@@ -115,3 +130,5 @@ sudo apt-get update
 sudo apt-get install remoteit
 sudo remoteit
 ```
+
+[Setup Instructions]
