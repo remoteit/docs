@@ -1,4 +1,4 @@
-# Product development with remote.it
+# Product development
 
 While remote.it is very useful if you have a few devices and you just want to connect to them occasionally, it is really suited for product development since it enables you to deploy products globally and be able to securely connect to them, run updates, debug problems and much more!
 

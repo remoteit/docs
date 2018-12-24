@@ -45,7 +45,7 @@ sudo remoteit
 {% hint style="info" %}
 Currently, the remote.it connectd daemon is named `weavedconnectd`. We are in the process of releasing a newer version of connectd onto the apt repository with the naming you see above.
 
-For now, instead install `weavedconnectd` and then run `sudo weavedconnectd` instead of `remoteit`.
+For now, instead install `weavedconnectd` and then run `sudo weavedinstaller` instead of `remoteit`.
 {% endhint %}
 
 Now you should see a command line prompt that will guide you through the process of configuring remote.it to have access to various services on your machine.

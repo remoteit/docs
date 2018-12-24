@@ -1,4 +1,4 @@
-# Device Scripting: Running scripts on your devices
+# Device Scripting
 
 remote.it wants to make your life easier as a product creator and one of the tools we've developed to do that is called "Device Scripting".
 
