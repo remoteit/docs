@@ -8,5 +8,5 @@ Auto Registration is the easiest way to setup a device using remote.it. With Aut
 
 ## Bulk Registration
 
-
+For now, please see [this PDF on Bulk Registration](https://github.com/remoteit/docs/blob/master/guides/remote.it%20Bulk%20Scripting.pdf).
 
