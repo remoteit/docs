@@ -34,7 +34,7 @@ Build remote.it into your products using bulk or auto registration \(aka mass re
 
 {% page-ref page="../../guides/product-development/using-bulk-and-auto-registration.md" %}
 
-{% page-ref page="../../guides/connecting-to-a-device.md" %}
+{% page-ref page="../../guides/connecting-to-a-device/" %}
 
 {% page-ref page="../../guides/connectd.md" %}
 

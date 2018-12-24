@@ -13,7 +13,8 @@
 
 ## Guides
 
-* [Connecting to a device](guides/connecting-to-a-device.md)
+* [Connecting to a device](guides/connecting-to-a-device/README.md)
+  * [Troubleshooting connections](guides/connecting-to-a-device/troubleshooting-connections.md)
 * [Service types](guides/service-types.md)
 * [Product development](guides/product-development/README.md)
   * [Mass Registration](guides/product-development/using-bulk-and-auto-registration.md)
@@ -27,4 +28,8 @@
 * [Authentication](quickstart/authentication.md)
 * [Listing Devices](quickstart/listing-devices.md)
 * [Connecting to a Device](quickstart/connecting-to-a-device.md)
+
+## connectd Reference
+
+* [connectd](connectd-reference/connectd.md)
 
