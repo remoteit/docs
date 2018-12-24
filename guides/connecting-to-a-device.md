@@ -2,7 +2,7 @@
 
 Full guide coming soon. For now, checkout this page:
 
-{% page-ref page="../test/getting-started-on-a-raspberry-pi/connect-to-your-raspberry-pi.md" %}
+{% page-ref page="../getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi.md" %}
 
 ## Proxy connections
 

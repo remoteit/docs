@@ -1,14 +1,14 @@
 # Table of contents
 
 * [remote.it Documentation](README.md)
-* [Getting started](test/README.md)
-  * [Quick start on Raspberry Pi](test/getting-started-on-a-raspberry-pi/README.md)
-    * [Setup your Raspberry Pi](test/getting-started-on-a-raspberry-pi/setup-your-raspberry-pi.md)
-    * [Connect to your Raspberry Pi](test/getting-started-on-a-raspberry-pi/connect-to-your-raspberry-pi.md)
-    * [Connecting to the internet](test/getting-started-on-a-raspberry-pi/connecting-to-the-internet.md)
-    * [Install remote.it](test/getting-started-on-a-raspberry-pi/install-remote.it.md)
-    * [Connect to your Raspberry Pi](test/getting-started-on-a-raspberry-pi/connect-to-your-raspberry-pi-1.md)
-  * [Quick start on AWS](test/asdfasdf.md)
+* [Getting started](getting-started/README.md)
+  * [Quick start on Raspberry Pi](getting-started/quick-start-on-raspberry-pi/README.md)
+    * [Setup your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/setup-your-raspberry-pi.md)
+    * [Connect to your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi.md)
+    * [Connecting to the internet](getting-started/quick-start-on-raspberry-pi/connecting-to-the-internet.md)
+    * [Install remote.it](getting-started/quick-start-on-raspberry-pi/install-remote.it.md)
+    * [Connect to your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi-1.md)
+  * [Quick start on AWS](getting-started/quick-start-on-aws.md)
 * [Supported platforms](supported-platforms.md)
 
 ## Guides
