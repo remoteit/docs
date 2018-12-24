@@ -21,15 +21,15 @@ Now, you can SSH into your Pi \(assuming everything went well!\). To do that on 
 ssh pi@raspberrypi.local
 ```
 
-If all goes well, you will be prompted to accept the public key of the Pi and then you will be prompted to login. The default password on a Pi is `raspberry`.
+If all goes well, you will be prompted to accept the public key of the Pi and then you will be prompted to login. 
+
+The default password on a Pi is `raspberry`.
 
 {% hint style="warning" %}
 We highly recommend changing the root password of your Pi since the `raspberry` password is very well know and opens up your Pi to attack. 
 
 To change your password, run `passwd` on the command line or do it through `raspi-config`.
-
-You will be prompted to type your old password then set your new password.
 {% endhint %}
 
-If everything went smoothly, you can now connect your Pi to the internet! Give yourself a pat on the back and a cookie!
+If everything went smoothly, you can now connect your Pi to the internet! Give yourself a pat on the back and go grab a cookie!
 

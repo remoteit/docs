@@ -15,10 +15,14 @@
 
 * [Connecting to a device](guides/connecting-to-a-device.md)
 * [Service types](guides/service-types.md)
-* [Using bulk and auto registration](guides/using-bulk-and-auto-registration.md)
+* [Product development with remote.it](guides/product-development-with-remote.it/README.md)
+  * [Mass Registration: Using bulk and auto registration](guides/product-development-with-remote.it/using-bulk-and-auto-registration.md)
+  * [Device Scripting: Running scripts on your devices](guides/product-development-with-remote.it/device-scripting-running-scripts-on-your-devices.md)
 * [Configuring a webcam with Nx Witness](guides/configuring-a-webcam-with-nx-witness.md)
 * [Sharing and transferring devices](guides/sharing-and-transferring-devices.md)
 * [What is connectd and how do I use it?](guides/connectd.md)
 
 ## API Reference
+
+## Device Scripting
 

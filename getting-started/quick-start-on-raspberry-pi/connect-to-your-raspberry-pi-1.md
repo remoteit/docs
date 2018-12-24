@@ -10,7 +10,7 @@ You should now see your device in your account device list and you should be abl
 
 Click the device name and then select one of the services you configured to create a connection to the device's service.
 
-For example, if you had an SSH service, you would click the SSH service to connect and after about 30 seconds you should be given a hostname \(like `proxy21.rt3.io`\) and a port \(like `33001`\). Now you can connect to the service like so \(assuming a username of `pi`\):
+For example, if you had an SSH service, you would click the SSH service to connect and after about 10-20 seconds you should be given a hostname \(like `proxy21.rt3.io`\) and a port \(like `33001`\). Now you can connect to the service like so \(assuming a username of `pi`\):
 
 ```bash
 ssh pi@proxy21.rt3.io -p 33001
@@ -32,17 +32,11 @@ Share or transfer your devices amongst other remote.it users:
 
 Build remote.it into your products using bulk or auto registration \(aka mass registration\):
 
-{% page-ref page="../../guides/using-bulk-and-auto-registration.md" %}
-
-Learn more about the different ways to connect to devices:
+{% page-ref page="../../guides/product-development-with-remote.it/using-bulk-and-auto-registration.md" %}
 
 {% page-ref page="../../guides/connecting-to-a-device.md" %}
 
-Learn more about remote.it connectd and how it works:
-
 {% page-ref page="../../guides/connectd.md" %}
-
-Setting up a web camera using Nx Witness:
 
 {% page-ref page="../../guides/configuring-a-webcam-with-nx-witness.md" %}
 

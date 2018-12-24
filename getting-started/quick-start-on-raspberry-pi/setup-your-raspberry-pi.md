@@ -26,5 +26,5 @@ touch /Volumes/boot/ssh
 
 For other operating systems, just open up the SD card and create a blank file at the root of the card named `ssh` and then eject the SD card.
 
-Now you are ready to turn on your P!
+Now you are ready to turn on your Pi!
 

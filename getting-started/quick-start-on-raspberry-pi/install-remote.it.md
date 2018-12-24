@@ -23,10 +23,14 @@ sudo apt-get update
 
 Before you install remote.it, create a new account which should just take a minute and is completely free. 
 
+You can signup at [app.remote.it](https://app.remote.it).
+
 This will allow you to configure your device and access it securely anywhere in the world!
 
 {% hint style="info" %}
-remote.it is free for personal use under our Fair Use policy. If you're using remote.it for commercial purposes like developing a product with remote.it embedded in it, using remote.it it on commercial machines or other business related uses, we have a variety of plans to meet your companies needs. Please [contact us with any questions](https://remot3it.zendesk.com)!
+remote.it is free for personal use under our Fair Use policy. 
+
+If you're using remote.it for commercial purposes like developing a product with remote.it embedded in it, using remote.it it on commercial machines or other business related uses, we have a variety of plans to meet your company's needs. Please [contact us with any questions](https://remot3it.zendesk.com)!
 {% endhint %}
 
 ## Install remote.it
@@ -38,13 +42,19 @@ sudo apt-get install remoteit
 sudo remoteit
 ```
 
+{% hint style="info" %}
+Currently, the remote.it connectd daemon is named `weavedconnectd`. We are in the process of releasing a newer version of connectd onto the apt repository with the naming you see above.
+
+For now, instead install `weavedconnectd` and then run `sudo weavedconnectd` instead of `remoteit`.
+{% endhint %}
+
 Now you should see a command line prompt that will guide you through the process of configuring remote.it to have access to various services on your machine.
 
 You should first login to your existing remote.it account and then you can start configuring services.
 
 ## Configuring services
 
-For now, we recommend starting with SSH and VNC, but ultimately you can use any service on your machine that can connect to a port. Virtually anything that communicates over TCP can be used with remote.it including:
+For now, we recommend starting with SSH and VNC on your Pi just to get started, but ultimately you can use any service on your machine that can connect to a port. Virtually anything that communicates over TCP can be used with remote.it including:
 
 * SSH
 * VNC
