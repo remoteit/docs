@@ -1,4 +1,4 @@
-# Connect to your Raspberry Pi
+# Connecting to your Raspberry Pi using remote.it
 
 Assuming everything up to here has gone well \(and we hope it has!\), you can now use remote.it to connect to your device!
 

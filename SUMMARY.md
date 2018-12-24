@@ -7,7 +7,7 @@
     * [Connect to your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi.md)
     * [Connecting to the internet](getting-started/quick-start-on-raspberry-pi/connecting-to-the-internet.md)
     * [Install remote.it](getting-started/quick-start-on-raspberry-pi/install-remote.it.md)
-    * [Connect to your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi-1.md)
+    * [Connecting to your Raspberry Pi using remote.it](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi-1.md)
   * [Quick start on AWS](getting-started/quick-start-on-aws.md)
 * [Supported platforms](supported-platforms.md)
 
