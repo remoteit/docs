@@ -10,7 +10,7 @@ We are actively working on adding more helpful documentation to this site. If yo
 
 If you're new to remote.it, we highly recommend starting with our Getting Started guides:
 
-{% page-ref page="getting-started/quick-start-on-raspberry-pi/" %}
+{% page-ref page="getting-started/" %}
 
 ## Feedback and Support
 

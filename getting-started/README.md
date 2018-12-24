@@ -6,3 +6,7 @@ In this section, we will show you how to get up and running with remote.it on a 
 
 Please follow our Quick Start guides if you're new to remote.it:
 
+{% page-ref page="quick-start-on-raspberry-pi/" %}
+
+{% page-ref page="quick-start-on-aws.md" %}
+
