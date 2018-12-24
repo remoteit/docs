@@ -28,6 +28,8 @@
 * [Authentication](quickstart/authentication.md)
 * [Listing Devices](quickstart/listing-devices.md)
 * [Connecting to a Device](quickstart/connecting-to-a-device.md)
+* [Updating a device](quickstart/updating-a-device.md)
+* [Updating a service](quickstart/updating-a-service.md)
 
 ## connectd Reference
 
