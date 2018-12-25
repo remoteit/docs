@@ -12,3 +12,9 @@ Learn more about Mass Registration here:
 
 {% page-ref page="using-bulk-and-auto-registration.md" %}
 
+## Device Scripting
+
+Imagine being able to write a single script and run it across thousands \(or even millions!\) of machines. Well, you can do all that and more using Device Scripting!
+
+{% page-ref page="device-scripting-running-scripts-on-your-devices.md" %}
+
