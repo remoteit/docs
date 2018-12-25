@@ -1,4 +1,4 @@
-# connectd
+# Using connectd
 
 ## **Download remote.it**
 

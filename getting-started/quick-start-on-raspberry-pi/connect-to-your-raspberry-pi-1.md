@@ -36,7 +36,7 @@ Build remote.it into your products using bulk or auto registration \(aka mass re
 
 {% page-ref page="../../guides/connecting-to-a-device/" %}
 
-{% page-ref page="../../guides/connectd.md" %}
+{% page-ref page="../../connectd-reference/connectd-1.md" %}
 
 {% page-ref page="../../guides/configuring-a-webcam-with-nx-witness.md" %}
 

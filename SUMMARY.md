@@ -24,7 +24,6 @@
   * [Device Scripting](guides/product-development/device-scripting-running-scripts-on-your-devices.md)
 * [Configuring a webcam with Nx Witness](guides/configuring-a-webcam-with-nx-witness.md)
 * [Sharing and transferring devices](guides/sharing-and-transferring-devices.md)
-* [What is connectd and how do I use it?](guides/connectd.md)
 
 ## API Reference
 
@@ -43,5 +42,6 @@
 
 ## connectd Reference
 
-* [connectd](connectd-reference/connectd.md)
+* [What is connectd and how does it work?](connectd-reference/connectd-1.md)
+* [Using connectd](connectd-reference/connectd.md)
 
