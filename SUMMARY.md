@@ -14,6 +14,9 @@
 ## Guides
 
 * [Connecting to a device](guides/connecting-to-a-device/README.md)
+  * [Proxy connections](guides/connecting-to-a-device/proxy-connections.md)
+  * [Peer-to-Peer connections](guides/connecting-to-a-device/peer-to-peer-connections.md)
+  * [Device-to-Device connections](guides/connecting-to-a-device/device-to-device-connections.md)
   * [Troubleshooting connections](guides/connecting-to-a-device/troubleshooting-connections.md)
 * [Service types](guides/service-types.md)
 * [Product development](guides/product-development/README.md)

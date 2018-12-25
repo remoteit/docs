@@ -1,6 +1,9 @@
 # Service types
 
-_More detailed docs on remote.it supported service types are coming soon._
+{% hint style="info" %}
+**Under Construction**  
+This documentation is under-construction and coming soon. If you need help immediately, [please contact us](https://remot3it.zendesk.com)
+{% endhint %}
 
 Virtually **anything that communicates over TCP** can be used with remote.it including:
 

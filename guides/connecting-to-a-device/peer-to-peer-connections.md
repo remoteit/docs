@@ -1,4 +1,4 @@
-# Sharing and transferring devices
+# Peer-to-Peer connections
 
 {% hint style="info" %}
 **Under Construction**  

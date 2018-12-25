@@ -1,6 +1,6 @@
 # remote.it Documentation
 
-**Welcome to the** [**remote.it**](https://remote.it) **documentation!**
+## **Welcome to the** [**remote.it**](https://remote.it) **documentation!**
 
 This site contains guides, API documentation and resources for using remote.it for both personal and commercial/production use.
 

@@ -1,4 +1,4 @@
-# Sharing and transferring devices
+# Proxy connections
 
 {% hint style="info" %}
 **Under Construction**  
