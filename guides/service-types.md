@@ -5,6 +5,8 @@ _More detailed docs on remote.it supported service types are coming soon._
 Virtually **anything that communicates over TCP** can be used with remote.it including:
 
 * SSH
+  * SCP
+  * SFTP
 * VNC
 * HTTP\(S\)
 * Nx Witness
