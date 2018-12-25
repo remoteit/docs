@@ -25,6 +25,7 @@
 
 ## API Reference
 
+* [API Overview](quickstart/api-overview.md)
 * [Authentication](quickstart/authentication.md)
 * [Devices](quickstart/devices/README.md)
   * [Listing Devices](quickstart/devices/listing-devices.md)
