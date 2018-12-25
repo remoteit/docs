@@ -42,6 +42,7 @@
 
 ## connectd Reference
 
-* [What is connectd and how does it work?](connectd-reference/connectd-1.md)
+* [What is connectd?](connectd-reference/connectd-1.md)
+* [How does connectd work?](connectd-reference/how-does-connectd-work.md)
 * [Using connectd](connectd-reference/connectd.md)
 

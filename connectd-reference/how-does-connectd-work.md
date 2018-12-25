@@ -1,4 +1,4 @@
-# What is connectd?
+# How does connectd work?
 
 {% hint style="info" %}
 **Under Construction**  
