@@ -10,28 +10,6 @@ If you are attempting to SSH into a device and you get the error message:
 ssh_exchange_identification: Connection closed by remote host
 ```
 
-Try running SSH with the `-v` flag:
-
-```bash
-ssh pi@proxy2.remot3.it -p 36294 -v
-```
-
-You may see something similar to the follow \(this is out from Mac OSX\):
-
-```bash
-OpenSSH_7.8p1, LibreSSL 2.7.3 
-debug1: Reading configuration data /Users/username/.ssh/config 
-debug1: /Users/username/.ssh/config line 1: Applying options for  
-debug1: Reading configuration data /etc/ssh/ssh_config 
-debug1: /etc/ssh/ssh_config line 48: Applying options for  
-debug1: Connecting to proxy2.remot3.it port 36294. 
-debug1: Connection established. 
-debug1: identity file /Users/username/.ssh/id_rsa type 0 
-debug1: identity file /Users/username/.ssh/id_rsa-cert type -1 
-debug1: Local version string SSH-2.0-OpenSSH_7.8 
-ssh_exchange_identification: Connection closed by remote host
-```
-
 ### Possible Solutions
 
 #### Your IP address is different than your original IP address when making a connection
@@ -61,15 +39,13 @@ Note that disabling IP restrictions means that anyone can attempt to make a conn
 
 ### Problem
 
-If you get a "connection refused" message when attempting to make an SSH connection with remote.it, please try the `-v` option with the SSH command as shown:
+When attempting to connect to your device, your receive:
 
 ```bash
-ssh -v -l pi proxy17.remot3.it -p 30322
-OpenSSH_for_Windows_7.6p1, LibreSSL 2.6.4 
-debug1: Connecting to proxy17.remot3.it [174.129.133.181] port 30322. 
-debug1: connect to address 174.129.133.181 port 30322: Connection refused 
-ssh: connect to host proxy17.remot3.it port 30322: Connection refused
+ssh: connect to host <HOST> port <PORT>: Connection refused
 ```
+
+Where `<HOST>` is your hostname and `<PORT>` is your port.
 
 ### Possible Solutions
 
@@ -85,15 +61,21 @@ The connection hostnames and ports obtained through the web portal expire about 
 
 #### connectd daemon has died
 
-If your SSH `connectd` daemon on the device dies after getting the connection URL and port, this could cause the above issue. You can run `ps aux | grep connectd` to see if you have a running connectd process. If you do not, run `sudo remoteit-installer` to start the process again.
+If your SSH `connectd` daemon on the device dies after getting the connection URL and port, this could cause the above issue. You can run `ps aux | grep connectd` to see if you have a running connectd process. If you do not, run `sudo connectd_installer` to start the process again.
 
 ## `ssh: connect to host <HOST> port <PORT>: Connection timed out`
 
 ### Problem
 
-This error occurs when the hostname \(e.g. `proxy19.remot3.it`\), cannot be contacted. 
+You are attempting to connect to an SSH service but the connection times out with:
+
+```bash
+ssh: connect to host <HOST> port <PORT>: Connection timed out
+```
 
 ### Possible Solutions
+
+This error occurs when the hostname \(e.g. `proxy19.remot3.it`\), cannot be contacted. 
 
 The usual causes of `Connection timed out` are:
 
