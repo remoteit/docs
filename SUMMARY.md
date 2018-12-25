@@ -26,10 +26,16 @@
 ## API Reference
 
 * [Authentication](quickstart/authentication.md)
-* [Listing Devices](quickstart/listing-devices.md)
-* [Connecting to a Device](quickstart/connecting-to-a-device.md)
-* [Updating a device](quickstart/updating-a-device.md)
-* [Updating a service](quickstart/updating-a-service.md)
+* [Devices](quickstart/devices/README.md)
+  * [Listing Devices](quickstart/devices/listing-devices.md)
+  * [Connecting to a Device](quickstart/devices/connecting-to-a-device.md)
+  * [Updating a device](quickstart/devices/updating-a-device.md)
+  * [Updating a service](quickstart/devices/updating-a-service.md)
+* [Mass Registration](quickstart/mass-registration.md)
+* [Contacts](quickstart/contacts.md)
+* [Files](quickstart/files.md)
+* [Scripts](quickstart/scripts.md)
+* [Accounts](quickstart/accounts.md)
 
 ## connectd Reference
 
