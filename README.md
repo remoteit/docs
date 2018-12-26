@@ -1,13 +1,8 @@
----
-description: >-
-  There are two ways to use remote.it to connect. Web connections connect
-  through a cloud proxy and only require our extension to be installed on the
-  target system. Direct connections require remote.it
----
-
 # Overview
 
 ![](.gitbook/assets/create-animation.gif) 
+
+There are two ways to use remote.it to connect. Web connections connect through a cloud proxy and only require our extension to be installed on the target system. Direct connections require remote.it
 
 ## Web connect
 
