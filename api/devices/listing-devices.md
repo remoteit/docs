@@ -1,12 +1,17 @@
 # Listing Devices
 
+{% hint style="info" %}
+**Note**  
+Only use this API if you have 100 devices or less. [Contact support](https://remot3it.zendesk.com) for APIs for large device lists.
+{% endhint %}
+
 {% api-method method="get" host="https://api.remot3.it" path="/apv/v27/device/list/all" %}
 {% api-method-summary %}
 Get your device list
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get your list of devices. **Note**: only use this API if you have a small number of devices \(less than 100\).
+Get your list of devices.
 {% endapi-method-description %}
 
 {% api-method-spec %}
