@@ -38,7 +38,7 @@ If you're new to remote.it, we highly recommend starting with our Getting Starte
 
 If you're a developer looking to integrate remote.it into your product or application, please checkout our API documentation guides here:
 
-{% page-ref page="quickstart/api-overview.md" %}
+{% page-ref page="api/api-overview.md" %}
 
 ## Feedback and Support
 
