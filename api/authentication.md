@@ -13,7 +13,7 @@ This endpoint allows you to login to your remote.it account and get a authentica
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="developerkey" type="string" required=true %}
-Your developer key which can be found by logging into remote it and going to your "Account" settings page.
+Your developer key which can be found by logging into remote.it and going to your "Account" settings page.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
