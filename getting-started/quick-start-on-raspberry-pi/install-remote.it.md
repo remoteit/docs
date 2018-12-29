@@ -38,14 +38,12 @@ If you're using remote.it for commercial purposes like developing a product with
 Now that you are all up to date, it is time to install the remote.it connectd library which will allow you to configure services on your device to connect to via remote.it. Run the following to install and start the remote.it installer:
 
 ```bash
-sudo apt-get install remoteit
-sudo remoteit
+sudo apt-get install weavedconnectd
+sudo weavedinstaller
 ```
 
 {% hint style="info" %}
-Currently, the remote.it connectd daemon is named `weavedconnectd`. We are in the process of releasing a newer version of connectd onto the apt repository with the naming you see above.
-
-For now, instead install `weavedconnectd` and then run `sudo weavedinstaller` instead of `remoteit`.
+Currently, the remote.it connectd daemon is named `weavedconnectd`. We are in the process of releasing a newer version of connectd onto the apt repository with our new company name. Until then, please use `weavedconnectd`.
 {% endhint %}
 
 Now you should see a command line prompt that will guide you through the process of configuring remote.it to have access to various services on your machine.

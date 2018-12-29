@@ -1,4 +1,4 @@
-# Raspberry Pi Installation
+# Raspberry Pi Quick Start
 
 In this guide you will get up and running with a Raspberry Pi running remote.it to allow you to securely remote connect and control your Pi. We will walk through setting up the Pi, configuring networking and then setting up remote.it and a few services.
 

@@ -2,9 +2,7 @@
 
 * [Overview](README.md)
 * [Getting started](getting-started/README.md)
-  * [Quick Start](getting-started/quick-start.md)
-  * [Hello World](getting-started/quick-start-on-aws.md)
-  * [Raspberry Pi Installation](getting-started/quick-start-on-raspberry-pi/README.md)
+  * [Raspberry Pi Quick Start](getting-started/quick-start-on-raspberry-pi/README.md)
     * [Setup your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/setup-your-raspberry-pi.md)
     * [Connect to your Raspberry Pi](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi.md)
     * [Connecting to the internet](getting-started/quick-start-on-raspberry-pi/connecting-to-the-internet.md)
