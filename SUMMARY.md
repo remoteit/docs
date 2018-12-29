@@ -30,7 +30,7 @@
 * [Authentication](api/authentication.md)
 * [Devices](api/devices/README.md)
   * [Listing Devices](api/devices/listing-devices.md)
-  * [Connecting to a Device](api/devices/connecting-to-a-device.md)
+  * [Connecting to a Device](api/devices/connect.md)
   * [Updating a device](api/devices/updating-a-device.md)
   * [Updating a service](api/devices/updating-a-service.md)
 * [Mass Registration](api/mass-registration.md)
