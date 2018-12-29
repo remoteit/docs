@@ -29,7 +29,7 @@
 * [API Overview](api/api-overview.md)
 * [Authentication](api/authentication.md)
 * [Devices](api/devices/README.md)
-  * [Listing Devices](api/devices/listing-devices.md)
+  * [Listing Devices](api/devices/list.md)
   * [Connecting to a Device](api/devices/connect.md)
   * [Updating a device](api/devices/updating-a-device.md)
   * [Updating a service](api/devices/updating-a-service.md)
