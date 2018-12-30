@@ -26,7 +26,7 @@
 
 ## API Reference
 
-* [API Overview](api/api-overview.md)
+* [API Overview](api/overview.md)
 * [Authentication](api/authentication.md)
 * [Devices](api/devices/README.md)
   * [Listing Devices](api/devices/list.md)
