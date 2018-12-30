@@ -31,7 +31,7 @@ Email \(or for legacy users, your username\) for remote.it
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-User successfully logged in
+User successfully logged in. The below "token" is used in any authenticated API calls.
 {% endapi-method-response-example-description %}
 
 ```javascript
