@@ -37,7 +37,6 @@
 * [Contacts](api/contacts.md)
 * [Files](api/files.md)
 * [Scripts](api/scripts.md)
-* [Accounts](api/accounts.md)
 
 ## connectd Reference
 
