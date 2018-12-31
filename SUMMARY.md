@@ -31,12 +31,6 @@
 * [Devices](api/devices/README.md)
   * [Listing Devices](api/devices/list.md)
   * [Connecting to a Device](api/devices/connect.md)
-  * [Updating a device](api/devices/updating-a-device.md)
-  * [Updating a service](api/devices/updating-a-service.md)
-* [Mass Registration](api/mass-registration.md)
-* [Contacts](api/contacts.md)
-* [Files](api/files.md)
-* [Scripts](api/scripts.md)
 
 ## connectd Reference
 

@@ -1,15 +1,19 @@
 # Using connectd
 
-## **Download remote.it**
+## **Download connectd**
+
+The below example shows you how to download and run connectd on your machine. The example is for Mac OSX, but we have [many other versions available](https://github.com/remoteit/misc_bins_and_scripts/tree/master/connectd).
 
 ```bash
+# Download the most recent release (this is for OSX)
 wget https://github.com/remoteit/misc_bins_and_scripts/raw/master/connectd/connectd.x86_64-osx
+
+# Make it executable
 chmod u+x connectd.x86_64-osx
+
+# Move to somehwere on your PATH
 mv connectd.x86_64-osx /usr/local/bin/connectd
 ```
-
-* [ ] Make this into a one liner that supports OSX, Windows, Ubuntu, Debian, etc…
-* [ ] Release versions of connectd on public Github repo
 
 ## Running connectd
 

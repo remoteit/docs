@@ -1,3 +1,7 @@
+---
+description: Documentation and resources for using remote.it in your projects.
+---
+
 # Overview
 
 ## Getting started
