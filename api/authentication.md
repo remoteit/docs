@@ -6,7 +6,7 @@ Login
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to login to your remote.it account and get a authentication token which is required for all other authenticated  APIs. 
+This endpoint allows you to login to your remote.it account and get a authentication token which is required for all other authenticated APIs. You can get your developer key here.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -47,5 +47,5 @@ User successfully logged in. The below "token" is used in any authenticated API 
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
+You can get your [developer key here](https://app.remote.it/account.html).
 
