@@ -49,3 +49,48 @@ User successfully logged in. The below "token" is used in any authenticated API 
 
 You can get your [developer key here](https://app.remote.it/account.html).
 
+### Examples
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+import requests
+import json
+import os
+
+headers = {
+    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"]
+}
+body = {
+    "password": os.environ["REMOTEIT_PASSWORD"],
+    "username": os.environ["REMOTEIT_USERNAME"]
+}
+
+url = "https://api.remot3.it/apv/v27/user/login"
+
+response = requests.post(url, data=json.dumps(body), headers=headers)
+response_body = response.json()
+
+print("Status Code: %s" % response.status_code)
+print("Raw Response: %s" % response.raw)
+print("Body: %s" % response_body)
+```
+
+Save this to a file \(say `remoteit-login.py`\), then run the following:
+
+```bash
+export REMOTEIT_DEVELOPER_KEY="...your developer key..."
+export REMOTEIT_USERNAME="...your remote.it username..."
+export REMOTEIT_PASSWORD="...your remote.it password..."
+
+python remoteit-login.py
+```
+
+Note: Make sure to put your developer key, remote.it username and password above.
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
