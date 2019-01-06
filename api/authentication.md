@@ -89,8 +89,42 @@ python remoteit-login.py
 Note: Make sure to put your developer key, remote.it username and password above.
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Node" %}
+This example uses the awesome [Axios](https://github.com/axios/axios) request library.
 
+```javascript
+const axios = require("axios");
+
+const developerkey = process.env.REMOTEIT_DEVELOPER_KEY;
+const username = process.env.REMOTEIT_USERNAME;
+const password = process.env.REMOTEIT_PASSWORD;
+
+axios
+  .post(
+    "https://api.remot3.it/apv/v27/user/login",
+    { username, password },
+    { headers: { developerkey } }
+  )
+  .then(response => {
+    console.log("Status Code:", response.status);
+    console.log("Body:", response.data);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+```
+
+Save this to a file \(say `remoteit-login.js`\), then run the following:
+
+```bash
+export REMOTEIT_DEVELOPER_KEY="...your developer key..."
+export REMOTEIT_USERNAME="...your remote.it username..."
+export REMOTEIT_PASSWORD="...your remote.it password..."
+
+node remoteit-login.js
+```
+
+Note: Make sure to put your developer key, remote.it username and password above.
 {% endtab %}
 {% endtabs %}
 
