@@ -90,7 +90,7 @@ Note: Make sure to put your developer key, remote.it username and password above
 {% endtab %}
 
 {% tab title="Node" %}
-This example uses the awesome [Axios](https://github.com/axios/axios) request library.
+This example uses the awesome [Axios](https://github.com/axios/axios) request library. To install, run `npm install axios`.
 
 ```javascript
 const axios = require("axios");
