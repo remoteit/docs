@@ -64,3 +64,32 @@ Connection with device successfully created.
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
 
+### Examples
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+import requests
+import os
+
+headers = {
+    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"],
+    "token": os.environ["REMOTEIT_TOKEN"]
+}
+
+url = "https://api.remot3.it/apv/v27/device/list/all"
+
+response = requests.get(url, headers=headers)
+response_body = response.json()
+
+print("Status Code: %s" % response.status_code)
+print("Raw Response: %s" % response.raw)
+print("Body: %s" % response_body)
+```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
