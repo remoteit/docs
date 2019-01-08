@@ -64,7 +64,7 @@ Connection with device successfully created.
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
 
-### Examples
+## Usage Examples
 
 {% tabs %}
 {% tab title="Python" %}
@@ -88,8 +88,49 @@ print("Body: %s" % response_body)
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="C\#" %}
+```csharp
+using System;
+using System.IO;
+using System.Net;
 
+namespace remote.it_api_example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {     
+            string url = "https://api.remot3.it/apv/v27/device/list/all";
+
+            WebRequest request = WebRequest.Create(url);
+
+            WebHeaderCollection headers = new WebHeaderCollection() {
+                {"developerKey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY") },
+                {"token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN") }
+            };
+
+            request.Method = "GET";
+            request.Headers = headers;
+
+            WebResponse response = request.GetResponse();        
+            Stream dataStream = response.GetResponseStream();
+            StreamReader reader = new StreamReader(dataStream);
+
+            // Stores the response from the API as a string. You can use a JSON deserializer 
+            // library such as the Json.NET package to cast the JSON to an abstract data type. 
+            string status = ((HttpWebResponse)response).StatusDescription;
+            string responseFromServer = reader.ReadToEnd();
+
+            Console.WriteLine(status);
+            Console.WriteLine(responseFromServer);
+            
+            // Clean up the streams and the response.  
+            reader.Close();
+            response.Close();
+        }
+    }
+}
+```
 {% endtab %}
 {% endtabs %}
 
