@@ -49,7 +49,7 @@ User successfully logged in. The below "token" is used in any authenticated API 
 
 You can get your [developer key here](https://app.remote.it/account.html).
 
-### Examples
+## Usage Examples
 
 {% tabs %}
 {% tab title="Python" %}
