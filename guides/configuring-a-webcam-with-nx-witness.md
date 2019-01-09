@@ -31,9 +31,9 @@ Now, find the ARM download and copy the download link
 Now that you have your Nx Witness ARM ZIP file link, replace `<URL_TO_NX_WITNESS_ZIP>` in the below commands with that link and execute them on the command line of your device:
 
 ```bash
-sudo cd / 
+cd / 
 sudo wget <URL_TO_NX_WITNESS_ZIP>
-sudo unzip
+sudo unzip <NX_WITNESS_ZIP_FILENAME>
 sudo chmod +x install.sh
 sudo ./install.sh
 ```
