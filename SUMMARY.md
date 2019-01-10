@@ -26,11 +26,11 @@
 
 ## API Reference
 
-* [API Overview](api/overview.md)
-* [Authentication](api/authentication.md)
-* [Devices](api/devices/README.md)
-  * [Listing Devices](api/devices/list.md)
-  * [Connecting to a Device](api/devices/connect.md)
+* [API Overview](api-reference/overview.md)
+* [Authentication](api-reference/authentication.md)
+* [Devices](api-reference/devices/README.md)
+  * [Listing Devices](api-reference/devices/list.md)
+  * [Connecting to a Device](api-reference/devices/connect.md)
 
 ## connectd Reference
 

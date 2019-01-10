@@ -41,7 +41,7 @@ If you need to reconnect to your Pi before you have remote.it installed you will
 This can be found by running `ifconfig` and searching for it at the [top of the output](https://stackoverflow.com/questions/8529181/which-terminal-command-to-get-just-ip-address-and-nothing-else).
 {% endhint %}
 
-### Celular modem
+### Cellular modem
 
 One of the key benefits of using remote.it is that we fully support connections over cellular networks. This enables you to deploy products anywhere in the world that has access to cellular and by using a cellular modem or hotspot, you will be able to remote access and control these devices securely, even if you're thousands of miles away!
 

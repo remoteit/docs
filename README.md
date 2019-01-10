@@ -1,7 +1,3 @@
----
-description: Documentation and resources for using remote.it in your projects.
----
-
 # Overview
 
 ## Getting started
@@ -14,7 +10,7 @@ If you're new to remote.it, we highly recommend starting with our Getting Starte
 
 If you're a developer looking to integrate remote.it into your product or application, please checkout our API documentation guides here:
 
-{% page-ref page="api/overview.md" %}
+{% page-ref page="api-reference/overview.md" %}
 
 ## Feedback and Support
 
