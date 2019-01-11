@@ -43,7 +43,7 @@ connectd -c \
 #### Example: 
 
 ```bash
-connectd -c \
+connectd -s -c \
   eW91cm5hbWVAZXhhbXBsZS5jb20= \   # Base64 encoded username/email
   c3VwM3JzZWtyZXQh \               # Base64 encoded password
   80:00:00:00:00:00:00:F1 \        # Device ID on remote.it
@@ -53,7 +53,14 @@ connectd -c \
   12                               # Max outstanding
 ```
 
-### **Other options**
+### **Options**
 
 * `-d` run in daemon mode, meaning keep the connection running in the background
+* `-s` print out status information
+
+### Having trouble connecting?
+
+Please see our guide on troubleshooting connections:
+
+{% page-ref page="../guides/connecting-to-a-device/troubleshooting-connections.md" %}
 
