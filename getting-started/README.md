@@ -1,12 +1,16 @@
 # Getting started
 
+## Welcome to remote.it!
+
 If you're new to using remote.it, this is the place for you!
 
 In this section, we will show you how to get up and running with remote.it on a real device and start securely remote connecting and controlling your devices.
 
-Please follow our Quick Start guides if you're new to remote.it:
+Please follow our Raspberry Pi Quick Start guide if you're new to remote.it:
 
 {% page-ref page="quick-start-on-raspberry-pi/" %}
 
+### More than just Raspberry Pi!
 
+remote.it works with virtually any platform or device, not just Raspberry Pi. We are actively working on adding more guides for other platforms, but until then, [please contact us](http://support.remot3.it) for help getting setup with your platform!
 

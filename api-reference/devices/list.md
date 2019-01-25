@@ -67,6 +67,38 @@ Some response values are omitted from the example above because they are only us
 ## Usage Examples
 
 {% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -H "token:$REMOTEIT_TOKEN" \
+     -H "developerkey:$REMOTEIT_DEVELOPER_KEY" \
+     https://api.remot3.it/apv/v27/device/list/all
+```
+{% endtab %}
+
+{% tab title="Node \(Javascript\)" %}
+```javascript
+const axios = require("axios");
+
+const developerkey = process.env.REMOTEIT_DEVELOPER_KEY;
+const token = process.env.REMOTEIT_TOKEN;
+
+axios
+  .get("https://api.remot3.it/apv/v27/device/list/all", {
+    headers: {
+      developerkey,
+      token
+    }
+  })
+  .then(response => {
+    console.log("Status Code:", response.status);
+    console.log("Body:", response.data);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+```
+{% endtab %}
+
 {% tab title="Python" %}
 ```python
 import requests
@@ -74,6 +106,7 @@ import os
 
 headers = {
     "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"],
+    # Created using the login API
     "token": os.environ["REMOTEIT_TOKEN"]
 }
 
@@ -91,42 +124,49 @@ print("Body: %s" % response_body)
 {% tab title="C\#" %}
 ```csharp
 using System;
-using System.IO;
-using System.Net;
+using System.Net.Http;
 
 namespace remote.it_api_example
 {
     class Program
     {
         static void Main(string[] args)
-        {     
+        {
+            string jsonString = "";
             string url = "https://api.remot3.it/apv/v27/device/list/all";
-
-            WebRequest request = WebRequest.Create(url);
-
-            WebHeaderCollection headers = new WebHeaderCollection() {
-                {"developerKey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY") },
-                {"token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN") }
-            };
-
-            request.Method = "GET";
-            request.Headers = headers;
-
-            WebResponse response = request.GetResponse();        
-            Stream dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-
-            // Stores the response from the API as a string. You can use a JSON deserializer 
-            // library such as the Json.NET package to cast the JSON to an abstract data type. 
-            string status = ((HttpWebResponse)response).StatusDescription;
-            string responseFromServer = reader.ReadToEnd();
-
-            Console.WriteLine(status);
-            Console.WriteLine(responseFromServer);
             
-            // Clean up the streams and the response.  
-            reader.Close();
-            response.Close();
+            HttpClient client = new HttpClient();
+            HttpRequestMessage requestData = new HttpRequestMessage();            
+            
+            //  Configure the HTTP requests's url, headers, and body
+            requestData.Method = HttpMethod.Get;
+            requestData.RequestUri = new Uri(url);
+
+            requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
+            requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));            
+            
+            try
+            {
+                // Send the HTTP request and run the inner block upon recieveing a response
+                var response = client.SendAsync(requestData).ContinueWith((taskMessage) =>
+                {
+                    var result = taskMessage.Result;
+                    var jsonTask = result.Content.ReadAsStringAsync();
+                    jsonTask.Wait();
+
+                    // Store the body of API response
+                    jsonString = jsonTask.Result;
+                });
+                response.Wait();
+            }
+            catch (HttpRequestException e)
+            {
+                // Triggered when the API returns a non-200 response code
+                jsonString = e.Message;
+            }
+            
+            // Print JSON response from API
+            Console.WriteLine(jsonString);
         }
     }
 }

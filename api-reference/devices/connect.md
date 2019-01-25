@@ -58,5 +58,133 @@ Connection with device successfully created.
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
 
+## Usage Examples
 
+{% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X POST \
+     -H "token:$REMOTEIT_TOKEN" \
+     -H "developerkey:$REMOTEIT_DEVELOPER_KEY" \
+     -d '{"wait":"true","deviceaddress":"'$REMOTEIT_DEVICE_ADDRESS'"}' \
+     https://api.remot3.it/apv/v27/device/connect
+
+```
+{% endtab %}
+
+{% tab title="Node \(JavaScript\)" %}
+```javascript
+const axios = require("axios");
+
+const developerkey = process.env.REMOTEIT_DEVELOPER_KEY;
+const token = process.env.REMOTEIT_TOKEN;
+const deviceaddress = process.env.REMOTEIT_DEVICE_ADDRESS;
+
+axios
+  .post(
+    "https://api.remot3.it/apv/v27/device/connect",
+    { deviceaddress },
+    {
+      headers: {
+        developerkey,
+        token
+      }
+    }
+  )
+  .then(response => {
+    console.log("Status Code:", response.status);
+    console.log("Body:", response.data);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import requests
+import json
+import os
+
+headers = {
+    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"],
+    # Created using the login API
+    "token": os.environ["REMOTEIT_TOKEN"]
+}
+body = {
+    "deviceaddress": "80:00:00:3F:AE:00:00:11"
+}
+
+url = "https://api.remot3.it/apv/v27/device/connect"
+
+response = requests.post(url, data=json.dumps(body), headers=headers)
+response_body = response.json()
+
+print("Status Code: %s" % response.status_code)
+print("Raw Response: %s" % response.raw)
+print("Body: %s" % response_body)
+```
+{% endtab %}
+
+{% tab title="C\#" %}
+```csharp
+using System;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+
+namespace remote.it_api_example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string jsonString = "";
+            string url = "https://api.remot3.it/apv/v27/device/connect";
+            
+            HttpClient client = new HttpClient();
+            HttpRequestMessage requestData = new HttpRequestMessage();            
+            
+            //  Configure the HTTP requests's url, headers, and body
+            requestData.Method = HttpMethod.Post;
+            requestData.RequestUri = new Uri(url);
+            requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
+            requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));
+            
+            Dictionary<string, string> bodyData = new Dictionary<string, string>() {
+                {"deviceaddress", Environment.GetEnvironmentVariable("REMOTEIT_DEVICE_ADDRESS") }
+            };
+            
+            string jsonFormattedBody = JsonConvert.SerializeObject(bodyData);
+            requestData.Content = new StringContent(jsonFormattedBody);
+            
+            try
+            {
+                // Send the HTTP request and run the inner block upon recieveing a response
+                var response = client.SendAsync(requestData).ContinueWith((taskMessage) =>
+                {
+                    var result = taskMessage.Result;
+                    var jsonTask = result.Content.ReadAsStringAsync();
+                    jsonTask.Wait();
+                    
+                    // Store the body of API response
+                    jsonString = jsonTask.Result;
+                });
+                response.Wait();
+            }
+            catch (HttpRequestException e)
+            {
+                // Triggered when the API returns a non-200 response code
+                jsonString = e.Message;
+            }
+            
+            // Print JSON response from API
+            Console.WriteLine(jsonString);
+        }
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
 

@@ -52,6 +52,15 @@ You can get your [developer key here](https://app.remote.it/account.html).
 ## Usage Examples
 
 {% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X POST \
+     -H "developerkey":"$REMOTEIT_DEVELOPER_KEY" \
+     -d '{"username":"'$REMOTEIT_USERNAME'","password":"'$REMOTEIT_PASSWORD'"}' \
+     https://api.remot3.it/apv/v27/user/login
+```
+{% endtab %}
+
 {% tab title="Python" %}
 ```python
 import requests
@@ -89,7 +98,7 @@ python remoteit-login.py
 Note: Make sure to put your developer key, remote.it username and password above.
 {% endtab %}
 
-{% tab title="Node" %}
+{% tab title="Node \(JavaScript\)" %}
 This example uses the awesome [Axios](https://github.com/axios/axios) request library. To install, run `npm install axios`.
 
 ```javascript
@@ -125,6 +134,66 @@ node remoteit-login.js
 ```
 
 Note: Make sure to put your developer key, remote.it username and password above.
+{% endtab %}
+
+{% tab title="C\#" %}
+```csharp
+using System;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+
+namespace remote.it_api_example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string jsonString = "";
+            string url = "https://api.remot3.it/apv/v27/user/login";
+            
+            HttpClient client = new HttpClient();
+            HttpRequestMessage requestData = new HttpRequestMessage();            
+            
+            //  Configure the HTTP requests's url, headers, and body
+            requestData.Method = HttpMethod.Post;
+            requestData.RequestUri = new Uri(url);
+            requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));                      
+            
+            Dictionary<string, string> bodyData = new Dictionary<string, string>() {
+                {"password", Environment.GetEnvironmentVariable("REMOTEIT_PASSWORD") },
+                {"username", Environment.GetEnvironmentVariable("REMOTEIT_USERNAME") }
+            };
+            
+            string jsonFormattedBody = JsonConvert.SerializeObject(bodyData);
+            requestData.Content = new StringContent(jsonFormattedBody);
+            
+            try
+            {
+                // Send the HTTP request and run the inner block upon recieveing a response
+                var response = client.SendAsync(requestData).ContinueWith((taskMessage) =>
+                {
+                    var result = taskMessage.Result;
+                    var jsonTask = result.Content.ReadAsStringAsync();
+                    jsonTask.Wait();
+                    
+                    // Store the body of API response
+                    jsonString = jsonTask.Result;
+                });
+                response.Wait();
+            }
+            catch (HttpRequestException e)
+            {
+                // Triggered when the API returns a non-200 response code
+                jsonString = e.Message;
+            }
+            
+            // Print JSON response from API
+            Console.WriteLine(jsonString);
+        }
+    }
+}
+```
 {% endtab %}
 {% endtabs %}
 
