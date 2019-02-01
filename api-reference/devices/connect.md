@@ -6,28 +6,32 @@ Connect to a device
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a connection to a device. Use the 
+Create a connection to a device.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="token" type="string" required=true %}
-Your session token, created by logging in using the API. 
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="developerkey" type="string" required=true %}
 Your developer key which can be found by logging into remote.it and going to your "Account" settings page.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="token" type="string" required=true %}
+Your session token, created by logging in using the API.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="wait" type="string" required=false %}
+{% api-method-parameter name="deviceaddress" type="string" required=true %}
+The service address \(e.g. service ID\) for the device you'd like to connect to
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="wait" type="boolean" required=false %}
 Whether to wait for the connection or not. Should most likely be "true"
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="deviceaddress" type="string" required=true %}
-The service address \(e.g. service ID\) for the device you'd like to connect to.
+{% api-method-parameter name="hostip" type="string" required=false %}
+The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -184,6 +188,35 @@ namespace remote.it_api_example
         }
     }
 }
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+$ch = curl_init();
+curl_setopt_array($ch, array(
+	CURLOPT_URL => "https://api.remot3.it/apv/v27/device/connect",
+	CURLOPT_HTTPHEADER => array(
+		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
+		"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+	),
+	CURLOPT_POSTFIELDS => json_encode(array(
+		"deviceaddress" => $_ENV["REMOTEIT_DEVICE_ADDRESS"],
+		"wait" => true
+	)),
+	CURLOPT_RETURNTRANSFER => true
+));
+$response = curl_exec($ch);
+$statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+print("Status Code: ".$statusCode."\n");
+$responseData = json_decode($response);
+print_r($responseData);
+
+?>
 ```
 {% endtab %}
 {% endtabs %}

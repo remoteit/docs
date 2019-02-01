@@ -6,7 +6,7 @@ Login
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to login to your remote.it account and get a authentication token which is required for all other authenticated APIs. You can get your developer key here.
+This endpoint allows you to login to your remote.it account and get a authentication token which is required for all other authenticated APIs.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -18,12 +18,12 @@ Your developer key which can be found by logging into remote.it and going to you
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="password" type="string" required=true %}
-Password for remote.it
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="username" type="string" required=true %}
 Email \(or for legacy users, your username\) for remote.it
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="password" type="string" required=true %}
+Password for remote.it
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -61,43 +61,6 @@ curl -X POST \
 ```
 {% endtab %}
 
-{% tab title="Python" %}
-```python
-import requests
-import json
-import os
-
-headers = {
-    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"]
-}
-body = {
-    "password": os.environ["REMOTEIT_PASSWORD"],
-    "username": os.environ["REMOTEIT_USERNAME"]
-}
-
-url = "https://api.remot3.it/apv/v27/user/login"
-
-response = requests.post(url, data=json.dumps(body), headers=headers)
-response_body = response.json()
-
-print("Status Code: %s" % response.status_code)
-print("Raw Response: %s" % response.raw)
-print("Body: %s" % response_body)
-```
-
-Save this to a file \(say `remoteit-login.py`\), then run the following:
-
-```bash
-export REMOTEIT_DEVELOPER_KEY="...your developer key..."
-export REMOTEIT_USERNAME="...your remote.it username..."
-export REMOTEIT_PASSWORD="...your remote.it password..."
-
-python remoteit-login.py
-```
-
-Note: Make sure to put your developer key, remote.it username and password above.
-{% endtab %}
-
 {% tab title="Node \(JavaScript\)" %}
 This example uses the awesome [Axios](https://github.com/axios/axios) request library. To install, run `npm install axios`.
 
@@ -131,6 +94,43 @@ export REMOTEIT_USERNAME="...your remote.it username..."
 export REMOTEIT_PASSWORD="...your remote.it password..."
 
 node remoteit-login.js
+```
+
+Note: Make sure to put your developer key, remote.it username and password above.
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import requests
+import json
+import os
+
+headers = {
+    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"]
+}
+body = {
+    "password": os.environ["REMOTEIT_PASSWORD"],
+    "username": os.environ["REMOTEIT_USERNAME"]
+}
+
+url = "https://api.remot3.it/apv/v27/user/login"
+
+response = requests.post(url, data=json.dumps(body), headers=headers)
+response_body = response.json()
+
+print("Status Code: %s" % response.status_code)
+print("Raw Response: %s" % response.raw)
+print("Body: %s" % response_body)
+```
+
+Save this to a file \(say `remoteit-login.py`\), then run the following:
+
+```bash
+export REMOTEIT_DEVELOPER_KEY="...your developer key..."
+export REMOTEIT_USERNAME="...your remote.it username..."
+export REMOTEIT_PASSWORD="...your remote.it password..."
+
+python remoteit-login.py
 ```
 
 Note: Make sure to put your developer key, remote.it username and password above.
@@ -193,6 +193,44 @@ namespace remote.it_api_example
         }
     }
 }
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+$ch = curl_init();
+curl_setopt_array($ch, array(
+	CURLOPT_URL => "https://api.remot3.it/apv/v27/user/login",
+	CURLOPT_HTTPHEADER => array(
+		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"]
+	),
+	CURLOPT_POSTFIELDS => json_encode(array(
+		"username" => $_ENV["REMOTEIT_USERNAME"],
+		"password" => $_ENV["REMOTEIT_PASSWORD"]
+	)),
+	CURLOPT_RETURNTRANSFER => true
+));
+$response = curl_exec($ch);
+$statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+print("Status Code: ".$statusCode."\n");
+$responseData = json_decode($response);
+print_r($responseData);
+
+?>
+```
+
+Save this to a file \(say `remoteit-login.php`\), then run the following:
+
+```bash
+export REMOTEIT_DEVELOPER_KEY="...your developer key..."
+export REMOTEIT_USERNAME="...your remote.it username..."
+export REMOTEIT_PASSWORD="...your remote.it password..."
+
+php remoteit-login.php
 ```
 {% endtab %}
 {% endtabs %}

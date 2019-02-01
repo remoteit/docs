@@ -17,12 +17,12 @@ Get your list of devices.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="token" type="string" required=true %}
-Your session token, created by logging in using the API. 
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="developerkey" type="string" required=true %}
 Your developer key which can be found by logging into remote.it and going to your "Account" settings page.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="token" type="string" required=true %}
+Your session token, created by logging in using the API.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -170,6 +170,31 @@ namespace remote.it_api_example
         }
     }
 }
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+$ch = curl_init();
+curl_setopt_array($ch, array(
+	CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
+	CURLOPT_HTTPHEADER => array(
+		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
+		"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+	),
+	CURLOPT_RETURNTRANSFER => true
+));
+$response = curl_exec($ch);
+$statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+print("Status Code: ".$statusCode."\n");
+$responseData = json_decode($response);
+print_r($responseData);
+
+?>
 ```
 {% endtab %}
 {% endtabs %}
