@@ -151,23 +151,23 @@ namespace remote.it_api_example
         {
             string jsonString = "";
             string url = "https://api.remot3.it/apv/v27/user/login";
-            
+
             HttpClient client = new HttpClient();
             HttpRequestMessage requestData = new HttpRequestMessage();            
-            
+
             //  Configure the HTTP requests's url, headers, and body
             requestData.Method = HttpMethod.Post;
             requestData.RequestUri = new Uri(url);
             requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));                      
-            
+
             Dictionary<string, string> bodyData = new Dictionary<string, string>() {
                 {"password", Environment.GetEnvironmentVariable("REMOTEIT_PASSWORD") },
                 {"username", Environment.GetEnvironmentVariable("REMOTEIT_USERNAME") }
             };
-            
+
             string jsonFormattedBody = JsonConvert.SerializeObject(bodyData);
             requestData.Content = new StringContent(jsonFormattedBody);
-            
+
             try
             {
                 // Send the HTTP request and run the inner block upon recieveing a response
@@ -176,7 +176,7 @@ namespace remote.it_api_example
                     var result = taskMessage.Result;
                     var jsonTask = result.Content.ReadAsStringAsync();
                     jsonTask.Wait();
-                    
+
                     // Store the body of API response
                     jsonString = jsonTask.Result;
                 });
@@ -187,7 +187,7 @@ namespace remote.it_api_example
                 // Triggered when the API returns a non-200 response code
                 jsonString = e.Message;
             }
-            
+
             // Print JSON response from API
             Console.WriteLine(jsonString);
         }
@@ -202,15 +202,15 @@ namespace remote.it_api_example
 
 $ch = curl_init();
 curl_setopt_array($ch, array(
-	CURLOPT_URL => "https://api.remot3.it/apv/v27/user/login",
-	CURLOPT_HTTPHEADER => array(
-		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"]
-	),
-	CURLOPT_POSTFIELDS => json_encode(array(
-		"username" => $_ENV["REMOTEIT_USERNAME"],
-		"password" => $_ENV["REMOTEIT_PASSWORD"]
-	)),
-	CURLOPT_RETURNTRANSFER => true
+    CURLOPT_URL => "https://api.remot3.it/apv/v27/user/login",
+    CURLOPT_HTTPHEADER => array(
+        "developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"]
+    ),
+    CURLOPT_POSTFIELDS => json_encode(array(
+        "username" => $_ENV["REMOTEIT_USERNAME"],
+        "password" => $_ENV["REMOTEIT_PASSWORD"]
+    )),
+    CURLOPT_RETURNTRANSFER => true
 ));
 $response = curl_exec($ch);
 $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);

@@ -134,17 +134,17 @@ namespace remote.it_api_example
         {
             string jsonString = "";
             string url = "https://api.remot3.it/apv/v27/device/list/all";
-            
+
             HttpClient client = new HttpClient();
             HttpRequestMessage requestData = new HttpRequestMessage();            
-            
+
             //  Configure the HTTP requests's url, headers, and body
             requestData.Method = HttpMethod.Get;
             requestData.RequestUri = new Uri(url);
 
             requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
             requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));            
-            
+
             try
             {
                 // Send the HTTP request and run the inner block upon recieveing a response
@@ -164,7 +164,7 @@ namespace remote.it_api_example
                 // Triggered when the API returns a non-200 response code
                 jsonString = e.Message;
             }
-            
+
             // Print JSON response from API
             Console.WriteLine(jsonString);
         }
@@ -179,12 +179,12 @@ namespace remote.it_api_example
 
 $ch = curl_init();
 curl_setopt_array($ch, array(
-	CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
-	CURLOPT_HTTPHEADER => array(
-		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
-		"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
-	),
-	CURLOPT_RETURNTRANSFER => true
+    CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
+    CURLOPT_HTTPHEADER => array(
+        "developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
+        "token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+    ),
+    CURLOPT_RETURNTRANSFER => true
 ));
 $response = curl_exec($ch);
 $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);

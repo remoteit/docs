@@ -31,7 +31,7 @@ Whether to wait for the connection or not. Should most likely be "true"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="hostip" type="string" required=false %}
-The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided.
+The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided. Pass "0.0.0.0" if you want any IP address to connect \(warning: this is potentially insecure if your resource is not itself secured properly!\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -72,7 +72,6 @@ curl -X POST \
      -H "developerkey:$REMOTEIT_DEVELOPER_KEY" \
      -d '{"wait":"true","deviceaddress":"'$REMOTEIT_DEVICE_ADDRESS'"}' \
      https://api.remot3.it/apv/v27/device/connect
-
 ```
 {% endtab %}
 
@@ -146,23 +145,23 @@ namespace remote.it_api_example
         {
             string jsonString = "";
             string url = "https://api.remot3.it/apv/v27/device/connect";
-            
+
             HttpClient client = new HttpClient();
             HttpRequestMessage requestData = new HttpRequestMessage();            
-            
+
             //  Configure the HTTP requests's url, headers, and body
             requestData.Method = HttpMethod.Post;
             requestData.RequestUri = new Uri(url);
             requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
             requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));
-            
+
             Dictionary<string, string> bodyData = new Dictionary<string, string>() {
                 {"deviceaddress", Environment.GetEnvironmentVariable("REMOTEIT_DEVICE_ADDRESS") }
             };
-            
+
             string jsonFormattedBody = JsonConvert.SerializeObject(bodyData);
             requestData.Content = new StringContent(jsonFormattedBody);
-            
+
             try
             {
                 // Send the HTTP request and run the inner block upon recieveing a response
@@ -171,7 +170,7 @@ namespace remote.it_api_example
                     var result = taskMessage.Result;
                     var jsonTask = result.Content.ReadAsStringAsync();
                     jsonTask.Wait();
-                    
+
                     // Store the body of API response
                     jsonString = jsonTask.Result;
                 });
@@ -182,7 +181,7 @@ namespace remote.it_api_example
                 // Triggered when the API returns a non-200 response code
                 jsonString = e.Message;
             }
-            
+
             // Print JSON response from API
             Console.WriteLine(jsonString);
         }
@@ -197,16 +196,16 @@ namespace remote.it_api_example
 
 $ch = curl_init();
 curl_setopt_array($ch, array(
-	CURLOPT_URL => "https://api.remot3.it/apv/v27/device/connect",
-	CURLOPT_HTTPHEADER => array(
-		"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
-		"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
-	),
-	CURLOPT_POSTFIELDS => json_encode(array(
-		"deviceaddress" => $_ENV["REMOTEIT_DEVICE_ADDRESS"],
-		"wait" => true
-	)),
-	CURLOPT_RETURNTRANSFER => true
+    CURLOPT_URL => "https://api.remot3.it/apv/v27/device/connect",
+    CURLOPT_HTTPHEADER => array(
+        "developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
+        "token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+    ),
+    CURLOPT_POSTFIELDS => json_encode(array(
+        "deviceaddress" => $_ENV["REMOTEIT_DEVICE_ADDRESS"],
+        "wait" => true
+    )),
+    CURLOPT_RETURNTRANSFER => true
 ));
 $response = curl_exec($ch);
 $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
