@@ -8,6 +8,7 @@
     * [Connecting to the internet](getting-started/quick-start-on-raspberry-pi/connecting-to-the-internet.md)
     * [Install remote.it](getting-started/quick-start-on-raspberry-pi/install-remote.it.md)
     * [Connecting to your Raspberry Pi using remote.it](getting-started/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi-1.md)
+* [Downloads](downloads.md)
 * [Supported platforms](supported-platforms.md)
 
 ## Guides
