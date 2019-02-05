@@ -36,6 +36,7 @@
 
 * [Connecting to a device](guides/connecting-to-a-device/README.md)
   * [Proxy connections](guides/connecting-to-a-device/proxy-connections.md)
+  * [Using remote.it with RealVNC and the Raspberry Pi](guides/connecting-to-a-device/using-remote.it-with-realvnc-and-the-raspberry-pi.md)
   * [Peer-to-Peer connections](guides/connecting-to-a-device/peer-to-peer-connections.md)
   * [Device-to-Device connections](guides/connecting-to-a-device/device-to-device-connections.md)
   * [Troubleshooting connections](guides/connecting-to-a-device/troubleshooting-connections.md)
