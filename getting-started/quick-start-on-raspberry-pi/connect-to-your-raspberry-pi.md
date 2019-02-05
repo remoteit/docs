@@ -8,9 +8,9 @@ There are a lot of options for how you can connect to your Raspberry Pi and conf
 
 Before you connect to your Pi, it will of course need to be powered on \(but you probably already knew that right?\). To do so:
 
-1. Eject the SD card from your computer \(if it was already connected, that is\)
-2. Insert your SD card into your Pi
-3. Connect your Raspberry Pi ethernet to your laptop
+1. Eject the SD card from your computer \(if it was still there, that is\).
+2. Insert the SD card into your Pi.
+3. Connect your Raspberry Pi's ethernet port to the same LAN your your laptop is connected to \(usually, at the router\).
 4. Plug the USB power plug into your Raspberry Pi, which will cause your Pi to boot up
 
 ## SSH into your Pi
@@ -26,7 +26,7 @@ If all goes well, you will be prompted to accept the public key of the Pi and th
 The default password on a Pi is `raspberry`.
 
 {% hint style="warning" %}
-We highly recommend changing the root password of your Pi since the `raspberry` password is very well know and opens up your Pi to attack. 
+We highly recommend changing the root password of your Pi since the `raspberry` password is very well known and opens up your Pi to attack. 
 
 To change your password, run `passwd` on the command line or do it through `raspi-config`.
 {% endhint %}

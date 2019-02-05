@@ -8,13 +8,13 @@ You have **three options** when it comes to setting up your Pi to access the int
 
 ### Ethernet setup
 
-The simplest option is to plug an ethernet cord from your Pi to your router so it is hard wired to your network. If that is your planned method of connecting your Pi to the internet, feel free to skip to the last section at the bottom of this page!
+The simplest option is to plug an ethernet cable from your Pi to your router so it is hard wired to your network. If that is your planned method of connecting your Pi to the internet, feel free to skip to the last section at the bottom of this page!
 
-Using ethernet to your modem is the most reliable way to setup but means your Pi has to be plugged into your router which is not always possible or feasible. In that case, keep reading!
+Using ethernet to your Raspberry Pi is the most reliable way to setup but means your Pi has to be plugged into your router which is not always possible or feasible. In that case, keep reading!
 
-### Wifi setup
+### Wi-Fi setup
 
-A common option is to connect your Pi to wifi so you can have it located anywhere your wifi network has coverage.
+A common option is to connect your Pi to Wi-Fi so you can have it located anywhere your Wi-Fi network has coverage.
 
 To do this, the easiest way is to use the built in `raspi-config` command which allows you to configure many things on your Pi. To do so, run:
 
@@ -27,25 +27,25 @@ Then, using your keyboard arrows for navigation, do the following:
 1. Arrow down to “Network Options”
 2. Select “Wi-Fi” by hitting `enter` \(or `return`\)
 3. Select your country \(if you're in the United States, select `US`\)
-4. Type your network’s SSID \(e.g. the name of your Wifi network\)
+4. Type your network’s SSID \(e.g. the name of your Wi-Fi network\)
 5. Type your network password \(or leave blank if you’re on an open network\)
-6. Save this and then arrow too "Finish"
+6. Save this and then arrow to "Finish" and press Enter.
 
-Now you should be connected to your Wifi network, congrats!
+Now you should be connected to your Wi-Fi network, congrats!
 
 {% hint style="info" %}
-Once WiFi is configured your Pi may no longer be available at [raspberrypi.local](http://raspberrypi.local). 
+Once Wi-Fi is configured your Pi may no longer be available at [raspberrypi.local](http://raspberrypi.local). 
 
 If you need to reconnect to your Pi before you have remote.it installed you will need to make note of its IP address. 
 
-This can be found by running `ifconfig` and searching for it at the [top of the output](https://stackoverflow.com/questions/8529181/which-terminal-command-to-get-just-ip-address-and-nothing-else).
+This can be found by running ifconfig and searching for it at the [top of the output](https://stackoverflow.com/questions/8529181/which-terminal-command-to-get-just-ip-address-and-nothing-else).
 {% endhint %}
 
 ### Cellular modem
 
 One of the key benefits of using remote.it is that we fully support connections over cellular networks. This enables you to deploy products anywhere in the world that has access to cellular and by using a cellular modem or hotspot, you will be able to remote access and control these devices securely, even if you're thousands of miles away!
 
-Setup is similar to the WiFi setup above, only you will configure setup to attach to a local hot-spot or cellular modem instead of a wifi router connected to DSL/Cable/Fiber.
+Setup is similar to the Wi-Fi setup above, only you will configure setup to attach to a local hot-spot or cellular modem instead of a Wi-Fi router connected to DSL/Cable/Fiber.
 
 ## Check your network connection
 

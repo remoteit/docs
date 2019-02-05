@@ -4,13 +4,13 @@ remote.it works on nearly any device that has an operating system and can connec
 
 ## Operating systems
 
-* Linux/Unix \(Ubuntu, Raspbian, CentOS, etc\)
-* Windows
-* Mac OSX
+* Linux/Unix \(Ubuntu, Raspbian, CentOS, OpenWRT, etc.\)
+* Windows 7 and 10
+* Mac OS/X
 
 ## Architectures
 
-* Intel
+* Intel/AMD
 * Arm
 * MIPS
 

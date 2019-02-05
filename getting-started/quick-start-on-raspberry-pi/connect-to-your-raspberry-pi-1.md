@@ -4,11 +4,11 @@ Assuming everything up to here has gone well \(and we hope it has!\), you can no
 
 ## Connect to your device
 
-Now, open up [app.remote.it](https://app.remote.it) in your browser of choice and login to remote.it if you haven't already.
+Now, open up [https://remote.it ](https://remote.it%20)in your browser of choice and login to remote.it if you haven't already.
 
 You should now see your device in your account device list and you should be able to connect to it. 
 
-Click the device name and then select one of the services you configured to create a connection to the device's service.
+Click the Device Name and then select one of the remote.it Services you configured to create a connection to the device's server.
 
 For example, if you had an SSH service, you would click the SSH service to connect and after about 10-15 seconds you should be given a hostname \(like `proxy21.rt3.io`\) and a port \(like `33001`\). Now you can connect to the service like so \(assuming a username of `pi`\):
 
@@ -31,8 +31,6 @@ Share or transfer your devices amongst other remote.it users:
 {% page-ref page="../../guides/sharing-and-transferring-devices.md" %}
 
 Build remote.it into your products using bulk or auto registration \(aka mass registration\):
-
-{% page-ref page="../../guides/product-development/using-bulk-and-auto-registration.md" %}
 
 {% page-ref page="../../guides/connecting-to-a-device/" %}
 

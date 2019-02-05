@@ -1,11 +1,17 @@
-# Setup your Raspberry Pi
+# Set up your Raspberry Pi
 
 ## Overview
 
-There are many ways to setup your Raspberry Pi, and while it is outside the scope of this document to show you how. We will give you a brief overview of the process. The outline to getting setup is as follows:
+There are many ways to set up your Raspberry Pi, and while it is outside the scope of this document to show you how, we will give you a brief overview of the process.   
 
-1. Download a recent version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
-2. Write the Raspbian operating system image to an SD card. We recommend using [Etcher](https://www.balena.io/etcher/) for that.
+If you already have a Raspberry Pi running Raspbian connected to the internet, you may skip ahead to this page.
+
+{% page-ref page="install-remote.it.md" %}
+
+The outline to getting setup is as follows:
+
+1. Download a recent version of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/).
+2. Write the Raspbian operating system image to an SD card. We recommend using [Etcher](https://www.balena.io/etcher/) if you are using Mac, or [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) for Windows.
 3. Configure SSH on your Pi.
 
 ## Install Raspbian

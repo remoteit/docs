@@ -6,5 +6,3 @@ By the end of the guide, you should have a basic knowledge of how to run remote.
 
 Let's dive in!
 
-{% page-ref page="setup-your-raspberry-pi.md" %}
-
