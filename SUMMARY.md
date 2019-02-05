@@ -35,7 +35,10 @@
 ## Guides
 
 * [Connecting to a device](guides/connecting-to-a-device/README.md)
-  * [Proxy connections](guides/connecting-to-a-device/proxy-connections.md)
+  * [Proxy connections](guides/connecting-to-a-device/proxy-connections/README.md)
+    * [Connecting to an SSH service](guides/connecting-to-a-device/proxy-connections/connecting-to-ssh.md)
+    * [Connecting to a SCP file transfer service](guides/connecting-to-a-device/proxy-connections/connecting-to-scp-file-transfer.md)
+    * [Using Third Party SSH/SCP Applications](guides/connecting-to-a-device/proxy-connections/using-third-party-ssh-scp-applications.md)
   * [Using remote.it with RealVNC and the Raspberry Pi](guides/connecting-to-a-device/using-remote.it-with-realvnc-and-the-raspberry-pi.md)
   * [Peer-to-Peer connections](guides/connecting-to-a-device/peer-to-peer-connections.md)
   * [Device-to-Device connections](guides/connecting-to-a-device/device-to-device-connections.md)
@@ -43,7 +46,11 @@
 * [Service types](guides/service-types.md)
 * [Device Scripting](guides/device-scripting-running-scripts-on-your-devices.md)
 * [Configuring a webcam with Nx Witness](guides/configuring-a-webcam-with-nx-witness.md)
-* [Sharing and transferring devices](guides/sharing-and-transferring-devices.md)
+* [Sharing Devices](guides/sharing-devices/README.md)
+  * [Create a contact](guides/sharing-devices/create-a-contact.md)
+  * [Sharing a device with a contact](guides/sharing-devices/sharing-a-device-with-a-contact.md)
+  * [Stop sharing a Device which was shared to you](guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md)
+  * [Stop sharing one or more Devices with other user\(s\)](guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md)
 
 ## API Reference
 

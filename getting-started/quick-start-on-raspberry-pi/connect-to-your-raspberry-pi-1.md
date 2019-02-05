@@ -28,8 +28,6 @@ Connect to more service types like VNC, Nx Witness, RDP and more!
 
 Share or transfer your devices amongst other remote.it users:
 
-{% page-ref page="../../guides/sharing-and-transferring-devices.md" %}
-
 Build remote.it into your products using bulk or auto registration \(aka mass registration\):
 
 {% page-ref page="../../guides/connecting-to-a-device/" %}
