@@ -13,4 +13,24 @@ Fortunately, we can use remote.it to access the WordPress admin dashboard while 
 1. A remote.it account. Don't have one? Register here!
 2. An AWS account with EC2 privileges.
 
-## Launch you AWS EC2 Instance
+## Launch your AWS EC2 Instance
+
+## Lockdown wp-admin using htaccess.conf
+
+## Install remote.it
+
+```shell
+sudo apt−get dist−upgrade
+sudo apt-get update
+```
+
+```shell
+sudo apt-get install remoteit
+sudo remoteit
+```
+
+## Configure Your Device
+
+## Generate The Proxy URL
+
+## Connect To The Admin Dashboard
