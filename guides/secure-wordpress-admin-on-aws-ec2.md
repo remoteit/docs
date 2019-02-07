@@ -10,12 +10,12 @@ Fortunately, we can use remote.it to access the WordPress admin dashboard while 
 
 ## Prerequisites
 
-1. A remote.it account. Don't have one? Register here!
+1. A remote.it account. [Don't have one?](https://app.remote.it/auth/#/sign-up)
 2. An AWS account with EC2 privileges.
 
 ## Launch your AWS EC2 Instance
 
-We'll be using AWS EC2 to deploy our WordPress site. Specifically, we'll be using the [BitNami WordPress EC2 AMI](https://aws.amazon.com/marketplace/pp/B00NN8Y43U). This AMI automates the installation and configuration of WordPress. An ssh key pair is optional.
+We'll be using an AWS EC2 to deploy our WordPress site. Specifically, we'll be using the [BitNami WordPress EC2 AMI](https://aws.amazon.com/marketplace/pp/B00NN8Y43U). This AMI automates the installation and configuration of WordPress.
 
 If you're new to EC2, follow this [AWS guide on how to configure and launch your instance](https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/). Make sure to select/generate an ssh key pair.
 
@@ -27,7 +27,7 @@ The page that appears will look something like this.
 
 ![alt text](../.gitbook/assets/wordpress-aws/website-front-page.png "Logo Title Text 1")
 
-Notice how if you add `./admin` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
+Notice how if you add `/admin` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
 
 ## Lockdown wp-admin using htaccess.conf
 
@@ -37,7 +37,7 @@ We're going to use the key pair associated with your instance to connect via ssh
 
 ```shell
 chmod 400 PATH_TO_KEY
-ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS`
+ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS
 ```
 
 ![alt text](../.gitbook/assets/wordpress-aws/ec2-ssh.png "Logo Title Text 1")
@@ -48,7 +48,7 @@ You've now SSHed into the EC2 instance! Now we can start securing the WordPress 
 
 ### What is Htacces?
 
-Htaccess is a directory level configuration file that. Among other use cases, can be used to block access to particular resources. In the BitNami WordPress AMI, there is a single Htaccess file that handles configuration for the entire application. This is the file we'll be accessing. To learn more about the BitNami WordPress AMI project structure, [check out the documentation](https://docs.bitnami.com/aws/apps/wordpress/).
+Htaccess is a directory level configuration file that, among other use cases, can be used to block access to particular resources. In the BitNami WordPress AMI, there is a single Htaccess file that handles configuration for the entire application. This is the file we'll be working with. To learn more about the BitNami WordPress AMI project structure, [check out the documentation](https://docs.bitnami.com/aws/apps/wordpress/).
 
 ### Edit The Htacces Configuration File
 
@@ -71,31 +71,27 @@ Add the following code to the bottom of the file.
 
 ![alt text](../.gitbook/assets/wordpress-aws/htaccess-edited.png "Logo Title Text 1")
 
-Exit vim and run the following command to restart the web server.
+Save and exit Vim and run the following command to restart the web server.
 
 `sudo /opt/bitnami/ctlscript.sh restart`
 
-Once the server has restarted, wp-admin will appear like this.
+Once the server has restarted, `Site_IP/admin` will appear like this.
 
 ![alt text](../.gitbook/assets/wordpress-aws/admin-forbidden.png "Logo Title Text 1")
 
 Congratulations - you've now blocked all incoming access to your websites admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
-## Install remote.it
+## Install remote.it connectd
 
 ```shell
-sudo apt−get dist−upgrade
 sudo apt-get update
-```
-
-```shell
-sudo apt-get install remoteit
-sudo remoteit
+sudo apt-get install connectd
+sudo connectd_installer
 ```
 
 ## Configure Your Device
 
-1. Start the connectd installer by running `sudo connectd_installer`. Select either option 1 or 2.
+1. Start the connectd installer by running `sudo connectd_installer` and sign in.
 
 ![alt text](../.gitbook/assets/wordpress-aws/sudo-connectd-installer.png "Logo Title Text 1")
 
@@ -121,4 +117,4 @@ Select the `wordpress-admin` http service. You will be presented with a proxy UR
 
 ![alt text](../.gitbook/assets/wordpress-aws/wp-admin.png "Logo Title Text 1")
 
-We've now just demonstrated the use for remote.it on securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
+We've now just demonstrated the use for remote.it in securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
