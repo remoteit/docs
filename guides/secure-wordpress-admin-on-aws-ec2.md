@@ -44,11 +44,11 @@ ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS`
 
 You've now SSHed into the EC2 instance! Now we can start securing the WordPress site.
 
-## Lock down wp-admin using Htaccess
+## Lockdown wp-admin using Htaccess
 
 ### What is Htacces?
 
-Htaccess is a directory level configuration file that. among other use cases, can be used to block access to particular resources. In the bitNami WordPress AMI, there is a single Htaccess file that handles configuration for the entire appliation. This is the file we'll be accessing. To learn more about the BitNami WordPress AMI project structure, [check out the documentation](https://docs.bitnami.com/aws/apps/wordpress/).
+Htaccess is a directory level configuration file that. Among other use cases, can be used to block access to particular resources. In the BitNami WordPress AMI, there is a single Htaccess file that handles configuration for the entire application. This is the file we'll be accessing. To learn more about the BitNami WordPress AMI project structure, [check out the documentation](https://docs.bitnami.com/aws/apps/wordpress/).
 
 ### Edit The Htacces Configuration File
 
@@ -71,15 +71,15 @@ Add the following code to the bottom of the file.
 
 ![alt text](../.gitbook/assets/wordpress-aws/htaccess-edited.png "Logo Title Text 1")
 
-Exit vim and run the folloiwng command to restart the web server.
+Exit vim and run the following command to restart the web server.
 
 `sudo /opt/bitnami/ctlscript.sh restart`
 
-Once the server has restarted, wp-admin will appear like thise.
+Once the server has restarted, wp-admin will appear like this.
 
 ![alt text](../.gitbook/assets/wordpress-aws/admin-forbidden.png "Logo Title Text 1")
 
-Congratulations - you've now blocked all incoming access to yoru websites admin portal. This greatly increases the security of your site. However we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
+Congratulations - you've now blocked all incoming access to your websites admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
 ## Install remote.it
 
@@ -107,18 +107,18 @@ sudo remoteit
 
 ![alt text](../.gitbook/assets/wordpress-aws/http-service-setup.png "Logo Title Text 1")
 
-You've now configured a remote.it service on the host machine. We will now be able to make secure http proxy connection to our machine via remote.it.
+You've now configured a remote.it service on the host machine. We will now be able to make secure HTTP proxy connection to our machine via remote.it.
 
 ## Generate The Proxy URL
 
-Naviate to app.remote.it and select the device with the name you entered.
+Navigate to app.remote.it and select the device with the name you entered.
 
 ![alt text](../.gitbook/assets/wordpress-aws/device-services.png "Logo Title Text 1")
 
 ## Connect To The Admin Dashboard
 
-Select the `wordpress-admin` http service. You will be presenter with a proxy url similiar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboard!
+Select the `wordpress-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboard!
 
 ![alt text](../.gitbook/assets/wordpress-aws/wp-admin.png "Logo Title Text 1")
 
-We've now just demonstrated the use for remote.it on securing your WordPress website. By using Htaccess, we've completely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to easily and securly maintain your site.
+We've now just demonstrated the use for remote.it on securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
