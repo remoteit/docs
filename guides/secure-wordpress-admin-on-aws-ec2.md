@@ -21,11 +21,11 @@ If you're new to EC2, follow this [AWS guide on how to configure and launch your
 
 Enter the public IP address for your instance into your browser's search bar.
 
-![alt text](../.gitbook/assets/wordpress-aws/locate-id.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/locate-id.png "aws ec2 running instances dashboard")
 
 The page that appears will look something like this.
 
-![alt text](../.gitbook/assets/wordpress-aws/website-front-page.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/website-front-page.png "your wordpress front page")
 
 Notice how if you add `/admin` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
 
@@ -40,7 +40,7 @@ chmod 400 PATH_TO_KEY
 ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS
 ```
 
-![alt text](../.gitbook/assets/wordpress-aws/ec2-ssh.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/ec2-ssh.png "ssh terminal")
 
 You've now SSHed into the EC2 instance! Now we can start securing the WordPress site.
 
@@ -56,7 +56,7 @@ Run the following command to begin editing the website Htaccess configuration.
 
 `vim /opt/bitnami/apps/wordpress/conf/htaccess.conf`
 
-![alt text](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "before locking down wp-admin")
 
 Add the following code to the bottom of the file.
 
@@ -69,7 +69,7 @@ Add the following code to the bottom of the file.
 </Directory>
 ```
 
-![alt text](../.gitbook/assets/wordpress-aws/htaccess-edited.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/htaccess-edited.png "after locking down wp-admin")
 
 Save and exit Vim and run the following command to restart the web server.
 
@@ -77,7 +77,7 @@ Save and exit Vim and run the following command to restart the web server.
 
 Once the server has restarted, `Site_IP/admin` will appear like this.
 
-![alt text](../.gitbook/assets/wordpress-aws/admin-forbidden.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/admin-forbidden.png "your blocked admin dashboard")
 
 Congratulations - you've now blocked all incoming access to your websites admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
@@ -93,15 +93,15 @@ sudo connectd_installer
 
 1. Start the connectd installer by running `sudo connectd_installer` and sign in.
 
-![alt text](../.gitbook/assets/wordpress-aws/sudo-connectd-installer.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/sudo-connectd-installer.png "the connectd installer menue")
 
-2. Enter 1 for `Attach/reinstall a remote.it Service to an application`.
+1. Enter 1 for `Attach/reinstall a remote.it Service to an application`.
 
-3. Chose the default port assignment (80).
+2. Chose the default port assignment (80).
 
-4. Name the service `wordpress-admin`.
+3. Name the service `wordpress-admin`.
 
-![alt text](../.gitbook/assets/wordpress-aws/http-service-setup.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/http-service-setup.png "")
 
 You've now configured a remote.it service on the host machine. We will now be able to make secure HTTP proxy connection to our machine via remote.it.
 
@@ -109,12 +109,12 @@ You've now configured a remote.it service on the host machine. We will now be ab
 
 Navigate to app.remote.it and select the device with the name you entered.
 
-![alt text](../.gitbook/assets/wordpress-aws/device-services.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/device-services.png "connectd service options")
 
 ## Connect To The Admin Dashboard
 
-Select the `wordpress-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboard!
+Select the `wordpress-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboard
 
-![alt text](../.gitbook/assets/wordpress-aws/wp-admin.png "Logo Title Text 1")
+![alt text](../.gitbook/assets/wordpress-aws/wp-admin.png "secured admin dashboard")
 
 We've now just demonstrated the use for remote.it in securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
