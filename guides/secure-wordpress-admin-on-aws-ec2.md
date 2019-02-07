@@ -75,7 +75,11 @@ Exit vim and run the folloiwng command to restart the web server.
 
 `sudo /opt/bitnami/ctlscript.sh restart`
 
-Once
+Once the server has restarted, wp-admin will appear like thise.
+
+![alt text](../.gitbook/assets/wordpress-aws/admin-forbidden.png "Logo Title Text 1")
+
+Congratulations - you've now blocked all incoming access to yoru websites admin portal. This greatly increases the security of your site. However we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
 ## Install remote.it
 
@@ -91,6 +95,30 @@ sudo remoteit
 
 ## Configure Your Device
 
+1. Start the connectd installer by running `sudo connectd_installer`. Select either option 1 or 2.
+
+![alt text](../.gitbook/assets/wordpress-aws/sudo-connectd-installer.png "Logo Title Text 1")
+
+2. Enter 1 for `Attach/reinstall a remote.it Service to an application`.
+
+3. Chose the default port assignment (80).
+
+4. Name the service `wordpress-admin`.
+
+![alt text](../.gitbook/assets/wordpress-aws/http-service-setup.png "Logo Title Text 1")
+
+You've now configured a remote.it service on the host machine. We will now be able to make secure http proxy connection to our machine via remote.it.
+
 ## Generate The Proxy URL
 
+Naviate to app.remote.it and select the device with the name you entered.
+
+![alt text](../.gitbook/assets/wordpress-aws/device-services.png "Logo Title Text 1")
+
 ## Connect To The Admin Dashboard
+
+Select the `wordpress-admin` http service. You will be presenter with a proxy url similiar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboard!
+
+![alt text](../.gitbook/assets/wordpress-aws/wp-admin.png "Logo Title Text 1")
+
+We've now just demonstrated the use for remote.it on securing your WordPress website. By using Htaccess, we've completely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to easily and securly maintain your site.
