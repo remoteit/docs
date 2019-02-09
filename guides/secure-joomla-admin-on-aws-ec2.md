@@ -23,11 +23,11 @@ If you're new to EC2, follow this [AWS guide on how to configure and launch your
 
 Enter the public IP address for your instance into your browser's search bar.
 
-![alt text](../.gitbook/assets/joomla-aws/locate-id.png "aws ec2 running instances dashboard")
+![Instances Dashboard](../.gitbook/assets/joomla-aws/locate-id.png "aws ec2 running instances dashboard")
 
 The page that appears will look something like this.
 
-![alt text](../.gitbook/assets/joomla-aws/website-front-page.png "your wordpress front page")
+![Joomla Front Page](../.gitbook/assets/joomla-aws/website-front-page.png "your joomla front page")
 
 Notice how if you add `/administrator` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
 
@@ -40,7 +40,7 @@ chmod 400 PATH_TO_KEY
 ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS
 ```
 
-![alt text](../.gitbook/assets/joomla-aws/ec2-ssh.png "ssh terminal")
+![Terminal Window](../.gitbook/assets/joomla-aws/ec2-ssh.png "ssh terminal")
 
 You've now SSHed into the EC2 instance! Now we can start securing the Joomla site.
 
@@ -56,7 +56,7 @@ Inside the EC2 instance, run the following command to begin editing the website 
 
 `vim /home/bitnami/apps/joomla/conf/htaccess.conf`
 
-![alt text](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "before locking down administrator login")
+![Vim Editor](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "before locking down administrator login")
 
 Add the following code to the bottom of the file.
 
@@ -69,7 +69,7 @@ Add the following code to the bottom of the file.
 </Directory>
 ```
 
-![alt text](../.gitbook/asset/joomla-aws/htaccess-edited.png "after locking down administrator login")
+![Vim Editor](../.gitbook/asset/joomla-aws/htaccess-edited.png "after locking down administrator login")
 
 Save and exit Vim and run the following command to restart the web server.
 
@@ -77,7 +77,7 @@ Save and exit Vim and run the following command to restart the web server.
 
 Once the server has restarted, `Site_IP/administrator` will appear like this.
 
-![alt text](../.gitbook/assets/joomla-aws/admin-forbidden.png "your blocked admin dashboard")
+![Blocked Admin Dashboard](../.gitbook/assets/joomla-aws/admin-forbidden.png "your blocked admin dashboard")
 
 Congratulations - you've now blocked all incoming access to your website's admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
@@ -95,7 +95,7 @@ sudo connectd_installer
 
 1. Start the connectd installer by running `sudo connectd_installer` and sign in.
 
-![alt text](../.gitbook/assets/joomla-aws/sudo-connectd-installer.png "the connectd installer menu")
+![Connectd Installer Menu](../.gitbook/assets/joomla-aws/sudo-connectd-installer.png "the connectd installer menu")
 
 1. Enter 1 for `Attach/reinstall a remote.it Service to an application`.
 
@@ -103,7 +103,7 @@ sudo connectd_installer
 
 3. Name the service `joomla-admin`.
 
-![alt text](../.gitbook/assets/joomla-aws/http-service-setup.png)
+![Connectd Service Setup](../.gitbook/assets/joomla-aws/http-service-setup.png "seting up an http service")
 
 You've now configured a remote.it service on the host machine. We will now be able to make secure HTTP proxy connection to our machine via remote.it.
 
@@ -111,12 +111,12 @@ You've now configured a remote.it service on the host machine. We will now be ab
 
 Navigate to app.remote.it and select the device with the name you entered.
 
-![alt text](../.gitbook/assets/joomla-aws/device-services.png "connectd service options")
+![remote.it Device Menu](../.gitbook/assets/joomla-aws/device-services.png "connectd service options")
 
 ## Connect To The Admin Dashboard
 
-Select the `joomla-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/administrator` to this path. This URL takes you to the Joomla admin dashboard
+Select the `joomla-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/administrator` to this path. This URL takes you to the admin dashboard
 
-![alt text](../.gitbook/assets/joomla-aws/joomla-admin.png "secured admin dashboard")
+![Secured Admin Dashboard](../.gitbook/assets/joomla-aws/joomla-admin.png "secured admin dashboard")
 
 We've now just demonstrated the use for remote.it in securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
