@@ -56,7 +56,7 @@ Inside the EC2 instance, run the following command to begin editing the website 
 
 `vim /home/bitnami/apps/joomla/conf/htaccess.conf`
 
-![Vim Editor](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "before locking down administrator login")
+![Vim Editor](../.gitbook/assets/joomla-aws/htaccess-vanilla.png "before locking down administrator login")
 
 Add the following code to the bottom of the file.
 
@@ -69,7 +69,7 @@ Add the following code to the bottom of the file.
 </Directory>
 ```
 
-![Vim Editor](../.gitbook/asset/joomla-aws/htaccess-edited.png "after locking down administrator login")
+![Vim Editor](../.gitbook/assets/joomla-aws/htaccess-edited.png "after locking down administrator login")
 
 Save and exit Vim and run the following command to restart the web server.
 
