@@ -56,9 +56,9 @@ At the Main Menu, select "3" for VNC.
 
 Install a new remot3.it Service for VNC using the default port of 5900.  If the port in use is not 5900, you will have the opportunity to change this during the installation.
 
-When you’ve successfully added the remote.it Service for RealVNC, the Main Menu will include an entry for **vncserver-x11-c** as shown below.
+When you’ve successfully added the remote.it Service for RealVNC, the list of "Installed remote.it Services" which appears above the Main Menu will include an entry for **vncserver-x11-c** as shown below.
 
-![Weavedinstaller-Real-VNC.png](https://remot3it.zendesk.com/hc/article_attachments/360006128851/Weavedinstaller-Real-VNC.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
  **Making a VNC connection using remot3.it**
 
