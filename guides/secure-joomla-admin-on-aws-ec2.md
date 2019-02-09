@@ -30,3 +30,16 @@ The page that appears will look something like this.
 ![alt text](../.gitbook/assets/joomla-aws/website-front-page.png "your wordpress front page")
 
 Notice how if you add `/administrator` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
+
+## SSH into your instance
+
+We're going to use the key pair associated with your instance to connect via ssh. Run the following commands in your terminal.
+
+```shell
+chmod 400 PATH_TO_KEY
+ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS
+```
+
+![alt text](../.gitbook/assets/joomla-aws/ec2-ssh.png "ssh terminal")
+
+You've now SSHed into the EC2 instance! Now we can start securing the Joomla site.
