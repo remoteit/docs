@@ -43,3 +43,40 @@ ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRESS
 ![alt text](../.gitbook/assets/joomla-aws/ec2-ssh.png "ssh terminal")
 
 You've now SSHed into the EC2 instance! Now we can start securing the Joomla site.
+
+## Lockdown administrator login using Htaccess
+
+### What is Htacces?
+
+Htaccess is a directory level configuration file that, among other use cases, can be used to block access to particular resources. In the BitNami Joomla AMI, there is a single Htaccess file that handles configuration for the entire application. This is the file we'll be working with. To learn more about the BitNami Joomla AMI project structure, [check out the documentation](https://docs.bitnami.com/aws/apps/joomla/).
+
+### Edit The Htacces Configuration File
+
+Inside the EC2 instance, run the following command to begin editing the website Htaccess configuration.
+
+`vim /home/bitnami/apps/joomla/conf/htaccess.conf`
+
+![alt text](../.gitbook/assets/wordpress-aws/htaccess-vanilla.png "before locking down administrator login")
+
+Add the following code to the bottom of the file.
+
+```shell
+<Directory "/opt/bitnami/apps/joomla/htdocs/administrator">
+    # Block access to administrator login to all IP's excluding localhost.
+    Order deny,allow
+    Deny from all
+    Allow from 127.0.0.1
+</Directory>
+```
+
+![alt text](../.gitbook/asset/joomla-aws/htaccess-edited.png "after locking down administrator login")
+
+Save and exit Vim and run the following command to restart the web server.
+
+`sudo /opt/bitnami/ctlscript.sh restart`
+
+Once the server has restarted, `Site_IP/administrator` will appear like this.
+
+![alt text](../.gitbook/assets/joomla-aws/admin-forbidden.png "your blocked admin dashboard")
+
+Congratulations - you've now blocked all incoming access to your website's admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
