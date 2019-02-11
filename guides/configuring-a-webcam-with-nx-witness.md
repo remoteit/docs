@@ -58,5 +58,5 @@ sudo update-rc.d networkoptix-mediaserver defaults
 
 Now that you have Nx Witness running on your device, you need make sure your device is configured to connect to the Nx Witness service.
 
-To do so, **create a new TCP service** using the remote.it connectd installer \(by running `sudo weavedconnectd` on the command line\) and **set the port to 7001**.
+To do so, **create a new TCP service** using the remote.it connectd installer \(by running `sudo connectd_installer` on the command line\) and **set the port to 7001**.
 

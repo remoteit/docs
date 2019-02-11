@@ -58,7 +58,7 @@ Install a new remot3.it Service for VNC using the default port of 5900.  If the 
 
 When you’ve successfully added the remote.it Service for RealVNC, the list of "Installed remote.it Services" which appears above the Main Menu will include an entry for **vncserver-x11-c** as shown below.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
  **Making a VNC connection using remot3.it**
 
