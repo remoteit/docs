@@ -20,6 +20,8 @@
   * [Centos Quick Start](getting-started/centos-quick-start/README.md)
     * [32-bit Centos](getting-started/centos-quick-start/32-bit-centos-7.md)
     * [64-bit Centos](getting-started/centos-quick-start/64-bit-centos-7.md)
+  * [Windows Quick Start](getting-started/windows-quick-start.md)
+* [Peer to Peer vs. Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections.md)
 * [Using the interactive installer](using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
