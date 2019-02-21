@@ -2,17 +2,9 @@
 
 ## Installer
 
-If you'd like to install remote.it on your device, please check out our installer repository on Github:
+If you'd like to install remote.it on your device, see our Getting Started section for supported operating systems.  More coming soon!
 
-{% embed url="https://github.com/remoteit/installer/releases" %}
-
-The easiest way to install remote.it on a Debian Linux system is to do the following:
-
-```text
-sudo apt-get update
-sudo apt-get install connectd
-sudo connectd_installer
-```
+{% page-ref page="getting-started/" %}
 
 ## connectd
 
