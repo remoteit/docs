@@ -24,13 +24,15 @@ Once you download connectd, you can learn more how to use it here:
 
 {% page-ref page="connectd-reference/connectd.md" %}
 
-## Windows Connection Manager
+## Windows Connect
 
 Our basic application for making peer to peer connections from your Windows machine to a device.
 
-[https://docs.remote.it/~/drafts/-LZC3495408R4\_7QWqto/primary/getting-started/windows-quick-start](https://docs.remote.it/~/drafts/-LZC3495408R4_7QWqto/primary/getting-started/windows-quick-start)
-
 {% embed url="https://github.com/remoteit/misc\_bins\_and\_scripts/tree/master/connect\_for\_Windows" %}
+
+Learn how to get set up:
+
+{% page-ref page="getting-started/windows-quick-start.md" %}
 
 ## Server Channel
 
