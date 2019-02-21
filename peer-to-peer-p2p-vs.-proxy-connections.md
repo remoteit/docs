@@ -9,7 +9,7 @@ In order to make a peer to peer \(P2P\) connection the remote.it connectd daemon
 * Data does not pass through our servers. Only the connection initialization touches the cloud.
 * Data throughput is significantly faster.
 * The connection will stay active as long as there is an internet connection available to both devices.
-* The URL will remain the same and can be bookmarked, change.
+* The URL will remain the same and can be bookmarked.
 
 We are working on new ways to make P2P connections. Currently you have to use the connectd daemon or the Windows Connect application.
 
