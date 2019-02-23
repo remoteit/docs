@@ -15,7 +15,7 @@ chmod u+x connectd.x86_64-osx
 mv connectd.x86_64-osx /usr/local/bin/connectd
 ```
 
-## Running connectd
+## Running connectd with username & password
 
 ```bash
 connectd -c \
@@ -57,6 +57,26 @@ connectd -s -c \
 
 * `-d` run in daemon mode, meaning keep the connection running in the background
 * `-s` print out status information
+
+## Running connectd with service\_authhash
+
+Most of the parameters are the same as with a username and password except for the service\_authhash and ip restriction settings indicated below:
+
+```bash
+connectd -p 
+    eW91cm5hbWVAZXhhbXBsZS5jb20= \
+    16509BA77F1AF0FBAA7BBB3B2B992ED90308CAB9 \  # service_authhash
+    80:00:00:00:00:00:00:F1 \
+    T3000 \
+    1 \
+    127.0.0.1 \
+    0.0.0.0 \        # 0.0.0.0 allows all or enter and IP to restrict to
+    10 
+```
+
+To get an service\_authhash from remote.it you need to use the login API
+
+{% page-ref page="../api-reference/authentication.md" %}
 
 ### Having trouble connecting?
 
