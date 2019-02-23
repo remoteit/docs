@@ -58,6 +58,20 @@ connectd -s -c \
 * `-d` run in daemon mode, meaning keep the connection running in the background
 * `-s` print out status information
 
+To run merge the command into one line:
+
+```text
+connectd -c bXluYW1lQGdtYWlsLmNvbQ== cGFzc3dvcmQ= 80:00:00:05:46:03:B0:1D 2 127.0.0.1 10 
+```
+
+It it worked you will see output confirming:
+
+```text
+...
+Starting Proxy on port 33000 on index 1.
+Proxy started.
+```
+
 ## Running connectd with service\_authhash
 
 Most of the parameters are the same as with a username and password except for the service\_authhash and ip restriction settings indicated below:

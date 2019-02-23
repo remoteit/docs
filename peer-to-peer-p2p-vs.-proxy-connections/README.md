@@ -2,7 +2,7 @@
 
 ## Peer to Peer Connections
 
-![](.gitbook/assets/diagram-direct.svg)
+![](../.gitbook/assets/diagram-direct.svg)
 
 In order to make a peer to peer \(P2P\) or direct connection the remote.it connectd daemon needs to be running on both systems, but has several advantages over using a proxy connection.
 
@@ -15,7 +15,7 @@ We are working on new ways to make P2P connections. Currently you have to use th
 
 ## Cloud Connections
 
-![](.gitbook/assets/diagram-connect.svg)
+![](../.gitbook/assets/diagram-connect.svg)
 
 Cloud proxy connections are the simplest to set up and test with as you only need our connectd daemon on the target device. However there are limitations compared to a direct P2P connection.
 

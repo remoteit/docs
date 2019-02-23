@@ -13,7 +13,7 @@ After you set them up, both types of remote.it connections will run whenever you
 
 Connect is the easiest way to make P2P connections on Windows. Learn more about the benefits of P2P connections:
 
-{% page-ref page="../peer-to-peer-p2p-vs.-proxy-connections.md" %}
+{% page-ref page="../peer-to-peer-p2p-vs.-proxy-connections/" %}
 
 ## **Installation** 
 
