@@ -4,9 +4,7 @@ Peer to peer connections can be made using the connectd daemon on any platform, 
 
 ## Command Line
 
-You can find the latest version to download in GitHub:
-
-{% embed url="https://github.com/remoteit/connectd/releases" %}
+You can find the latest version to download in [GitHub](https://github.com/remoteit/connectd/releases):
 
 Once downloaded learn how to use it:
 
