@@ -28,7 +28,7 @@ connectd -c \
   MAX_OUTSTANDING
 ```
 
-### Options
+#### Options
 
 | Option | Description |
 | :--- | :--- |
@@ -53,7 +53,7 @@ connectd -s -c \
   12                               # Max outstanding
 ```
 
-### **Options**
+#### **Options**
 
 * `-d` run in daemon mode, meaning keep the connection running in the background
 * `-s` print out status information
