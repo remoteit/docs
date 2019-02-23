@@ -1,10 +1,10 @@
-# Peer to Peer vs Cloud Proxy Connections
+# Peer to Peer vs Cloud Connections
 
 ## Peer to Peer Connections
 
 ![](.gitbook/assets/diagram-direct.svg)
 
-In order to make a peer to peer \(P2P\) connection the remote.it connectd daemon needs to be running on both systems, but has several advantages over using a proxy connection.
+In order to make a peer to peer \(P2P\) or direct connection the remote.it connectd daemon needs to be running on both systems, but has several advantages over using a proxy connection.
 
 * Data does not pass through our servers. Only the connection initialization touches the cloud.
 * Data throughput is significantly faster.
@@ -13,7 +13,7 @@ In order to make a peer to peer \(P2P\) connection the remote.it connectd daemon
 
 We are working on new ways to make P2P connections. Currently you have to use the connectd daemon or the Windows Connect application.
 
-## Cloud Proxy Connections
+## Cloud Connections
 
 ![](.gitbook/assets/diagram-connect.svg)
 
