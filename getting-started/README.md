@@ -14,6 +14,8 @@ Please follow one of our Quick Start guides below if you're new to remote.it:
 
 {% page-ref page="getting-started-with-remote.it-on-aws-ubuntu/" %}
 
+{% page-ref page="centos-quick-start/" %}
+
 ### More platforms!
 
 remote.it works with virtually any platform or device, not just Raspberry Pi and Debian systems. We are actively working on adding more guides for other platforms, but until then, [please contact us](http://support.remot3.it) for help getting set up with your platform!
