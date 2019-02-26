@@ -12,7 +12,7 @@ You will see a dialog that lets you choose the script you wish to run.
 
 The "Bulk Execution" dialog lets you selected the desired script.  
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 After selecting the script you want to run, click on "Next".
 
