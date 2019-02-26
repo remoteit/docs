@@ -6,13 +6,13 @@ These connections will still automatically open a new browser tab when accessed 
 
 If you wish to set up a TCP service that is not SSH, VNC, http, or NxWitness, use option 5 on the Protocol Section Menu:
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 Answer "n" to the question.   
 
 Next, enter a short mnemonic for the protocol \(e.g. rdp\), and the port you wish to use:
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 Give the new service a name:
 

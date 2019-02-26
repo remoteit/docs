@@ -2,7 +2,7 @@
 
 The Job Status page shows you the execution status of Device Scripts.  
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 In the Job Status table you will see:
 

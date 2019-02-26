@@ -18,7 +18,7 @@ Make sure the checkbox for "Show Advanced 'Manage Devices' Menu" is checked.
 
 Select "Manage Devices -&gt; Upload"
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 In the "Storage Upload" dialog, use "Choose File" to locate the script file you've downloaded or written.
 

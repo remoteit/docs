@@ -36,6 +36,10 @@
   * [Installed remote.it Services](using-the-interactive-installer/installed-remote.it-services.md)
   * [Remove a single remote.it Service](using-the-interactive-installer/remove-a-single-remote.it-service.md)
   * [Remove all remote.it Services](using-the-interactive-installer/remove-all-remote.it-services.md)
+* [Using the Web Portal](using-the-web-portal/README.md)
+  * [The "View Devices" page](using-the-web-portal/the-view-devices-page.md)
+  * [Using the remote.it Actions Menu](using-the-web-portal/using-the-remote.it-actions-menu.md)
+  * [The Advanced Manage Devices option](using-the-web-portal/the-advanced-manage-devices-option.md)
 * [Downloads](downloads.md)
 * [Supported platforms](supported-platforms.md)
 

@@ -14,7 +14,7 @@ Let's install a service for the SSH connection.  Because the service we wish to 
 
 Now you will see the "Protocol Selection Menu".
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 Choosing a protocol here helps determine how the remote.it web portal will respond when you make a connection.
 

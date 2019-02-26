@@ -10,7 +10,7 @@ Use the method described above to get the URL and port for an SSH connection.
 
 Now you’ll need to type the scp command line using the Hostname and Port value provided.  For the purpose of this example, suppose you are copying the file /home/user/info.txt to the connected device in the location /home/pi/info.txt.  The correct format for the command line is:
 
-**scp -P 38400 /home/user/info.txt your\_username@proxy7.weaved.com:/home/pi/info.txt**
+**scp -P 38400 /home/user/info.txt your\_username@proxy7.rt3.io:/home/pi/info.txt**
 
 Don’t copy this command line verbatim.  Substitute the Hostname and Port provided in the SSH connection dialog, and the username on the remote system \(NOT your remote.it account name\).  Enter your device’s password when prompted.
 
