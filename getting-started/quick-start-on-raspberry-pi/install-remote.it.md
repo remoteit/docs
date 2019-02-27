@@ -16,7 +16,7 @@ Before you start, make sure to update your Pi's software by running the followin
 
 ```bash
 sudo apt update
-sudo apt dist−upgrade
+sudo apt full−upgrade
 ```
 
 ## Install remote.it
