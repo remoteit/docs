@@ -45,7 +45,7 @@ sudo apt remove connectd
 #### To completely remove the connectd package, including configuration files
 
 ```text
-sudo apt remove connectd
+sudo apt purge connectd
 ```
 
 #### To configure remote.it Services on your Raspberry Pi
