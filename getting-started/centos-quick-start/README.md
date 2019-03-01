@@ -17,7 +17,7 @@ If you are using the interactive installer program, you may notice that all Appl
 
 The Linux utilities **netstat** and **nc** \(which are used for detecting applications\) may not be installed by default.  Please note that this has no effect on configuring remote.it Services.  It means the script can't accurately tell whether the applications are responding.
 
-Optional: To install these utilities, run:
+Optional: To install these utilities, run \(as root or using sudo\):
 
 ```text
 yum update
