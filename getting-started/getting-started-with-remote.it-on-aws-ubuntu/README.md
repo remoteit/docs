@@ -5,7 +5,7 @@ description: >-
   service.
 ---
 
-# AWS Ubuntu Quick Start
+# AWS Ubuntu
 
 We'll assume that you already have an account at [Amazon Web Services](https://aws.amazon.com/) and are familiar with the process of creating, configuring, and using an EC2 virtual machine.
 

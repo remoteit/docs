@@ -2,7 +2,7 @@
 description: remote.it Connect for Windows offers persistent connections to other services
 ---
 
-# remote.it Connect for Windows Quick Start
+# remote.it Connect for Windows
 
 ## **Features**
 

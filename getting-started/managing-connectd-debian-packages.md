@@ -2,7 +2,7 @@
 description: 'Includes Ubuntu, Linux Mint, Armbian, Debian, OSMC, Kali and more.'
 ---
 
-# Debian OS family Quick Start
+# Debian OS family
 
 The Debian operating system is widely adopted and has many variations \(e.g. Raspbian, Ubuntu, Linux Mint, Armbian and more\).  The Debian packaging system  helps you to keep your entire system up to date and manage dependencies between different packages.   
 
