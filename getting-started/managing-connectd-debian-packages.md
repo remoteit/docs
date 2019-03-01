@@ -78,7 +78,7 @@ If you encounter any issues, use the corresponding files which have "-etch" in t
 
 Right click on the file name at the releases page to copy the download link for the next step.
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 Use the copied link in a "curl" command as shown below.
 

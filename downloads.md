@@ -16,7 +16,7 @@ Once you download connectd, you can learn more how to use it here:
 
 {% page-ref page="connectd-reference/connectd.md" %}
 
-## Windows Connect
+## remote.it Connect for Windows
 
 Our basic application for making peer to peer connections from your Windows machine to a device.
 
@@ -24,7 +24,7 @@ Our basic application for making peer to peer connections from your Windows mach
 
 Learn how to get set up:
 
-{% page-ref page="getting-started/windows-quick-start.md" %}
+{% page-ref page="getting-started/windows-quick-start/" %}
 
 ## Server Channel
 

@@ -11,7 +11,7 @@ In order to make a peer to peer \(P2P\) or direct connection the remote.it conne
 * The connection will stay active as long as there is an internet connection available to both devices.
 * The URL will remain the same and can be bookmarked.
 
-We are working on new ways to make P2P connections. Currently you have to use the connectd daemon or the Windows Connect application.
+We are working on new ways to make P2P connections. Currently you have to use the connectd daemon or the remote.it Connect for Windows application.
 
 ## Cloud Connections
 

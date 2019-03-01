@@ -2,19 +2,19 @@
 
 In order to share a Device, first you must set up a Contact in remote.it. Click on "Contacts" in the left-side menu, then "Create Contact":
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 ![](/hc/article_attachments/360018349872/mceclip0.png)
 
 Fill in the Contact details in the dialog which appears:
 
-![The only required field is their email address, everything else is optional.](../../.gitbook/assets/image%20%2817%29.png)
+![The only required field is their email address, everything else is optional.](../../.gitbook/assets/image%20%2818%29.png)
 
 Available languages include English and Japanese and control the language used for notification e-mails.
 
 Fill in the details and then click on "Create Contact".  
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 Next you will see a new entry in the Contacts list:
 
@@ -34,7 +34,7 @@ To invite this user to create a remote.it account, click on the "Create Account"
 
 Click on the checkbox in the dialog which appears, then click on "Submit":
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 ![](/hc/article_attachments/360018351612/mceclip2.png)
 
