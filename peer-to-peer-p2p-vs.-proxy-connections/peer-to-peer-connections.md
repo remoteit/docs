@@ -1,6 +1,6 @@
 # Peer to Peer Connections
 
-Peer to peer connections can be made using the connectd daemon on any platform, or the Windows Connect application on Windows. 
+Peer to peer connections can be made using the connectd daemon on any platform, or the remote.it Connect for Windows application. 
 
 ## Command Line
 
