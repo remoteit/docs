@@ -28,7 +28,7 @@ sudo apt install connectd
 sudo connectd_installer
 ```
 
-Now you should see an interactive installer menu that will guide you through the process of configuring remote.it to access the various TCP services on your device.  Follow the link below for more details on using connectd\_installer.
+Now you should see an interactive installer menu that will guide you through the process of configuring remote.it to access the various TCP services on your device. Follow the link below for more details on using connectd\_installer.
 
 {% page-ref page="../../using-the-interactive-installer/" %}
 

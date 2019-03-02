@@ -6,7 +6,7 @@ If you're new to using remote.it, this is the place for you!
 
 In this section, we will show you how to get up and running with remote.it on a real device and start securely remote connecting and controlling your devices.
 
-Please follow one of our Quick Start guides below if you're new to remote.it:
+Please follow one of our Guides below if you're new to remote.it:
 
 {% page-ref page="create-a-remote.it-account.md" %}
 
@@ -15,6 +15,8 @@ Please follow one of our Quick Start guides below if you're new to remote.it:
 {% page-ref page="getting-started-with-remote.it-on-aws-ubuntu/" %}
 
 {% page-ref page="centos-quick-start/" %}
+
+{% page-ref page="windows-quick-start/" %}
 
 ### More platforms!
 
