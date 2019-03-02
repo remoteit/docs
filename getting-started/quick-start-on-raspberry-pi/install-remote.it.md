@@ -15,8 +15,8 @@ ssh pi@raspberrypi.local
 Before you start, make sure to update your Pi's software by running the following on the command line which connected to your Pi:
 
 ```bash
-sudo apt−get dist−upgrade
-sudo apt-get update
+sudo apt update
+sudo apt full−upgrade
 ```
 
 ## Install remote.it
@@ -24,7 +24,7 @@ sudo apt-get update
 Now that you are all up to date, it is time to install the remote.it connectd software which lets you configure services on your device to connect to via remote.it. Run the following to install the remote.it connectd package.
 
 ```bash
-sudo apt-get install connectd
+sudo apt install connectd
 sudo connectd_installer
 ```
 

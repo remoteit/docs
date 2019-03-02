@@ -107,11 +107,11 @@ To close this `ping`, type `Ctrl + c`.
 ## Install remote.it
 
 ```shell
-sudo apt−get dist−upgrade
-sudo apt-get update
+sudo apt update
+sudo apt full−upgrade
 ```
 
 ```shell
-sudo apt-get install remoteit
+sudo apt install remoteit
 sudo remoteit
 ```
