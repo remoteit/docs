@@ -17,29 +17,35 @@ remote.it offers a variety of ways to connect to your remote device using SSH.  
 
 Sign In to your remote.it account, locate your Device in the on the Manage Devices page, and click on the device name.  
 
-![](https://remot3it.zendesk.com/hc/article_attachments/115000702292/mceclip0.png)
+![](../../../.gitbook/assets/image%20%28118%29.png)
 
-You will then see a window showing the services available on that device.
+You will then see a window showing the services available on that device.  You will need to set your pop-up blocker, if any, to allow popups from the remote.it web site.
 
-![](https://remot3it.zendesk.com/hc/article_attachments/115000701971/mceclip1.png)
+![](../../../.gitbook/assets/image%20%2890%29.png)
 
 Click on the remote.it SSH Service you wish to connect to, then click on "Confirm".  
 
 Within a few moments, you will see a dialog with connection details.
 
-![](https://remot3it.zendesk.com/hc/article_attachments/115000701991/mceclip2.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
- The command line is preformatted to work with the ssh command line program.  However, ssh expects the **username** to be included here.  Since we don’t know what your username is, we’ve inserted the word **LOGIN** as a place holder for you to enter your own username.  We have supplied some preformatted lines using the pi and root usernames for your convenience.
+We have supplied some preformatted ssh command lines using the **pi** and **root** usernames for your convenience.
 
-![](https://remot3it.zendesk.com/hc/article_attachments/360016001711/mceclip1.png)
+If you are using a different username, use the third option where we’ve inserted the word **LOGIN** as a place holder for you to enter your own username. 
+
+![](../../../.gitbook/assets/image%20%283%29.png)
+
+#### Use the remote.it proxy address and port in your SSH command line
 
 Select the entire line and copy it to your terminal or command prompt \(don't hit ENTER yet\).  Now edit the word "LOGIN" \(you'll need to use the left arrow and then backspace over it\) and replace it with your username.  The example shows the username as “ubuntu”. 
 
- ![](https://remot3it.zendesk.com/hc/article_attachments/360016001551/mceclip0.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
-Now press “Enter”.  This initiates the login. You will probably see the following security message \(or something similar\), which is entirely normal.  Type “yes” to accept the new SSH key into your key cache.
+Now press “Enter”.  This initiates the login. You will probably see the following security message \(or something similar\), which is entirely normal.  
 
 ![](https://remot3it.zendesk.com/hc/article_attachments/360016016051/mceclip0.png)
+
+Type “yes” to accept the new SSH key into your key cache.
 
 Enter your password when prompted.
 
