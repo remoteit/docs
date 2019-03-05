@@ -84,7 +84,7 @@ When you see the security warning, click on “Yes” to continue.
 
 Select the account you wish to use and enter the password, then click on "OK".  If you wish to choose an account other than "Administrator", click on "More choices".
 
-![](../../../.gitbook/assets/image%20%28119%29.png)
+![](../../../.gitbook/assets/image%20%28120%29.png)
 
 #### **Linux RDP Connection Login**
 
