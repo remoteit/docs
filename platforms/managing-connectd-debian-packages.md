@@ -52,7 +52,7 @@ sudo apt purge connectd
 
 Follow the link below.
 
-{% page-ref page="../using-the-interactive-installer/" %}
+{% page-ref page="../guides/using-the-interactive-installer/" %}
 
 ## Other Debian based Operating Systems
 
@@ -101,7 +101,7 @@ sudo dpkg -i connectd_2.2.5_amd64.deb
 
 Follow the link below.
 
-{% page-ref page="../using-the-interactive-installer/" %}
+{% page-ref page="../guides/using-the-interactive-installer/" %}
 
 ### To completely remove the connectd package, including configuration files
 

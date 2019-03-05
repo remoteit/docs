@@ -24,7 +24,7 @@ Our basic application for making peer to peer connections from your Windows mach
 
 Learn how to get set up:
 
-{% page-ref page="getting-started/windows-quick-start/" %}
+{% page-ref page="platforms/windows-quick-start/" %}
 
 ## Server Channel
 

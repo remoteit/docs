@@ -43,5 +43,5 @@ sudo tar -xf connectd_2.2.5_x86_64-etch.tar
 
 Now you can run the interactive installer to configure your device.
 
-{% page-ref page="../../using-the-interactive-installer/" %}
+{% page-ref page="../../guides/using-the-interactive-installer/" %}
 

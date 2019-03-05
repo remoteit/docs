@@ -10,13 +10,13 @@ Please follow one of our Guides below if you're new to remote.it:
 
 {% page-ref page="create-a-remote.it-account.md" %}
 
-{% page-ref page="quick-start-on-raspberry-pi/" %}
+{% page-ref page="../platforms/quick-start-on-raspberry-pi/" %}
 
-{% page-ref page="getting-started-with-remote.it-on-aws-ubuntu/" %}
+{% page-ref page="../platforms/getting-started-with-remote.it-on-aws-ubuntu/" %}
 
-{% page-ref page="centos-quick-start/" %}
+{% page-ref page="../platforms/centos-quick-start/" %}
 
-{% page-ref page="windows-quick-start/" %}
+{% page-ref page="../platforms/windows-quick-start/" %}
 
 ### More platforms!
 

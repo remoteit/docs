@@ -15,7 +15,7 @@ description: >-
 
 Make sure that you have created a remote.it account and installed a remote.it Service  for SSH on port 22 as described at the link below.
 
-{% page-ref page="../../../using-the-interactive-installer/add-a-service-to-an-application.md" %}
+{% page-ref page="../../using-the-interactive-installer/add-a-service-to-an-application.md" %}
 
 Log in to your remote.it account, locate your SSH Service in your Device's Service List, and click on the Service Name.
 

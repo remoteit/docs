@@ -10,6 +10,14 @@ Sign up for a new account at [remote.it](https://remote.it).
 
 This will allow you to control your devices and access them securely anywhere in the world!
 
+{% page-ref page="../platforms/quick-start-on-raspberry-pi/" %}
+
+{% page-ref page="../platforms/getting-started-with-remote.it-on-aws-ubuntu/" %}
+
+{% page-ref page="../platforms/centos-quick-start/" %}
+
+{% page-ref page="../platforms/windows-quick-start/" %}
+
 {% hint style="info" %}
 remote.it is free for personal use under our Fair Use policy. 
 

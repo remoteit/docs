@@ -12,7 +12,7 @@ The following Actions are available in remote.it and described below:
 6. Transfer Device
 7. Clear Status
 
- [![](../.gitbook/assets/image%20%28116%29.png)](http://forum.weaved.com/uploads/default/original/1X/82ee503b2b2bd01495468b0248aecc3eb5853b3d.png) 
+ [![](../../.gitbook/assets/image%20%28116%29.png)](http://forum.weaved.com/uploads/default/original/1X/82ee503b2b2bd01495468b0248aecc3eb5853b3d.png) 
 
 ### **Share**
 
@@ -24,7 +24,7 @@ Sharing allows any Device to be shared with one or more remote.it users. Enablin
 
  [![](http://forum.weaved.com/uploads/default/optimized/1X/576b2d82eb9944005f7670f19fab75e722499cfd_1_690x371.png)](http://forum.weaved.com/uploads/default/original/1X/576b2d82eb9944005f7670f19fab75e722499cfd.png) 
 
-{% page-ref page="../guides/sharing-devices/" %}
+{% page-ref page="../sharing-devices/" %}
 
 ### **Stop Sharing**
 
@@ -34,9 +34,9 @@ When a shared Device is no longer meant to be Shared, use this Action to remove 
 **PLEASE NOTE:** There is a delay from the time you remove Sharing from a device\(s\) until the device disappears from the other User's Manage Devices view. Please _**check your email for confirmation**_ that the Remove Sharing request was received and is being executed. It might take _**as long as 5-10 minutes after receipt of email notification**_ until the Share status is updated and shown in the remote.it Manage Devices grid.
 {% endhint %}
 
-{% page-ref page="../guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md" %}
+{% page-ref page="../sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md" %}
 
-{% page-ref page="../guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md" %}
+{% page-ref page="../sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md" %}
 
 ### **Delete**
 
@@ -54,7 +54,7 @@ Scripts may be used to perform specific actions on your devices if they support 
 
 Several sample scripts are available here:
 
-{% page-ref page="../guides/device-scripting-running-scripts-on-your-devices/" %}
+{% page-ref page="../device-scripting-running-scripts-on-your-devices/" %}
 
 ### **Set Category**
 

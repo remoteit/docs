@@ -14,7 +14,7 @@ Once downloaded learn how to use it:
 
 Our remote.it Connect for Windows application is a GUI alternative that can also make peer to peer connections:
 
-{% page-ref page="../getting-started/windows-quick-start/" %}
+{% page-ref page="../platforms/windows-quick-start/" %}
 
 
 

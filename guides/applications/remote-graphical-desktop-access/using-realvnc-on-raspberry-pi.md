@@ -55,7 +55,7 @@ Also see [this article from the Pi Foundation](https://www.raspberrypi.org/docum
 
 First, run the remote.it interactive installer.
 
-{% page-ref page="../../../using-the-interactive-installer/" %}
+{% page-ref page="../../using-the-interactive-installer/" %}
 
 At the Main Menu, select `3` for VNC.
 
