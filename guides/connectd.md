@@ -96,5 +96,5 @@ To get an service\_authhash from remote.it you need to use the login API
 
 Please see our guide on troubleshooting connections:
 
-{% page-ref page="../guides/connecting-to-a-device/troubleshooting-connections.md" %}
+{% page-ref page="connecting-to-a-device/troubleshooting-connections.md" %}
 

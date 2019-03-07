@@ -14,7 +14,7 @@ If you need the lower level library, connectd, that the remote.it installer uses
 
 Once you download connectd, you can learn more how to use it here:
 
-{% page-ref page="connectd-reference/connectd.md" %}
+{% page-ref page="guides/connectd.md" %}
 
 ## remote.it Connect for Windows
 

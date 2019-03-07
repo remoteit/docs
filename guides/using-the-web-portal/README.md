@@ -1,2 +1,2 @@
-# Using the Web Portal
+# Using the web portal
 

@@ -39,6 +39,7 @@
 
 ## Guides
 
+* [Using connectd](guides/connectd.md)
 * [Using the interactive installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](guides/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
@@ -51,7 +52,7 @@
   * [Installed remote.it Services](guides/using-the-interactive-installer/installed-remote.it-services.md)
   * [Remove a single remote.it Service](guides/using-the-interactive-installer/remove-a-single-remote.it-service.md)
   * [Remove all remote.it Services](guides/using-the-interactive-installer/remove-all-remote.it-services.md)
-* [Using the Web Portal](guides/using-the-web-portal/README.md)
+* [Using the web portal](guides/using-the-web-portal/README.md)
   * [The "View Devices" page](guides/using-the-web-portal/the-view-devices-page.md)
   * [Using the remote.it Actions Menu](guides/using-the-web-portal/using-the-remote.it-actions-menu.md)
   * [The Advanced Manage Devices option](guides/using-the-web-portal/the-advanced-manage-devices-option.md)
@@ -93,8 +94,4 @@
 * [Devices](api-reference/devices/README.md)
   * [Listing Devices](api-reference/devices/list.md)
   * [Connecting to a Device](api-reference/devices/connect.md)
-
-## connectd Reference
-
-* [Using connectd](connectd-reference/connectd.md)
 

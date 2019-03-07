@@ -8,7 +8,7 @@ You can find the latest version to download in [GitHub](https://github.com/remot
 
 Once downloaded learn how to use it:
 
-{% page-ref page="../connectd-reference/connectd.md" %}
+{% page-ref page="../guides/connectd.md" %}
 
 ## Windows
 
