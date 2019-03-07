@@ -6,7 +6,7 @@ description: >-
 
 # Create a remote.it account
 
-Sign up for a new account at [remote.it](https://remote.it).
+Sign up for a new account at [remote.it](https://app.remote.it/auth/#/sign-up).
 
 This will allow you to control your devices and access them securely anywhere in the world!
 
