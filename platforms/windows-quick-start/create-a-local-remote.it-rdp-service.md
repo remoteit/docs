@@ -30,7 +30,7 @@ Clicking on the Device Name will show the RDP connectd Service you just installe
 
 You can now use the RDP link following the instructions here:
 
-[https://remot3it.zendesk.com/hc/en-us/articles/360013360271-Using-remote-it-with-Windows-Remote-Desktop-RDP-and-the-Raspberry-Pi](https://remot3it.zendesk.com/hc/en-us/articles/360013360271-Using-remote-it-with-Windows-Remote-Desktop-RDP-and-the-Raspberry-Pi)
+{% page-ref page="../../guides/applications/remote-graphical-desktop-access/using-remote-desktop-connection.md" %}
 
 Those instructions show how to use remote.it with RDP using a proxy address supplied through the web portal, but of course if your client PC is also running remote.it Connect for Windows, you can configure a P2P connection.
 
