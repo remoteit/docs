@@ -24,7 +24,7 @@
   * [Add a Device Name and a remote.it SSH Service](platforms/getting-started-with-remote.it-on-aws-ubuntu/add-a-device-name-and-a-remote.it-ssh-service.md)
   * [Connect to your EC2 instance using remote.it](platforms/getting-started-with-remote.it-on-aws-ubuntu/connect-to-your-ec2-instance-using-remote.it.md)
   * [Completely close your AWS Security Group](platforms/getting-started-with-remote.it-on-aws-ubuntu/completely-close-your-aws-security-group.md)
-* [remote.it Connect for Windows](platforms/windows-quick-start/README.md)
+* [Windows](platforms/windows-quick-start/README.md)
   * [Installing remote.it Connect for Windows](platforms/windows-quick-start/installing-remote.it-connect.md)
   * [Using remote.it Connect for Windows](platforms/windows-quick-start/using-remote.it-connect.md)
   * [Creating and using a peer to peer connection](platforms/windows-quick-start/creating-and-using-a-peer-to-peer-connection.md)
