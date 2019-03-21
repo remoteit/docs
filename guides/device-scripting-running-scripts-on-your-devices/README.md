@@ -14,7 +14,7 @@ remote.it allows you to write Device Scripts in any language your host operating
 
 **Watch the video at the link below to see how Device Scripting works.**
 
-remote.it bulk script execution for Raspberry Pi 
+[remote.it bulk script execution for Raspberry Pi ](https://www.youtube.com/channel/UCu4j4ylKosBUnTIkxkYzCaQ)
 
 **More documentation and examples coming soon!**
 
