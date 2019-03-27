@@ -8,6 +8,10 @@ In essence, Device Scripting allows you to run a script \(written in any languag
 
 This is a quite powerful feature and takes away a lot of the drudgery involved in managing thousands of devices in the field.
 
+Q: When should you use a script?
+
+A: When you have a repetitive action that you would like to perform on one or more devices.
+
 ## Creating scripts
 
 remote.it allows you to write Device Scripts in any language your host operating system supports because the script is run just like any other executable script on your machine. This means you can write in bash, Python, Ruby, Node, etc., assuming you have these installed globally on your system.
