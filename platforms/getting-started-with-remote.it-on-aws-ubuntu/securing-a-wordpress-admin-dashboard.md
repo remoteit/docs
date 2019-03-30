@@ -21,11 +21,11 @@ If you're new to EC2, follow this [AWS guide on how to configure and launch your
 
 Enter the public IP address for your instance into your browser's search bar
 
-![AWS EC2 Dashboard](../.gitbook/assets/locate-id%20%281%29.png)
+![AWS EC2 Dashboard](../../.gitbook/assets/locate-id%20%281%29.png)
 
 The page that appears will look something like this
 
-![Template WordPress Website](../.gitbook/assets/website-front-page.png)
+![Template WordPress Website](../../.gitbook/assets/website-front-page.png)
 
 Notice how if you add `/admin` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
 
@@ -40,7 +40,7 @@ chmod 400 PATH_TO_KEY
 ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRES
 ```
 
-![EC2 SSH Login Prompt](../.gitbook/assets/ec2-ssh%20%281%29.png)
+![EC2 SSH Login Prompt](../../.gitbook/assets/ec2-ssh%20%281%29.png)
 
 You've now SSHed into the EC2 instance! Now we can start securing the WordPress site.
 
@@ -56,7 +56,7 @@ Run the following command to begin editing the website Htaccess configuration.
 
 `vim /opt/bitnami/apps/wordpress/conf/htaccess.con`
 
-![](../.gitbook/assets/htaccess-vanilla.png)
+![](../../.gitbook/assets/htaccess-vanilla.png)
 
 Add the following code to the bottom of the file.
 
@@ -69,7 +69,7 @@ Add the following code to the bottom of the file.
 </Directory
 ```
 
-![htaccess.conf after locking down wp-admin](../.gitbook/assets/htaccess-edited%20%281%29.png)
+![htaccess.conf after locking down wp-admin](../../.gitbook/assets/htaccess-edited%20%281%29.png)
 
 ### Optional: Locking down wp-login
 
@@ -92,7 +92,7 @@ Save and exit Vim and run the following command to restart the web server.
 
 Once the server has restarted, `Site_IP/admin` will appear like this
 
-![Public access to the admin login has been blocked.](../.gitbook/assets/admin-forbidden%20%281%29.png)
+![Public access to the admin login has been blocked.](../../.gitbook/assets/admin-forbidden%20%281%29.png)
 
 Congratulations - you've now blocked all incoming access to your websites admin portal. This dramatically increases the security of your site. However, we currently have no way ourselves to access the admin dashboard. This is where remote.it comes in.
 
@@ -121,7 +121,7 @@ Now, you're ready to run the interactive installer.
 3. Chose the default port assignment \(80\).
 4. Name the service `wordpress-admin`
 
-![remote.it connectd installer](../.gitbook/assets/http-service-setup.png)
+![remote.it connectd installer](../../.gitbook/assets/http-service-setup.png)
 
 You've now configured a remote.it service on the host machine. We will now be able to make secure HTTP proxy connection to our machine via remote.it.
 
@@ -135,23 +135,23 @@ Using remote.it you can either generate temporary proxy connection using the rem
 
 Download the Windows Connectd Manager. Once installed, log in with your remote.it account and select your device. If you have a high number of devices on your account you'll have to search for your device by name. 
 
-![Once you&apos;re logged in your devices will appear.](../.gitbook/assets/wcm-device-select.png)
+![Once you&apos;re logged in your devices will appear.](../../.gitbook/assets/wcm-device-select.png)
 
 #### Generate The Proxy URL
 
 Fill the check box next to your device name and click "Setup". This will take you to a list of your device's services.
 
-![Your device&apos;s services](../.gitbook/assets/wcm-service-select.png)
+![Your device&apos;s services](../../.gitbook/assets/wcm-service-select.png)
 
 Fill the check boxes next to the services you wish to establish connections with. Click "Start" once you've selected the desired services. 
 
-![Notice the port column. Our admin P2P service is now running on port 34001.](../.gitbook/assets/wcm-service-active.png)
+![Notice the port column. Our admin P2P service is now running on port 34001.](../../.gitbook/assets/wcm-service-active.png)
 
 Our P2P connections have now been generated. The local ports for each service can be found in the "ports" column. In this example, the P2P connection to the wordpress admin page is on localhost port 34001.
 
 Go to **http://localhost:PORT** where **PORT** is the value in the Port column.
 
-![Our secure WordPress admin page on localhost:PORT/wp-admin](../.gitbook/assets/wcm-wp-admin-p2p.png)
+![Our secure WordPress admin page on localhost:PORT/wp-admin](../../.gitbook/assets/wcm-wp-admin-p2p.png)
 
 **Congratulations!** You've generated a P2P secure connection to your WordPress admin page. This link is accessible as long as connectd is running on both devices. 
 
@@ -169,13 +169,13 @@ Continue this guide if you wish to generate temporary proxy connections using re
 
 Navigate to app.remote.it and select the device with the name you entered.
 
-![Device services displayed in the remote.it dashboard](../.gitbook/assets/device-services.png)
+![Device services displayed in the remote.it dashboard](../../.gitbook/assets/device-services.png)
 
 ### Connect To The Admin Dashboard
 
 Select the `wordpress-admin` http service. You will be presented with a proxy URL similar to `wcdnqety.p17.rt3.io`. Add `/wp-admin` to this path. This URL takes you to the WordPress admin dashboar
 
-![Your secured WordPress admin login.](../.gitbook/assets/wp-admin.png)
+![Your secured WordPress admin login.](../../.gitbook/assets/wp-admin.png)
 
 We've now just demonstrated the use for remote.it in securing your WordPress website. By using Htaccess, we've entirely blocked all public access to our admin dashboard making it inaccessible accept via remote.it. You can share your device with any other truster admins allowing your whole team to quickly and securely maintain your website.
 
