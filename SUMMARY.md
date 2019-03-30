@@ -49,16 +49,25 @@
   * [Detailed scripting example](guides/device-scripting-running-scripts-on-your-devices/detailed-scripting-example.md)
   * [Tips and tricks for developing scripts](guides/device-scripting-running-scripts-on-your-devices/tips-and-tricks-for-developing-scripts.md)
   * [Show device status](guides/device-scripting-running-scripts-on-your-devices/return-status-from-devices.md)
-  * [Editing script files in Windows](guides/device-scripting-running-scripts-on-your-devices/editing-script-files-in-windows.md)
   * [Send a file to your device](guides/device-scripting-running-scripts-on-your-devices/send-a-file-to-your-device.md)
+  * [Editing script files in Windows](guides/device-scripting-running-scripts-on-your-devices/editing-script-files-in-windows.md)
   * [Reboot your device](guides/device-scripting-running-scripts-on-your-devices/reboot-your-device.md)
 * [Configuring a webcam with Nx Witness](guides/configuring-a-webcam-with-nx-witness.md)
+* [Securing a WordPress Admin Dashboard on AWS EC2](guides/securing-a-wordpress-admin-dashboard.md)
+* [Securing a Joomla Admin Dashboard on AWS EC2](guides/securing-a-joomla-admin-dashboard.md)
 * [Sharing Devices](guides/sharing-devices/README.md)
   * [Create a contact](guides/sharing-devices/create-a-contact.md)
   * [Sharing a device with a contact](guides/sharing-devices/sharing-a-device-with-a-contact.md)
   * [Stop sharing a Device which was shared to you](guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md)
   * [Stop sharing one or more Devices with other user\(s\)](guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md)
-* [Securing a Joomla Admin Dashboard on AWS EC2](guides/securing-a-joomla-admin-dashboard.md)
+
+## API Reference
+
+* [API Overview](api-reference/overview.md)
+* [Authentication](api-reference/authentication.md)
+* [Devices](api-reference/devices/README.md)
+  * [Listing Devices](api-reference/devices/list.md)
+  * [Connecting to a Device](api-reference/devices/connect.md)
 
 ## Platforms
 
@@ -89,12 +98,4 @@
   * [32-bit Centos](platforms/centos-quick-start/32-bit-centos-7.md)
   * [64-bit Centos](platforms/centos-quick-start/64-bit-centos-7.md)
 * [Supported platforms](platforms/supported-platforms.md)
-
-## API Reference
-
-* [API Overview](api-reference/overview.md)
-* [Authentication](api-reference/authentication.md)
-* [Devices](api-reference/devices/README.md)
-  * [Listing Devices](api-reference/devices/list.md)
-  * [Connecting to a Device](api-reference/devices/connect.md)
 

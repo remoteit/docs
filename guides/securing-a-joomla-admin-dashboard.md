@@ -27,7 +27,7 @@ Enter the public IP address for your instance into your browser's search bar.
 
 The page that appears will look something like this.
 
-![](../.gitbook/assets/website-front-page%20%281%29.png)
+![](../.gitbook/assets/website-front-page%20%282%29.png)
 
 Notice how if you add `/administrator` to your route you can access the admin login page. This is the security issue we're going to fix. We want to block all public access to this page but still be able to access it via remote.it.
 
@@ -56,7 +56,7 @@ Inside the EC2 instance, run the following command to begin editing the website 
 
 `vim /home/bitnami/apps/joomla/conf/htaccess.conf`
 
-![](../.gitbook/assets/htaccess-vanilla.png)
+![](../.gitbook/assets/htaccess-vanilla%20%281%29.png)
 
 Add the following code to the bottom of the file.
 
@@ -95,13 +95,13 @@ sudo connectd_installer
 
 1. Start the connectd installer by running `sudo connectd_installer` and sign in.
 
-![](../.gitbook/assets/sudo-connectd-installer.png)
+![](../.gitbook/assets/sudo-connectd-installer%20%281%29.png)
 
 1. Enter 1 for `Attach/reinstall a remote.it Service to an application`.
 2. Chose the default port assignment \(80\).
 3. Name the service `joomla-admin`.
 
-![](../.gitbook/assets/http-service-setup.png)
+![](../.gitbook/assets/http-service-setup%20%281%29.png)
 
 You've now configured a remote.it service on the host machine. We will now be able to make secure HTTP proxy connection to our machine via remote.it.
 
@@ -109,7 +109,7 @@ You've now configured a remote.it service on the host machine. We will now be ab
 
 Navigate to app.remote.it and select the device with the name you entered.
 
-![](../.gitbook/assets/device-services.png)
+![](../.gitbook/assets/device-services%20%281%29.png)
 
 ### Connect To The Admin Dashboard
 
