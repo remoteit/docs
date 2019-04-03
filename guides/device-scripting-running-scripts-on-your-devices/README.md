@@ -20,6 +20,14 @@ remote.it allows you to write Device Scripts in any language your host operating
 
 {% embed url="https://youtu.be/BaGrE0Ty1Y4" %}
 
+**Here's a recent webinar that provides an introduction to scripts in remote.it**
+
+{% embed url="https://youtu.be/AxZi8oMFSyo" %}
+
+
+
+
+
 **More documentation and examples coming soon!**
 
 ## Use cases
