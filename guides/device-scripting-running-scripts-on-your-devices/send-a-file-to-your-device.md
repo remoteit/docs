@@ -20,9 +20,9 @@ Upload the ZIP file as you did the script, but selecting "General Purpose Conten
 
 Run the script and select the ZIP file you wish to transfer, then click on "Finish".
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 Once the process completes, you will see the file name, size, and MD5 checksum as reported from the target Device\(s\):
 
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 

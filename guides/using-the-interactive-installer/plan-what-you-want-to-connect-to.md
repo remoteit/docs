@@ -23,7 +23,7 @@ The Raspberry Pi uses the "raspi-config" program to enable or disable SSH and VN
 
 _sudo raspi-config_
 
-![Choose option 5, &quot;Interfacing Options&quot;](../../.gitbook/assets/image%20%2846%29.png)
+![Choose option 5, &quot;Interfacing Options&quot;](../../.gitbook/assets/image%20%2847%29.png)
 
 Next you can enable or disable SSH or VNC.  We recommend that you not disable SSH, and you can use VNC if you want to have access to the graphical desktop.  By default Raspbian Stretch installs RealVNC server on port 5900.
 
