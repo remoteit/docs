@@ -14,13 +14,11 @@ Next, enter the port you wish to use:
 
 Give the new service a name:
 
-
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 Then you will return to the main menu.
 
-Connections made at the remote.it web portal will open a generic dialog with hostname and port for this remote.it connection. 
-
-![](../../.gitbook/assets/image%20%2875%29.png)
+Connections to TCP Services made at the remote.it web portal will open a generic dialog with hostname and port. 
 
 ![](../../.gitbook/assets/image%20%2872%29.png)
 
