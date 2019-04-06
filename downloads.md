@@ -2,9 +2,9 @@
 
 ## Installer
 
-If you'd like to install remote.it on your device, see our Getting Started section for supported operating systems.  More coming soon!
+If you'd like to install remote.it on your device, see our Supported Platforms section to select the proper method for your Operating System.
 
-{% page-ref page="getting-started/" %}
+{% page-ref page="platforms/supported-platforms.md" %}
 
 ## connectd
 

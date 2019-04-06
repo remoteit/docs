@@ -56,46 +56,27 @@ Follow the link below.
 
 ## Other Debian based Operating Systems
 
-Determine your device's Debian architecture.
-
-```text
-sudo dpkg --print-architecture
-```
-
-Locate the matching package at the releases page:
-
-{% embed url="https://github.com/remoteit/installer/releases" caption="" %}
-
-For example, supposing that your Debian architecture is "amd64", look for connectd\_&lt;version&gt;\_amd64.deb.
-
-{% hint style="info" %}
-Older x86 based Debian operating systems use a different binary structure, although they report as "amd64" or "i386" identically to the newer versions.
-
-If you encounter any issues, use the corresponding files which have "-etch" in the file name.
-{% endhint %}
-
-### Download the Debian package to your system with curl
-
-Right click on the file name at the releases page to copy the download link for the next step.
-
-![](../.gitbook/assets/image%20%2889%29.png)
-
-Use the copied link in a "curl" command as shown below.
-
-```text
-$ curl -LkO https://github.com/remoteit/installer/releases/download/v2.2.5/connectd_2.2.5_amd64.deb
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100   615    0   615    0     0   1112      0 --:--:-- --:--:-- --:--:--  1112
-100  111k  100  111k    0     0  67632      0  0:00:01  0:00:01 --:--:--  307k
-$
-```
-
 ### To install the connectd package
 
+The auto-install.sh script will download and install a Debian package if you have a Debian based OS.
+
+To run the auto-install-sh script, copy and paste the following 3 lines to your console \(the wget command and the URL which follows are one line\):
+
 ```text
-sudo dpkg -i connectd_2.2.5_amd64.deb
+wget https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+chmod +x ./auto-install.sh
+sudo ./auto-install.sh
 ```
+
+If you don't see any warnings, run:
+
+`sudo connectd_installer`
+
+to proceed to configure your device.
+
+For more information, please see: 
+
+{% page-ref page="supported-platforms.md" %}
 
 ### To configure remote.it Services on your Debian Linux Device
 

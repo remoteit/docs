@@ -14,7 +14,7 @@ Please follow one of our Guides below if you're new to remote.it:
 
 {% page-ref page="../platforms/getting-started-with-remote.it-on-aws-ubuntu/" %}
 
-{% page-ref page="../platforms/centos-quick-start/" %}
+{% page-ref page="../platforms/centos-quick-start.md" %}
 
 {% page-ref page="../platforms/windows-quick-start/" %}
 

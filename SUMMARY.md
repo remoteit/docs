@@ -86,6 +86,9 @@
   * [Completely close your AWS Security Group](platforms/getting-started-with-remote.it-on-aws-ubuntu/completely-close-your-aws-security-group.md)
   * [Securing a WordPress Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-wordpress-admin-dashboard.md)
   * [Securing a Joomla Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-joomla-admin-dashboard.md)
+* [Centos](platforms/centos-quick-start.md)
+* [All other Linux flavors](platforms/all-other-linux-flavors.md)
+* [Supported platforms and installation](platforms/supported-platforms.md)
 * [Windows](platforms/windows-quick-start/README.md)
   * [Installing remote.it Connect for Windows](platforms/windows-quick-start/installing-remote.it-connect.md)
   * [Using remote.it Connect for Windows](platforms/windows-quick-start/using-remote.it-connect.md)
@@ -94,8 +97,4 @@
   * [Create a local remote.it web Service](platforms/windows-quick-start/create-a-local-remote.it-web-service.md)
   * [Create a local remote.it TCP service](platforms/windows-quick-start/create-a-local-remote.it-tcp-service.md)
   * [Editing a Local Service](platforms/windows-quick-start/editing-a-local-service.md)
-* [Centos](platforms/centos-quick-start/README.md)
-  * [32-bit Centos](platforms/centos-quick-start/32-bit-centos-7.md)
-  * [64-bit Centos](platforms/centos-quick-start/64-bit-centos-7.md)
-* [Supported platforms](platforms/supported-platforms.md)
 
