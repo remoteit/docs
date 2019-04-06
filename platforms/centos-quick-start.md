@@ -10,7 +10,7 @@ If you are using the interactive installer program, you may notice that all Appl
 =========================  Installed remote.it Services  ======================
  Service Name       | Protocol | LAN Address        | Port | Application
 -------------------------------------------------------------------------------
- CEntos-SSH         | SSH      | localhost          | 22   | not detected
+ Centos-SSH         | SSH      | localhost          | 22   | not detected
  web-8080-centos    | HTTP     | localhost          | 8080 | not detected
 -------------------------------------------------------------------------------
 ```
