@@ -29,7 +29,7 @@ yum install net-tools
 
 The auto-install.sh script will download and install a tar file to your system. A list of files contained in the tar file can be found in /etc/connectd/builddate.txt.
 
-To run the auto-install-sh script, copy and paste the following 3 lines to your console \(the wget command and the URL which follows are one line\):
+To run the auto-install-sh script, copy and paste the following 3 lines to your console:
 
 ```text
 wget https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
