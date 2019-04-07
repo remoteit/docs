@@ -48,11 +48,13 @@ The Pi Foundation hosts the connectd package at their repositories for a streaml
 
 The auto-install.sh script will download and install a Debian package if you have a Debian based OS.  For all others, a tar file is downloaded and extracted to your system.  A list of files contained in the tar file can be found in /etc/connectd/builddate.txt.
 
-To run the auto-install-sh script, copy and paste the following 3 lines to your console \(the wget command and the URL which follows are one line\):
+To run the auto-install-sh script, copy and paste the following 3 lines to your console:
 
-`wget` [`https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh`](https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh)`chmod +x ./auto-install.sh`
-
-`sudo ./auto-install.sh`
+```text
+wget https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+chmod +x ./auto-install.sh
+sudo ./auto-install.sh
+```
 
 If you don't see any warnings, run:
 
