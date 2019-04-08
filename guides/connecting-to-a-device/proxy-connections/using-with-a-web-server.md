@@ -4,7 +4,7 @@ description: Also covers use with web based applications such as LuCI and Node-R
 
 # Connecting to a web server
 
-These instructions explain how to connect to any web-based UI or REST interface on your remote Debian Linux PC or Raspberry Pi.  By default, these connections will open as a new tab in the current web browser.
+These instructions explain how to connect to any http web-based UI or REST interface on your remote Debian Linux PC or Raspberry Pi.  By default, these connections will open as a new tab in the current web browser.
 
 **Summary:** Configure a remote.it Service that is compatible with an http web server to allow you to connect to your PC's web server securely from outside of your local network.
 
@@ -83,4 +83,12 @@ Now click on the name of the web Service you installed in the Device Services Li
 Click on the highlighted service name to initiate the connection.  In a few seconds a new browser tab will open showing you the default web page of your web server. 
 
 ![](https://remot3it.zendesk.com/hc/article_attachments/360018172892/mceclip2.png)
+
+## Connecting to an https \(Secure\) server
+
+When choosing the protocol during Service installation, choose the option for "Secure Web".
+
+When you connect to a remote.it Service, you will encounter a few browser warnings due to certificate issues.  This is normal.  Click on "Advanced Mode" to connect to your web site.
+
+In some cases it may be necessary to set the URL header to "https".
 

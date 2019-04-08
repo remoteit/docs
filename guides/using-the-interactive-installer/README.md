@@ -6,5 +6,5 @@ description: >-
 
 # Using the interactive installer
 
-After you've finished installing the remote.it connectd package, you can configure remote.it Services to connect to your device's TCP-based servers such as SSH, VNC, HTTP, etc.
+After you've finished installing the remote.it connectd package, you can configure remote.it Services to connect to your device's TCP-based servers such as SSH, VNC, http\(s\), etc.
 

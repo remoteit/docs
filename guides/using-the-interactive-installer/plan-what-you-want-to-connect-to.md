@@ -4,7 +4,8 @@ remote.it lets you make secure remote connections to TCP based services on your 
 
 You can also install services for:
 
-* web server or any web-based application \(default port 80\)
+* http based web server or application \(default port 80\)
+* https based web server or application \(default port 443\)
 * VNC server \(Virtual Network Console, a remote graphical desktop system\) \(default port 5900\)
 * nxWitness \(remote video application\) on port 7001
 * any other TCP based service on any port

@@ -8,18 +8,19 @@ After the first time you log in, when you run connectd\_installer again, you wil
 
 You will see the "Main Menu".  There is a table of installed services but you may not have any installed yet.  You should install one!  
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](../../.gitbook/assets/image%20%2886%29.png)
 
 Let's install a service for the SSH connection.  Because the service we wish to connect to is on this device \(as compared to a different device on the same LAN\), use option 1, "Attach/reinstall a remote.it Service to an application".
 
 Now you will see the "Protocol Selection Menu".
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 Choosing a protocol here helps determine how the remote.it web portal will respond when you make a connection.
 
 * ssh: connection displays a dialog with sample command lines for an ssh connection.
-* web - connection opens in your web browser.
+* Web - connection opens in your web browser.
+* Secure Web - connection opens in your browser.  You can expect to see security warnings when you use this option.
 * VNC - shows a dialog with connection information and options.  
   * browser based client 
   * separate application 
@@ -29,7 +30,8 @@ Choosing a protocol here helps determine how the remote.it web portal will respo
 Select option 1 for SSH and enter the requested information.  Whenever you select a protocol, you are given the opportunity to use the default port assigned to that server.
 
 * SSH = port 22
-* web = port 80
+* Web = http on port 80
+* Secure Web = https on port 443
 * VNC = port 5900
 * nxWitness = port 7001
 * Custom TCP = no default value

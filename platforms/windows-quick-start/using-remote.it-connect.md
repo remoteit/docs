@@ -10,7 +10,7 @@ A User Account Control dialog will appear, asking if you want to allow the progr
 
 Once you see the following screen, enter your remote.it account username and password, then click on "Sign In" to access the devices in your account.
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 Now, your list of Devices \(which you already configured\) will be shown:
 

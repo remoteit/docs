@@ -1,24 +1,18 @@
 # Service types
 
-{% hint style="info" %}
-**Under Construction**  
-This documentation is under-construction and coming soon. If you need help immediately, [please contact us](https://remot3it.zendesk.com)
-{% endhint %}
-
-Virtually **anything that communicates over TCP** can be used with remote.it including:
+Virtually **anything that communicates over a single TCP** **port** can be used with remote.it including:
 
 * SSH
   * SCP
   * SFTP
 * VNC
-* HTTP\(S\)
+* http\(s\)
 * Nx Witness
 * RDP
 * Samba
-* TCP
 * ...and much more!
 
 {% hint style="info" %}
-For service types that you don't see in the selection list, just _choose "TCP" as the service type_ and you can always configure the service type later in [the remote.it web portal](https://app.remote.it).
+For service types that you don't see in the selection list, just _choose "TCP" as the service type._
 {% endhint %}
 
