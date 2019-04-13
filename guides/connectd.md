@@ -1,4 +1,10 @@
-# Using connectd
+---
+description: >-
+  This describes the use of the connectd daemon as a P2P initiator, also known
+  as client mode
+---
+
+# Using connectd in client mode
 
 ## **Download connectd**
 

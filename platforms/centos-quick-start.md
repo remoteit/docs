@@ -32,7 +32,7 @@ The auto-install.sh script will download and install a tar file to your system. 
 To run the auto-install-sh script, copy and paste the following 3 lines to your console:
 
 ```text
-wget https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
 chmod +x ./auto-install.sh
 sudo ./auto-install.sh
 ```

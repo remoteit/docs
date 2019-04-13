@@ -40,6 +40,8 @@ chmod 400 PATH_TO_KEY
 ssh -i PATH_TO_KEY ubuntu@INSTANCE_ADDRES
 ```
 
+Run the following command:
+
 ![EC2 SSH Login Prompt](../../.gitbook/assets/ec2-ssh%20%281%29.png)
 
 You've now SSHed into the EC2 instance! Now we can start securing the WordPress site.
@@ -98,18 +100,12 @@ Congratulations - you've now blocked all incoming access to your websites admin 
 
 ### Install remote.it connectd
 
-Copy and paste the following command to your console \(be sure to copy both wget and the long URL after it\) to download the remote.it connectd package:
+Copy and paste the following 3 lines to your console to download and install the remote.it connectd package:
 
 ```text
-wget https://github.com/remoteit/installer/releases/download/v2.2.3.24/connectd_2.2.3.24_amd64.deb
-```
-
-This package is compatible with 64-bit x86 Debian \(which includes Ubuntu, Linux Mint, and many other distributions\) and is compatible with the BitNami WordPress AMI.
-
-Run the following command:
-
-```text
-sudo dpkg -i connectd_2.2.3.24_amd64.deb
+curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+chmod +x ./auto-install.sh
+sudo ./auto-install.sh
 ```
 
 Now, you're ready to run the interactive installer.
