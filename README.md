@@ -24,3 +24,7 @@ To search the support pages or submit a ticket, click on the blue oval on the bo
 
 The support widget is also located at the bottom of the menu on the left side of the remote.it web portal after you have logged in.
 
+### remote.it Forum
+
+Visit the remote.it support forum at https://forum.remote.it to ask anything you like about using remote.it and see what other people are doing.
+
