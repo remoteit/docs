@@ -60,7 +60,7 @@ When you’ve successfully installed **xrdp** and the remot3.it **xrdp** service
 
 To connect, sign in to your remote.it account and locate the Device you just installed in the Device List.
 
-![](../../../.gitbook/assets/image%20%28149%29.png)
+![](../../../.gitbook/assets/image%20%28150%29.png)
 
 Click on the Device Name to open the Device Services dialog box:
 
@@ -86,7 +86,7 @@ When you see the security warning, click on “Yes” to continue.
 
 Select the account you wish to use and enter the password, then click on "OK".  If you wish to choose an account other than "Administrator", click on "More choices".
 
-![](../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../.gitbook/assets/image%20%28163%29.png)
 
 #### **Linux RDP Connection Login**
 

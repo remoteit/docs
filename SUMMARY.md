@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [remote.it Overview](README.md)
 * [Getting started](getting-started/README.md)
   * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
 * [Peer to Peer vs Cloud Connections](peer-to-peer-p2p-vs.-proxy-connections/README.md)
@@ -9,7 +9,6 @@
 
 ## Guides
 
-* [Using connectd in client mode](guides/connectd.md)
 * [Using the interactive installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](guides/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
@@ -22,6 +21,11 @@
   * [Installed remote.it Services](guides/using-the-interactive-installer/installed-remote.it-services.md)
   * [Remove a single remote.it Service](guides/using-the-interactive-installer/remove-a-single-remote.it-service.md)
   * [Remove all remote.it Services](guides/using-the-interactive-installer/remove-all-remote.it-services.md)
+* [Using connectd in P2P initiator mode](guides/using-connectd-in-p2p-initiator-mode/README.md)
+  * [Using connectd in P2P initiator mode on macOS and Linux](guides/using-connectd-in-p2p-initiator-mode/connectd.md)
+  * [Using connectd in P2P initiator mode on Windows](guides/using-connectd-in-p2p-initiator-mode/using-connectd-in-client-mode-on-windows.md)
+  * [Where do I find the UID for my Service?](guides/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
+  * [Running connectd using an authhash](guides/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
 * [Bulk Registration Overview](guides/bulk-registration/README.md)
   * [Create a Product Definition](guides/bulk-registration/create-a-product-definition.md)
   * [Customize your Platform's OS image](guides/bulk-registration/customize-your-devices-os-image.md)

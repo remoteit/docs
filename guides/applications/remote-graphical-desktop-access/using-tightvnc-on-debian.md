@@ -54,7 +54,7 @@ sudo connectd_installer
 
 At the Main Menu, install a new remote.it Service for VNC.  If the actual port in use is not 5901, you will have the opportunity to set this during the installation.
 
-![](../../../.gitbook/assets/image%20%28152%29.png)
+![](../../../.gitbook/assets/image%20%28153%29.png)
 
 When you’ve successfully installed **tightvncserver** and the remote.it **VNC** Service, the Main Menu will include an entry for **Xtightvnc** as shown above.
 
