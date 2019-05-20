@@ -26,7 +26,7 @@ To get to "View Devices" from other pages within remote.it, click on "View Devic
 
 The 5 status columns A through E can be used to get information from your Devices using Device Scripting.
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%28106%29.png)
 
 ### Category Columns
 

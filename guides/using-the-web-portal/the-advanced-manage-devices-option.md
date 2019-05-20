@@ -6,7 +6,7 @@ Under "Settings-&gt;Preferences" choose the checkbox as shown:
 
 ![](https://remot3it.zendesk.com/hc/article_attachments/360012130872/mceclip0.png)
 
-![](../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 ### Main Menu changes
 
