@@ -130,7 +130,7 @@ Now, add the Bulk Identification Code from the Product Information and Usage dia
 
 **/etc/connectd/bulk\_identification\_code.txt**
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28122%29.png)
 
 #### **Confirm your Bulk Registration settings**
 

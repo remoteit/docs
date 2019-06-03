@@ -35,6 +35,7 @@
 * [Using the web portal](guides/using-the-web-portal/README.md)
   * [The "View Devices" page](guides/using-the-web-portal/the-view-devices-page.md)
   * [Using the remote.it Actions Menu](guides/using-the-web-portal/using-the-remote.it-actions-menu.md)
+  * [Using Search and Filter modes](guides/using-the-web-portal/using-search-filter-mode.md)
   * [The Advanced Manage Devices option](guides/using-the-web-portal/the-advanced-manage-devices-option.md)
 * [Connecting to a device](guides/connecting-to-a-device/README.md)
   * [Proxy connections](guides/connecting-to-a-device/proxy-connections/README.md)

@@ -29,7 +29,7 @@ Click on the Device Name in Manage Devices view, then select the SSH connection 
 
 This dialog will appear after the connection is established.  You’ll need to copy and paste the Hostname and Port values from this dialog into the proper locations on your SSH/SCP application. 
 
-![](../../../.gitbook/assets/image%20%2871%29.png)
+![](../../../.gitbook/assets/image%20%2876%29.png)
 
 **Using remote.it with PuTTY for a secure remote terminal**
 
@@ -37,29 +37,29 @@ Launch PuTTY, then copy the Hostname and Port values to their corresponding loca
 
 Now you are connected to your device and can run commands in the terminal window just as if you were sitting right next to it.
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 Now click on “Open” to establish the connection.  You will probably see this SSH Security Alert, which is normal. 
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 Click on “Yes” to proceed.  Now you can log in.
 
-![](../../../.gitbook/assets/image%20%2861%29.png)
+![](../../../.gitbook/assets/image%20%2866%29.png)
 
 **Using remote.it with WinSCP for file management and transfer on Windows**
 
 WinSCP is another popular secure file manager and transfer utility for Windows.  Copy the Host Name and Port values from the remote.it SSH connection dialog to WinSCP’s connection screen and select “SCP” as the file protocol.  Click on “Login” to connect.
 
-![](../../../.gitbook/assets/image%20%28147%29.png)
+![](../../../.gitbook/assets/image%20%28157%29.png)
 
 As with PuTTY, you will see a warning that there is not a key cached for this address.  Select “Yes” to complete the connection.
 
-![](../../../.gitbook/assets/image%20%28118%29.png)
+![](../../../.gitbook/assets/image%20%28125%29.png)
 
 Now you can manage your remote and local files easily.
 
-![](../../../.gitbook/assets/image%20%28148%29.png)
+![](../../../.gitbook/assets/image%20%28158%29.png)
 
 #### sftp
 
