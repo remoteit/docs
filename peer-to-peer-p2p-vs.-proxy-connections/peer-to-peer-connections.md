@@ -11,7 +11,7 @@ Peer to peer \(P2P\) connections can be made using the connectd daemon on any pl
 
 ## Creating a peer to peer connection
 
-Learn how to create a peer to peer connection by using the connectd daemon in P2P initiator mode.  You can find instructions for Mac OS/X, Linux, and Windows PowerShell here:
+Learn how to create a peer to peer connection by using the connected daemon in P2P initiator mode.  You can find instructions for Mac OS/X, Linux, and Windows PowerShell here:
 
 {% page-ref page="../guides/using-connectd-in-p2p-initiator-mode/" %}
 
