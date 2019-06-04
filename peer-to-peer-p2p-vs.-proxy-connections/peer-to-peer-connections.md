@@ -1,6 +1,6 @@
 # Peer to Peer Connections
 
-Peer to peer \(P2P\) connections can be made using the connectd daemon on any platform, or using the remote.it Connect for Windows application. 
+Peer to peer \(P2P\) connections can be made using the connected daemon on any platform, or using the remote.it Connect for Windows application. 
 
 ## Why should you use a P2P connection with remote.it?
 
