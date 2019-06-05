@@ -26,8 +26,8 @@ Your session token, created by logging in using the API.
 The service address \(e.g. service ID\) for the device you'd like to connect to
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="wait" type="boolean" required=false %}
-Whether to wait for the connection or not. Should most likely be "true"
+{% api-method-parameter name="wait" type="boolean" required=true %}
+Whether to wait for the connection or not. Should be set to "true"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="hostip" type="string" required=false %}
