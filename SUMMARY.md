@@ -109,3 +109,6 @@
   * [Create a local remote.it TCP service](platforms/windows-quick-start/create-a-local-remote.it-tcp-service.md)
   * [Editing a Local Service](platforms/windows-quick-start/editing-a-local-service.md)
 
+## connectd Reference
+
+* [Using connectd](connectd-reference/connectd.md)
