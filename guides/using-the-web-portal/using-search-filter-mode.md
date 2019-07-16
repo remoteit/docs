@@ -12,11 +12,11 @@ Filter mode finds the entered string anywhere in the Device Name and is not case
 
 This shows the filter term "timer" matching "Timer-device":
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 This shows the filter term "device" matching a number of Device Names:
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 As you are typing in a Filter term, it does not become active until the third character you enter.
 
@@ -26,7 +26,7 @@ Search mode doesn't display any Devices until you enter the term which you wish 
 
 First, you must go to Settings-&gt;Preferences in the navigation menu, and select the "Device Search" checkbox as shown:
 
-![](../../.gitbook/assets/image%20%28148%29.png)
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 When you return to "View Devices", note that no Devices are shown and the label of the text entry box has changed to "Search".
 
@@ -42,11 +42,11 @@ Search mode works a little differently than Filter mode.
 
 Search for "timer":
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 Now let's search for "device":
 
-![](../../.gitbook/assets/image%20%28136%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 We know that some Device Names have the word "Device" in them.  However this just shows that no Device Names begin with "device".  Since we want to match "device" anywhere in the name we add an asterisk to the beginning of the search term:
 

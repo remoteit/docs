@@ -10,15 +10,15 @@ Make sure that you've enabled Device Scripting in your account preferences:
 
  
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 Make sure the checkbox for "Show Advanced 'Manage Devices' Menu" is checked.
 
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 
 Select "Manage Devices -&gt; Upload"
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28150%29.png)
 
 In the "Storage Upload" dialog, use "Choose File" to locate the script file you've downloaded or written.
 

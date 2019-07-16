@@ -9,6 +9,7 @@
 
 ## Guides
 
+* [Using the Desktop App \(Beta, macOS only\)](guides/using-the-desktop-app.md)
 * [Using the interactive installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](guides/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
