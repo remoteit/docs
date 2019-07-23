@@ -30,7 +30,7 @@ The service address \(e.g. service ID\) for the device you'd like to connect to
 Whether to wait for the connection or not. Should be set to "true"
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="hostip" type="string" required=false %}
+{% api-method-parameter name="hostip" type="string" required=true %}
 The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided. Pass "0.0.0.0" if you want any IP address to connect \(warning: this is potentially insecure if your resource is not itself secured properly!\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
