@@ -143,9 +143,8 @@ connectd -c \
       <td style="text-align:left">
         <ul>
           <li>0 = no encryption</li>
-          <li>1=RC4</li>
-          <li>2=XXTEA</li>
-          <li>3=AES</li>
+          <li>1 = RC4</li>
+          <li>2 = XXTEA</li>
         </ul>
       </td>
     </tr>
