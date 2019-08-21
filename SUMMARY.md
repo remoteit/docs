@@ -52,6 +52,7 @@
     * [Using RealVNC on a Raspberry Pi](guides/applications/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md)
     * [Using TightVNC on any Debian OS](guides/applications/remote-graphical-desktop-access/using-tightvnc-on-debian.md)
     * [Using RDP Remote Desktop Connection](guides/applications/remote-graphical-desktop-access/using-remote-desktop-connection.md)
+  * [Samba Windows file sharing for Linux](guides/applications/samba-windows-file-sharing-for-linux.md)
 * [Service types](guides/service-types.md)
 * [Device Scripting](guides/device-scripting-running-scripts-on-your-devices/README.md)
   * [Uploading a Device Script to your account](guides/device-scripting-running-scripts-on-your-devices/uploading-a-device-script-to-your-account.md)

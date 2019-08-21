@@ -22,3 +22,7 @@ RDP \(Remote Desktop Protocol\) is similar to VNC although it is typically used 
 
 {% page-ref page="remote-graphical-desktop-access/using-remote-desktop-connection.md" %}
 
+Samba lets you access Windows drives on a LAN from a Linux PC
+
+{% page-ref page="samba-windows-file-sharing-for-linux.md" %}
+
