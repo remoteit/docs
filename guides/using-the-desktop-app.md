@@ -2,7 +2,7 @@
 description: Using the Desktop App to initialize and manage P2P connections to your devices
 ---
 
-# Using the Desktop App \(Beta, macOS only\)
+# Using the Desktop App \(Beta\)
 
 ## **New Desktop App for macOS**
 
