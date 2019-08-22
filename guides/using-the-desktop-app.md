@@ -4,11 +4,11 @@ description: Using the Desktop App to initialize and manage P2P connections to y
 
 # Using the Desktop App \(Beta\)
 
-## **New Desktop App for macOS**
+## **New Desktop App for macOS/Windows**
 
 This is documentation for the new, _in-beta_ remote.it desktop app. For a video tutorial, check out:
 
-{% embed url="https://www.youtube.com/watch?v=lIukqROaKHY" %}
+{% embed url="https://www.youtube.com/watch?v=lIukqROaKHY" caption="" %}
 
 ### **Why Use the Desktop Application?**
 
@@ -24,9 +24,19 @@ The desktop app gives you:
 
 Download the installer for macOS here: [Link](https://github.com/remoteit/desktop/releases/download/v1.7.0/remote.it-1.7.0.dmg).
 
-Unzip the file, then open the "remote.it" application. 
+Download the installer for Windows here: [Link](https://github.com/remoteit/desktop/releases/download/v1.9.4/remote.it-1.9.4.exe).
 
-## **How to Use the Desktop App** 
+Unzip the file, then install and open the "remote.it" application.
+
+## **How to Use the Desktop App**
+
+### **Launch App**
+
+You can find and click the remote.it icon on the task bar.
+
+![macOS](../.gitbook/assets/sukurnshotto-2019-08-22-185009.png)
+
+![Windows](../.gitbook/assets/sukurnshotto-2019-08-22-185443.png)
 
 ### **Logging In**
 
@@ -96,7 +106,7 @@ This is a tab containing a list of all your active connections, sorted by servic
 **Note:** quitting remote.it will terminate all active connections!
 {% endhint %}
 
-With this tab, you can sign out of remote.it \(which takes you to the login page\), send an email to support@remote.it, or quit the remote.it application. 
+With this tab, you can sign out of remote.it \(which takes you to the login page\), send an email to support@remote.it, or quit the remote.it application.
 
 You can also check the "Show search only interface" box, which is especially useful if you have lots of devices. This prevents all devices from being loaded in the devices tab. You will need to search for a device/service in the devices tab, but you won't have to search in the connections tab.
 
@@ -106,7 +116,5 @@ The desktop app's configuration and data is stored in the folder _~/.remoteit_. 
 
 The first time you open the desktop app, it will install _connectd_ \(the remote.it daemon\) and some other remote.it services \(_muxer_ and _demuxer_\) to _/usr/local/bin_. You can use _connectd_ to make P2P connections via the command line; here is a video on the topic:
 
-{% embed url="https://www.youtube.com/watch?v=unoaW3UfLSg" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=unoaW3UfLSg" caption="" %}
 
