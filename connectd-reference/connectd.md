@@ -36,17 +36,57 @@ connectd -c \
 
 #### Options
 
-| Option | Description |
-| :--- | :--- |
-| `BASE_64_USER` | Your Base64 encoded username \(probably your email\) |
-| `BASE_64_PASSWORD` | Your Base64 encoded remote.it password |
-| `DEVICE_UID` | The ID \(also called address\) of the device you want to connect to |
-| `BIND_PORT` | The port you want to bind the connection to on your local machine \(eg 3000\) |
-| `ENCRYPTION_MODE` | The level of encryption to use. Choices are: `1` or `2` |
-| `LOCALHOST_ADDRESS` | The address to bind to on your local network. This is normally either 127.0.0.1. |
-| `MAX_OUTSTANDING` |  |
-
-#### Example:
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Option</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>BASE_64_USER</code>
+      </td>
+      <td style="text-align:left">Your Base64 encoded username (probably your email)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>BASE_64_PASSWORD</code>
+      </td>
+      <td style="text-align:left">Your Base64 encoded remote.it password</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>DEVICE_UID</code>
+      </td>
+      <td style="text-align:left">The ID (also called address) of the device you want to connect to</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>BIND_PORT</code>
+      </td>
+      <td style="text-align:left">The port you want to bind the connection to on your local machine (eg
+        3000)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>ENCRYPTION_MODE</code>
+      </td>
+      <td style="text-align:left">
+        <p>The level of encryption to use. Choices are: <code>1</code> or <code>2</code>
+        </p>
+        <p>NOTE: Specify <code>2</code> unless you have a any reason.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>LOCALHOST_ADDRESS</code>
+      </td>
+      <td style="text-align:left">The address to bind to on your local network. This is normally either
+        127.0.0.1.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>MAX_OUTSTANDING</code>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Example:
 
 ```bash
 connectd -s -c \
