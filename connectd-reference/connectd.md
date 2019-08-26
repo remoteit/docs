@@ -71,7 +71,7 @@ connectd -c \
       <td style="text-align:left">
         <p>The level of encryption to use. Choices are: <code>1</code> or <code>2</code>
         </p>
-        <p>NOTE: Specify <code>2</code> unless you have a any reason.</p>
+        <p>NOTE: Take <code>2</code> unless you have any reason.</p>
       </td>
     </tr>
     <tr>

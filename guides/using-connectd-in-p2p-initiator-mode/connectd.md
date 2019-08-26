@@ -146,6 +146,7 @@ connectd -c \
           <li>1 = RC4</li>
           <li>2 = XXTEA</li>
         </ul>
+        <p>NOTE: Take <code>2</code> unless you have any reason.</p>
       </td>
     </tr>
     <tr>
