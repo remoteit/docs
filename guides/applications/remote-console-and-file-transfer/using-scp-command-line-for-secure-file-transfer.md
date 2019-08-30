@@ -18,7 +18,7 @@ $ scp -P <port> <path to local file> <target user name>@<hostname>:<full path to
 
 ### Using a Peer-to-Peer \(P2P\) Connection
 
-If you are using one of the methods to set up a peer to peer connection, the hostname will be localhost \(127.0.0.1\) and the port will be as shown by the P2P connection method you are using.
+If you are using one of the methods to set up a [peer to peer connection](../../../peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md), the hostname will be localhost \(127.0.0.1\) and the port will be as shown by the P2P connection method you are using.
 
 For example, using the Desktop app for Windows:
 
