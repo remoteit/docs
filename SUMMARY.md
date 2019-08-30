@@ -47,6 +47,7 @@
 * [Applications](guides/applications/README.md)
   * [Remote console and file transfer](guides/applications/remote-console-and-file-transfer/README.md)
     * [Connecting to an SSH service](guides/applications/remote-console-and-file-transfer/connecting-to-ssh.md)
+    * [Using SCP command line for secure file transfer](guides/applications/remote-console-and-file-transfer/using-scp-command-line-for-secure-file-transfer.md)
     * [Using Third Party SSH/SCP Applications](guides/applications/remote-console-and-file-transfer/using-third-party-ssh-scp-applications.md)
   * [Remote Graphical Desktop Access](guides/applications/remote-graphical-desktop-access/README.md)
     * [Using RealVNC on a Raspberry Pi](guides/applications/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md)

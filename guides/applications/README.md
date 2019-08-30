@@ -4,11 +4,11 @@ description: Using the most common TCP services with remote.it
 
 # Applications
 
-By far the most common application to use with remote.it is SSH, or network console.  SSH gives you direct access to your device's command line.
-
-SSH also enables SCP file transfer.
+By far the most common application to use with remote.it is SSH, or network console.  SSH gives you direct access to your device's command line.  SSH also enables SCP file transfer.
 
 {% page-ref page="remote-console-and-file-transfer/connecting-to-ssh.md" %}
+
+{% page-ref page="remote-console-and-file-transfer/using-scp-command-line-for-secure-file-transfer.md" %}
 
 {% page-ref page="remote-console-and-file-transfer/using-third-party-ssh-scp-applications.md" %}
 
