@@ -22,7 +22,7 @@ The desktop app gives you:
 
 ## **Installation**
 
-Download the installer for macOS here: [Link](https://github.com/remoteit/desktop/releases/download/v1.7.0/remote.it-1.7.0.dmg).
+Download the installer for macOS here: [Link](https://github.com/remoteit/desktop/releases/download/v1.9.4/remote.it-1.9.4.dmg).
 
 Download the installer for Windows here: [Link](https://github.com/remoteit/desktop/releases/download/v1.9.4/remote.it-1.9.4.exe).
 
