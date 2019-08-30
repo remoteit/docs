@@ -146,7 +146,7 @@ connectd.exe -c \
           <li>1 = RC4</li>
           <li>2 = XXTEA</li>
         </ul>
-        <p>NOTE: Take <code>2</code> unless you have any reason.</p>
+        <p>NOTE: Please use mode 2. Modes 0 and 1 are not secure.</p>
       </td>
     </tr>
     <tr>
@@ -171,7 +171,7 @@ connectd.exe -c \
   c3VwM3JzZWtyZXQh \               # Base64 encoded password: sup3rsekret!
   80:00:00:00:00:00:00:F1 \        # Device UID on remote.it
   T33000 \                         # Port to bind to, prefixed with "T"
-  1 \                              # Encryption mode (1 = RC4)
+  2 \                              # Encryption mode (2 = XXTEA)
   127.0.0.1 \                      # Localhost address
   12                               # Maximum number of outstanding packets
 ```
@@ -186,7 +186,7 @@ connectd.exe -c \
 The above command all on one line is:
 
 ```text
-.\connectd.exe -s -c eW91cm5hbWVAZXhhbXBsZS5jb20= c3VwM3JzZWtyZXQh 80:00:00:00:00:00:00:F1 T33000 1 127.0.0.1 12
+.\connectd.exe -s -c eW91cm5hbWVAZXhhbXBsZS5jb20= c3VwM3JzZWtyZXQh 80:00:00:00:00:00:00:F1 T33000 2 127.0.0.1 12
 ```
 
 Once the connection is established, \(ten seconds or less\) you should see the following:
@@ -201,9 +201,9 @@ Now you can use your established and running P2P connection using 127.0.0.1 on p
 
 #### Option 2: connectd P2P initiator example using a simple script
 
-Script p2p.ps1 automates some of the tasks needed to make a repeatable P2P connection to a single Service.  Download the p2p.ps1 script to the same folder where you downloaded connectd.exe on your system.   
+Script p2p.ps1 automates some of the tasks needed to make a repeatable P2P connection to a single Service.  Download the p2p.zip file, then extract the p2p.ps1 script to the same folder where you downloaded connectd.exe on your system.   
 
-{% file src="../../.gitbook/assets/p2p.ps1" %}
+{% file src="../../.gitbook/assets/p2p.zip" %}
 
 Edit the following values in the p2p.ps1 script as needed, then save the file with your changes: 
 

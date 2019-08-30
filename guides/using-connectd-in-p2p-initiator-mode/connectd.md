@@ -146,7 +146,7 @@ connectd -c \
           <li>1 = RC4</li>
           <li>2 = XXTEA</li>
         </ul>
-        <p>NOTE: Take <code>2</code> unless you have any reason.</p>
+        <p>NOTE: Please use mode 2. Modes 0 and 1 are not secure.</p>
       </td>
     </tr>
     <tr>
@@ -170,7 +170,7 @@ connectd -s -c \
   c3VwM3JzZWtyZXQh \               # Base64 encoded password
   80:00:00:00:00:00:00:F1 \        # Device UID on remote.it
   T33000 \                          # Port to bind to, prefixed with "T"
-  1 \                              # Encryption mode = RC4
+  2 \                              # Encryption mode = XXTEA
   127.0.0.1 \                      # Localhost address
 ```
 
@@ -186,7 +186,7 @@ Parameters are the same as used in the previous example.
 The above command all on one line is:
 
 ```text
-connectd -s -c eW91cm5hbWVAZXhhbXBsZS5jb20= c3VwM3JzZWtyZXQh 80:00:00:00:00:00:00:F1 T33000 1 127.0.0.1
+connectd -s -c eW91cm5hbWVAZXhhbXBsZS5jb20= c3VwM3JzZWtyZXQh 80:00:00:00:00:00:00:F1 T33000 2 127.0.0.1
 ```
 
 Once the connection is established, \(approximately ten seconds\) you will see:
@@ -205,7 +205,7 @@ You can hit CTRL-C at any time to terminate the P2P connection.
 
 p2p.sh automates some of the tasks needed to make a repeatable P2P connection to a single service.  Download the p2p.sh script to a convenient location on your system.   
 
-{% file src="../../.gitbook/assets/p2p \(1\).sh" caption="p2p.sh" %}
+{% file src="../../.gitbook/assets/p2p \(1\).sh" %}
 
 Edit the following values in p2p.sh as needed, then save the file.  
 

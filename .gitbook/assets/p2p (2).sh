@@ -31,7 +31,7 @@ b64username="$(echo "$username" | tr -d '\n' | base64)"
 
 b64password="$(echo "$password" | tr -d '\n' | base64)"
 
-connectd -c $b64username $b64password "$uid" T"$port" 2 "$address" 12 &
+connectd -c $b64username $b64password "$uid" T"$port" 1 "$address" 12 &
 
 # get the process ID if the command is still running
 pid=$(ps ax | grep $b64username | grep $uid | awk '{ print $1 }')

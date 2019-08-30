@@ -71,7 +71,7 @@ connectd -c \
       <td style="text-align:left">
         <p>The level of encryption to use. Choices are: <code>1</code> or <code>2</code>
         </p>
-        <p>NOTE: Take <code>2</code> unless you have any reason.</p>
+        <p>NOTE: Please use mode 2. Modes 0 and 1 are not secure.</p>
       </td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@ connectd -s -c \
   c3VwM3JzZWtyZXQh \               # Base64 encoded password
   80:00:00:00:00:00:00:F1 \        # Device ID on remote.it
   T3000 \                          # Port to bind to, prefixed with "T"
-  1 \                              # Encryption mode (1 or 2)
+  2 \                              # Encryption mode = XXTEA
   127.0.0.1 \                      # Localhost address
   12                               # Max outstanding
 ```
@@ -128,7 +128,7 @@ connectd -p
     16509BA77F1AF0FBAA7BBB3B2B992ED90308CAB9 \  # service_authhash
     80:00:00:00:00:00:00:F1 \
     T3000 \
-    1 \
+    2 \
     127.0.0.1 \
     0.0.0.0 \        # 0.0.0.0 allows all or enter and IP to restrict to
     10
