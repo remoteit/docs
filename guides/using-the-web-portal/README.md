@@ -22,11 +22,11 @@ In general, you can click/hover on question mark icons throughout the portal to 
 
 #### Devices
 
-This page gives you a list of your devices and their properties/services. Furthermore, it allows you to make connections to devices and manipulate them. For most users, this is their main page. [Tutorial](the-view-devices-page/)
+This page gives you a list of your devices and their properties/services. Furthermore, it allows you to make connections to devices and manipulate them. For most users, this is their main page. [Tutorial]()
 
 #### Contacts
 
-This page gives you a list of contacts with other remote.it accounts to share devices with. [Tutorial](the-contacts-page.md)
+This page gives you a list of contacts with other remote.it accounts to share devices with. [Tutorial]()
 
 #### Scripting
 
