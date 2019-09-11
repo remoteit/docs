@@ -1,5 +1,7 @@
 ---
-description: Using the Desktop App to initialize and manage P2P connections to your devices
+description: >-
+  Using the Desktop App to initialize and manage P2P connections to your
+  devices.
 ---
 
 # Using the Desktop App \(Beta\)
@@ -19,14 +21,6 @@ The desktop app gives you:
 * Faster, peer-to-peer connections;
 * A more permanent link to your target device that can be "bookmarked";
 * A more lightweight interface than the portal.
-
-## **Installation**
-
-Download the installer for macOS here: [Link](https://github.com/remoteit/desktop/releases/download/v1.9.4/remote.it-1.9.4.dmg).
-
-Download the installer for Windows here: [Link](https://github.com/remoteit/desktop/releases/download/v1.9.4/remote.it-1.9.4.exe).
-
-Unzip the file, then install and open the "remote.it" application.
 
 ## **How to Use the Desktop App**
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
-* [Getting started](getting-started/README.md)
+* [Getting Started](getting-started/README.md)
   * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
 * [Peer to Peer vs Cloud Connections](peer-to-peer-p2p-vs.-proxy-connections/README.md)
   * [Peer to Peer Connections](peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md)
@@ -10,7 +10,7 @@
 ## Guides
 
 * [Using the Desktop App \(Beta\)](guides/using-the-desktop-app.md)
-* [Using the interactive installer](guides/using-the-interactive-installer/README.md)
+* [Using the Interactive Installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](guides/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
   * [Log in](guides/using-the-interactive-installer/log-in.md)
@@ -33,11 +33,13 @@
   * [Create a Bulk Registration](guides/bulk-registration/create-a-bulk-registration.md)
   * [Verify Bulk Registration](guides/bulk-registration/verifying-that-bulk-registration-works.md)
   * [Bulk Registration OEM reference](guides/bulk-registration/bulk-registration-oem-reference.md)
-* [Using the web portal](guides/using-the-web-portal/README.md)
-  * [The "View Devices" page](guides/using-the-web-portal/the-view-devices-page.md)
-  * [Using the remote.it Actions Menu](guides/using-the-web-portal/using-the-remote.it-actions-menu.md)
-  * [Using Search and Filter modes](guides/using-the-web-portal/using-search-filter-mode.md)
-  * [The Advanced Manage Devices option](guides/using-the-web-portal/the-advanced-manage-devices-option.md)
+* [Using the Web Portal](guides/using-the-web-portal/README.md)
+  * [The Devices Page](guides/using-the-web-portal/the-view-devices-page/README.md)
+    * [Running Actions on Devices](guides/using-the-web-portal/the-view-devices-page/using-the-remote.it-actions-menu.md)
+    * [Searching and Filtering Devices](guides/using-the-web-portal/the-view-devices-page/using-search-filter-mode.md)
+  * [The Contacts Page](guides/using-the-web-portal/the-contacts-page.md)
+  * [Changing your remote.it Plan](guides/using-the-web-portal/changing-your-remote.it-plan.md)
+  * [Changing your Password](guides/using-the-web-portal/changing-your-password.md)
 * [Connecting to a device](guides/connecting-to-a-device/README.md)
   * [Proxy connections](guides/connecting-to-a-device/proxy-connections/README.md)
     * [Connecting to a web server](guides/connecting-to-a-device/proxy-connections/using-with-a-web-server.md)
