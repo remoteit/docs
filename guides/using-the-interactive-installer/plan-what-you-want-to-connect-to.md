@@ -24,17 +24,17 @@ The Raspberry Pi uses the "raspi-config" program to enable or disable SSH and VN
 
 _sudo raspi-config_
 
-![Choose option 5, &quot;Interfacing Options&quot;](../../.gitbook/assets/image%20%2866%29.png)
+![Choose option 5, &quot;Interfacing Options&quot;](../../.gitbook/assets/image%20%2869%29.png)
 
 Next you can enable or disable SSH or VNC.  We recommend that you not disable SSH, and you can use VNC if you want to have access to the graphical desktop.  By default Raspbian Stretch installs RealVNC server on port 5900.
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 On all Linux systems, you can use the following command to show active tcp servers which you can connect to.
 
 _sudo netstat -lpn \| grep tcp_
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 Lines beginning with "tcp" represent ipV4 services, while those marked tcp6 are compatible with ipV6.  
 

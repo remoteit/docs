@@ -8,15 +8,15 @@ description: >-
 
 Create an account at remote.it, then log in.  From the left hand menu, select “Settings - Preferences”:
 
-![](../../.gitbook/assets/image%20%28174%29.png)
+![](../../.gitbook/assets/image%20%28191%29.png)
 
 Make sure both checkboxes are checked as shown:
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
 From the left-hand menu, select “Products”:
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 Select “Create Product”:
 
@@ -24,38 +24,38 @@ Select “Create Product”:
 
 Enter info into the “Create Product” dialog, then select “Submit”:
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
 On the entry which appears with the name “Raspberry Pi Product”, click on the “gear” icon:
 
-![](../../.gitbook/assets/image%20%28124%29.png)
+![](../../.gitbook/assets/image%20%28135%29.png)
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](../../.gitbook/assets/image%20%28131%29.png)
 
 On the product settings dialog, use the “Add” button to define the Services you wish to use on your product.  
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28140%29.png)
 
 Choose the Service type from the list:
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../.gitbook/assets/image%20%28170%29.png)
 
 Give the Service a name and define the TCP Port to use.  For most cases, you will want to choose “Check to enable Service to start by default”, but you can turn this off as well.
 
-![](../../.gitbook/assets/image%20%28166%29.png)
+![](../../.gitbook/assets/image%20%28183%29.png)
 
 When you are done, select the “Check to lock product and create provisioning files” checkbox as shown and click on “Submit”:
 
-![](../../.gitbook/assets/image%20%28122%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 Note that the icons under the “Actions” column have changed:
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+![](../../.gitbook/assets/image%20%28182%29.png)
 
 Click on the “i” icon.  On the “Product Information and Usage” dialog, locate the Bulk Identification Code.  
 ****
 
-![](../../.gitbook/assets/image%20%28105%29.png)
+![](../../.gitbook/assets/image%20%28115%29.png)
 
 Note: your Bulk Identification Code will be different from this one.  
 

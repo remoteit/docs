@@ -2,5 +2,5 @@
 
 Select option 1 from the Sign In Menu., then enter your account username and password.
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 

@@ -67,11 +67,14 @@
   * [Editing script files in Windows](guides/device-scripting-running-scripts-on-your-devices/editing-script-files-in-windows.md)
   * [Reboot your device](guides/device-scripting-running-scripts-on-your-devices/reboot-your-device.md)
 * [Configuring a webcam with Nx Witness](guides/configuring-a-webcam-with-nx-witness.md)
+* [Managing Contacts](guides/managing-contacts/README.md)
+  * [Create a Contact](guides/managing-contacts/create-a-contact.md)
+  * [Select a Contact](guides/managing-contacts/select-a-contact.md)
 * [Sharing Devices](guides/sharing-devices/README.md)
-  * [Create a contact](guides/sharing-devices/create-a-contact.md)
-  * [Sharing a device with a contact](guides/sharing-devices/sharing-a-device-with-a-contact.md)
+  * [Sharing a remote.it Device with a contact](guides/sharing-devices/sharing-a-device-with-a-contact.md)
   * [Stop sharing a Device which was shared to you](guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md)
   * [Stop sharing one or more Devices with other user\(s\)](guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md)
+* [Transferring remote.it Devices to another account](guides/transferring-remote.it-devices-to-another-account.md)
 
 ## API Reference
 

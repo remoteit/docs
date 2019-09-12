@@ -8,7 +8,7 @@ If your Job stays in the "running" state longer than you expect, you can check o
 
 Now you will see a dialog showing the detailed status of the script on each Device.
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 The Status is "done" on all Devices in this example except for the "Liverock-Bulk-03" Device.  In this example demonstrating a script failure, the "Liverock-Bulk-03" Device uses a different OS than all the others and it is missing a utility that the script depends on.
 
@@ -16,7 +16,7 @@ To cancel this Job, close the "Job Details" dialog, then click on the blue squar
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/image%20%28126%29.png)
 
 Confirm that you wish to cancel, then click on "Submit".
 
