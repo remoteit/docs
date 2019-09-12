@@ -4,27 +4,27 @@ You upload and manage Device Scripts in your account for use at any time.
 
 Start by using the sample script in the first example, which you can find using the link below.
 
-{% page-ref page="return-status-from-devices.md" %}
+{% file src="../../.gitbook/assets/show-device-info.sh" caption="show-device-info.sh" %}
 
-Make sure that you've enabled Device Scripting in your account preferences:
+Select "Scripting" from the menu:
 
- 
+![](../../.gitbook/assets/image%20%2861%29.png)
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+Next, click on "Upload".
 
-Make sure the checkbox for "Show Advanced 'Manage Devices' Menu" is checked.
-
-![](../../.gitbook/assets/image%20%28107%29.png)
-
-Select "Manage Devices -&gt; Upload"
-
-![](../../.gitbook/assets/image%20%28158%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 In the "Storage Upload" dialog, use "Choose File" to locate the script file you've downloaded or written.
 
 Make sure that "Executable script or program" is selected, then click on "Upload".
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
+
+When the upload completes, you'll see this notification:
+
+![](../../.gitbook/assets/image%20%287%29.png)
+
+Note that existing scripts will be overwritten without any warning.
 
 The "Storage Upload" dialog will stay open until you click on "Cancel" to make it easier to upload multiple scripts.
 

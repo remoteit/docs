@@ -12,7 +12,7 @@ The following Actions are available in remote.it and described below:
 6. Transfer Device
 7. Clear Status
 
- [![](../../.gitbook/assets/image%20%28177%29.png)](http://forum.weaved.com/uploads/default/original/1X/82ee503b2b2bd01495468b0248aecc3eb5853b3d.png) 
+ [![](../../.gitbook/assets/image%20%28180%29.png)](http://forum.weaved.com/uploads/default/original/1X/82ee503b2b2bd01495468b0248aecc3eb5853b3d.png) 
 
 ### **Share**
 
