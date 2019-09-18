@@ -20,7 +20,7 @@ The support section includes more debugging information and a widget to help you
 
 To search the support pages or submit a ticket, click on the blue oval on the bottom of the page:
 
-![](https://remot3it.zendesk.com/hc/article_attachments/360020959492/mceclip0.png)
+![](.gitbook/assets/image%20%2881%29.png)
 
 Once you login to the remote.it web portal, the support widget is also located at the bottom right of the portal.
 

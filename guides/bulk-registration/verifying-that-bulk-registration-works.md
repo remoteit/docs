@@ -8,7 +8,7 @@ description: >-
 
 If you have correctly followed all of the steps in this section, you should be able to reboot your Platform, and after it boots up, the corresponding Device should appear online in the remote.it "View Devices" page.
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 
 ### Debugging Bulk Registration
 

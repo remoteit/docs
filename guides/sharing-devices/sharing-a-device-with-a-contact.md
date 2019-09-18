@@ -6,11 +6,11 @@
 
 Return to the "View Devices" page and select the checkbox\(es\) on the left side of the row\(s\) showing the remote.it Device\(s\) you wish to share \("1" below\).  Note that prior to sharing, the Share icon is plain \("2" below\).
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 Now, from the Actions menu, select "Share":
 
-![](../../.gitbook/assets/image%20%28206%29.png)
+![](../../.gitbook/assets/image%20%28207%29.png)
 
 This opens the Bulk Sharing dialog, where you can use the Contact Picker to [choose contact\(s\)](../managing-contacts/select-a-contact.md) to share your device\(s\) to.
 
@@ -24,7 +24,7 @@ The Contact\(s\) you selected will get a notification e-mail which they will nee
 
 Once the Sharing operation is completed, your Device will now show up in their "View Devices" page with a slash through the "Share" icon:
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/image%20%28154%29.png)
 
 By hovering the mouse cursor over the share icon, a remote.it user can quickly see who has shared it to them.  The slash indicates that by clicking on the icon, theycan terminate sharing.
 
@@ -32,7 +32,7 @@ By hovering the mouse cursor over the share icon, a remote.it user can quickly s
 
 There will be a checkbox on the Share icon for a Device you have shared to someone else:
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 Now your contact will be able to connect to any remote.it Service on the shared Device as if it belonged to them.  
 

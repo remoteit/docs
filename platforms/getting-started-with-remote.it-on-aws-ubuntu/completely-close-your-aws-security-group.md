@@ -4,7 +4,7 @@ Now, you can change your AWS security group to completely close open access from
 
 Before:
 
-![](../../.gitbook/assets/image%20%28199%29.png)
+![](../../.gitbook/assets/image%20%28200%29.png)
 
 After:
 

@@ -17,11 +17,11 @@ remote.it offers a variety of ways to connect to your remote device using SSH.  
 
 Sign In to your remote.it account, locate your Device in the on the Manage Devices page, and click on the device name.  
 
-![](../../../.gitbook/assets/image%20%28200%29.png)
+![](../../../.gitbook/assets/image%20%28201%29.png)
 
 You will then see a window showing the services available on that device.  You will need to set your pop-up blocker, if any, to allow popups from the remote.it web site.
 
-![](../../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28139%29.png)
 
 Click on the remote.it SSH Service you wish to connect to, then click on "Confirm".  
 
