@@ -1,12 +1,12 @@
-# Connecting to a Device
+# Terminating a proxy connection to a device
 
-{% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect" %}
+{% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect/stop" %}
 {% api-method-summary %}
-Connect to a device
+Terminate a proxy connection to a device
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a connection to a device.
+Terminate a proxy connection to a device \(one created by /device/connect\)
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -23,15 +23,11 @@ Your session token, created by logging in using the API.
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="deviceaddress" type="string" required=true %}
-The service address \(e.g. service ID\) for the device you'd like to connect to
+The service address \(e.g. service ID\) for the device you connected to, but now you want to terminate the proxy for that connection.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="wait" type="boolean" required=true %}
-Whether to wait for the connection or not. Should be set to "true"
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="hostip" type="string" required=true %}
-The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided. Pass "0.0.0.0" if you want any IP address to connect \(warning: this is potentially insecure if your resource is not itself secured properly!\)
+{% api-method-parameter name="connectionid" type="string" required=true %}
+The connection ID returned from the /device/connect API call
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -39,42 +35,35 @@ The clients public IP address, which is used to enforce "IP restriction" upon ma
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Connection with device successfully created.
+Connection with device successfully stopped.
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
-    "connection": {
-        "deviceaddress": "80:00:00:00:00:00:00:91",
-        "expirationsec": "28797",
-        "proxy": "https://xppoobalo.p18.rt3.io"
-        "connectionid":"A78B3919-52E1-B674-58CC-5C0009377419"
-    },
-    "status": "true"
+    "status": "true",
+    "connectionid":"A481EBED-C678-4DA4-60D2-60F1FE8EB5DA"
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+One or more of:  
+a\) developerkey failed validation   
+b\) connectionid incorrect or missing  
+c\) deviceaddress incorrect or missing  
+{% endapi-method-response-example-description %}
+
+```
+{
+    "status": "false",
+    "reason":"<error message>"
 }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-{% hint style="info" %}
-For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following.  It does not need an explicit port value to be used.
-
-```text
-"proxy": "https://xprbjalo.p18.rt3.io"
-```
-
-For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown:
-
-```text
-"proxy": "http:\/\/proxy18.rt3.io:38575"
-```
-{% endhint %}
-
-{% hint style="info" %}
-The value returned for "connectionid" can be used with the [/device/connect/stop](device-connect-stop.md#terminate-a-proxy-connection-to-a-device) API endpoint to terminate the proxy connection to your target when you are done using it.
-{% endhint %}
 
 {% hint style="info" %}
 **Note**  
@@ -90,16 +79,15 @@ Some response values are omitted from the example above because they are only us
 
 TOKEN="your_login_token"
 DEV_KEY="your_developer_key"
-DEVICE_ADDRESS="your_service_id"
-HOSTIP="your_public_ip"
+DEVICE_ADDRESS="your_device_address"
+CONNECTION_ID="your_connection_id"
 
 curl -X POST \
      -H "token:$TOKEN" \
      -H "developerkey:$DEV_KEY" \
-     -d "{\"wait\":\"true\",\"deviceaddress\":\"$DEVICE_ADDRESS\", \
-          \"hostip\":\"$HOSTIP\" }" \
-     https://api.remot3.it/apv/v27/device/connect
-
+     -d "{\"connectionid\":\"$CONNECTION_ID\", \
+          \"deviceaddress\":\"$DEVICE_ADDRESS\" }" \
+     https://api.remot3.it/apv/v27/device/connect/stop
 ```
 {% endtab %}
 
@@ -110,16 +98,13 @@ const axios = require("axios");
 const developerkey = process.env.REMOTEIT_DEVELOPER_KEY;
 const token = process.env.REMOTEIT_TOKEN;
 const deviceaddress = process.env.REMOTEIT_DEVICE_ADDRESS;
-const hostip = process.env.MY_PUBLIC_IP;
-const wait = "true";
+const connectionid = process.env.REMOTEIT_CONNECTION_ID;
 
 axios
   .post(
-    "https://api.remot3.it/apv/v27/device/connect",
-    { 
-      deviceaddress,
-      wait,
-      hostip
+    "https://api.remot3.it/apv/v27/device/connect/stop",
+    { deviceaddress,
+      connectionid 
     },
     {
       headers: {
@@ -150,12 +135,11 @@ headers = {
     "token": os.environ["REMOTEIT_TOKEN"]
 }
 body = {
-    "deviceaddress": "80:00:00:3F:AE:00:00:11",
-    "wait":"true",
-    "hostip":os.environ["MY_PUBLIC_IP"]
+    "deviceaddress": "your_device_address",
+    "connectionid": "your_connection_id"
 }
 
-url = "https://api.remot3.it/apv/v27/device/connect"
+url = "https://api.remot3.it/apv/v27/device/connect/stop"
 
 response = requests.post(url, data=json.dumps(body), headers=headers)
 response_body = response.json()
@@ -180,7 +164,7 @@ namespace remote.it_api_example
         static void Main(string[] args)
         {
             string jsonString = "";
-            string url = "https://api.remot3.it/apv/v27/device/connect";
+            string url = "https://api.remot3.it/apv/v27/device/connect/stop";
 
             HttpClient client = new HttpClient();
             HttpRequestMessage requestData = new HttpRequestMessage();            
@@ -192,11 +176,8 @@ namespace remote.it_api_example
             requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));
 
             Dictionary<string, string> bodyData = new Dictionary<string, string>() {
-                {
-                    "deviceaddress", Environment.GetEnvironmentVariable("REMOTEIT_DEVICE_ADDRESS"),
-                    "wait", "true",
-                    "hostip", Environment.GetEnvironmentVariable["MY_PUBLIC_IP"] 
-                }
+                {"deviceaddress", Environment.GetEnvironmentVariable("REMOTEIT_DEVICE_ADDRESS") },
+                {"connectionid", Environment.GetEnvironmentVariable("REMOTEIT_CONNECTION_ID") }
             };
 
             string jsonFormattedBody = JsonConvert.SerializeObject(bodyData);
@@ -236,15 +217,14 @@ namespace remote.it_api_example
 
 $ch = curl_init();
 curl_setopt_array($ch, array(
-    CURLOPT_URL => "https://api.remot3.it/apv/v27/device/connect",
+    CURLOPT_URL => "https://api.remot3.it/apv/v27/device/connect/stop",
     CURLOPT_HTTPHEADER => array(
         "developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
         "token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
     ),
     CURLOPT_POSTFIELDS => json_encode(array(
         "deviceaddress" => $_ENV["REMOTEIT_DEVICE_ADDRESS"],
-        "wait" => true,
-        "hostip" => $_ENV["MY_PUBLIC_IP"]
+        "connectionid" => $_ENV["REMOTEIT_CONNECTION_ID"]
     )),
     CURLOPT_RETURNTRANSFER => true
 ));

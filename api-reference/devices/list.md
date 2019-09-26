@@ -38,15 +38,15 @@ Connection with device successfully created.
     "devices": [
         {
             "createdate": "2018-03-29T04:19:02.19-04:00",
-            "deviceaddress": "80:00:00:00:01:00:01:25",
-            "devicealias": "Demo_CoralEdge_01_Web_Port_80",
+            "deviceaddress": "80:00:00:80:01:00:01:25",
+            "devicealias": "Demo_Router_Web_Port_80",
             "devicelastip": "126.237.116.49",
             "devicestate": "active",
             "devicetype": "00:1E:00:00:00:01:00:00:04:60:00:50:00:01:00:00",
             "georegion": "Asia"
             "lastcontacted": "2018-12-29T14:56:50-05:00"
             "lastinternalip": "10.61.12.80"
-            "ownerusername": "masaki@remot3.it"
+            "ownerusername": "joeh@remot3.it"
             "servicetitle": "Basic Web"
             "shared": "shared-from"
         }
@@ -69,8 +69,13 @@ Some response values are omitted from the example above because they are only us
 {% tabs %}
 {% tab title="cURL" %}
 ```bash
-curl -H "token:$REMOTEIT_TOKEN" \
-     -H "developerkey:$REMOTEIT_DEVELOPER_KEY" \
+#!/bin/sh
+
+TOKEN="login_token"
+DEVKEY="your_developer_key"
+
+curl -H "token:$TOKEN" \
+     -H "developerkey:$DEVKEY" \
      https://api.remot3.it/apv/v27/device/list/all
 ```
 {% endtab %}

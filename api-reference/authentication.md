@@ -19,7 +19,7 @@ Your developer key which can be found by logging into remote.it and going to you
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="username" type="string" required=true %}
-Email \(or for legacy users, your username\) for remote.it
+E-mail for remote.it \(or for legacy users, your username\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="password" type="string" required=true %}
@@ -47,17 +47,23 @@ User successfully logged in. The below "token" is used in any authenticated API 
 {% endapi-method-spec %}
 {% endapi-method %}
 
-You can get your [developer key here](https://app.remote.it/account.html).
+You can get your [developer key here](https://app.remote.it/account.html#account).
 
 ## Usage Examples
 
 {% tabs %}
 {% tab title="cURL" %}
 ```bash
-curl -X POST \
-     -H "developerkey":"$REMOTEIT_DEVELOPER_KEY" \
-     -d '{"username":"'$REMOTEIT_USERNAME'","password":"'$REMOTEIT_PASSWORD'"}' \
-     https://api.remot3.it/apv/v27/user/login
+#!/bin/sh
+
+DEVEY="your_developer_key"
+USERNAME="your_user_name"
+PASSWORD="your_password"
+
+curl -X POST -H developerkey:"$DEVKEY" -H Content-Type:application/json \
+    -H Cache-Control:no-cache -d "{ \"username\":\"$USERNAME\", \
+    \"password\":\"$PASSWORD\" }" https://api.remot3.it/apv/v27/user/login
+
 ```
 {% endtab %}
 
