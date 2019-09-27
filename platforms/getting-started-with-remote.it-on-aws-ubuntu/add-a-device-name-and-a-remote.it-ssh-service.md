@@ -6,7 +6,7 @@ If you haven't used the interactive installer yet, now would be a good time to d
 
 When you use the interactive installer, after you supply the Device Name and add a remote.it SSH Service,  your Main Menu should look something like this.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 It's important that the ssh application shows "OK".   You're ready to connect!
 

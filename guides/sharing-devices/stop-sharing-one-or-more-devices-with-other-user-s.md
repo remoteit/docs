@@ -2,7 +2,7 @@
 
 If you have shared one or more devices to another user and you now want to remove sharing, select the device\(s\) and then choose "Unshare" from the "[Actions]()" menu.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 [Use the contact picker to choose the accounts](../managing-contacts/select-a-contact.md) from which you wish to remove sharing on the selected Devices, then click on "Remove Sharing".
 

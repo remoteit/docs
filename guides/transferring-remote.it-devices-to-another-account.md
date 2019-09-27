@@ -6,11 +6,11 @@ You'll need to [create a contact](managing-contacts/create-a-contact.md) with th
 
 Select the remote.it Devices you wish to transfer in Devices View by selecting the checkbox in the leftmost column
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 From the "ACTIONS" menu, select "Transfer Device".
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 The Contact Picker will display.  
 
@@ -20,7 +20,7 @@ The Contact Picker will display.
 
 3\) Click on the "Transfer" button.
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28187%29.png)
 
 The Transfer recipient will receive an e-mail at their remote.it account e-mail address.  This e-mail contains a transfer invitation link that they must click on to accept the transfer.  The transfer invitation link is valid for 72 hours.  After the Transfer recipient accepts the transfer invitation, the selected remote.it Devices will move from your account to the recipient's account.
 
