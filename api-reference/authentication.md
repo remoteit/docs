@@ -56,7 +56,7 @@ You can get your [developer key here](https://app.remote.it/account.html#account
 ```bash
 #!/bin/sh
 
-DEVEY="your_developer_key"
+DEVKEY="your_developer_key"
 USERNAME="your_user_name"
 PASSWORD="your_password"
 
