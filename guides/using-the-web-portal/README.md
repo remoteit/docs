@@ -3,7 +3,7 @@
 The web portal \(app.remote.it\) is an interface to make connections with remote.it. Currently, the web portal creates **proxy connections**, which route information through one of our proxy servers.
 
 {% hint style="warning" %}
-Prerequisites: You'll need a remote.it account, which you can create at app.remote.it.
+Prerequisites: You'll need a remote.it account, which you can create at https://app.remote.it.
 {% endhint %}
 
 ### The Left Menu

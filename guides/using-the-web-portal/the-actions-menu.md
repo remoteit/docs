@@ -1,18 +1,18 @@
 # The Actions Menu
 
-The following is a summary of available **Actions** in remote.it. In the View Devices view Devices must first be selected to apply any Actions. Use the checkbox in the leftmost column to select Device\(s\) first, then apply an Action to the selected Devices. **Actions** may be applied to one or more Devices. 
+The following is a summary of available **Actions** in remote.it. In the Devices view, Devices must first be selected to apply any Actions. Use the checkbox in the leftmost column to select Device\(s\) first, then apply an Action to the selected Devices. **Actions** may be applied to one or more Devices. 
 
 The following Actions are available in remote.it and described below:
 
 1. Share
-2. Stop Sharing
-3. Delete
-4. Execute Script
-5. Set Category
-6. Transfer Device
-7. Clear Status
+2. Unshare
+3. Execute Script
+4. Set Category
+5. Transfer Device
+6. Clear Status
+7. Delete
 
- [![](../../.gitbook/assets/image%20%28204%29.png)](http://forum.weaved.com/uploads/default/original/1X/82ee503b2b2bd01495468b0248aecc3eb5853b3d.png) 
+![](../../.gitbook/assets/image%20%28182%29.png)
 
 ### **Share**
 
@@ -22,7 +22,7 @@ Sharing allows any Device to be shared with one or more remote.it users. Enablin
 **PLEASE NOTE:** There is a delay from the time you Share a device\(s\) to another user until the device appears in their Manage Devices view. Please be patient and _**check your email for confirmation**_ that the request was received and is being executed. It might take _**as long as 5-10 minutes after receipt of email notification**_ until the Share status is updated and shown in the remote.it Manage Devices grid.
 {% endhint %}
 
- [![](http://forum.weaved.com/uploads/default/optimized/1X/576b2d82eb9944005f7670f19fab75e722499cfd_1_690x371.png)](http://forum.weaved.com/uploads/default/original/1X/576b2d82eb9944005f7670f19fab75e722499cfd.png) 
+Get more details about Sharing at the link below.
 
 {% page-ref page="../sharing-devices/" %}
 
