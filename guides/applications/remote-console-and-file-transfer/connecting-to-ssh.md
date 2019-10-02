@@ -17,17 +17,17 @@ remote.it offers a variety of ways to connect to your remote device using SSH.  
 
 Sign In to your remote.it account, locate your Device in the on the Manage Devices page, and click on the device name.  
 
-![](../../../.gitbook/assets/image%20%28224%29.png)
+![](../../../.gitbook/assets/image%20%28225%29.png)
 
 You will then see a window showing the services available on that device.  You will need to set your pop-up blocker, if any, to allow popups from the remote.it web site.
 
-![](../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../.gitbook/assets/image%20%28154%29.png)
 
 Click on the remote.it SSH Service you wish to connect to, then click on "Confirm".  
 
 Within a few moments, you will see a dialog with connection details.
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
 We have supplied some preformatted ssh command lines using the **pi** and **root** usernames for your convenience.
 
@@ -39,7 +39,7 @@ If you are using a different username, use the third option where we’ve insert
 
 Select the entire line and copy it to your terminal or command prompt \(don't hit ENTER yet\).  Now edit the word "LOGIN" \(you'll need to use the left arrow and then backspace over it\) and replace it with your username.  The example shows the username as “ubuntu”. 
 
-![](../../../.gitbook/assets/image%20%2890%29.png)
+![](../../../.gitbook/assets/image%20%2891%29.png)
 
 Now press “Enter”.  This initiates the login. You will probably see the following security message \(or something similar\), which is entirely normal.  
 
