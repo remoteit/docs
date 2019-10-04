@@ -12,7 +12,7 @@ This is documentation for the new, _in-beta_ remote.it desktop app.
 
 The macOS app installer \(dmg\) and Windows installer \(exe\) are available [at Github](https://github.com/remoteit/desktop/releases).  Scroll down until you see the "Assets" arrow.  Click on that arrow to show the downloadable files.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 For a video tutorial, check out:
 

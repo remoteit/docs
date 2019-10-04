@@ -12,11 +12,11 @@ Transferring requires you to select just one contact as the recipient of your re
 
 When you select either "Share" or "Transfer" from the "Actions" menu, you will see this dialog:
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 Click on the "Pick" button to display your contacts.
 
-![](../../.gitbook/assets/image%20%28163%29.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 Select the contacts you wish to share to.  When you're done, click on  "Choose Contacts".
 
@@ -26,5 +26,5 @@ Select the contacts you wish to share to.  When you're done, click on  "Choose C
 
 The chosen contact\(s\) will be displayed in the Share or Transfer dialog.
 
-![](../../.gitbook/assets/image%20%28121%29.png)
+![](../../.gitbook/assets/image%20%28131%29.png)
 

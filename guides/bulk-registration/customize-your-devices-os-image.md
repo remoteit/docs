@@ -130,7 +130,7 @@ Now, add the Bulk Identification Code from the Product Information and Usage dia
 
 **/etc/connectd/bulk\_identification\_code.txt**
 
-![](../../.gitbook/assets/image%20%28159%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 #### **Confirm your Bulk Registration settings**
 
@@ -142,7 +142,7 @@ To confirm that your expressions for hardware\_id and registration\_key are work
 ~ $ connectd_control show
 Hardware ID is f0038c1be545
 Registration key is 1c1b0dbe190e
-Bulk ID Code is 2513F28C-13AD-BEBE-7329-D70C2F5F34A6
+Bulk ID Code is 4EA745E2-CFBD-CDEF-865E-61939EDC5A1E
 ~ $
 ```
 

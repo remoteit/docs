@@ -6,23 +6,23 @@ description: Contacts are required for remote.it Device sharing and transfer.
 
 In order to share or transfer a Device, first you must set up a Contact in remote.it. Click on "Contacts" in the left-side menu, then "Create Contact":
 
-![](../../.gitbook/assets/image%20%28195%29.png)
+![](../../.gitbook/assets/image%20%28211%29.png)
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28249%29.png)
 
 Fill in the Contact's details in the dialog which appears.  The only required field is their email address. Everything else is optional.
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 Available languages include English and Japanese and control the language used for notification e-mails.
 
 Fill in the details and then click on "Create Contact".  
 
-![](../../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 Next you will see a new entry in the Contacts list:
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 Now, once your contact is a remote.it user, you can share and transfer remote.it Devices to them.
 
@@ -32,9 +32,9 @@ Notice that for this Contact, the Account column indicates "no".  This means tha
 
 To invite this user to create a remote.it account, click on the "Create Account" icon:
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 Click on the checkbox in the dialog which appears, then click on "Submit":
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28113%29.png)
 
