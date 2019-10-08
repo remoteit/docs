@@ -4,7 +4,7 @@ You can find the UID \(also known as the "address" or "deviceaddress"\) for each
 
 #### 1 - From the Services Dialog in the remote.it web portal.
 
-Click on the Device Name in the "View Devices" page.
+Click on the Device Name in the "Devices" page.
 
 ![](../../.gitbook/assets/image%20%28278%29.png)
 

@@ -67,7 +67,7 @@ When you’ve successfully added the remote.it Service for RealVNC, the Main Men
 
 ##  **Making a VNC connection using remot3.it**
 
-To connect, sign in to your remote.it account and locate the device in "View Devices".  Click on the highlighted Device Name to open the Device Services dialog:
+To connect, sign in to your remote.it account and locate the device in "Devices".  Click on the highlighted Device Name to open the Device Services dialog:
 
 ![](../../../.gitbook/assets/image%20%28212%29.png)
 

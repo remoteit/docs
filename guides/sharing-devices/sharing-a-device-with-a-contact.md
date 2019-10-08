@@ -4,7 +4,7 @@
 
 **Sharing a remote.it Device in your account with one of your Contacts**
 
-Return to the "View Devices" page and select the checkbox\(es\) on the left side of the row\(s\) showing the remote.it Device\(s\) you wish to share \("1" below\).  Note that prior to sharing, the Share icon is plain \("2" below\).
+Return to the "Devices" page and select the checkbox\(es\) on the left side of the row\(s\) showing the remote.it Device\(s\) you wish to share \("1" below\).  Note that prior to sharing, the Share icon is plain \("2" below\).
 
 ![](../../.gitbook/assets/image%20%28135%29.png)
 
