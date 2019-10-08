@@ -7,12 +7,12 @@ description: Easily display the results of up to 5 console commands
 This script returns the following info into status columns A through E:
 
 * Operating System name
-* Linux Version
+* Linux Version \(uname -a command\)
 * Uptime
 * Number of installed remote.it Services
 * Version of of the installed connectd package
 
-![](../../.gitbook/assets/image%20%28157%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
 Download the attached file to your system, then upload it to remote.it:
 
