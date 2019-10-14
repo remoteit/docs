@@ -1,4 +1,4 @@
-# Peer to Peer vs Cloud Connections
+# Peer to Peer vs Proxy Connections
 
 ## Peer to Peer Connections
 
@@ -11,9 +11,22 @@ In order to make a peer to peer \(P2P\) or direct connection the remote.it conne
 * The connection will stay active as long as there is an internet connection available to both devices.
 * The URL will remain the same and can be bookmarked.
 
-We are working on new ways to make P2P connections. Currently you have to use the connectd daemon or the remote.it Connect for Windows application.
+A P2P connection looks similar to:
 
-## Cloud Connections
+```text
+127.0.0.1:34000
+```
+
+* 127.0.0.1 is a "localhost" address.
+* 34000 is a user-configurable port to use for this connection.
+
+To learn how to make a P2P connection, please see:
+
+{% page-ref page="../guides/using-the-desktop-app.md" %}
+
+{% page-ref page="../guides/using-connectd-in-p2p-initiator-mode/" %}
+
+## Proxy Connections
 
 ![](../.gitbook/assets/diagram-connect.svg)
 
@@ -22,5 +35,7 @@ Cloud proxy connections are the simplest to set up and test with as you only nee
 * URL and port will change every time you connect
 * There is an 8 hour time limit before the connection will auto-close
 
+To learn how to make a proxy connection, click on the link below.
 
+{% page-ref page="../guides/using-the-web-portal/the-view-devices-page/proxy-connections.md" %}
 

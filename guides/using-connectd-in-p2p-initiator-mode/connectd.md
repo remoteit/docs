@@ -312,5 +312,5 @@ You can set the autoconnect parameter value to 2 in the initiator provisioning f
 
 Please see our guide on troubleshooting connections:
 
-{% page-ref page="../connecting-to-a-device/troubleshooting-connections.md" %}
+{% page-ref page="../../troubleshooting-connections.md" %}
 

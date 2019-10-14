@@ -30,8 +30,6 @@ Share or transfer your devices amongst other remote.it users:
 
 Build remote.it into your products using bulk or auto registration \(aka mass registration\):
 
-{% page-ref page="../../guides/connecting-to-a-device/" %}
-
 {% page-ref page="../../guides/configuring-a-webcam-with-nx-witness.md" %}
 
 

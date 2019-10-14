@@ -12,7 +12,7 @@ The following Actions are available in remote.it and described below:
 6. Clear Status
 7. Delete
 
-![](../../.gitbook/assets/image%20%28218%29.png)
+![](../../../.gitbook/assets/image%20%28225%29.png)
 
 ### **Share**
 
@@ -24,7 +24,7 @@ Sharing allows any Device to be shared with one or more remote.it users. Enablin
 
 Get more details about Sharing at the link below.
 
-{% page-ref page="../sharing-devices/" %}
+{% page-ref page="../../sharing-devices/" %}
 
 ### **Stop Sharing**
 
@@ -34,9 +34,9 @@ When a shared Device is no longer meant to be Shared, use this Action to remove 
 **PLEASE NOTE:** There is a delay from the time you remove Sharing from a device\(s\) until the device disappears from the other User's Manage Devices view. Please _**check your email for confirmation**_ that the Remove Sharing request was received and is being executed. It might take _**as long as 5-10 minutes after receipt of email notification**_ until the Share status is updated and shown in the remote.it Manage Devices grid.
 {% endhint %}
 
-{% page-ref page="../sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md" %}
+{% page-ref page="../../sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md" %}
 
-{% page-ref page="../sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md" %}
+{% page-ref page="../../sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md" %}
 
 ### **Delete**
 
@@ -54,7 +54,7 @@ Scripts may be used to perform specific actions on your devices if they support 
 
 Several sample scripts are available here:
 
-{% page-ref page="../device-scripting-running-scripts-on-your-devices/" %}
+{% page-ref page="../../device-scripting-running-scripts-on-your-devices/" %}
 
 ### **Set Category**
 

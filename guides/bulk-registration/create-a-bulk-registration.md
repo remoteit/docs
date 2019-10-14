@@ -10,11 +10,11 @@ This section will show you how to create and upload a single Platform bulk regis
 
 On the left-hand menu, select “Registrations”:
 
-![](../../.gitbook/assets/image%20%28273%29.png)
+![](../../.gitbook/assets/image%20%28280%29.png)
 
 Download the bulk registration template CSV file:
 
-![](../../.gitbook/assets/image%20%28225%29.png)
+![](../../.gitbook/assets/image%20%28232%29.png)
 
 Edit this CSV to add the hardware ID and registration key from the Platform, put a test name into the “Device Name” cell as shown, then save the file.  You can use a spreadsheet or text editor as long as the file remains in plain-text CSV format.
 
@@ -22,41 +22,41 @@ This example shows a single Platform being Bulk Registered, so there is only one
 
 If you enter information into the Category columns, that information will optionally be displayed on the "Devices" page after Bulk Registration is completed.
 
-![](../../.gitbook/assets/image%20%28255%29.png)
+![](../../.gitbook/assets/image%20%28262%29.png)
 
 Save the CSV file to your computer using an easy to remember name and location, because you will be uploading it shortly.
 
 Select “Create Registration”:
 
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2893%29.png)
 
 Give the bulk registration a name, upload the CSV you created with the Hardware ID and Registration Key from the Platform.
 
-![](../../.gitbook/assets/image%20%28229%29.png)
+![](../../.gitbook/assets/image%20%28236%29.png)
 
 The bulk registration will initially be in the “configured” state.  
 
 Click on the blue “Publish” button.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Select the checkbox as shown, then click on “Publish”:
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../.gitbook/assets/image%20%28160%29.png)
 
 The state will change to “publishing” for a few minutes.
 
-![](../../.gitbook/assets/image%20%28243%29.png)
+![](../../.gitbook/assets/image%20%28250%29.png)
 
 It will then go to “preregistered” state:
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%28100%29.png)
 
 You should get an e-mail from our system confirming that the Bulk Registration completed.
 
 At this point, you will be able to see the offline Device in the "Devices" view.  
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 Registration of Services in a Bulk Registration happens during the processing of the CSV upload and must take place prior to the Platforms coming online.
 
