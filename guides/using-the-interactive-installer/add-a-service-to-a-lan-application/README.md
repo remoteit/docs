@@ -26,7 +26,7 @@ Now, when you access your Device at the remote.it web portal, you will see the e
 
 Clicking on the "Router UI" link now takes you to your router's UI.
 
-![](../../../.gitbook/assets/image%20%28266%29.png)
+![](../../../.gitbook/assets/image%20%28268%29.png)
 
 The interactive installer can be used in a similar way for all types of supported TCP Services on other LAN devices.
 

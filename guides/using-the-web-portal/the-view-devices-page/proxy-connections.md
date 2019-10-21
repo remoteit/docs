@@ -12,7 +12,7 @@ For non-web connections, the connection will return a hostname and port values w
 
 **Reverse proxy:**  For web applications made using the remote.it web portal, the reverse proxy URL opens automatically in a new browser tab.  
 
-![](../../../.gitbook/assets/image%20%28165%29.png)
+![](../../../.gitbook/assets/image%20%28166%29.png)
 
 
 
