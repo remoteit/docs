@@ -2,7 +2,11 @@
 description: instructions for non-Debian Linux Operating Systems
 ---
 
-# All other Linux flavors
+# Other Linux flavors
+
+{% hint style="info" %}
+WARNING: the instructions below SHOULD NOT BE USED on Arch Linux at this time.  We are debugging this issue.
+{% endhint %}
 
 **To install the connectd package**
 
