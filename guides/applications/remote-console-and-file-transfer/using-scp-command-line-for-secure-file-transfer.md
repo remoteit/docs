@@ -22,7 +22,7 @@ If you are using one of the methods to set up a [peer to peer connection](../../
 
 For example, using the Desktop app for Windows:
 
-![](../../../.gitbook/assets/image%20%28224%29.png)
+![](../../../.gitbook/assets/image%20%28228%29.png)
 
 You can now use this information on the scp command line as shown.
 
@@ -42,7 +42,7 @@ C:\Users\You>
 
 A proxy connection will be returned when you [make a connection through the remote.it website](../../using-the-web-portal/), or use the [/device/connect API endpoint](../../../api-reference/devices/connect.md).  You will get a hostname and port that will look something like this:
 
-![](../../../.gitbook/assets/image%20%2851%29.png)
+![](../../../.gitbook/assets/image%20%2852%29.png)
 
 ```text
 $ scp -P 34836 bigfile.bin pi@proxy13.remot3.it:/home/pi/Downloads

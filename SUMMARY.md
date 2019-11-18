@@ -71,6 +71,8 @@
   * [Stop sharing a Device which was shared to you](guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md)
   * [Stop sharing one or more Devices with other user\(s\)](guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md)
 * [Transferring remote.it Devices to another account](guides/transferring-remote.it-devices-to-another-account.md)
+* [Online/offline Notifications](guides/online-offline-notifications.md)
+* [Logs](guides/logs.md)
 
 ## API Reference
 
