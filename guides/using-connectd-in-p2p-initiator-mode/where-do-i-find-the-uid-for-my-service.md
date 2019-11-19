@@ -16,5 +16,5 @@ You can now see the list of Services configured on this device, along with their
 
 {% page-ref page="../../api-reference/devices/list.md" %}
 
-The /device/list/all API endpoint returns a JSON data block which includes metadata for each configured device and service in your account.  You will need to parse this data block to find the service you are interested in.  Typically this involves looking for the "alias" \(which is the Service name\) in the returned JSON block, then extracting the "deviceaddress" \(which is the UID\) from that record. 
+The /device/list/all API endpoint returns a JSON data block which includes metadata for each configured device and service in your account.  You will need to parse this data block to find the service you are interested in.  Typically this involves looking for the "devicealias" \(which is the Service name\) in the returned JSON block, then extracting the "deviceaddress" \(which is the UID\) from that record. 
 
