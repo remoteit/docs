@@ -12,7 +12,7 @@ The following Actions are available in remote.it and described below:
 6. Clear Status
 7. Delete
 
-![](../../../.gitbook/assets/image%20%28231%29.png)
+![](../../../.gitbook/assets/image%20%28263%29.png)
 
 ### **Share**
 

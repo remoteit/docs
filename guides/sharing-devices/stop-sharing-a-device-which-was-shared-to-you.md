@@ -2,11 +2,15 @@
 
 If a device has been shared to you, click on the Share icon corresponding to that Device.  
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 You will see this dialog, which will let you remove sharing.
 
-![](../../.gitbook/assets/image%20%28180%29.png)
+![](../../.gitbook/assets/image%20%28189%29.png)
 
-Select the checkbox and then click on "Remove Sharing".  This operation cannot be undone!
+As with adding Sharing, you can choose to see the names of Device\(s\) which you are about to unshare.  Start typing the name of the Contact\(s\) with whom you wish to stop sharing your Device\(s\).  Only Contact\(s\) which are commonly shared to all chosen Device\(s\) will be shown in the drop down list.
+
+This dialog confirms that sharing was removed from the selected devices.
+
+![](../../.gitbook/assets/image%20%28269%29.png)
 

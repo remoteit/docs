@@ -8,15 +8,15 @@ description: >-
 
 Create an account at remote.it, then log in.  From the left hand menu, select “Products”:
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 
 Select “Create Product”:
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 Enter info into the “Create Product” dialog, then select “Submit”.
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 * Product Name: Think of this as a group of Services \(e.g. ssh, http, vnc\).  Give this group a name to help you remember it.
 * Product Platform: Select the platform that your Services will be running on from the list.  If you can't find an exact match, choose the closest option.  It does not affect the functionality of remote.it.
@@ -25,38 +25,38 @@ Enter info into the “Create Product” dialog, then select “Submit”.
   * Public - visible and usable by all remote.it accounts
   * Unlisted - can be used in multiple accounts, but does not appear in the "Public" list.
 
-![](../../.gitbook/assets/image%20%28261%29.png)
+![](../../.gitbook/assets/image%20%28298%29.png)
 
 On the entry which appears with the name “Raspberry Pi Product”, click on the “gear” icon:
 
-![](../../.gitbook/assets/image%20%2840%29.png)
-
-![](../../.gitbook/assets/image%20%28165%29.png)
-
-On the product settings dialog, use the “Add” button to define the Services you wish to use on your product.  
-
-![](../../.gitbook/assets/image%20%28203%29.png)
-
-Choose the Service type from the list:
-
-![](../../.gitbook/assets/image%20%28245%29.png)
-
-Give the Service a name and define the TCP Port to use.  For most cases, you will want to choose “Check to enable Service to start by default”, but you can turn this off as well.
-
-![](../../.gitbook/assets/image%20%28260%29.png)
-
-When you are done, select the “Check to lock product and create provisioning files” checkbox as shown and click on “Submit”:
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 ![](../../.gitbook/assets/image%20%28192%29.png)
 
+On the product settings dialog, use the “Add” button to define the Services you wish to use on your product.  
+
+![](../../.gitbook/assets/image%20%28234%29.png)
+
+Choose the Service type from the list:
+
+![](../../.gitbook/assets/image%20%28280%29.png)
+
+Give the Service a name and define the TCP Port to use.  For most cases, you will want to choose “Check to enable Service to start by default”, but you can turn this off as well.
+
+![](../../.gitbook/assets/image%20%28297%29.png)
+
+When you are done, select the “Check to lock product and create provisioning files” checkbox as shown and click on “Submit”:
+
+![](../../.gitbook/assets/image%20%28222%29.png)
+
 Note that the icons under the “Actions” column have changed:
 
-![](../../.gitbook/assets/image%20%28283%29.png)
+![](../../.gitbook/assets/image%20%28323%29.png)
 
 Click on the circled “i” icon.  On the “Product Information and Usage” dialog which appears, locate the Bulk Identification Code.  
 ****
 
-![](../../.gitbook/assets/image%20%28196%29.png)
+![](../../.gitbook/assets/image%20%28226%29.png)
 
 Note: your Bulk Identification Code will be different from this one.  
 

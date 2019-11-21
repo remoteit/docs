@@ -6,21 +6,45 @@ You'll need to [create a contact](managing-contacts/create-a-contact.md) with th
 
 Select the remote.it Devices you wish to transfer in Devices View by selecting the checkbox in the leftmost column
 
-![](../.gitbook/assets/image%20%28138%29.png)
+![](../.gitbook/assets/image%20%28158%29.png)
 
 From the "ACTIONS" menu, select "Transfer Device".
 
-![](../.gitbook/assets/image%20%28189%29.png)
+![](../.gitbook/assets/image%20%28219%29.png)
 
-The Contact Picker will display.  
+The Bulk Transfer dialog will display.  
 
-1\) Use the "Pick" button to [select a single contact ](managing-contacts/select-a-contact.md)to receive the selected remote.it Devices.
+![](../.gitbook/assets/image%20%28172%29.png)
 
-2\) Select the checkbox to confirm transfer of the selected device\(s\).
+To show the list of Devices you are transferring, click on the down arrow.
 
-3\) Click on the "Transfer" button.
+![](../.gitbook/assets/image%20%28153%29.png)
 
-![](../.gitbook/assets/image%20%28256%29.png)
+To hide the list of Devices, click on the up arrow.
 
-The Transfer recipient will receive an e-mail at their remote.it account e-mail address.  This e-mail contains a transfer invitation link that they must click on to accept the transfer.  The transfer invitation link is valid for 72 hours.  After the Transfer recipient accepts the transfer invitation, the selected remote.it Devices will move from your account to the recipient's account.
+![](../.gitbook/assets/image%20%28207%29.png)
+
+Click on this field to begin typing a name to find a match.  You can click on the down arrow to show a list of your contacts so you can browse all of them.
+
+![](../.gitbook/assets/image%20%28123%29.png)
+
+![](../.gitbook/assets/image%20%2869%29.png)
+
+Press the "Enter" key when the correct Contact is highlighted, or use your mouse to click on the contact to complete your selection.
+
+![](../.gitbook/assets/image%20%28295%29.png)
+
+Select the checkbox to confirm transfer of the selected device\(s\).
+
+![](../.gitbook/assets/image%20%28115%29.png)
+
+Click on the "Transfer" button.
+
+![](../.gitbook/assets/image%20%28227%29.png)
+
+You'll see the Transfer Confirmation dialog.
+
+![](../.gitbook/assets/image%20%28182%29.png)
+
+The Device\(s\) will be transferred from your account to your Contact's account.  It may take 30 seconds per Device to complete.  When the transfer is completed, both you and the recipient will receive confirmation e-mails.
 
