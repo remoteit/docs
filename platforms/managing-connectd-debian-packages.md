@@ -18,7 +18,7 @@ The remote.it "connectd" package supports the Debian packaging system for the fo
 "Installing the connectd package" as described on this page is the process of placing the files associated with the remote.it secure connection and bulk scripting features on to your device. This process is a necessary step prior to running "connectd\_installer" which configures remote.it Services according to your preferences.
 {% endhint %}
 
-## Raspberry Pi with Raspbian Stretch
+## Raspberry Pi with Raspbian Stretch or Buster
 
 ### To install the connectd package
 

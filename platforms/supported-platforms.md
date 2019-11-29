@@ -38,9 +38,9 @@ Our installer is designed to work with any Linux variant supporting the OS Requi
 * The installer scripts require the Bourne sh, normally found in /bin/sh.
 * curl with SSL support is required to access remote.it's APIs
 
-## Raspberry Pi with Raspbian Stretch
+## Raspberry Pi with Raspbian Stretch or Buster
 
-The Pi Foundation hosts the connectd package at their repositories for a streamlined installation experience.  If you are using Raspbian Stretch, follow the link below.  For older versions of Raspbian or any other Linux OS running on Raspberry Pi, skip ahead to "Download a package for any Linux".
+The Pi Foundation hosts the connectd package at their repositories for a streamlined installation experience.  If you are using Raspbian Stretch or Buster, follow the link below.  For older versions of Raspbian or any other Linux OS running on Raspberry Pi, skip ahead to "Download a package for any Linux".
 
 {% page-ref page="quick-start-on-raspberry-pi/" %}
 
