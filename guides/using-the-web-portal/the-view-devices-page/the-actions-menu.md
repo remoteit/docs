@@ -8,11 +8,11 @@ The following Actions are available in remote.it and described below:
 2. Unshare
 3. Execute Script
 4. Set Category
-5. Transfer Device
-6. Clear Status
+5. Clear Status
+6. Transfer Device
 7. Delete
 
-![](../../../.gitbook/assets/image%20%28263%29.png)
+![](../../../.gitbook/assets/image%20%28247%29.png)
 
 ### **Share**
 
@@ -26,7 +26,7 @@ Get more details about Sharing at the link below.
 
 {% page-ref page="../../sharing-devices/" %}
 
-### **Stop Sharing**
+### **Unshare**
 
 When a shared Device is no longer meant to be Shared, use this Action to remove the sharing privileges previously granted.
 
@@ -37,16 +37,6 @@ When a shared Device is no longer meant to be Shared, use this Action to remove 
 {% page-ref page="../../sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md" %}
 
 {% page-ref page="../../sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md" %}
-
-### **Delete**
-
-Remove Device\(s\) from your device list. The Device must be offline to remove it from the Device list. Please note this Action does NOT remove \(uninstall\) any code from your device. In order to uninstall or remove all remote.it software from your device use the Debian dpkg utility:
-
-```bash
-sudo dpkg --purge connectd
-```
-
-If you wish to re-install Services on a device which was deleted from your account using the web portal Actions menu, see this [Help Article](https://remot3it.zendesk.com/hc/en-us/articles/360021623891--etc-connectd-services-Connectdssh22-conf-is-not-registered-to-this-account).
 
 ### **Execute a Script**
 
@@ -60,17 +50,29 @@ Several sample scripts are available here:
 
 Category columns allow you to add additional arbitrary information to the selected Devices. Once you add the details, the Category columns can be used to Sort and Group Devices. Example: Add "San Francisco" to selected Devices in Category A column. Now you can sort, group or filter devices by "San Francisco". 
 
+### **Clear Status**
+
+After running a Script which writes status info into the Status Columns, you may choose to Clear a Status Column if it is no longer required. Clear Status does not impact the Script that was previously executed. It simply clears the Status Column.
+
 ### Transfer Device
 
 Transfer the selected device\(s\) to another remote.it account. After the transfer is completed, you will no longer see the Device in your account, and it will appear in the selected Contact's account.
 
 {% hint style="info" %}
 **PLEASE NOTE:** Device transfer can be performed only on the owner's device. Devices shared from other accounts can not be transferred.  Also, please be aware that the share information will be cleared with the transfer.
+
+Finally, transfers cannot be undone, so make sure you have selected the correct device\(s\) and the correct account to receive the device\(s\).
 {% endhint %}
 
-### **Clear Status**
+### **Delete**
 
-After running a Script which writes status info into the Status Columns, you may choose to Clear a Status Column if it is no longer required. Clear Status does not impact the Script that was previously executed. It simply clears the Status Column.
+Remove Device\(s\) from your device list. The Device must be offline to remove it from the Device list. Please note this Action does NOT remove \(uninstall\) any software from your device. In order to uninstall or remove all remote.it software from your device, use the Debian dpkg utility:
+
+```bash
+sudo dpkg --purge connectd
+```
+
+If you wish to re-install Services on a device which was deleted from your account using the web portal Actions menu, see this [Help Article](https://remot3it.zendesk.com/hc/en-us/articles/360021623891--etc-connectd-services-Connectdssh22-conf-is-not-registered-to-this-account).
 
 
 

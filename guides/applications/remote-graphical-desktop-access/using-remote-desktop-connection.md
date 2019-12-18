@@ -32,7 +32,7 @@ Next, confirm that xrdp is in fact running with the command:
 
 **ps ax \| grep xrdp**
 
-![](../../../.gitbook/assets/image%20%28271%29.png)
+![](../../../.gitbook/assets/image%20%28278%29.png)
 
 You should see something similar to the image above.  The first column of numbers on the left is likely to be different.
 
@@ -44,19 +44,19 @@ Run the remote.it configuration script:
 
 At the Main Menu, install a new remote.it Service for xrdp using **RDP, default port 3389**.
 
-![](../../../.gitbook/assets/image%20%28200%29.png)
+![](../../../.gitbook/assets/image%20%28205%29.png)
 
-![](../../../.gitbook/assets/image%20%28268%29.png)
+![](../../../.gitbook/assets/image%20%28275%29.png)
 
 When you are done, you will see your rdp Service in the list.
 
-![](../../../.gitbook/assets/image%20%2827%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 **Using Remote Desktop Connection with remote.it**
 
 To connect, sign in to your remote.it account and locate the Device you just installed in the Device List.
 
-![](../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../.gitbook/assets/image%20%28166%29.png)
 
 Click on the Device Name to open the Device Services dialog box:
 
@@ -64,29 +64,29 @@ Click on the Device Name to open the Device Services dialog box:
 
 Click on the link of the rdp connection you wish to connect to.  Within a few moments you will see the "TCP Connection" dialog.
 
-![](../../../.gitbook/assets/image%20%28202%29.png)
+![](../../../.gitbook/assets/image%20%28207%29.png)
 
 Start the Remote Desktop application, copy and paste the address from the remote.it dialog to the “Computer” field as shown in the example below \(using the values that are displayed when the connection dialog box appears\), then click on “Connect”.
 
-![](../../../.gitbook/assets/image%20%2863%29.png)
+![](../../../.gitbook/assets/image%20%2864%29.png)
 
 When you see this dialog, click on "Connect":
 
-![](../../../.gitbook/assets/image%20%28198%29.png)
+![](../../../.gitbook/assets/image%20%28203%29.png)
 
 When you see the security warning, click on “Yes” to continue.
 
-![](../../../.gitbook/assets/image%20%2870%29.png)
+![](../../../.gitbook/assets/image%20%2871%29.png)
 
 #### **Windows RDP Connection Login**
 
 Select the account you wish to use and enter the password, then click on "OK".  If you wish to choose an account other than "Administrator", click on "More choices".
 
-![](../../../.gitbook/assets/image%20%28326%29.png)
+![](../../../.gitbook/assets/image%20%28333%29.png)
 
 #### **Linux RDP Connection Login**
 
 At the **xrdp** login screen, enter your Pi’s user name and password \(default pi/raspberry\), then click on “OK”.
 
-![](../../../.gitbook/assets/image%20%28141%29.png)
+![](../../../.gitbook/assets/image%20%28144%29.png)
 
