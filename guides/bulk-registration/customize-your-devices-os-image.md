@@ -2,7 +2,7 @@
 description: >-
   Bulk Registration sends the following information from your Platforms to
   remote.it's registration server at boot time: a) Hardware ID b) Registration
-  Key c) Bulk Identification Code.
+  Key c) Bulk Identification Code. These terms are explained below.
 ---
 
 # Customize your Platform's OS image
