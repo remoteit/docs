@@ -32,19 +32,19 @@ Below is an image of what your server should look like when it's ready to be hos
 
 Launch the desktop app and log in, then navigate to the _Hosted_ tab at the bottom and register your device.
 
-![Name your device, then press the Register button.](../.gitbook/assets/2.png)
+![Name your device, then press the Register button.](../.gitbook/assets/1-new.PNG)
 
 Next, navigate to the _Network_ tab and click scan to scan your local network. Make sure your Minecraft server is running first. 
 
-![Scan the network your local machine is on.](../.gitbook/assets/3.png)
+![Scan the network your local machine is on.](../.gitbook/assets/2-new.PNG)
 
 Scroll down and find your system, labeled _This system_.
 
-![](../.gitbook/assets/4.png)
+![](../.gitbook/assets/3-new.PNG)
 
 Click on your IP address. If your Minecraft server is running, the app will detect and display it.
 
-![The Minecraft Server will have the port 25565 displayed to the left.](../.gitbook/assets/5.png)
+![The Minecraft Server will have the port 25565 displayed to the left.](../.gitbook/assets/4-new.PNG)
 
 Click the add button next to the Minecraft Server option. You will be taken to the _Hosted_  tab again. 
 
@@ -54,7 +54,7 @@ You can only use alphanumeric characters, spaces, underscores, and hyphens in yo
 **NOTE:** If the Host IP Address is blank, don’t worry about it. The app will fill it in for you once you press the check mark.
 {% endhint %}
 
-![](../.gitbook/assets/6.png)
+![](../.gitbook/assets/5-new.PNG)
 
 ## Share the server
 
@@ -78,21 +78,25 @@ Now, have the people you want to play with log in to the desktop app.
 
 The device will appear under the _Remote_ tab in a minute or two. 
 
-![The device has appeared on my friends desktop app.](../.gitbook/assets/9.png)
+![The device has appeared on my friends desktop app.](../.gitbook/assets/use-2.png)
 
 They should click on the device, then click _connect_ to connect to the server. 
 
-![Now you are ready to connect to the server through Minecraft!](../.gitbook/assets/10.png)
+![Now you are ready to connect to the server through Minecraft!](../.gitbook/assets/use.png)
 
 ## Connect with Minecraft
 
-When connected through remote.it, there will be a clipboard icon. Click it, and the IP address for the Minecraft server will be copied to your clipboard. 
+When connected through remote.it, a clipboard icon will appear. Click it, and the IP address for the Minecraft server will be copied to your clipboard. 
 
-![](../.gitbook/assets/11.png)
+![](../.gitbook/assets/capture.PNG)
 
 Paste it into the Minecraft Server Address field and you will be able to connect.
 
-![Note that any sort of insecure port forwarding is not used here.](../.gitbook/assets/12.png)
+{% hint style="warning" %}
+**NOTE:** If http:// appears before the server address, be sure to delete it before attempting to connect.
+{% endhint %}
+
+![Note that any sort of insecure port forwarding is not used here.](../.gitbook/assets/captureserv.PNG)
 
 **You’re done!** As long as remote.it is running on both machines and the Minecraft server is up, you will able to play Minecraft together securely without port forwarding.
 
