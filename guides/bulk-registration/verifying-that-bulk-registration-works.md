@@ -26,6 +26,10 @@ Bulk ID Code is 2513F28C-13AD-BEBE-7329-D70C2F5F34A6
 
 Perform a factory reset of the device.
 
+{% hint style="danger" %}
+Factory reset clears any downloaded configuration files from your device.  If this device had completed bulk registration already, in order to bulk register this specific device again, you’ll need to first delete the Bulk Registration which referenced this device \(on the Registrations page of the web portal\), and then re-upload and publish the Bulk Registration CSV file again. Use Factory Reset with caution!
+{% endhint %}
+
 ```text
 ~ $ sudo connectd_control reset
 OK: factory reset
@@ -79,6 +83,16 @@ OK: 545293BD-B24E-188C-2CDA-92BD1BC1346C has started
 Within 5 minutes, the status of the device should change to "Online" as indicated by the green check.
 
 ![](../../.gitbook/assets/image%20%28240%29.png)
+
+To prepare this device's OS image to be cloned for manufacturing, run:
+
+```text
+sudo connectd_control reset
+```
+
+{% hint style="danger" %}
+Factory reset clears any downloaded configuration files from your device.  If this device had completed bulk registration already, in order to bulk register this specific device again, you’ll need to first delete the Bulk Registration which referenced this device \(on the Registrations page of the web portal\), and then re-upload and publish the Bulk Registration CSV file again. Use Factory Reset with caution!
+{% endhint %}
 
 If you are having any difficulty at this point, please send an e-mail to support@remote.it so we can help you!
 
