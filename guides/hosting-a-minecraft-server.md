@@ -18,7 +18,7 @@ In this guide you will learn how to host a Minecraft multiplayer server using re
 
 ## Set up
 
-Before starting the process of setting up your Minecraft server to run on remote.it, please make sure to [**create**](https://app.remote.it/auth/#/sign-up) an account and [**download**](https://github.com/remoteit/desktop/releases/latest) and install the desktop app. If you need help setting up a Minecraft server, there are many resources online detailing [**how to.**](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server)
+Before starting the process of setting up your Minecraft server to run on remote.it, please make sure to [**create**](https://app.remote.it/auth/#/sign-up) an account and [**download**](https://github.com/remoteit/desktop/releases/latest) and install the desktop app. If you need help setting up a Minecraft server, there are many resources online detailing [**how to**](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server), as well as a remote.it ****[**video tutorial.**](https://www.youtube.com/watch?v=natSu296POg) ****
 
 {% hint style="info" %}
 **NOTE:** DO NOT port forward! Set up the server to run on your machine locally and remote.it will take care of the rest.
