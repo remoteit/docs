@@ -1,2 +1,3 @@
-redirects:
-    test: guides
+--- 
+redirects: 
+  test: ./guides
