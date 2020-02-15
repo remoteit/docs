@@ -1,3 +1,4 @@
---- 
-redirects: 
-  test: ./guides
+root: ./
+
+redirects:
+  devices: ./guides/using-the-web-portal/the-view-devices-page
