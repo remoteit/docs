@@ -1,4 +1,2 @@
-root: ./
-
 redirects:
-    devices: guides/using-the-web-portal/the-view-devices-page
+    test: guides
