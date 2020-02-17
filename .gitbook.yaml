@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  devices: ./guides/using-the-web-portal/the-view-devices-page
+  devices: guides/using-the-web-portal/the-view-devices-page
