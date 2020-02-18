@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  devices: ./docs/guides/hosting-a-minecraft-server
+  test: ./guides/hosting-a-minecraft-server
