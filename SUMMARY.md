@@ -77,6 +77,7 @@
   * [Creating a Contact](guides/managing-contacts/create-a-contact.md)
   * [Deleting a Contact](guides/managing-contacts/deleting-a-contact.md)
 * [Sharing Devices](guides/sharing-devices/README.md)
+  * [Port Sharing](guides/sharing-devices/port-sharing.md)
   * [Sharing a remote.it Device with a Contact](guides/sharing-devices/sharing-a-device-with-a-contact.md)
   * [Stop sharing a Device which was shared to you](guides/sharing-devices/stop-sharing-a-device-which-was-shared-to-you.md)
   * [Stop sharing one or more Devices with other user\(s\)](guides/sharing-devices/stop-sharing-one-or-more-devices-with-other-user-s.md)
