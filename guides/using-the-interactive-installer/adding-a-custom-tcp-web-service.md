@@ -6,19 +6,19 @@ Web \(http\) and Secure Web \(https\) connections will automatically open a new 
 
 If you wish to set up a TCP service that is not SSH, VNC, http\(s\), or NxWitness, use option 6 on the Protocol Section Menu:
 
-![](../../.gitbook/assets/image%20%28276%29.png)
+![](../../.gitbook/assets/image%20%28296%29.png)
 
 Next, enter the port you wish to use:
 
-![](../../.gitbook/assets/image%20%28113%29.png)
+![](../../.gitbook/assets/image%20%28125%29.png)
 
 Give the new service a name:
 
-![](../../.gitbook/assets/image%20%28200%29.png)
+![](../../.gitbook/assets/image%20%28216%29.png)
 
 Then you will return to the main menu.
 
 Connections to TCP Services made at the remote.it web portal will open a generic dialog with hostname and port. 
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28209%29.png)
 

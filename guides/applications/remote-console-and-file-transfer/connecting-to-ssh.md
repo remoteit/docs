@@ -17,29 +17,29 @@ remote.it offers a variety of ways to connect to your remote device using SSH.  
 
 Sign In to your remote.it account, locate your Device in the on the Devices page, and click on the device name.  
 
-![](../../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 You will then see a window showing the services available on that device.  You will need to set your pop-up blocker, if any, to allow popups from the remote.it web site.
 
-![](../../../.gitbook/assets/image%20%28292%29.png)
+![](../../../.gitbook/assets/image%20%28313%29.png)
 
 Click on the link of the remote.it SSH Service you wish to connect to.  
 
 Within a few moments, you will see a dialog with connection details.
 
-![](../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 We have supplied some pre-formatted ssh command lines using the **pi** and **root** usernames for your convenience.
 
 If you are using a different username, use the third option where we’ve inserted the word **LOGIN** as a place holder for you to enter your own username. 
 
-![](../../../.gitbook/assets/image%20%288%29.png)
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 #### Use the remote.it proxy address and port in your SSH command line
 
 Select the entire line and copy it to your terminal or command prompt \(don't hit ENTER yet\).  Now edit the word "LOGIN" \(you'll need to use the left arrow and then backspace over it\) and replace it with your username.  The example shows the username as “ubuntu”. 
 
-![](../../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28150%29.png)
 
 Now press “Enter”.  This initiates the login. You will probably see the following security message \(or something similar\), which is entirely normal.   Type "yes" when prompted to continue with login.
 

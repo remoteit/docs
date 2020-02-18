@@ -42,7 +42,7 @@ sudo netstat -lpn | grep tcp
 
 This command will show all currently active tcp listeners \(servers\) running on your Linux machine. Look for **Xtightvnc** in the list.  There may be more than one entry.  If so, choose the one with the lowest port number.  In the example shown below, that is port 5901.  Make note of this port number as you will need it in the next section where you will be adding the remote.it Service Attachment.
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
 ### **Adding a remote.it Service Attachment for tightvncserver**
 
@@ -54,7 +54,7 @@ sudo connectd_installer
 
 At the Main Menu, install a new remote.it Service for VNC.  If the actual port in use is not 5901, you will have the opportunity to set this during the installation.
 
-![](../../../.gitbook/assets/image%20%28321%29.png)
+![](../../../.gitbook/assets/image%20%28345%29.png)
 
 When you’ve successfully installed **tightvncserver** and the remote.it **VNC** Service, the Main Menu will include an entry for **Xtightvnc** as shown above.
 
@@ -62,15 +62,15 @@ When you’ve successfully installed **tightvncserver** and the remote.it **VNC*
 
 To connect, sign in to your remote.it account and locate the device in Devices view.  
 
-![](../../../.gitbook/assets/image%20%28172%29.png)
+![](../../../.gitbook/assets/image%20%28188%29.png)
 
 Click on the highlighted Device Name to open the Device Services dialog:
 
-![](../../../.gitbook/assets/image%20%28329%29.png)
+![](../../../.gitbook/assets/image%20%28354%29.png)
 
 Now click on the highlighted Service Name to initiate the connection.  In a few seconds you’ll see a dialog box similar to this:
 
-![](../../../.gitbook/assets/image%20%2880%29.png)
+![](../../../.gitbook/assets/image%20%2889%29.png)
 
 ### **For Option 1:**
 
@@ -84,11 +84,11 @@ Click on the link provided in the second option, which will open a Safari Window
 
 Start the TightVNC viewer application, then copy and paste the address from the remot3.it dialog option \#3 to the “Remote Host” field as shown below. Now, click on “Connect”.
 
-![](../../../.gitbook/assets/image%20%28104%29.png)
+![](../../../.gitbook/assets/image%20%28116%29.png)
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../../.gitbook/assets/image%20%28107%29.png)
+![](../../../.gitbook/assets/image%20%28119%29.png)
 
 Now you are connected remotely to your device's UI.
 
