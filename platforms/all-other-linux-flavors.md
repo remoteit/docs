@@ -6,7 +6,7 @@ description: instructions for non-Debian Linux Operating Systems
 
 **To install the connectd package**
 
-The auto-install.sh script will download and copy a tar file to your system.   To run the auto-install.sh script, copy and paste the following 3 lines to the device's console, then press the "Enter" key:
+The auto-install.sh script will download and copy a tar file to your system.   To download and run the auto-install.sh script, copy and paste the following 3 lines to the device's console, then press the "Enter" key:
 
 ```text
 curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
