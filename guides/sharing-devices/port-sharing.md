@@ -60,6 +60,12 @@ Additionally, if you would like to remove yourself from a Device simply click th
 
 ![](../../.gitbook/assets/port-sharing-5.png)
 
+## Video tutorial
+
+For a video tutorial, check out:
+
+{% embed url="https://youtu.be/HeAZqm1o704" %}
+
 ## More
 
 Other helpful web portal guides:
