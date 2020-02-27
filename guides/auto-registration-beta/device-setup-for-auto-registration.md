@@ -22,7 +22,7 @@ sudo dpkg --purge connectd
 
  Download the connectd 2.5.28 test package at [https://github.com/remoteit/installer/releases/tag/v2.5.28](https://github.com/remoteit/installer/releases/tag/v2.5.28). Click on the triangle next to the word “assets” if no files are visible.
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 Install the connectd package \(use the deb file which is appropriate for your device\):
 
@@ -38,9 +38,9 @@ The Bulk Identification Code is an alphanumeric string that identifies a specifi
 
  Back on the Products page, click on the ![:info:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/info_32.png) icon in the row corresponding to your desired Product Definition to select the Bulk Identification Code, save it and prepare to write it on the device to prepare the master SD card \(later in this document\).
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28175%29.png)
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
