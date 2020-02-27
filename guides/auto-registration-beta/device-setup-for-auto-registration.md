@@ -22,7 +22,7 @@ sudo dpkg --purge connectd
 
  Download the connectd 2.5.28 test package at [https://github.com/remoteit/installer/releases/tag/v2.5.28](https://github.com/remoteit/installer/releases/tag/v2.5.28). Click on the triangle next to the word “assets” if no files are visible.
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 Install the connectd package \(use the deb file which is appropriate for your device\):
 
@@ -40,9 +40,9 @@ The Bulk Identification Code is an alphanumeric string that identifies a specifi
 
 ![](../../.gitbook/assets/image%20%28176%29.png)
 
-![](../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%28238%29.png)
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%28199%29.png)
 
 #### OEM Configuration <a id="OEM-Configuration"></a>
 

@@ -6,11 +6,11 @@ You can find the UID \(also known as the "address" or "deviceaddress"\) for each
 
 Click on the Device Name in the "Devices" page.
 
-![](../../.gitbook/assets/image%20%28388%29.png)
+![](../../.gitbook/assets/image%20%28393%29.png)
 
 You can now see the list of Services configured on this device, along with their "addresses".
 
-![](../../.gitbook/assets/image%20%28338%29.png)
+![](../../.gitbook/assets/image%20%28342%29.png)
 
 #### 2 - from the "Device List" API call.
 
