@@ -8,11 +8,11 @@ Making a remote.it Proxy connection can be done using the remote.it web portal o
 
 For non-web connections, the connection will return a hostname and port values which can be used on a command line or in a GUI application depending on what you are doing.  The example below is for an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28193%29.png)
+![](../../../.gitbook/assets/image%20%28199%29.png)
 
 **Reverse proxy:**  For web applications made using the remote.it web portal, the reverse proxy URL opens automatically in a new browser tab.  
 
-![](../../../.gitbook/assets/image%20%28220%29.png)
+![](../../../.gitbook/assets/image%20%28226%29.png)
 
 
 

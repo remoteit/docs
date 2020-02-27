@@ -2,11 +2,11 @@
 
 This is the Product Definition you created in the previous step.
 
-![](../../.gitbook/assets/image%20%28349%29.png)
+![](../../.gitbook/assets/image%20%28357%29.png)
 
 Click on the “gear” icon to add Services to your Product.
 
-![](../../.gitbook/assets/image%20%28178%29.png)
+![](../../.gitbook/assets/image%20%28183%29.png)
 
 The “Required Bulk” Service is already added. Each device must have a Bulk Service, and it cannot be deleted.
 
@@ -18,7 +18,7 @@ On the dialog that appears,
 
 1. Choose the Service Type:
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28236%29.png)
 
 2. Give this service a name to help you remember what it does.
 
@@ -26,7 +26,7 @@ On the dialog that appears,
 
 4. Choose whether the Service will be enabled by default or not. If it is not enabled by default, the setting to enable it can be set later. In that case, the devices using this Product Definition must be rebooted to pick up the changes.
 
-![](../../.gitbook/assets/image%20%28310%29.png)
+![](../../.gitbook/assets/image%20%28317%29.png)
 
 Click on “Submit” to finish adding this Service.
 
