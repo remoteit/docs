@@ -6,7 +6,11 @@ description: instructions for non-Debian Linux Operating Systems
 
 **To install the connectd package**
 
-The auto-install.sh script will download and copy a tar file to your system.   To download and run the auto-install.sh script, copy and paste the following 3 lines to the device's console, then press the "Enter" key:
+The auto-install.sh script will download and copy a tar file to your system.   
+
+### Non-root user
+
+To download and run the auto-install.sh script, copy and paste the following 3 lines to the device's console, then press the "Enter" key:
 
 ```text
 curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
@@ -14,7 +18,15 @@ chmod +x ./auto-install.sh
 sudo ./auto-install.sh
 ```
 
-Some files will be downloaded and tested in order to find a package which will run on your device.  Assuming that a matching package can be identified, the following instructions will be displayed for you to complete manually.  The exact file name may be different than that shown below.
+### Root user
+
+```text
+curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+chmod +x ./auto-install.sh
+./auto-install.sh
+```
+
+Some files will be downloaded and tested in order to find a package which will run on your device.  You may see some error messages during this step.  Assuming that a matching package can be identified, the following instructions will be displayed for you to complete manually.  The exact file name may be different than that shown below.
 
 ```text
 We downloaded the file connectd_2.4.26_arm-linaro-pi.tar to the current folder.
