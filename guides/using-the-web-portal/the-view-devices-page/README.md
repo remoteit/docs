@@ -8,7 +8,7 @@ It gives you a sortable and filterable view of all of the devices registered to 
 
 To get to "Devices" from other pages within remote.it, click on "Devices" in the menu at the left side of the screen.
 
-![](../../../.gitbook/assets/image%20%28319%29.png)
+![](../../../.gitbook/assets/image%20%28320%29.png)
 
 ### The Device List's first seven columns
 
@@ -32,7 +32,7 @@ The 5 status columns A through E can be used to get information from Devices usi
 
 The Category columns contain optional user-specified information entered with during [Bulk Registration](../../bulk-registration/) or set manually using the "[Actions](the-actions-menu.md)" menu "Set Category" action.
 
-![](../../../.gitbook/assets/image%20%28392%29.png)
+![](../../../.gitbook/assets/image%20%28393%29.png)
 
 
 

@@ -2,7 +2,7 @@
 
 The Scripting page shows you the execution status of Device Scripts.  
 
-![](../../.gitbook/assets/image%20%28354%29.png)
+![](../../.gitbook/assets/image%20%28355%29.png)
 
 In the Job Status table you will see:
 
@@ -15,7 +15,7 @@ In the Job Status table you will see:
 * The number of Devices in the Job
 * The number of "Failure" messages received
 
-![](../../.gitbook/assets/image%20%28216%29.png)
+![](../../.gitbook/assets/image%20%28217%29.png)
 
 It is important to understand that on the average it takes 3 minutes for Job Status to update.  So your script may actually complete and update the Status cells before the Job Status catches up.  It should respond and update within 3 to 4 minutes.
 

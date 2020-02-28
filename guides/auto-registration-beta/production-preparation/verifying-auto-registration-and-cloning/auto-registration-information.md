@@ -1,5 +1,9 @@
 # Auto Registration Information
 
+{% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
+{% endhint %}
+
 ### Device Identification <a id="Device-Identification"></a>
 
 Auto registered devices identify themselves using two pieces of information. These are platform specific and customized by the Developer. For the standard RPi package, the ARM CPU ID and the active network MAC address are the system identifiers. These are provided to the service upon registration and if either change, the Clone or Duplicate Detection process will force the device to reset and register again using the new system identifiers.
@@ -12,7 +16,7 @@ In normal cases, especially with RPi, it’s likely the SD card would be moved t
 
 When duplicate detection occurs, remote.it will show a newly cloned device with an incremental counter appended to the hardware ID and name. Below is an example of a duplicate/cloned reset device.
 
-![](../../../../.gitbook/assets/image%20%28362%29.png)
+![](../../../../.gitbook/assets/image%20%28363%29.png)
 
 ### Need help?
 
