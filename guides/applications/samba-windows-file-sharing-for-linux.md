@@ -6,17 +6,17 @@ First, [install connectd on your Raspberry Pi.](https://docs.remote.it/platforms
 
 ![](../../.gitbook/assets/image%20%2854%29.png)
 
-![](../../.gitbook/assets/image%20%28246%29.png)
+![](../../.gitbook/assets/image%20%28247%29.png)
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
 After giving the remote.it Service a name, you should see that the server at the IP address you gave is responding with "OK" in the "Application" column of this new remote.it Service.
 
-![](../../.gitbook/assets/image%20%28338%29.png)
+![](../../.gitbook/assets/image%20%28339%29.png)
 
 Now, return to the remote.it web portal and connect by clicking on the remote.it Service name:
 
-![](../../.gitbook/assets/image%20%28280%29.png)
+![](../../.gitbook/assets/image%20%28281%29.png)
 
 This returns the proxy server's URL and port in a generic dialog:
 

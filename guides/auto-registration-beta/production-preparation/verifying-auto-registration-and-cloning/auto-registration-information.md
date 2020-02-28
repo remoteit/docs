@@ -12,7 +12,7 @@ In normal cases, especially with RPi, it’s likely the SD card would be moved t
 
 When duplicate detection occurs, remote.it will show a newly cloned device with an incremental counter appended to the hardware ID and name. Below is an example of a duplicate/cloned reset device.
 
-![](../../../../.gitbook/assets/image%20%28361%29.png)
+![](../../../../.gitbook/assets/image%20%28362%29.png)
 
 ### Need help?
 
