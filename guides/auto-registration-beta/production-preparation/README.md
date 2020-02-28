@@ -23,7 +23,7 @@ Ok:  device is cloneable for production
 pi@raspberrypi:~ $
 ```
 
-Note that even though the message says "OK", the "ACTION" message indicates that you need to do something first.
+Known issue: Note that even though the message says "OK", the "ACTION" message indicates that you need to do something first.
 
 In this case, check /etc/connectd/oem\_settings. The issue is that this Raspberry Pi has no wireless LAN adapter, the MAC address of which is used for the Registration Key. I edited the network adapter used for the Registration Key to be “eth0” instead of “wlan0”.
 

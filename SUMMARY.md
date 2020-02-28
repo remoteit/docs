@@ -29,7 +29,7 @@
   * [Using connectd in P2P initiator mode on Windows](guides/using-connectd-in-p2p-initiator-mode/using-connectd-in-client-mode-on-windows.md)
   * [Where do I find the UID for my Service?](guides/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
   * [Running connectd using an authhash](guides/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
-* [Auto Registration \(Beta\)](guides/auto-registration-beta/README.md)
+* [Auto Registration - Getting started \(Beta\)](guides/auto-registration-beta/README.md)
   * [Auto Registration Setup \(Beta\)](guides/auto-registration-beta/auto-registration-setup-beta.md)
   * [Create a Product Definition](guides/auto-registration-beta/create-a-product-definition.md)
   * [Add Services to your Product Definition](guides/auto-registration-beta/add-services-to-your-product-definition.md)

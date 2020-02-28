@@ -22,15 +22,7 @@ sudo dpkg --purge connectd
 
 ###  Download the connectd 2.5.28 test package. 
 
-Copy and paste one of the two following commands to your Raspberry Pi's console, then press Enter to execute it.  curl and wget options are provided.
-
-Using wget:
-
-```text
-wget https://github.com/remoteit/installer/releases/download/v2.5.28/connectd_2.5.28_armhf.deb
-```
-
-Alternatively, you can use curl:
+Copy and paste one of the two following command to your Raspberry Pi's console, then press Enter to execute it.  
 
 ```text
 curl -LkO https://github.com/remoteit/installer/releases/download/v2.5.28/connectd_2.5.28_armhf.deb
@@ -46,6 +38,10 @@ Copy and save the Bulk Identification Code.
 
 {% hint style="info" %}
 The Bulk Identification Code is an alphanumeric string that identifies a specific Product Definition. It must be copied to the file /etc/connectd/bulk\_identification\_code.txt on your target device’s master OS image.
+{% endhint %}
+
+{% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
 {% endhint %}
 
  Back on the Products page, click on the ![:info:](https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/atlassian/info_32.png) icon in the row corresponding to your desired Product Definition to select the Bulk Identification Code, save it and prepare to write it on the device to prepare the master SD card \(later in this document\).

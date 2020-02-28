@@ -1,10 +1,14 @@
 ---
 description: >-
   A remote.it “Product Definition” is a group of remote.it Services that you
-  would like to enable on your Device.
+  would like to enable on one or more cloned Devices.
 ---
 
 # Create a Product Definition
+
+{% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
+{% endhint %}
 
 For example:
 

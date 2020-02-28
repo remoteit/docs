@@ -7,6 +7,10 @@ description: >-
 # Create an Auto Registration
 
 {% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
+{% endhint %}
+
+{% hint style="info" %}
 Auto Registration requires a dedicated Product Definition used only for Auto Registration. You cannot use the same Product Definition for both Bulk Registration and Auto Registration.
 {% endhint %}
 

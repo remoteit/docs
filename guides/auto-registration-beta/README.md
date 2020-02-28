@@ -4,7 +4,11 @@ description: >-
   produced devices.
 ---
 
-# Auto Registration \(Beta\)
+# Auto Registration - Getting started \(Beta\)
+
+{% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
+{% endhint %}
 
 When a device which has been configured to use remote.it Auto Registration boots up and connects to the internet, it downloads the matching configuration files to your device, registers and starts the Services without need for user intervention.
 

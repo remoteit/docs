@@ -6,6 +6,10 @@ description: >-
 
 # Auto Registration Setup \(Beta\)
 
+{% hint style="info" %}
+Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
+{% endhint %}
+
 The interactive installer "connectd\_installer" is not needed for Auto Registration and services created on the same device will be disabled during this procedure.  Ideally, you should start with an image which has not had any remote.it Services previously installed.
 
 #### What’s Needed <a id="What&#x2019;s-Needed"></a>
