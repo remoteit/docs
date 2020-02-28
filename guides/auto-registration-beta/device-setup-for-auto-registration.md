@@ -20,11 +20,23 @@ If you have previously installed the connectd package on your Pi, remove it, inc
 sudo dpkg --purge connectd
 ```
 
- Download the connectd 2.5.28 test package at [https://github.com/remoteit/installer/releases/tag/v2.5.28](https://github.com/remoteit/installer/releases/tag/v2.5.28). Click on the triangle next to the word “assets” if no files are visible.
+###  Download the connectd 2.5.28 test package. 
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+Copy and paste one of the two following commands to your Raspberry Pi's console, then press Enter to execute it.  curl and wget options are provided.
 
-Install the connectd package \(use the deb file which is appropriate for your device\):
+Using wget:
+
+```text
+wget https://github.com/remoteit/installer/releases/download/v2.5.28/connectd_2.5.28_armhf.deb
+```
+
+Alternatively, you can use curl:
+
+```text
+curl -LkO https://github.com/remoteit/installer/releases/download/v2.5.28/connectd_2.5.28_armhf.deb
+```
+
+Now, install the connectd Debian package:
 
 ```text
 sudo dpkg -i connectd_2.5.28_armhf.deb
