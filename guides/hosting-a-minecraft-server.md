@@ -102,5 +102,3 @@ Paste it into the Minecraft Server Address field and you will be able to connect
 
 ![Voila!](../.gitbook/assets/13.png)
 
-
-
