@@ -1,120 +1,134 @@
----
-description: >-
-  Using the Desktop App to initialize and manage P2P connections to your
-  devices.
----
+# Using the Desktop App
 
-# Using the Desktop App \(Beta\)
+The new [remote.it](http://remote.it/) desktop application is a powerful tool that makes remote access to common software applications on remote computers and devices easy.
 
-## **New Desktop App for macOS/Windows**
+[**Download**](https://github.com/remoteit/desktop/releases/latest)\*\*\*\*
 
-This is documentation for the new, _in-beta_ remote.it desktop app. 
+### Powerful connections
 
-The macOS app installer \(dmg\) and Windows installer \(exe\) are available [at Github](https://github.com/remoteit/desktop/releases).  Scroll down until you see the "Assets" arrow.  Click on that arrow to show the downloadable files.
+Every connection in Desktop is a direct peer to peer connection for the fastest speeds. Peer to peer connections also have the benefit of persisting until manually closed and feature throughput monitoring:
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/1.png)
 
-For a video tutorial, check out:
+In addition the desktop app allows you to share a connection with other users on the network. You can connect to a remote device and allow other users to connect to it through your system on the port you choose. Your local shared connections have the same great security as a remote proxy, only on your private network.
 
-{% embed url="https://www.youtube.com/watch?v=lIukqROaKHY" caption="" %}
+![](../.gitbook/assets/2%20%283%29.png)
 
-### **Why Use the Desktop Application?**
+**Advanced users** can easily change the local IP Address and Port that your connection is bound to.
 
-The desktop app gives you:
+### Quick launching
 
-* Consistent IP address and port numbers, which you can save;
-* Persistent connections;
-* Faster, peer-to-peer connections;
-* A more permanent link to your target device that can be "bookmarked";
-* A more lightweight interface than the portal.
+Having persistent connections makes it easy for you to bookmark and use remote.it in the background, but if you are in the app, you can also launch a few other services with a single click. HTTP, SSH, and VNC are all supported integrations.
 
-## **How to Use the Desktop App**
+![](../.gitbook/assets/3%20%283%29.png)
 
-### **Launch App**
+### Hosted services
 
-You can find and click the remote.it icon on the task bar.
+You can now easily setup a device through a simple interface. Mac, Windows, Ubuntu Linux and Raspberry Pi can all be quickly set up to host any local services. Web sites, SSH, VNC and RDP are common services people make available. And now with desktop you can also even share the remote.it Desktop admin panel so that you can remotely manage your remote.it services and connections.
 
-![macOS](../.gitbook/assets/sukurnshotto-2019-08-22-185009.png)
+![](../.gitbook/assets/screen-shot-2020-02-19-at-4.15.43-pm.png)
 
-![Windows](../.gitbook/assets/sukurnshotto-2019-08-22-185443.png)
+When your system is set up as a host it will even run in the background as a system service, so you don’t even need to be logged in to access it through remote.it.
 
-### **Logging In**
+**Advanced users** can even jump host services from other systems on the local network. So if you would like to stream a video camera feed through remote.it without installing anything on your camera, it’s easier than ever. You just have to specify a “Host IP Address” of a system on the local network.
 
-Enter in your remote.it credentials \(your email and password\) and press sign in.
+### Network scanning
 
-![Signing into remote.it.](https://lh4.googleusercontent.com/VBXC1QsLbGKUBS5stm8MYUnMoA8awymx2BRRMorYQTmBKFoRgaabD8Db6wyv5noKHHpPnN3oHrGwV03gEdtYI4_96XLGJtW-V5LND5GSwd4CCNrnCTM0qottCCr9Bkp8fEz2qzmh)
+Local area network scanning is now built in. Scan your network for local services and add them quickly and easily with a click:
 
-This should take you to a screen with a list of your devices.
+![](../.gitbook/assets/5%20%283%29.png)
+
+**Advanced users** with two networks connected can even share connections across either network using out of band. For instance if servicing a system on a private connected network you could connect your cell network and provide remote.it access to the private system.
+
+## How to use the Desktop App
+
+### Launch
+
+You can find the remote.it icon in the task bar. Clicking or right clicking allows you to quickly access the application. 
+
+![macOS](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LUSyCxfB8Qr7Kz5eeQu%2F-Lmsw5ItBCSgAU0sF2Ju%2F-LmsxYXnJolMHphogh5h%2F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-08-22%2018.50.09.png?alt=media&token=e42dd439-2918-437f-9b63-af8a082a87eb)
+
+![Windows](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LUSyCxfB8Qr7Kz5eeQu%2F-Lmsw5ItBCSgAU0sF2Ju%2F-LmsxlRVkgri4Yxg-v7a%2F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-08-22%2018.54.43.png?alt=media&token=57537c7e-e0cf-42c4-b1e2-7f05ea4b4d2c)
+
+### Sign In
+
+Enter your remote.it sign in credentials \(your email and password\) and click sign in. 
+
+![](../.gitbook/assets/8.png)
+
+{% hint style="info" %}
+**Note:** Please be aware that when you sign in for the first time you will be prompted to enter your Administrator name and password. This is so that remote.it can install the necessary command line tools onto your device. 
+{% endhint %}
 
 ### Navigation
 
-There are three tabs: the Connections tab, the Devices tab, and the Settings tab. The Devices tab is probably where you spend most of your time. Click on a tab to go to that tab.
+There are 5 tabs; Connections, Remote, Hosted, Network, and Settings.
 
-![](../.gitbook/assets/screen-shot-2019-07-16-at-3.26.01-pm.png)
+![](../.gitbook/assets/9%20%282%29.png)
 
-### **The Devices Tab – Making a Connection**
+### Connections
 
-The Devices tab \(middle tab on the bottom\) has a list of your devices. You can click on any device to show/hide its services. The name and description of each service is shown.
+Here you can see all the services you can connect too. A question mark indicates that the state of the device is unknown. A grayed-out circle with a dash indicates that service/device is offline. A green checkbox and circle indicates that the service/device is online. A blue circle indicates that the service/device currently has an active connection.
 
-![An example device list.](../.gitbook/assets/screen-shot-2019-07-15-at-8.51.00-pm.png)
-
-A grayed-out circle with a dash indicates that service/device is offline. A green checkbox and circle indicates that the service/device is online. A blue circle indicates that the service/device currently has an active connection.
+![An example connections page](../.gitbook/assets/10%20%281%29.png)
 
 You can click on any online service to connect to it. This will provide you with a localhost address which you can use in your application.
 
-![Two connected services.](../.gitbook/assets/screen-shot-2019-07-15-at-8.39.07-pm%20%281%29.png)
+![](../.gitbook/assets/11.png)
 
-The PID \(process ID\) of the _connectd_ process handling the connection is given under the service name. You can copy the localhost address with the gray copy button, restart the connection with the blue button, and stop the connection with the red button. After you stop a connection, the service online/offline indicator will turn orange.
+The throughput of the connection is shown to the right of the connection. If you hover over the connection, you can copy the localhost address with the clipboard icon. Disconnect with the blue button.
 
-![](../.gitbook/assets/screen-shot-2019-07-15-at-8.38.45-pm.png)
+You can also click on a connection to see more information.
 
-{% hint style="info" %}
-**Note:** it won't "forget" the service or device, just the connection.
-{% endhint %}
+![](../.gitbook/assets/12.png)
 
-The blue button will remake the connection on the _same_ localhost port, and the red button will "forget" the connection, returning things back to normal. Thus, forgetting the connection may invalidate some of your old links or bookmarks to that device.
+### Remote
 
-If you don't have any devices, an orange banner will appear.
+Here you will find all the devices you have access to. You can search, sort, and refresh your devices with the tools at the top of the page. Below that you will see all your devices displayed, either in alphabetical order or by device state. 
 
-![](../.gitbook/assets/screen-shot-2019-07-16-at-2.26.19-pm.png)
+Next to each device you can see the number of services and the connection state of the services.
 
-If you have too many devices, you will have to search for your device.
+![An example remote page](../.gitbook/assets/13.png)
 
-![](../.gitbook/assets/screen-shot-2019-07-15-at-8.40.58-pm.png)
+Click on a device to manage its services, in a similar way to the connections tab. Here, you can also see the device details at the bottom. 
 
-For organization, you can either sort your device list by name or by status. This button is in the top right. You can refresh your list of devices \(in case it has updated since you opened the app\) by pressing the adjacent refresh button.
+![](../.gitbook/assets/14.png)
 
-![](../.gitbook/assets/screen-shot-2019-07-15-at-8.39.27-pm.png)
+### Hosted
 
-#### Searching for a Device/Service
+In this tab you can register and add services to your local device. First, choose a name and click the register button. At this point, you may be asked to enter your administrator information.
 
-When in the Devices tab, you can enter in a partial or full name of a device/service. This will filter out the devices which don't match. This functionality is especially useful for users with large numbers of devices.
+![An example hosted page](../.gitbook/assets/15.png)
 
-![](../.gitbook/assets/screen-shot-2019-07-15-at-8.40.43-pm.png)
+After you've registered your device you can either add your own custom service or use the network scanner to automatically find potential services.
 
-### Connections Tab
+![](../.gitbook/assets/16.png)
 
-This is a tab containing a list of all your active connections, sorted by service name. You can manipulate them in the same way as in the Devices tab, but disconnecting and forgetting the connection will take it out of view.
+There are many different kinds of services you can add. Some examples are SSH, VNC, HTTP, and TCP. To add one of these services, click add. Give it a name and select the service type. The port will be filled in automatically, and you can change the host address if you wish. Then click the blue checkmark to save it.
 
-![Example contents of a connections tab.](../.gitbook/assets/screen-shot-2019-07-15-at-8.39.07-pm.png)
+![](../.gitbook/assets/17.png)
 
-### Settings Tab
+### Network
 
-![The settings tab.](../.gitbook/assets/screen-shot-2019-07-15-at-8.40.14-pm.png)
+Next is the network tab. You can get here either by pressing the network icon in the bottom bar or by selecting Scan for services under the Hosted tab. The app will autodetect what network you are on, but if you are connected to multiple networks and want to select a different one, you can use the dropdown menu in the upper left.
 
-{% hint style="info" %}
-**Note:** quitting remote.it will terminate all active connections!
-{% endhint %}
+![](../.gitbook/assets/18.png)
 
-With this tab, you can sign out of remote.it \(which takes you to the login page\), send an email to support@remote.it, or quit the remote.it application.
+Using the scan button will scan your current network for devices. From there you can click on a device to see the possible services available to add. Your local system will be labeled and have a different icon. 
 
-You can also check the "Show search only interface" box, which is especially useful if you have lots of devices. This prevents all devices from being loaded in the devices tab. You will need to search for a device/service in the devices tab, but you won't have to search in the connections tab.
+![Network scan results](../.gitbook/assets/19.png)
 
-### Debugging
+From there you can click on a device and add services with the click of a button. Just press add and you will be taken to the Hosted tab to finish setting up.
 
-The desktop app's configuration and data is stored in the folder _~/.remoteit_. This folder contains log files, user info, and connection information for advanced users. Users can also edit the connection files and change the port number used by a connection; once the desktop app is restarted, this new port will be used.
+### Settings
 
-The first time you open the desktop app, it will install _connectd_ \(the remote.it daemon\) and some other remote.it services \(_muxer_ and _demuxer_\) to _/usr/local/bin_. You can use _connectd_ to make P2P connections via the command line; here is a video on the topic:
+Finally, we have the Settings tab. Here you can sign out, quit, send feedback, and more. At the bottom you will see more advanced options, like the ability to re-install the command line tools and an uninstall function. 
 
-{% embed url="https://www.youtube.com/watch?v=unoaW3UfLSg" caption="" %}
+![](../.gitbook/assets/20.png)
+
+### Troubleshooting
+
+If you run into an issue or have any questions, please don't hesitate to submit a ticket on our [support site.](https://remot3it.zendesk.com/hc/en-us)
+
+Thank you, and we hope you enjoy remote.it.
 

@@ -10,7 +10,9 @@
 
 ## Guides
 
-* [Using the Desktop App \(Beta\)](guides/using-the-desktop-app.md)
+* [Using the Desktop App](guides/using-the-desktop-app.md)
+* [Peer to Peer Connections](guides/peer-to-peer-connections.md)
+* [Connecting to a Raspberry Pi with VNC or SSH](guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
 * [Hosting a Minecraft Server](guides/hosting-a-minecraft-server.md)
 * [Using the Interactive Installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
@@ -116,14 +118,8 @@
 * [Centos](platforms/centos-quick-start.md)
 * [Other Linux flavors](platforms/all-other-linux-flavors.md)
 * [Supported platforms and installation](platforms/supported-platforms.md)
-* [Windows](platforms/windows-quick-start/README.md)
-  * [Installing remote.it Connect for Windows](platforms/windows-quick-start/installing-remote.it-connect.md)
-  * [Using remote.it Connect for Windows](platforms/windows-quick-start/using-remote.it-connect.md)
-  * [Creating and using a peer to peer connection](platforms/windows-quick-start/creating-and-using-a-peer-to-peer-connection.md)
-  * [Create a local remote.it RDP Service](platforms/windows-quick-start/create-a-local-remote.it-rdp-service.md)
-  * [Create a local remote.it web Service](platforms/windows-quick-start/create-a-local-remote.it-web-service.md)
-  * [Create a local remote.it TCP service](platforms/windows-quick-start/create-a-local-remote.it-tcp-service.md)
-  * [Editing a Local Service](platforms/windows-quick-start/editing-a-local-service.md)
+* [MacOS](platforms/macos.md)
+* [Windows](platforms/windows-quick-start.md)
 
 ## connectd Reference
 

@@ -7,7 +7,7 @@ remote.it works on nearly any device that has a Linux or Windows operating syste
 * Linux/Unix \(Ubuntu, Raspbian, CentOS, OpenWRT, etc.\)
 * Windows 7 and 10
 
-{% page-ref page="windows-quick-start/" %}
+{% page-ref page="windows-quick-start.md" %}
 
 ## Linux CPU Architectures
 

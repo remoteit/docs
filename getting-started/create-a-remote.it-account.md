@@ -16,7 +16,7 @@ This will allow you to control your devices and access them securely anywhere in
 
 {% page-ref page="../platforms/centos-quick-start.md" %}
 
-{% page-ref page="../platforms/windows-quick-start/" %}
+{% page-ref page="../platforms/windows-quick-start.md" %}
 
 {% hint style="info" %}
 remote.it is free for personal use under our Fair Use policy. 

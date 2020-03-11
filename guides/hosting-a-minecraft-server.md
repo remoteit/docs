@@ -26,7 +26,7 @@ Before starting the process of setting up your Minecraft server to run on remote
 
 Below is an image of what your server should look like when it's ready to be hosted. You should be able to connect to it using your local IP address, but it won't be accessible by anyone outside of your local network yet.
 
-![An example of what you should have set up \(Windows\).](../.gitbook/assets/1.png)
+![An example of what you should have set up \(Windows\).](../.gitbook/assets/1%20%282%29.png)
 
 ## Host using remote.it
 
@@ -70,7 +70,7 @@ Navigate to the _Devices_ page and click the check mark next to the device that 
 **NOTE:** You should not allow contacts to execute scripts on the device.
 {% endhint %}
 
-![You may share the device to as many people as you want.](../.gitbook/assets/8.png)
+![You may share the device to as many people as you want.](../.gitbook/assets/8%20%281%29.png)
 
 Now, have the people you want to play with log in to the desktop app. 
 
@@ -100,5 +100,5 @@ Paste it into the Minecraft Server Address field and you will be able to connect
 
 **You’re done!** As long as remote.it is running on both machines and the Minecraft server is up, you will able to play Minecraft together securely without port forwarding.
 
-![Voila!](../.gitbook/assets/13.png)
+![Voila!](../.gitbook/assets/13%20%281%29.png)
 

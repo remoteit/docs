@@ -6,6 +6,12 @@ If you'd like to install remote.it on your device, see our Supported Platforms s
 
 {% page-ref page="platforms/supported-platforms.md" %}
 
+## Desktop App
+
+The remote.it Desktop Application works on most operating systems. Check out the Desktop App's latest release on Github:
+
+{% embed url="https://github.com/remoteit/desktop/releases/latest" %}
+
 ## connectd
 
 If you need the lower level library, connectd, that the remote.it installer uses, please checkout the connectd repository on Github:
@@ -24,7 +30,7 @@ Our basic application for making peer to peer connections from your Windows mach
 
 Learn how to get set up:
 
-{% page-ref page="platforms/windows-quick-start/" %}
+{% page-ref page="platforms/windows-quick-start.md" %}
 
 ## Server Channel
 
