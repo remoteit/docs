@@ -10,15 +10,15 @@
 
 ## Guides
 
+* [Using the Desktop App](guides/using-the-desktop-app.md)
 * [Using the CLI \(Beta\)](guides/using-the-cli/README.md)
   * [Usage](guides/using-the-cli/usage.md)
   * [Advanced Configuration](guides/using-the-cli/advanced-configuration.md)
   * [Troubleshooting](guides/using-the-cli/troubleshooting.md)
-* [Connecting to a Raspberry Pi with VNC or SSH \(Command Line\)](guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line.md)
-* [Using the Desktop App](guides/using-the-desktop-app.md)
 * [Peer to Peer Connections](guides/peer-to-peer-connections.md)
-* [Connecting to a Raspberry Pi with VNC or SSH](guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
 * [Hosting a Minecraft Server](guides/hosting-a-minecraft-server.md)
+* [Connecting to a Raspberry Pi with VNC or SSH](guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
+* [Connecting to a Raspberry Pi with VNC or SSH \(Command Line\)](guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line.md)
 * [Using the Interactive Installer](guides/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](guides/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](guides/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)

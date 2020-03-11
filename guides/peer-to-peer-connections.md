@@ -52,7 +52,9 @@ To connect to a service in this page, click on the device that the target servic
 
 ## More
 
-If you would like a more in depth tutorial on how to create SSH or VNC connections, please continue to the next guide.
+If you would like a more in depth tutorial on how to create SSH or VNC connections, please see our guide:
+
+{% page-ref page="connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 If you have any trouble, please contact our [**support**](https://remot3it.zendesk.com/hc/en-us) or view our troubleshooting guide:
 
