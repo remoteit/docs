@@ -12,7 +12,7 @@ The remote.it Desktop App for MacOS allows for creating Services and connecting 
 
 Please, see our documentation on how to use our new Desktop application:
 
-{% page-ref page="../guides/using-the-desktop-app.md" %}
+{% page-ref page="../guides/using-the-desktop-app/" %}
 
 ## **Peer to Peer connections** 
 
@@ -20,7 +20,7 @@ The desktop app is the easiest way to make P2P connections on Mac.
 
 Learn more about the benefits of P2P connections and how to use the app to create them:
 
-{% page-ref page="../guides/peer-to-peer-connections.md" %}
+{% page-ref page="../guides/using-the-desktop-app/peer-to-peer-connections.md" %}
 
 ## SSH and VNC
 
@@ -28,7 +28,7 @@ Being able to SSH or VNC to a Raspberry Pi is now easier than ever using our Des
 
 If you want to learn more about creating these Services, see:
 
-{% page-ref page="../guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../guides/using-the-desktop-app/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 ## Hosting Servers
 

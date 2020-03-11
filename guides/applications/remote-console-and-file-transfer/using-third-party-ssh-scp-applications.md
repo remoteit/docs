@@ -38,7 +38,7 @@ The dialog shown below will appear after the connection is established.  You’l
 
 #### Using a P2P connection
 
-If you are using a connection from the [Desktop ](../../using-the-desktop-app.md)application or a [P2P connection](../../using-connectd-in-p2p-initiator-mode/) made on the command line, the value to use for **hostname** is:
+If you are using a connection from the [Desktop ](../../using-the-desktop-app/)application or a [P2P connection](../../using-connectd-in-p2p-initiator-mode/) made on the command line, the value to use for **hostname** is:
 
 ```text
 127.0.0.1

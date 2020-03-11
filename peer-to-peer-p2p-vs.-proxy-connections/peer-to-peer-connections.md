@@ -13,7 +13,7 @@ Peer to peer \(P2P\) connections can be made using the connectd daemon on any pl
 
 The remote.it Desktop applications support P2P mode.
 
-{% page-ref page="../guides/using-the-desktop-app.md" %}
+{% page-ref page="../guides/using-the-desktop-app/" %}
 
 ## Windows
 
