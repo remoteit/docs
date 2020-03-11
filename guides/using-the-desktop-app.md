@@ -12,7 +12,7 @@ Every connection in Desktop is a direct peer to peer connection for the fastest 
 
 In addition the desktop app allows you to share a connection with other users on the network. You can connect to a remote device and allow other users to connect to it through your system on the port you choose. Your local shared connections have the same great security as a remote proxy, only on your private network.
 
-![](../.gitbook/assets/2%20%283%29.png)
+![](../.gitbook/assets/2%20%284%29.png)
 
 **Advanced users** can easily change the local IP Address and Port that your connection is bound to.
 
@@ -64,7 +64,7 @@ Enter your remote.it sign in credentials \(your email and password\) and click s
 
 There are 5 tabs; Connections, Remote, Hosted, Network, and Settings.
 
-![](../.gitbook/assets/9%20%282%29.png)
+![](../.gitbook/assets/9%20%283%29.png)
 
 ### Connections
 

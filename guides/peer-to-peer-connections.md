@@ -18,13 +18,13 @@ Creating Peer to Peer connections using remote.it is now faster and easier thank
 
 In remote.it there are devices and services. Services are hosted through devices, and are what remote.it connects to. To create a service, [**download**](https://github.com/remoteit/desktop/releases/latest) ****the desktop app on your chosen device and sign in.
 
-![Sign in using your remote.it information](../.gitbook/assets/1%20%281%29.png)
+![Sign in using your remote.it information](../.gitbook/assets/1%20%282%29.png)
 
 Next, navigate to the Hosted tab. Here you can register the device and add services. After you've given your device a name and registered it, you may add services. 
 
 You can add your own custom service by pressing Add, or remote.it can scan for your service. Click Scan for services or navigate to the network tab to find services running on your network.
 
-![After registering your device, add a service using one of the options](../.gitbook/assets/2%20%282%29.png)
+![After registering your device, add a service using one of the options](../.gitbook/assets/2%20%283%29.png)
 
 Once you add a service, you will prompted to fill in the appropriate information if it is needed. You can add many services, with TCP, VNC, SSH, and RDP being just a few examples. If you want to add a service on your devices local address, you can leave the Host Address form blank.
 

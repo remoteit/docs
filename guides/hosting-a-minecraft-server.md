@@ -26,7 +26,7 @@ Before starting the process of setting up your Minecraft server to run on remote
 
 Below is an image of what your server should look like when it's ready to be hosted. You should be able to connect to it using your local IP address, but it won't be accessible by anyone outside of your local network yet.
 
-![An example of what you should have set up \(Windows\).](../.gitbook/assets/1%20%282%29.png)
+![An example of what you should have set up \(Windows\).](../.gitbook/assets/1%20%283%29.png)
 
 ## Host using remote.it
 
@@ -62,7 +62,7 @@ The server is now hosted through remote.it. To allow players to join, you must s
 
 Go to [**app.remote.it**](https://app.remote.it/auth/#/sign-in) ****and navigate to the _Contacts_ page. Click the _Create Contact_ button and enter the name and email of the person you wish to add to your server. Then click _Create Contact_. 
 
-![](../.gitbook/assets/7.png)
+![](../.gitbook/assets/7%20%281%29.png)
 
 Navigate to the _Devices_ page and click the check mark next to the device that is hosting the server. Click on _Actions_, then _Share_. Choose the people you want to play with from the drop down menu and _Add Sharing_.
 
