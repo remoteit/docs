@@ -6,7 +6,7 @@ description: Learn how to use the new remote.it Command Line Interface (CLI).
 
 ## Beta Notice
 
-**This project is currently in "beta" and is not ready for production use yet. If you want to use remote.it on your production Devices, please user an alternate methods!**
+**This project is currently in "beta" and is not ready for production use yet. If you want to use remote.it on your production Devices, please use an alternate method! Click the following link to see our other options:**
 
 {% page-ref page="../../downloads.md" %}
 
