@@ -10,6 +10,7 @@
 
 ## Guides
 
+* [Control your MacOS Device Remotely \(MacOS to MacOS\)](guides/control-your-computer-remotely-mac-to-mac.md)
 * [Using the Desktop App](guides/using-the-desktop-app/README.md)
   * [Peer to Peer Connections](guides/using-the-desktop-app/peer-to-peer-connections.md)
   * [Connecting to a Raspberry Pi with VNC or SSH](guides/using-the-desktop-app/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
