@@ -1,4 +1,4 @@
-# Connecting to a Device
+# Connecting to a Device using the API
 
 {% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect" %}
 {% api-method-summary %}

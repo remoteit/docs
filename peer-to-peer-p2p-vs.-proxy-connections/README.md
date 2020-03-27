@@ -32,10 +32,35 @@ To learn how to make a P2P connection, please see:
 
 Cloud proxy connections are the simplest to set up and test with as you only need our connectd daemon on the target device. However there are limitations compared to a direct P2P connection.
 
-* URL and port will change every time you connect
-* There is an 8 hour time limit before the connection will auto-close
+* The URL and port will change every time you connect
 
-To learn how to make a proxy connection, click on the link below.
+### Proxy connection expiration
+
+Proxy connections, which are made when you connect using the web portal or the /device/connect API endpoint, are not permanent. As long as an active tunnel is maintained, the proxy address will remain active for about 8 hours. How an active tunnel is maintained depends on the type of service you are using.
+
+**SSH**  
+Establishing and keeping an SSH session open to the endpoint maintains an active tunnel, even if you are not typing. If you disconnect the SSH client, the proxy will expire in another 15 minutes.
+
+**SCP**  
+Doing file transfers via SCP command line only keeps the tunnel active for the duration of the file transfer.
+
+**VNC and RDP**  
+For VNC and RDP, as long as the VNC or RDP client is connected to the server, the tunnel is open, even if you aren’t doing anything.
+
+**Web servers**  
+If you connect to a web page, simply keeping the web page visible is not sufficient to maintain the tunnel. You’ll have to navigate around or refresh the browser.
+
+**Other service types**  
+The behavior of other service types will depend on whether an active client-server connection actually transfers any data in the absence of user activity on the client. If so, the proxy connection will remain active for about 8 hours. If not, the proxy connection will close after about 15 minutes.
+
+**Why?**  
+We’ve shortened the expiration time on proxy connections to prevent unused connections being left open and consuming unnecessary resources on our servers that would reduce capacity and needlessly burden the service. This helps to improve overall performance of the remote.it service.
+
+In addition, users whose targets are on metered cell connections were experiencing data charges accumulating even after they stopped using the connection. The shortened timeout will help reduce those data charges.
+
+To learn how to make proxy connections, click on one of the links below.
 
 {% page-ref page="../guides/using-the-web-portal/the-view-devices-page/proxy-connections.md" %}
+
+{% page-ref page="../api-reference/devices/connect.md" %}
 

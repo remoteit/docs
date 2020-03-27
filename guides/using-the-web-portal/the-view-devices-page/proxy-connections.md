@@ -1,4 +1,4 @@
-# Connecting to a remote.it Service
+# Connecting to a remote.it Service in the web portal
 
 When you click on the Device Name on the Devices page, you'll see the Services Dialog.
 

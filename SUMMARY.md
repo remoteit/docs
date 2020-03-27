@@ -54,7 +54,7 @@
   * [Bulk Registration OEM reference](guides/bulk-registration/bulk-registration-oem-reference.md)
 * [Using the Web Portal](guides/using-the-web-portal/README.md)
   * [The "Devices" page](guides/using-the-web-portal/the-view-devices-page/README.md)
-    * [Connecting to a remote.it Service](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)
+    * [Connecting to a remote.it Service in the web portal](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)
     * [The Actions Menu](guides/using-the-web-portal/the-view-devices-page/the-actions-menu.md)
     * [Search and Filter Modes](guides/using-the-web-portal/the-view-devices-page/search-and-filter-modes.md)
 * [Applications](guides/applications/README.md)
@@ -99,7 +99,7 @@
 * [Authentication](api-reference/authentication.md)
 * [Devices](api-reference/devices/README.md)
   * [Listing Devices](api-reference/devices/list.md)
-  * [Connecting to a Device](api-reference/devices/connect.md)
+  * [Connecting to a Device using the API](api-reference/devices/connect.md)
   * [Terminating a proxy connection to a device](api-reference/devices/device-connect-stop.md)
 
 ## Platforms
