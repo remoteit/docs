@@ -99,7 +99,7 @@
 * [Authentication](api-reference/authentication.md)
 * [Devices](api-reference/devices/README.md)
   * [Listing Devices](api-reference/devices/list.md)
-  * [Connecting to a Device using the API](api-reference/devices/connect.md)
+  * [Connecting to a Service using the API](api-reference/devices/connect.md)
   * [Terminating a proxy connection to a device](api-reference/devices/device-connect-stop.md)
 
 ## Platforms

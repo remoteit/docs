@@ -1,4 +1,4 @@
-# Connecting to a Device using the API
+# Connecting to a Service using the API
 
 {% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect" %}
 {% api-method-summary %}
@@ -6,7 +6,7 @@ Connect to a device
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a connection to a device.
+Create a connection to a device.  Please note that the term "device" in this context is a legacy reference.  In all other contexts on this web site, a "device" is called a "Service".
 {% endapi-method-description %}
 
 {% api-method-spec %}
