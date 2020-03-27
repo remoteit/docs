@@ -42,16 +42,16 @@ Proxy connections, which are made when you connect using the web portal or the /
 Establishing and keeping an SSH session open to the endpoint maintains an active tunnel, even if you are not typing. If you disconnect the SSH client, the proxy will expire in another 15 minutes.
 
 **SCP**  
-Doing file transfers via SCP command line only keeps the tunnel active for the duration of the file transfer.
+Doing file transfers via SCP command line only keeps the tunnel active for the duration of the file transfer. You may do multiple SCP commands using the same proxy URL and port, as long as they are less than 15 minutes apart. The proxy will time out 15 minutes after the end of the last transfer if no further commands are executed inside that window.
 
 **VNC and RDP**  
 For VNC and RDP, as long as the VNC or RDP client is connected to the server, the tunnel is open, even if you aren’t doing anything.
 
 **Web servers**  
-If you connect to a web page, simply keeping the web page visible is not sufficient to maintain the tunnel. You’ll have to navigate around or refresh the browser.
+If you connect to a web page, simply keeping the web page visible is not sufficient to maintain the tunnel. You’ll have to navigate around or refresh the browser. Web connection proxies expire 15 min after the last web request is issued. The proxy will timeout 15 minutes after the last web request if no further web requests are executed inside that window.
 
 **Other service types**  
-The behavior of other service types will depend on whether an active client-server connection actually transfers any data in the absence of user activity on the client. If so, the proxy connection will remain active for about 8 hours. If not, the proxy connection will close after about 15 minutes.
+The behavior of other service types will depend on whether an active client-server maintains a TCP connection. If a TCP connection remains open, the proxy connection will remain active for about 8 hours. If not, the proxy connection will expire about 15 minutes after the last TCP connection closes.
 
 **Why?**  
 We’ve shortened the expiration time on proxy connections to prevent unused connections being left open and consuming unnecessary resources on our servers that would reduce capacity and needlessly burden the service. This helps to improve overall performance of the remote.it service.
