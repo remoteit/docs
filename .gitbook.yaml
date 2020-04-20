@@ -2,3 +2,9 @@ root: ./
 
 redirects:
   devices: ./guides/hosting-a-minecraft-server.md
+  connect-mac: ./guides/using-the-desktop-app/peer-to-peer-connections
+  connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections
+  connect-rpi: ./guides/using-the-desktop-app/peer-to-peer-connections
+  connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections
+  connect-rdp: ./
+  connect-macvnc: ./guides/control-your-computer-remotely-mac-to-mac
