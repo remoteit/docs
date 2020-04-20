@@ -1,6 +1,7 @@
 root: ./
 
 redirects:
+  out-of-band: ./
   desktop-welcome: ./guides/using-the-desktop-app
   connect-mac: ./guides/control-your-computer-remotely-mac-to-mac
   connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections
