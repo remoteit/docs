@@ -2,10 +2,8 @@ root: ./
 
 redirects:
   desktop-welcome: ./guides/using-the-desktop-app
-  connect-mac: ./guides/using-the-desktop-app/peer-to-peer-connections
+  connect-mac: ./guides/control-your-computer-remotely-mac-to-mac
   connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections
   connect-rpi: ./guides/using-the-desktop-app/peer-to-peer-connections
   connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections
-  connect-rdp: ./
-  connect-macvnc: ./guides/control-your-computer-remotely-mac-to-mac
-  connect-windows-mac: ./
+  minecraft: ./guides/hosting-a-minecraft-server
