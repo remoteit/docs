@@ -1,7 +1,7 @@
 root: ./
 
 redirects:
-  out-of-band: ./guides/using-the-desktop-app/README.md
+  out-of-band: ./
   desktop-welcome: ./guides/using-the-desktop-app/README.md
   connect-mac: ./guides/control-your-computer-remotely-mac-to-mac.md
   connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections.md
