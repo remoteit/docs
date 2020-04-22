@@ -1,8 +1,8 @@
 root: ./
 
 redirects:
-  out-of-band: ./guides/using-the-desktop-app.md
-  desktop-welcome: ./guides/using-the-desktop-app.md
+  out-of-band: ./guides/using-the-desktop-app/README.md
+  desktop-welcome: ./guides/using-the-desktop-app/README.md
   connect-mac: ./guides/control-your-computer-remotely-mac-to-mac.md
   connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections.md
   connect-rpi: ./guides/using-the-desktop-app/peer-to-peer-connections.md
