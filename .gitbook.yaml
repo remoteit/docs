@@ -1,10 +1,10 @@
 root: ./
 
 redirects:
-  out-of-band: ./guides/using-the-desktop-app
-  desktop-welcome: ./guides/using-the-desktop-app
-  connect-mac: ./guides/control-your-computer-remotely-mac-to-mac
-  connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections
-  connect-rpi: ./guides/using-the-desktop-app/peer-to-peer-connections
-  connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections
-  minecraft: ./guides/hosting-a-minecraft-server
+  out-of-band: ./guides/using-the-desktop-app.md
+  desktop-welcome: ./guides/using-the-desktop-app.md
+  connect-mac: ./guides/control-your-computer-remotely-mac-to-mac.md
+  connect-windows: ./guides/using-the-desktop-app/peer-to-peer-connections.md
+  connect-rpi: ./guides/using-the-desktop-app/peer-to-peer-connections.md
+  connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections.md
+  minecraft: ./guides/hosting-a-minecraft-server.md
