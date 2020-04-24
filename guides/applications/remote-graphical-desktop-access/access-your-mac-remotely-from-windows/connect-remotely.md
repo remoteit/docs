@@ -12,7 +12,7 @@ After a few minutes, the target macOS Device will appear under the _Devices_ tab
 
 Click the green “Connect” button. Once connected, the button will turn blue. You will see a clipboard icon next to the Service name. Click the clipboard to copy the VNC string to your clipboard.
 
-![You can see the address underneath the Service name as well.](https://lh5.googleusercontent.com/78XJX4AZJn44SDJ3Xfrkqivd63PyvI4-pt-N5IlP_zINk5ZN-oyVQsKi8jPOj_NWzbUcE5o6OTaY4M7mKbIn8JvAbAwNKRe1Pu-lZdSS78_-EhUCuOq7neFfUn7Y2wIJ0C60k6hz)
+![You can see the address underneath the Service name as well.](../../../../.gitbook/assets/copy-vnc.PNG)
 
 This is the address you will use to connect to your macOS Device. Open up the VNC client application you installed earlier. We use RealVNC’s VNC Viewer. Paste the VNC string into the appropriate text field and hit enter. 
 
