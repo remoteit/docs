@@ -54,7 +54,7 @@ Now, download the Desktop App on the MacOS device you want to control from. Log 
 
 Click it, then click "Connect." Once you've connected, you will see a monitor icon.
 
-![](../.gitbook/assets/screen-shot-2020-03-23-at-2.03.24-pm.png)
+![](../.gitbook/assets/screen-shot-2020-03-23-at-2.03.24-pm%20%281%29.png)
 
 Click the icon to launch the Screen Sharing application. Enter in the username and password of the MacOS device you are connecting too, then click "Sign In".
 
