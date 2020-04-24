@@ -14,7 +14,7 @@ From the _Connections_ tab, click the “Disconnect” button next to the Servic
 
 From the _Devices_ tab, click on the Device you are connected to and click the “Disconnect” button next to the Service you wish to stop.
 
-![Here is my Service on the Devices tab.](https://lh5.googleusercontent.com/IlbKom03aOcMRa4yr4_h7RSNhSmt0GebD27Jl42OubXNKUcR2Ek8zZsqL9rWZZZYeNvuYdFD78k2tvp_Xv82wKtMA3L7FDPZwhfiX2KyGTZCiEY0lsZnW-qaPT54Iyu4gHKHdij_)
+![Here is my Service on the Devices tab.](../../../../.gitbook/assets/5%20%281%29.PNG)
 
 Check out our other useful guides:
 

@@ -14,7 +14,7 @@ After a few minutes, the Device you registered earlier will appear under the _De
 
 Click the green “Connect” button next to the Service. The button will turn blue, signifying that you are now connected.
 
-![I&apos;ve now connected to my other computer with remote.it!](https://lh5.googleusercontent.com/b5mxciSZ4jfFTf_SPkDv9mBK7Pewc5unSKNHSZ0ncIKVr3RIp2rsWW6TTbvNtpY3Wo3hpimhrGB4dY3OOgYkk2k2J4A__sndCGPA8QCI6HHYFoNLK_-kqpiPydpeZFUOCyzrOFOh)
+![I&apos;ve now connected to my other computer with remote.it!](../../../../.gitbook/assets/2.PNG)
 
 Click the clipboard icon to copy the address to your clipboard. This is the address that you will use to connect to the original Device. 
 
