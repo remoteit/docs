@@ -6,7 +6,7 @@ The Quick Connect feature speeds up connecting to your Services.
 
 ### **Connect**
 
-Once you're on the Devices page, you will see all of the Devices associated with your account. There will be a Connect button to the left of the Device name. If the Devices is online, this button will be green, otherwise you will see "Offline" gainst the background.
+Once you're on the Devices page, you will see all of the Devices associated with your account. There will be a Connect button to the left of the Device name. If the Devices is online, this button will be green, otherwise you will see "Offline" against the background.
 
 Click on the "Connect" button and a drop-down menu of all that Device's Services will appear.  Click on the desired Service to initiate the connection.  Skip ahead to "Connection Dialog".
 
