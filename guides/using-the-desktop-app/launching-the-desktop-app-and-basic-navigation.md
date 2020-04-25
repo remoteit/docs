@@ -10,13 +10,13 @@ macOS
 
 Windows
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 **Sign In**
 
 Enter your remote.it sign in credentials \(your email and password\) and click sign in.
 
-![](../../.gitbook/assets/image%20%28244%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 {% hint style="info" %}
 **Note:** Please be aware that when you sign in for the first time you will be prompted to enter your Administrator name and password. This is so that remote.it can install the necessary command line tools onto your device. 
@@ -26,7 +26,7 @@ Enter your remote.it sign in credentials \(your email and password\) and click s
 
 There are 3 tabs; Connections, Devices, and Settings.  The currently active tab is highlighted in blue.
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 \*\*\*\*
 

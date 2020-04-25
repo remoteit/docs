@@ -8,13 +8,13 @@ After the first time you log in, when you run connectd\_installer again, you wil
 
 You will see the "Main Menu".  There is a table of installed services but you may not have any installed yet.  You should install one!  
 
-![](../../.gitbook/assets/image%20%28282%29.png)
+![](../../.gitbook/assets/image%20%28283%29.png)
 
 Let's install a service for the SSH connection.  Because the service we wish to connect to is on this device \(as compared to a different device on the same LAN\), use option 1, "Attach/reinstall a remote.it Service to an application".
 
 Now you will see the "Protocol Selection Menu".
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
 Choosing a protocol here helps determine how the remote.it web portal will respond when you make a connection.
 
@@ -38,7 +38,7 @@ Select option 1 for SSH and enter the requested information.  Whenever you selec
 
 When the list of installed Services redraws, you will see your new remote.it ssh Service in the table along with the detected application.
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 The interactive installer can be used in a similar way for all types of supported TCP servers.
 
