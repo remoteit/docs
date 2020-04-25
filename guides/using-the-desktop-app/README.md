@@ -10,7 +10,7 @@ description: >-
 
 ## If you see an "update is available" message, click on "x" to cancel.  
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2889%29.png)
 
 ## Then follow these instructions for Windows
 
@@ -33,7 +33,7 @@ To download the latest version of the beta remote.it Desktop App, visit this lin
 
 You might need to click on the word "Assets" to display the list.
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 Look for the filename which matches your OS type.  Click on the file link to download and run the installer on your PC, Mac or other device.  Once you’re done with installation, click on the "Features" button below to learn more about what the remote.it Desktop App can do.
 
