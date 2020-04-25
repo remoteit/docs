@@ -28,7 +28,7 @@ Check out our other useful guides:
 
 {% page-ref page="../../../control-your-computer-remotely-mac-to-mac.md" %}
 
-{% page-ref page="../../../using-the-desktop-app/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../../../connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 {% page-ref page="../control-your-windows-device-remotely-windows-to-windows/" %}
 

@@ -4,7 +4,7 @@ description: >-
   your device from anywhere.
 ---
 
-# Connecting to a Raspberry Pi with VNC or SSH \(Command Line\)
+# Connecting to a Raspberry Pi with VNC or SSH
 
 ## Overview
 
@@ -23,11 +23,11 @@ First, you'll have to enable the ability to SSH and/or VNC into your Pi.
 
 Access your Pi, then click the menu in the upper left corner and select _Preferences_ from the menu. 
 
-![](../.gitbook/assets/1%20%281%29.png)
+![](../../.gitbook/assets/1%20%281%29.png)
 
 Next, click Raspberry Pi Configuration and navigate to the _Interfaces_ tab. Make sure that either VNC or SSH \(or both\) are enabled. 
 
-![](../.gitbook/assets/2%20%282%29.png)
+![](../../.gitbook/assets/2%20%282%29.png)
 
 Now, let's set up remote.it! 
 
@@ -51,7 +51,7 @@ Launch the terminal. Make sure your Raspberry Pi is up to date by running the fo
 
 `sudo apt full-upgrade`
 
-![](../.gitbook/assets/3.PNG)
+![](../../.gitbook/assets/3.PNG)
 
 Then, install remote.it. Run:
 
@@ -59,7 +59,7 @@ Then, install remote.it. Run:
 
 `sudo connectd_installer`
 
-![](../.gitbook/assets/4.PNG)
+![](../../.gitbook/assets/4.PNG)
 
 You will see the Interactive Installer interface after running the last command. Sign in to your remote.it account.
 
@@ -69,21 +69,21 @@ The next step is to add the SSH and/or VNC services to your Device, so that you 
 
 If you want to be able to SSH or VNC to the Pi, navigate to menu selection 1.
 
-![](../.gitbook/assets/5.PNG)
+![](../../.gitbook/assets/5.PNG)
 
 Then, select the appropriate Service\(s\) from the list that appears and configure them to fit your needs. 
 
-![](../.gitbook/assets/6.PNG)
+![](../../.gitbook/assets/6.PNG)
 
 The Service\(s\) will be added to your Device and you can now exit. The Pi is ready to be controlled remotely. 
 
-## Install remote.it on the controller
+## Install remote.it on the client
 
-Now that you've installed the Service\(s\), you can SSH or VNC into your Pi from any other machine. However, you cannot do this using the Interactive Installer. Instead, you'll have to download the remote.it desktop app on the controlling machine. You can find it [**here**](https://github.com/remoteit/desktop/releases/latest).
+Now that you've installed the Service\(s\), you can SSH or VNC into your Pi from any other machine. However, you cannot do this using the Interactive Installer. Instead, you'll have to download the remote.it desktop app on the client machine. You can find it [**here**](https://github.com/remoteit/desktop/releases/latest).
 
 Log into the remote.it desktop app on the machine you wish to access the Pi from. The Device will appear under the _Remote_ tab. 
 
-![Click the button to connect](../.gitbook/assets/screen-shot-2020-02-20-at-5.57.45-pm.png)
+![Click the button to connect](../../.gitbook/assets/screen-shot-2020-02-20-at-5.57.45-pm.png)
 
 Click it, then connect to the desired Service. 
 
@@ -93,9 +93,9 @@ Downloading something like [**PuTTY**](https://www.chiark.greenend.org.uk/~sgtat
 
 Click on the Service you are now connected to. Copy the information into the appropriate program, and connect. 
 
-![This button copies the VNC string, which I will use to connect](../.gitbook/assets/screen-shot-2020-02-20-at-5.58.13-pm.png)
+![This button copies the VNC string, which I will use to connect](../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.13-pm.png)
 
 Voila! You are now connected to the Pi via SSH/VNC using remote.it!
 
-![I can now control my Pi from anywhere, using remote.it!](../.gitbook/assets/screen-shot-2020-02-20-at-5.58.59-pm%20%281%29.png)
+![I can now control my Pi from anywhere, using remote.it!](../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.59-pm%20%281%29.png)
 

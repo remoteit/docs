@@ -1,10 +1,11 @@
 ---
 description: >-
-  You've set up your Raspberry Pi. Now, use remote.it to connect and control
-  your device from anywhere.
+  Similar to the connectd package command line tool, but using the GUI, the
+  remote.it Desktop App for Raspberry Pi lets you configure remote.it Services
+  in order to connect to them from other places.
 ---
 
-# Connecting to a Raspberry Pi with VNC or SSH
+# Configuring a Raspberry Pi with the remote.it Desktop App
 
 ## Overview
 
@@ -69,11 +70,11 @@ Name the Service, then click the blue checkmark.
 **NOTE:** If the Host IP Address is blank, don’t worry about it. The app will fill it in for you once you press the check mark.
 {% endhint %}
 
-## Install remote.it on the controller
+## Install remote.it on the client
 
 Now that you've installed the Service\(s\), you can SSH or VNC into your Pi from any other machine. 
 
-Log into the remote.it desktop app on the machine you wish to access the Pi from. The Device will appear under the _Remote_ tab. Click it, then connect to the desired service. 
+Log into the remote.it Desktop App on the machine you wish to access the Pi from. The Device will appear under the _Remote_ tab. Click it, then connect to the desired service. 
 
 ![Click the button to connect](../../.gitbook/assets/screen-shot-2020-02-20-at-5.57.45-pm%20%281%29.png)
 
