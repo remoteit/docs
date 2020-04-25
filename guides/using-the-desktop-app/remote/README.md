@@ -10,15 +10,17 @@ Here you will ﬁnd all the devices you have access to. You can search, sort, an
 
 Next to each device you can see the number of services \(by the dashed underscores\)  and the connection  state of the services \(blue is active, green is online but not connected, grey is offline\).
 
-![](../../../.gitbook/assets/image%20%2882%29.png)
+![](../../../.gitbook/assets/image%20%28183%29.png)
 
 Hover your mouse pointer over the dashes to access the individual Services on your Device.  The Service name will pop up as a tool tip as shown.  Clicking on the dash will take you to a screen where you can create and use your connection.
 
-![](../../../.gitbook/assets/screen-shot-2020-03-26-at-8.15.52-am.png)
-
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28108%29.png)
+![](../../../.gitbook/assets/image%20%28418%29.png)
+
+* If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
+* If a Service is online and not yet connected, the green "Connect" button will be shown.
+* If a Service is offline, the button will display "Offline".
 
 #### Device Details
 
@@ -31,11 +33,11 @@ Click on a device to connect to and manage its Services.
 
 Click on a Service name or the arrow on the right side to open the Service Details view.
 
-![](../../../.gitbook/assets/image%20%28290%29.png)
+![](../../../.gitbook/assets/image%20%28291%29.png)
 
 #### Before Connecting
 
-![](../../../.gitbook/assets/image%20%28268%29.png)
+![](../../../.gitbook/assets/image%20%28269%29.png)
 
 * Port is the port value to use with the Bind IP address. 
 * Bind IP address is used together with the Port to create the connection at &lt;Bind IP Address&gt;&lt;Port&gt;, e.g. 127.0.0.1:34000.  The remote.it daemon creates the remote connection using localhost.
@@ -56,17 +58,17 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28272%29.png)
+![](../../../.gitbook/assets/image%20%28273%29.png)
 
 ### SSH Connections
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28314%29.png)
+![](../../../.gitbook/assets/image%20%28315%29.png)
 
 * When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28365%29.png)
+![](../../../.gitbook/assets/image%20%28366%29.png)
 
 * This is the "SSH string":
 
@@ -118,13 +120,13 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 
-![](../../../.gitbook/assets/image%20%28324%29.png)
+![](../../../.gitbook/assets/image%20%28325%29.png)
 
 ### Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28428%29.png)
+![](../../../.gitbook/assets/image%20%28430%29.png)
 
 ![](../../../.gitbook/assets/image%20%28100%29.png)
 
