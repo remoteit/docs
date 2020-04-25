@@ -21,7 +21,7 @@ Sign In to your remote.it account, locate your Device in the on the Devices page
 
 You will then see a window showing the services available on that device.  You will need to set your pop-up blocker, if any, to allow popups from the remote.it web site.
 
-![](../../../.gitbook/assets/image%20%28369%29.png)
+![](../../../.gitbook/assets/image%20%28370%29.png)
 
 Click on the link of the remote.it SSH Service you wish to connect to.  
 

@@ -8,32 +8,32 @@ description: >-
 
 Here you will ﬁnd all the devices you have access to. You can search, sort, and refresh your devices with the tools at the top of the page. Below that you will see all your devices displayed, either in alphabetical order or by device state.
 
-Next to each device you can see the number of services \(by the dashed underscores\)  and the connection  state of the services \(blue is active, green is online but not connected, grey is offline\).
+Next to each device you can see the number of services \(by the dashed underscores\) and the connection state of the services \(blue is active, green is online but not connected, grey is offline\).
 
 ![](../../../.gitbook/assets/image%20%28185%29.png)
 
-Hover your mouse pointer over the dashes to access the individual Services on your Device.  The Service name will pop up as a tool tip as shown.  Clicking on the dash will take you to a screen where you can create and use your connection.
+Hover your mouse pointer over the dashes to access the individual Services on your Device. The Service name will pop up as a tool tip as shown. Clicking on the dash will take you to a screen where you can create and use your connection.
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28420%29.png)
+![](../../../.gitbook/assets/image%20%28421%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
 * If a Service is offline, the button will display "Offline".
 
-#### Device Details
+## Device Details
 
 * Device ID: this is a unique identifier for each service in your account.  This is set at the time you register each service.
 * Hardware ID - this value is unique per Device, or group of Services.  It is used to group the Services on a Device together.
 * Internal IP: the current device's LAN IP address
 * External IP: the current device's public IP address
 
-#### Service Details
+## Service Details
 
 Click on a Service name or the arrow on the right side to open the Service Details view.
 
-#### Before Connecting
+## Before Connecting
 
 ![](../../../.gitbook/assets/image%20%2844%29.png)
 
@@ -45,7 +45,7 @@ Click on a Service name or the arrow on the right side to open the Service Detai
 * "Reconnect on Disconnect" will automatically attempt to reestablish a connection which drops due to a disruption of the network connection.
 * The Raw Connection Log may be requested by our Support in the event you have any trouble connecting.
 
-#### After connecting
+## After connecting
 
 Additional information will be shown and some values will be updated.
 
@@ -53,5 +53,5 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%28312%29.png)
 
