@@ -10,13 +10,13 @@ Here you will ﬁnd all the devices you have access to. You can search, sort, an
 
 Next to each device you can see the number of services \(by the dashed underscores\)  and the connection  state of the services \(blue is active, green is online but not connected, grey is offline\).
 
-![](../../../.gitbook/assets/image%20%28184%29.png)
+![](../../../.gitbook/assets/image%20%28185%29.png)
 
 Hover your mouse pointer over the dashes to access the individual Services on your Device.  The Service name will pop up as a tool tip as shown.  Clicking on the dash will take you to a screen where you can create and use your connection.
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28419%29.png)
+![](../../../.gitbook/assets/image%20%28420%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
@@ -35,7 +35,7 @@ Click on a Service name or the arrow on the right side to open the Service Detai
 
 #### Before Connecting
 
-![](../../../.gitbook/assets/image%20%2843%29.png)
+![](../../../.gitbook/assets/image%20%2844%29.png)
 
 * Port is the port value to use with the Bind IP address. 
 * Bind IP address is used together with the Port to create the connection at &lt;Bind IP Address&gt;&lt;Port&gt;, e.g. 127.0.0.1:34000.  The remote.it daemon creates the remote connection using localhost.
@@ -53,17 +53,17 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28274%29.png)
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 ### SSH Connections
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28316%29.png)
+![](../../../.gitbook/assets/image%20%28317%29.png)
 
 * When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28367%29.png)
+![](../../../.gitbook/assets/image%20%28368%29.png)
 
 * This is the "SSH string":
 
@@ -99,7 +99,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28174%29.png)
+![](../../../.gitbook/assets/image%20%28175%29.png)
 
 * This is the VNC string:
 
@@ -109,19 +109,19 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * This can be copied and pasted into the address bar of the RealVNC Viewer application.
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2825%29.png)
 
-![](../../../.gitbook/assets/image%20%28326%29.png)
+![](../../../.gitbook/assets/image%20%28327%29.png)
 
 ### Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28431%29.png)
+![](../../../.gitbook/assets/image%20%28432%29.png)
 
-![](../../../.gitbook/assets/image%20%28101%29.png)
+![](../../../.gitbook/assets/image%20%28102%29.png)
 

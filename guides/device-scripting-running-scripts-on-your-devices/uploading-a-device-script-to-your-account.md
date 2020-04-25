@@ -8,21 +8,21 @@ Start by using the sample script in the first example, which you can find using 
 
 Select "Scripting" from the menu:
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](../../.gitbook/assets/image%20%28146%29.png)
 
 Next, click on "Upload".
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 In the "Storage Upload" dialog, use "Choose File" to locate the script file you've downloaded or written.
 
 Make sure that "Executable script or program" is selected, then click on "Upload".
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 
 When the upload completes, you'll see this notification:
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 Note that existing scripts will be overwritten without any warning.
 
