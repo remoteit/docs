@@ -18,7 +18,7 @@ Hover your mouse pointer over the dashes to access the individual Services on yo
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28104%29.png)
+![](../../../.gitbook/assets/image%20%28105%29.png)
 
 #### Device Details
 
@@ -31,18 +31,18 @@ Click on a device to connect to and manage its Services.
 
 Click on a Service name or the arrow on the right side to open the Service Details view.
 
-![](../../../.gitbook/assets/image%20%28285%29.png)
+![](../../../.gitbook/assets/image%20%28286%29.png)
 
 #### Before Connecting
 
-![](../../../.gitbook/assets/image%20%28263%29.png)
+![](../../../.gitbook/assets/image%20%28264%29.png)
 
 * Port is the port value to use with the Bind IP address. 
 * Bind IP address is used together with the Port to create the connection at &lt;Bind IP Address&gt;&lt;Port&gt;, e.g. 127.0.0.1:34000.  The remote.it daemon creates the remote connection using localhost.
 * The Connection Name is the full name of the remote Service that you are currently connected to.  The full name appends the Service Name to the Device Name.
 * The launch URL is a configurable string that lets you format the command line for launching the service to your needs via the browser.    This requires support in your browser, which works better on macOS than Windows for some applications.
 
-  ![](../../../.gitbook/assets/image%20%28129%29.png)
+  ![](../../../.gitbook/assets/image%20%28130%29.png)
 
 * Local Network Sharing, when enabled, allows other computers on the LAN to connect to your IP address in order to share a remote.it connection.  Leave it turned off to block this feature.
 * "Reconnect on Disconnect" will automatically attempt to reestablish a connection which drops due to a disruption of the network connection.
@@ -56,17 +56,17 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28267%29.png)
+![](../../../.gitbook/assets/image%20%28268%29.png)
 
 ### SSH Connections
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28309%29.png)
+![](../../../.gitbook/assets/image%20%28310%29.png)
 
 * When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28360%29.png)
+![](../../../.gitbook/assets/image%20%28361%29.png)
 
 * This is the "SSH string":
 
@@ -102,7 +102,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28169%29.png)
+![](../../../.gitbook/assets/image%20%28170%29.png)
 
 * This is the VNC string:
 
@@ -118,13 +118,13 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 
-![](../../../.gitbook/assets/image%20%28319%29.png)
+![](../../../.gitbook/assets/image%20%28320%29.png)
 
 ### Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28423%29.png)
+![](../../../.gitbook/assets/image%20%28424%29.png)
 
-![](../../../.gitbook/assets/image%20%2896%29.png)
+![](../../../.gitbook/assets/image%20%2897%29.png)
 

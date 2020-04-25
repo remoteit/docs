@@ -78,7 +78,7 @@ To connect, sign in to your remote.it account and locate the device on the Devic
 
 Find the name of the web \(http\) Service you installed in the Device Services dialog.
 
-![](../../.gitbook/assets/image%20%28190%29.png)
+![](../../.gitbook/assets/image%20%28191%29.png)
 
 Click on the highlighted service name to initiate the connection.  In a few seconds a new browser tab will open showing you the default web page of your web server. 
 
