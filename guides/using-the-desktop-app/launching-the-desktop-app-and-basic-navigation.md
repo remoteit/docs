@@ -10,7 +10,7 @@ macOS
 
 Windows
 
-![](../../.gitbook/assets/image%20%28417%29.png)
+![](../../.gitbook/assets/image%20%28418%29.png)
 
 **Sign In**
 
@@ -26,7 +26,7 @@ Enter your remote.it sign in credentials \(your email and password\) and click s
 
 There are 3 tabs; Connections, Devices, and Settings.  The currently active tab is highlighted in blue.
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%28173%29.png)
 
 \*\*\*\*
 
