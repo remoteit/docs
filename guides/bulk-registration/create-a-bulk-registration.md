@@ -10,7 +10,7 @@ This section will show you how to create and upload a single Platform bulk regis
 
 On the left-hand menu, select “Registrations”:
 
-![](../../.gitbook/assets/image%20%28431%29.png)
+![](../../.gitbook/assets/image%20%28432%29.png)
 
 Download the bulk registration template CSV file:
 

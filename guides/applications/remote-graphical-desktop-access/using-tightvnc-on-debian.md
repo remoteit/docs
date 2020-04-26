@@ -66,7 +66,7 @@ To connect, sign in to your remote.it account and locate the device in Devices v
 
 Click on the highlighted Device Name to open the Device Services dialog:
 
-![](../../../.gitbook/assets/image%20%28420%29.png)
+![](../../../.gitbook/assets/image%20%28421%29.png)
 
 Now click on the highlighted Service Name to initiate the connection.  In a few seconds you’ll see a dialog box similar to this:
 

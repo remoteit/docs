@@ -60,7 +60,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2834%29.png)
 
-![](../../../.gitbook/assets/image%20%28424%29.png)
+![](../../../.gitbook/assets/image%20%28425%29.png)
 
 ## Web connections
 
