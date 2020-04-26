@@ -20,7 +20,13 @@ After you've registered your Device and any preselected Services, you can manage
 
 ![](../../../.gitbook/assets/image%20%28360%29.png)
 
-In addition, you can add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device. There are many different kinds of Services you can add. Some examples are SSH, VNC, RDP, HTTP, and TCP \(select this option if you can't find something more specific to work with your application\). 
+In addition, you can add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device. There are many different kinds of Services you can add. 
+
+* SSH - console access for Linux, Mac, and Windows \(may require setup on Mac and WIndows\)
+* VNC - remote GUI access for all platforms - include macOS Screen Sharing
+* RDP - Windows Remote Desktop Protocol 
+* HTTP or HTTPS \(web servers\)
+* TCP \(select this option if you can't find something more specific to work with your application\). 
 
 #### Add from network
 
