@@ -6,7 +6,11 @@ description: >-
 
 # The remote.it Desktop App
 
-## Please manually remove any previously installed version of remote.it Desktop App.
+{% hint style="warning" %}
+## **Please manually remove any previously installed version of remote.it Desktop App.**
+{% endhint %}
+
+If this is the first time you've installed the Desktop App, jump ahead to 
 
 ## If you see an "update is available" message, click on "x" to cancel.  
 
