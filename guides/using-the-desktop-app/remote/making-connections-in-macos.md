@@ -10,7 +10,7 @@ If you see the green "Connect" button, click on it and wait until it turns blue 
 
 ### Launch URL
 
-You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching.  Application launching through the browser is more common on macOS. 
+You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching. 
 
 #### Launch URL for SSH
 
@@ -41,38 +41,6 @@ Click on "Launch" to open the terminal and automatically launch the SSH command.
 Type in "yes" followed by the Enter key.  Enter the password when prompted, then you will be logged into your device's console.
 
 ![](../../../.gitbook/assets/image%20%2884%29.png)
-
-
-
-* This is the "SSH string":
-
-```text
-ssh -l pi 127.0.0.1 -p 33002 -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile /dev/null"
-```
-
-* Pasting that into a Windows 10 command prompt gives:
-
-```text
-C:\Users\me>ssh -l pi 127.0.0.1 -p 33002 -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile /dev/null"
-Warning: Permanently added '[127.0.0.1]:33002' (ECDSA) to the list of known hosts.
-pi@127.0.0.1's password:
-Linux raspberrypi 4.19.97-v7l+ #1294 SMP Thu Jan 30 13:21:14 GMT 2020 armv7l
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-Linux raspberrypi 4.19.97-v7l+ #1294 SMP Thu Jan 30 13:21:14 GMT 2020 armv7l
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Tue Mar 24 07:31:50 2020
-pi@raspberrypi:~ $
-```
-
-You can use the SSH string in Linux and Mac terminal as well.
 
 ## VNC Connections
 
