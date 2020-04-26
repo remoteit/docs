@@ -24,18 +24,7 @@ description: >-
 
 To download the latest version of the beta remote.it Desktop App, visit this link:
 
-[remote.it Desktop App Download](https://github.com/remoteit/desktop/releases/latest)
-
-* The Windows installer is **remoteit-installer.exe**.
-* The Mac installer is **remoteit-installer.dmg**.
-* The Raspberry Pi installer is **remoteit-arm7l-installer.deb**.
-* There are also a few other Linux versions available. 
-
-You might need to click on the word "Assets" to display the list.
-
-![](../../.gitbook/assets/image%20%28316%29.png)
-
-Look for the filename which matches your OS type.  Click on the file link to download and run the installer on your PC, Mac or other device.  Once you’re done with installation, click on the "Features" button below to learn more about what the remote.it Desktop App can do.
+[remote.it downloads](https://remote.it/downloads/)
 
 {% hint style="info" %}
 You may get firewall and virus scanner warnings when first installing the beta Desktop App.
