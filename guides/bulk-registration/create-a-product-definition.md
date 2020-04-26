@@ -25,7 +25,7 @@ Enter info into the “Create Product” dialog, then select “Submit”.
   * Public - visible and usable by all remote.it accounts
   * Unlisted - can be used in multiple accounts, but does not appear in the "Public" list.
 
-![](../../.gitbook/assets/image%20%28415%29.png)
+![](../../.gitbook/assets/image%20%28416%29.png)
 
 On the entry which appears with the name “Raspberry Pi Product”, click on the “gear” icon:
 
@@ -39,11 +39,11 @@ On the product settings dialog, use the “Add” button to define the Services 
 
 Choose the Service type from the list:
 
-![](../../.gitbook/assets/image%20%28392%29.png)
+![](../../.gitbook/assets/image%20%28393%29.png)
 
 Give the Service a name and define the TCP Port to use.  For most cases, you will want to choose “Check to enable Service to start by default”, but you can turn this off as well.
 
-![](../../.gitbook/assets/image%20%28413%29.png)
+![](../../.gitbook/assets/image%20%28414%29.png)
 
 When you are done, select the “Check to lock product and create provisioning files” checkbox as shown and click on “Submit”:
 
@@ -51,7 +51,7 @@ When you are done, select the “Check to lock product and create provisioning f
 
 Note that the icons under the “Actions” column have changed:
 
-![](../../.gitbook/assets/image%20%28451%29.png)
+![](../../.gitbook/assets/image%20%28452%29.png)
 
 Click on the circled “i” icon.  On the “Product Information and Usage” dialog which appears, locate the Bulk Identification Code.  
 ****

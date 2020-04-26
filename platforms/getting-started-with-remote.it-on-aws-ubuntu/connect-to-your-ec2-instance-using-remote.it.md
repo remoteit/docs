@@ -16,7 +16,7 @@ Use the values above in the following ssh command to connect to your AWS instanc
 
 _ssh - i &lt;local PEM key&gt; &lt;user&gt;@&lt;Host Name&gt; - p &lt;Port&gt;_
 
-![](../../.gitbook/assets/image%20%28394%29.png)
+![](../../.gitbook/assets/image%20%28395%29.png)
 
 This sounds like a job for the API!
 
