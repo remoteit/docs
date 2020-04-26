@@ -24,7 +24,7 @@ First, you'll have to enable the ability to SSH and/or VNC into your Pi.
 
 Access your Pi, then click the menu in the upper left corner and select _Preferences_ from the menu. 
 
-![](../../.gitbook/assets/1%20%284%29.png)
+![](../../.gitbook/assets/1%20%286%29.png)
 
 Next, click _Raspberry Pi Configuration_ and navigate to the _Interfaces_ tab. Make sure that either VNC or SSH \(or both\) are enabled. 
 

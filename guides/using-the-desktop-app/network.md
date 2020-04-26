@@ -26,7 +26,7 @@ Known issue: all possible IP addresses are shown, rather than just the ones whic
 
 Click on the down arrow on the right side to expand the view in order to see the detected TCP services at the shown IP address.  Click on the up arrow to hide the details.
 
-![](../../.gitbook/assets/5%20%283%29.png)
+![](../../.gitbook/assets/5%20%285%29.png)
 
 Click on "ADD" to add a remote.it Service to this IP address and port.  You will be taken to the "Hosted" tab to complete configuration.
 

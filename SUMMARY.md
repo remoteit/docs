@@ -10,6 +10,7 @@
 
 ## Guides
 
+* [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](guides/raspberry-pi-quick-start.md)
 * [The remote.it Desktop App](guides/using-the-desktop-app/README.md)
   * [Features](guides/using-the-desktop-app/features.md)
   * [Launching the Desktop App and Basic Navigation](guides/using-the-desktop-app/launching-the-desktop-app-and-basic-navigation.md)
