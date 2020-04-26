@@ -1,5 +1,17 @@
 # Making connections in macOS
 
+Make sure your connection is active \(blue\).
+
+![](../../../.gitbook/assets/image%20%2815%29.png)
+
+If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
+
+![](../../../.gitbook/assets/image%20%28377%29.png)
+
+### Launch URL
+
+You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching.  Application launching through the browser is more common on macOS. 
+
 ## SSH Connections
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
