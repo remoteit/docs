@@ -6,7 +6,7 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28361%29.png)
+![](../../../.gitbook/assets/image%20%28364%29.png)
 
 You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a launch string to streamline certain operations.
 
@@ -14,11 +14,17 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28329%29.png)
+![](../../../.gitbook/assets/image%20%28298%29.png)
 
-* When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
+When you select the clipboard icon as shown:
 
-![](../../../.gitbook/assets/image%20%28382%29.png)
+![](../../../.gitbook/assets/image%20%28353%29.png)
+
+
+
+the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
+
+![](../../../.gitbook/assets/image%20%28385%29.png)
 
 * This is the "SSH string":
 
@@ -54,7 +60,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28182%29.png)
+![](../../../.gitbook/assets/image%20%28183%29.png)
 
 * This is the VNC string:
 
@@ -70,13 +76,13 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)
 
-![](../../../.gitbook/assets/image%20%28340%29.png)
+![](../../../.gitbook/assets/image%20%28342%29.png)
 
 ## Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28449%29.png)
+![](../../../.gitbook/assets/image%20%28452%29.png)
 
-![](../../../.gitbook/assets/image%20%28107%29.png)
+![](../../../.gitbook/assets/image%20%28108%29.png)
 
