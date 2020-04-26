@@ -6,45 +6,45 @@ You'll need to [create a contact](managing-contacts/create-a-contact.md) with th
 
 Select the remote.it Devices you wish to transfer in Devices View by selecting the checkbox in the leftmost column
 
-![](../.gitbook/assets/image%20%28227%29.png)
+![](../.gitbook/assets/image%20%28228%29.png)
 
 From the "ACTIONS" menu, select "Transfer Device".
 
-![](../.gitbook/assets/image%20%28240%29.png)
+![](../.gitbook/assets/image%20%28241%29.png)
 
 The Bulk Transfer dialog will display.  
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 To show the list of Devices you are transferring, click on the down arrow.
 
-![](../.gitbook/assets/image%20%28218%29.png)
+![](../.gitbook/assets/image%20%28219%29.png)
 
 To hide the list of Devices, click on the up arrow.
 
-![](../.gitbook/assets/image%20%28293%29.png)
+![](../.gitbook/assets/image%20%28294%29.png)
 
 Click on this field to begin typing a name to find a match.  You can click on the down arrow to show a list of your contacts so you can browse all of them.
 
-![](../.gitbook/assets/image%20%28176%29.png)
+![](../.gitbook/assets/image%20%28177%29.png)
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 Press the "Enter" key when the correct Contact is highlighted, or use your mouse to click on the contact to complete your selection.
 
-![](../.gitbook/assets/image%20%28356%29.png)
+![](../.gitbook/assets/image%20%28357%29.png)
 
 Click on the "Transfer" button.
 
-![](../.gitbook/assets/image%20%28318%29.png)
+![](../.gitbook/assets/image%20%28319%29.png)
 
 Since transferring a remote.it Device is not undo-able, we provide this extra warning to help you avoid transferring Device\(s\) by mistake.
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](../.gitbook/assets/image%20%28122%29.png)
 
 After clicking on "YES, TRANSFER", you'll see the Transfer Confirmation dialog.
 
-![](../.gitbook/assets/image%20%28256%29.png)
+![](../.gitbook/assets/image%20%28257%29.png)
 
 The Device\(s\) will be transferred from your account to your Contact's account.  It may take 30 seconds per Device to complete.  When the transfer is completed, both you and the recipient will receive confirmation e-mails.
 

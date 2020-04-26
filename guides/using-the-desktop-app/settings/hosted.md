@@ -8,9 +8,13 @@ In this tab you can register and add Services to your local Device. Note that so
 
 Choose a name and click the **Register** button. At this point, you may be asked to enter your administrator information.
 
-![](../../../.gitbook/assets/image%20%28389%29.png)
+![](../../../.gitbook/assets/image%20%28390%29.png)
 
-After you've registered your device you can either add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device.
+The remote.it Admin Panel allows you to connect to this configuration application remotely using a web browser.  
+
+![](../../../.gitbook/assets/image%20%2811%29.png)
+
+After you've registered your Device and any preselected Services, you can either add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device.
 
 ![](../../../.gitbook/assets/33.jpeg)
 
