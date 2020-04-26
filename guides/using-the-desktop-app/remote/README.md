@@ -10,13 +10,13 @@ Here you will ﬁnd all the devices you have access to. You can search, sort, an
 
 Next to each device you can see the number of services \(by the dashed underscores\) and the connection state of the services \(blue is active, green is online but not connected, grey is offline\).
 
-![](../../../.gitbook/assets/image%20%28297%29.png)
+![](../../../.gitbook/assets/image%20%28298%29.png)
 
 Hover your mouse pointer over the dashes to access the individual Services on your Device. The Service name will pop up as a tool tip as shown. Clicking on the dash will take you to a screen where you can create and use your connection.
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28424%29.png)
+![](../../../.gitbook/assets/image%20%28425%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
@@ -35,7 +35,7 @@ Click on a Service name or the arrow on the right side to open the Service Detai
 
 ## Before Connecting
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../.gitbook/assets/image%20%2845%29.png)
 
 * Port is the port value to use with the Bind IP address. 
 * Bind IP address is used together with the Port to create the connection at &lt;Bind IP Address&gt;&lt;Port&gt;, e.g. 127.0.0.1:34000.  The remote.it daemon creates the remote connection using localhost.
@@ -53,5 +53,5 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28314%29.png)
+![](../../../.gitbook/assets/image%20%28315%29.png)
 
