@@ -95,7 +95,7 @@ Start the RealVNC viewer application, then copy and paste the address from the r
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../../.gitbook/assets/image%20%28434%29.png)
+![](../../../.gitbook/assets/image%20%28435%29.png)
 
 Now you are controlling your Raspberry Pi’s GUI!
 
