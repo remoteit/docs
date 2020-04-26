@@ -14,7 +14,7 @@ Before we begin, please make sure that you have a remote.it account. If you do n
 
 Additionally, download and install the remote.it Desktop Application on both computers. For information on how to do that, see this guide:
 
-{% page-ref page="../../../using-the-desktop-app/" %}
+{% page-ref page="../../../guides/using-the-desktop-app/" %}
 
 You must also install a VNC client on the Windows PC. In this tutorial, we will be using RealVNC Viewer. You can download RealVNC Viewer [**here.**](https://www.realvnc.com/en/connect/download/viewer/)\*\*\*\*
 

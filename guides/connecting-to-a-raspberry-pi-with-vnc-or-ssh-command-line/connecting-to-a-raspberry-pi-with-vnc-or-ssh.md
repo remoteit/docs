@@ -94,9 +94,9 @@ Voila! You are now connected to the Pi via SSH/VNC using remote.it! Paste the VN
 
 If you are looking for more advanced applications of Remote Graphical Desktop Access, please refer to the following guides.
 
-{% page-ref page="../applications/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md" %}
+{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md" %}
 
-{% page-ref page="../applications/remote-graphical-desktop-access/using-tightvnc-on-debian.md" %}
+{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-tightvnc-on-debian.md" %}
 
-{% page-ref page="../applications/remote-graphical-desktop-access/using-remote-desktop-connection.md" %}
+{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-remote-desktop-connection.md" %}
 

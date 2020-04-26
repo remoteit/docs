@@ -36,5 +36,5 @@ Recently, we added support for hosting game servers to our Desktop application.
 
 For a tutorial on how to host a Minecraft server, see our related documentation:
 
-{% page-ref page="../guides/hosting-a-minecraft-server.md" %}
+{% page-ref page="../hosting-a-minecraft-server.md" %}
 

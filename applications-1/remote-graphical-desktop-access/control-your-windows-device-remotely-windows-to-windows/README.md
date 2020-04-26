@@ -36,7 +36,7 @@ Before we begin, please make sure that you have a remote.it account. If you do n
 
 Additionally, download and install the remote.it Desktop Application on both Windows Devices. For information on how to do that, see this guide:
 
-{% page-ref page="../../../using-the-desktop-app/" %}
+{% page-ref page="../../../guides/using-the-desktop-app/" %}
 
 Finally, please ensure that both Devices are powered, awake, and connected to the internet.
 

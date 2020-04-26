@@ -14,13 +14,13 @@ After a few minutes, the Device you registered earlier will appear under the _De
 
 Click the green “Connect” button next to the Service. The button will turn blue, signifying that you are now connected.
 
-![I&apos;ve now connected to my other computer with remote.it!](../../../../.gitbook/assets/2.PNG)
+![I&apos;ve now connected to my other computer with remote.it!](../../../.gitbook/assets/2.PNG)
 
 Click the clipboard icon to copy the address to your clipboard. This is the address that you will use to connect to the original Device. 
 
 It will be a localhost address, meaning that you will be connecting directly to your target Device. This is known as a Peer to Peer Connection. If you're curious about Peer to Peer Connections, check out the following guide:
 
-{% page-ref page="../../../../peer-to-peer-p2p-vs.-proxy-connections/" %}
+{% page-ref page="../../../peer-to-peer-p2p-vs.-proxy-connections/" %}
 
 Once the address is copied to your clipboard, open the RDP client application on your client Windows machine. It is called “Remote Desktop Connection”. Paste the address into the text field and click “Connect”.
 

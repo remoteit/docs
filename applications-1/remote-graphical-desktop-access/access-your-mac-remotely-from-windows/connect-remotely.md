@@ -12,7 +12,7 @@ After a few minutes, the target macOS Device will appear under the _Devices_ tab
 
 Click the green “Connect” button. Once connected, the button will turn blue. You will see a clipboard icon next to the Service name. Click the clipboard to copy the VNC string to your clipboard.
 
-![You can see the address underneath the Service name as well.](../../../../.gitbook/assets/copy-vnc.PNG)
+![You can see the address underneath the Service name as well.](../../../.gitbook/assets/copy-vnc.PNG)
 
 This is the address you will use to connect to your macOS Device. Open up the VNC client application you installed earlier. We use RealVNC’s VNC Viewer. Paste the VNC string into the appropriate text field and hit enter. 
 
@@ -26,9 +26,9 @@ Check out our other useful guides:
 
 {% page-ref page="../../../hosting-a-minecraft-server.md" %}
 
-{% page-ref page="../../../control-your-computer-remotely-mac-to-mac.md" %}
+{% page-ref page="../../../guides/control-your-computer-remotely-mac-to-mac.md" %}
 
-{% page-ref page="../../../connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../../../guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 {% page-ref page="../control-your-windows-device-remotely-windows-to-windows/" %}
 

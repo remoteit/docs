@@ -60,11 +60,11 @@ Used to sign out of your remote.it account.
 
 #### Registrations
 
-This page is used for bulk registration of devices. [Tutorial](../bulk-registration/)
+This page is used for bulk registration of devices. [Tutorial](../../mass-production/bulk-registration/)
 
 #### Products
 
-The products page is also used for bulk registration of devices. [Tutorial](../bulk-registration/create-a-product-definition.md)
+The products page is also used for bulk registration of devices. [Tutorial](../../mass-production/bulk-registration/create-a-product-definition.md)
 
 
 

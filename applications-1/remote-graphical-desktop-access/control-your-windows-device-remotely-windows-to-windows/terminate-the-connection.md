@@ -14,15 +14,15 @@ From the _Connections_ tab, click the “Disconnect” button next to the Servic
 
 From the _Devices_ tab, click on the Device you are connected to and click the “Disconnect” button next to the Service you wish to stop.
 
-![Here is my Service on the Devices tab.](../../../../.gitbook/assets/5%20%281%29.PNG)
+![Here is my Service on the Devices tab.](../../../.gitbook/assets/5%20%281%29.PNG)
 
 Check out our other useful guides:
 
 {% page-ref page="../../../hosting-a-minecraft-server.md" %}
 
-{% page-ref page="../../../control-your-computer-remotely-mac-to-mac.md" %}
+{% page-ref page="../../../guides/control-your-computer-remotely-mac-to-mac.md" %}
 
-{% page-ref page="../../../connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../../../guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 {% page-ref page="../access-your-mac-remotely-from-windows/" %}
 

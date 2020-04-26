@@ -28,5 +28,5 @@ For non-web connections, the connection will return a hostname and port value wh
 
 ![](../../../.gitbook/assets/image%20%28284%29.png)
 
-See the "[Applications](../../applications/)" section for more detail about using remote.it proxy connections with different types of applications.
+See the "[Applications](../../../applications-1/)" section for more detail about using remote.it proxy connections with different types of applications.
 

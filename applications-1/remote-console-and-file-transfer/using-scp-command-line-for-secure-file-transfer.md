@@ -6,7 +6,7 @@ description: 'For Windows 10 Command Prompt, Linux and macOS'
 
 SCP \(Secure Copy Protocol\) is a widely used means of sending files from one system to another over a network.  SCP uses the SSH server on the target, so there is no need to set up a remote.it Service for SCP if you already have a remote.it Service for SSH installed.
 
-We'll assume that you've already used the [interactive installer](../../using-the-interactive-installer/) or [bulk registration](../../bulk-registration/) to configure a remote.it Service for SSH on your target device.
+We'll assume that you've already used the [interactive installer](../../guides/using-the-interactive-installer/) or [bulk registration](../../mass-production/bulk-registration/) to configure a remote.it Service for SSH on your target device.
 
 ### The SCP command line
 
@@ -18,11 +18,11 @@ $ scp -P <port> <path to local file> <target user name>@<hostname>:<full path to
 
 ### Using a Peer-to-Peer \(P2P\) Connection
 
-If you are using one of the methods to set up a [peer to peer connection](../../../peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md), the hostname will be localhost \(127.0.0.1\) and the port will be as shown by the P2P connection method you are using.
+If you are using one of the methods to set up a [peer to peer connection](../../peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md), the hostname will be localhost \(127.0.0.1\) and the port will be as shown by the P2P connection method you are using.
 
 For example, using the Desktop app for Windows:
 
-![](../../../.gitbook/assets/image%20%28381%29.png)
+![](../../.gitbook/assets/image%20%28381%29.png)
 
 You can now use this information on the scp command line as shown.
 
@@ -40,9 +40,9 @@ C:\Users\You>
 
 ### Using a proxy connection
 
-A proxy connection will be returned when you [make a connection through the remote.it website](../../using-the-web-portal/), or use the [/device/connect API endpoint](../../../api-reference/devices/connect.md).  You will get a hostname and port that will look something like this:
+A proxy connection will be returned when you [make a connection through the remote.it website](../../guides/using-the-web-portal/), or use the [/device/connect API endpoint](../../api-reference/devices/connect.md).  You will get a hostname and port that will look something like this:
 
-![](../../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 ```text
 $ scp -P 34836 bigfile.bin pi@proxy13.remot3.it:/home/pi/Downloads
