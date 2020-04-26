@@ -22,7 +22,13 @@ After you've registered your Device and any preselected Services, you can manage
 
 In addition, you can add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device. There are many different kinds of Services you can add. Some examples are SSH, VNC, RDP, HTTP, and TCP \(select this option if you can't find something more specific to work with your application\). 
 
+#### Add from network
+
 To scan your network for Services, click on "Add from Network".  This can take a few minutes if you have a lot of devices on your LAN.
+
+
+
+#### Add manually
 
 To add a Service manually, meaning that you need to know the IP address and port ahead of time, click on "Add Manually". 
 
