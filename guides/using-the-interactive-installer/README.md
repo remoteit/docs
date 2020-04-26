@@ -1,5 +1,5 @@
 ---
-description: This method is recommended for headless Linux installations.
+description: This method is recommended for Linux installations other than Raspbian.
 ---
 
 # Using the Interactive Installer
