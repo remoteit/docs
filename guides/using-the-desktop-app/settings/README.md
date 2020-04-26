@@ -19,7 +19,7 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 * **Open at Login** opens the Desktop App when you log in.  Note that Hosted Services and active Connections will keep running whether the Desktop App is open or not.
 * **About** shows you the current version of the App.  If there is an update available, you will see:
 
-![](../../../.gitbook/assets/image%20%28438%29.png)
+![](../../../.gitbook/assets/image%20%28439%29.png)
 
 #### Advanced
 

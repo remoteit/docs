@@ -4,9 +4,13 @@ description: Use this option to add remote.it Services to the current Windows or
 
 # Set up remote access
 
-In this tab you can register and add Services to your local Device. Note that some commonly used services have been located and may be pre-selected.  If you don't want to register Services on any particular port\(s\) at this time, deselect the appropriate checkbox.  You can always manage installed Services later.
+On the Settings page, click on "Set up remote access":
 
-![](../../../.gitbook/assets/image%20%28394%29.png)
+![](../../../.gitbook/assets/image%20%28372%29.png)
+
+In the displayed page, you can register and add Services to your local Device. Note that some commonly used services have been located and may be pre-selected.  If you don't want to register Services on any particular port\(s\) at this time, deselect the appropriate checkbox.  You can always manage installed Services later.
+
+![](../../../.gitbook/assets/image%20%28395%29.png)
 
 The remote.it Admin Panel allows you to connect to this configuration application remotely using a web browser.  
 

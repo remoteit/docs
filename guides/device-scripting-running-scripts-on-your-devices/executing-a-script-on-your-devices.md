@@ -6,7 +6,7 @@ On the "Devices" page, select the group of Devices that you wish to run a script
 
 In the "Actions" menu, choose "Execute Script".  
 
-![](../../.gitbook/assets/image%20%28434%29.png)
+![](../../.gitbook/assets/image%20%28435%29.png)
 
 The "Bulk Execution" dialog lets you selected the desired script.  
 

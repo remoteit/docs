@@ -28,7 +28,7 @@ Click on the down arrow to the the list of device\(s\) which you wish to share.
 
 It changes to an up arrow which you can click to hide the list.
 
-![](../../.gitbook/assets/image%20%28409%29.png)
+![](../../.gitbook/assets/image%20%28410%29.png)
 
 Click on this field, then begin typing the name of a contact to share these Device\(s\) to.  Any matching contacts will appear in a drop down list where you can select the contact you have in mind.
 
@@ -56,11 +56,11 @@ Check this checkbox if you want to allow the selected Contacts to execute bulk s
 
 When you've finished selecting contacts, click on "Add Sharing".
 
-![](../../.gitbook/assets/image%20%28378%29.png)
+![](../../.gitbook/assets/image%20%28379%29.png)
 
 You'll see this confirmation message.  Close it when you are done reading it.
 
-![](../../.gitbook/assets/image%20%28426%29.png)
+![](../../.gitbook/assets/image%20%28427%29.png)
 
 The Contact\(s\) you selected will get a notification e-mail.  The Device sharing completes automatically.
 

@@ -14,7 +14,7 @@ Filter mode finds the entered string anywhere in the Device Name and is not case
 
 This example shows the filter term "timer" matching a single Device Name, "Game Timer Pi 70".
 
-![](../../../.gitbook/assets/image%20%28429%29.png)
+![](../../../.gitbook/assets/image%20%28430%29.png)
 
 This shows the filter term "device" matching a number of Device Names.
 
