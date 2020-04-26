@@ -24,7 +24,7 @@ To learn how to make a P2P connection, please see:
 
 {% page-ref page="../guides/using-the-desktop-app/" %}
 
-{% page-ref page="../guides/using-connectd-in-p2p-initiator-mode/" %}
+{% page-ref page="../advanced-users/using-connectd-in-p2p-initiator-mode/" %}
 
 ## Proxy Connections
 

@@ -20,7 +20,7 @@ If you need the lower level library, connectd, that the remote.it installer uses
 
 Once you download connectd, you can learn more how to use it here:
 
-{% page-ref page="guides/using-connectd-in-p2p-initiator-mode/connectd.md" %}
+{% page-ref page="advanced-users/using-connectd-in-p2p-initiator-mode/connectd.md" %}
 
 ## remote.it Connect for Windows
 

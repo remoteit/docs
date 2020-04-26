@@ -37,11 +37,6 @@
   * [Installed remote.it Services](guides/using-the-interactive-installer/installed-remote.it-services.md)
   * [Remove a single remote.it Service](guides/using-the-interactive-installer/remove-a-single-remote.it-service.md)
   * [Remove all remote.it Services](guides/using-the-interactive-installer/remove-all-remote.it-services.md)
-* [Using connectd in P2P initiator mode](guides/using-connectd-in-p2p-initiator-mode/README.md)
-  * [Using connectd in P2P initiator mode on macOS and Linux](guides/using-connectd-in-p2p-initiator-mode/connectd.md)
-  * [Using connectd in P2P initiator mode on Windows](guides/using-connectd-in-p2p-initiator-mode/using-connectd-in-client-mode-on-windows.md)
-  * [Where do I find the UID for my Service?](guides/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
-  * [Running connectd using an authhash](guides/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
 * [Using the Web Portal](guides/using-the-web-portal/README.md)
   * [The "Devices" page](guides/using-the-web-portal/the-view-devices-page/README.md)
     * [Connecting to a remote.it Service in the web portal](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)
@@ -125,6 +120,14 @@
   * [Listing Devices](api-reference/devices/list.md)
   * [Connecting to a Service using the API](api-reference/devices/connect.md)
   * [Terminating a proxy connection to a device](api-reference/devices/device-connect-stop.md)
+
+## Advanced Users
+
+* [Using connectd in P2P initiator mode](advanced-users/using-connectd-in-p2p-initiator-mode/README.md)
+  * [Using connectd in P2P initiator mode on macOS and Linux](advanced-users/using-connectd-in-p2p-initiator-mode/connectd.md)
+  * [Using connectd in P2P initiator mode on Windows](advanced-users/using-connectd-in-p2p-initiator-mode/using-connectd-in-client-mode-on-windows.md)
+  * [Where do I find the UID for my Service?](advanced-users/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
+  * [Running connectd using an authhash](advanced-users/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
 
 ## Platforms
 

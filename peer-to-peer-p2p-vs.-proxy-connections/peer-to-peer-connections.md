@@ -23,5 +23,5 @@ Our remote.it Connect for Windows application is a GUI alternative for the Windo
 
 Programmers will want to learn how to create a P2P connection by using the connectd daemon in P2P initiator mode in custom applications.  You can find instructions for Mac OS/X, Linux, and Windows PowerShell here:
 
-{% page-ref page="../guides/using-connectd-in-p2p-initiator-mode/" %}
+{% page-ref page="../advanced-users/using-connectd-in-p2p-initiator-mode/" %}
 
