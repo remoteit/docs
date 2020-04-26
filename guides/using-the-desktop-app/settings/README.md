@@ -4,7 +4,7 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 
 # Settings
 
-![](../../../.gitbook/assets/image%20%28187%29.png)
+![](../../../.gitbook/assets/image%20%28188%29.png)
 
 #### User
 
@@ -19,11 +19,11 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 * **Open at Login** opens the Desktop App when you log in.  Note that Hosted Services and active Connections will keep running whether the Desktop App is open or not.
 * **About** shows you the current version of the App.  If there is an update available, you will see:
 
-![](../../../.gitbook/assets/image%20%28443%29.png)
+![](../../../.gitbook/assets/image%20%28444%29.png)
 
 #### Advanced
 
-![](../../../.gitbook/assets/image%20%2892%29.png)
+![](../../../.gitbook/assets/image%20%2893%29.png)
 
 * **Re-install command line tools** reinstalls the utilities used by the Desktop App.  Support might suggest that you this in the event there is any problem with your connection.
 * **Uninstall command line tools** unregisters any Hosted Services, then removes all of the locally installed command line software.
