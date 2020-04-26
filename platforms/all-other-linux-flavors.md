@@ -4,11 +4,13 @@ description: instructions for Debian and non-Debian Linux Operating Systems
 
 # All Linux distributions
 
-**To install the connectd package**
+## **To install the connectd package**
 
-The auto-install.sh script will download and copy a tar file to your system.   
+If you have a Debian compatible OS, the auto-install.sh script will download and install a compatible Debian package on your system.   
 
-### Non-root user
+If you don't have a Debian compatible OS, the auto-install.sh script will download a compatible Debian tar file onto your system.   Then just follow a few steps to install it.
+
+#### Non-root user
 
 To download and run the auto-install.sh script, copy and paste the following 3 lines to the device's console, then press the "Enter" key:
 
@@ -18,13 +20,15 @@ chmod +x ./auto-install.sh
 sudo ./auto-install.sh
 ```
 
-### Root user
+#### Root user
 
 ```text
 curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
 chmod +x ./auto-install.sh
 ./auto-install.sh
 ```
+
+### Non-Debian OS:
 
 Some files will be downloaded and tested in order to find a package which will run on your device.  You may see some error messages during this step.  Assuming that a matching package can be identified, the following instructions will be displayed for you to complete manually.  The exact file name may be different than that shown below.
 
