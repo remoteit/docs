@@ -18,7 +18,7 @@ Hover your mouse pointer over the dashes to access the individual Services on yo
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28440%29.png)
+![](../../../.gitbook/assets/image%20%28441%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
