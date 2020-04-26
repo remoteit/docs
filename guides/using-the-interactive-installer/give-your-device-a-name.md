@@ -4,5 +4,5 @@
 
 Following a successful login, **the first time** you run the installer on a device, it will ask you to supply the Device Name.  This should be a name not used by any other remote.it Devices or Services in your account.
 
-![](../../.gitbook/assets/image%20%28295%29.png)
+![](../../.gitbook/assets/image%20%28296%29.png)
 

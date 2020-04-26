@@ -23,11 +23,11 @@ Auto Registration requires a dedicated Product Definition used only for Auto Reg
 
 Click on "Products" in the remote.it Menu:
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../.gitbook/assets/image%20%28163%29.png)
 
 To create a new Product Definition, click on “Create Product”.
 
-![](../../.gitbook/assets/image%20%28216%29.png)
+![](../../.gitbook/assets/image%20%28217%29.png)
 
 You’ll need to enter 3 bits of information on the “Create Product” dialog.
 
@@ -35,11 +35,11 @@ You’ll need to enter 3 bits of information on the “Create Product” dialog.
 
 1. Enter a Product Name that is meaningful to you.
 
-![](../../.gitbook/assets/image%20%28417%29.png)
+![](../../.gitbook/assets/image%20%28418%29.png)
 
 2. Choose a product platform.  Pick the closest device on the list to your actual product.  This information is stored in your account but it does not affect the functionality, so there is no penalty if it is not correct.
 
-![](../../.gitbook/assets/image%20%28232%29.png)
+![](../../.gitbook/assets/image%20%28233%29.png)
 
 3. Choose the Product Scope.  For the purpose of this beta test, please choose “Private”.
 
@@ -51,9 +51,9 @@ The ability to create Public and Unlisted Products may be removed in the release
 
 Finally, click on “Submit”:
 
-![](../../.gitbook/assets/image%20%28187%29.png)
+![](../../.gitbook/assets/image%20%28188%29.png)
 
 You will see your new Product Definition in the list.
 
-![](../../.gitbook/assets/image%20%28320%29.png)
+![](../../.gitbook/assets/image%20%28321%29.png)
 
