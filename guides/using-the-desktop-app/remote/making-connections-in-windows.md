@@ -34,7 +34,7 @@ the SSH string, including the supplied SSH Username, is copied to the clipboard.
 
 ![](../../../.gitbook/assets/image%20%28386%29.png)
 
-* This is the "SSH string":
+* This is the "SSH string" \(assuming you entered "pi" as the SSH username\):
 
 ```text
 ssh -l pi 127.0.0.1 -p 33002 -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile /dev/null"
