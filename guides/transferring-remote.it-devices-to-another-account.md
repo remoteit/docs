@@ -22,7 +22,7 @@ To show the list of Devices you are transferring, click on the down arrow.
 
 To hide the list of Devices, click on the up arrow.
 
-![](../.gitbook/assets/image%20%28280%29.png)
+![](../.gitbook/assets/image%20%28281%29.png)
 
 Click on this field to begin typing a name to find a match.  You can click on the down arrow to show a list of your contacts so you can browse all of them.
 
@@ -32,11 +32,11 @@ Click on this field to begin typing a name to find a match.  You can click on th
 
 Press the "Enter" key when the correct Contact is highlighted, or use your mouse to click on the contact to complete your selection.
 
-![](../.gitbook/assets/image%20%28342%29.png)
+![](../.gitbook/assets/image%20%28343%29.png)
 
 Click on the "Transfer" button.
 
-![](../.gitbook/assets/image%20%28304%29.png)
+![](../.gitbook/assets/image%20%28305%29.png)
 
 Since transferring a remote.it Device is not undo-able, we provide this extra warning to help you avoid transferring Device\(s\) by mistake.
 

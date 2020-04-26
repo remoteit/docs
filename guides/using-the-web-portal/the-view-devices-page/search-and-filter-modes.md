@@ -14,11 +14,11 @@ Filter mode finds the entered string anywhere in the Device Name and is not case
 
 This example shows the filter term "timer" matching a single Device Name, "Game Timer Pi 70".
 
-![](../../../.gitbook/assets/image%20%28404%29.png)
+![](../../../.gitbook/assets/image%20%28405%29.png)
 
 This shows the filter term "device" matching a number of Device Names.
 
-![](../../../.gitbook/assets/image%20%28291%29.png)
+![](../../../.gitbook/assets/image%20%28292%29.png)
 
 ![](../../../.gitbook/assets/image%20%2855%29.png)
 
@@ -30,7 +30,7 @@ Search mode doesn't display any Devices until you enter the term which you wish 
 
 First, you must select the "Device Search only" checkbox:
 
-![](../../../.gitbook/assets/image%20%28348%29.png)
+![](../../../.gitbook/assets/image%20%28349%29.png)
 
 Note that no Devices are shown.
 
@@ -38,7 +38,7 @@ Note that no Devices are shown.
 
 Enter a search term and press Enter.  
 
-![](../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../.gitbook/assets/image%20%28344%29.png)
 
 {% hint style="info" %}
 To match a string anywhere in the Device Name, add an asterisk at the beginning of the search term.
