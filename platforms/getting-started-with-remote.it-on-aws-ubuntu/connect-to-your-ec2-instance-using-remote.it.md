@@ -6,7 +6,7 @@ To connect to SSH on your EC2 instance using a remote.it proxy connection throug
 
 Now click on the ssh service you created.
 
-![](../../.gitbook/assets/image%20%28277%29.png)
+![](../../.gitbook/assets/image%20%28279%29.png)
 
 This gives you parameters you can use for an AWS command line using your PEM key over a remote.it connection.
 
@@ -16,7 +16,7 @@ Use the values above in the following ssh command to connect to your AWS instanc
 
 _ssh - i &lt;local PEM key&gt; &lt;user&gt;@&lt;Host Name&gt; - p &lt;Port&gt;_
 
-![](../../.gitbook/assets/image%20%28384%29.png)
+![](../../.gitbook/assets/image%20%28387%29.png)
 
 This sounds like a job for the API!
 

@@ -48,9 +48,9 @@ Auto registration is currently hosted at [https://beta.remote.it](https://beta.r
 
 ![](../../.gitbook/assets/image%20%28207%29.png)
 
-![](../../.gitbook/assets/image%20%28272%29.png)
+![](../../.gitbook/assets/image%20%28273%29.png)
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28231%29.png)
 
 #### OEM Configuration <a id="OEM-Configuration"></a>
 
