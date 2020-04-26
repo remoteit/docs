@@ -4,13 +4,20 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 
 # Settings
 
-![](../../.gitbook/assets/41.jpeg)
+![](../../.gitbook/assets/image%20%28182%29.png)
 
+#### User
+
+* **Set up remote access** lets you add Services on the current device \(for example, suppose you want to use Remote Desktop to connect to your Windows PC or connect to your Mac using Screen Sharing over remote.it\).
 * **Send Feedback** opens your default e-mail client and creates an e-mail to support@remote.it.
-* **Open at Login** - opens the Desktop App when you log in.  Note that Hosted Services and active Connections will keep running whether the Desktop App is open or not.
-* **Search only device list** - select this option if you have a large number of Devices in your account.  You will then need to enter a search term to find the Devices and Services you wish to connect to.
 * **Sign Out** signs you out of your account but leaves the App open.
 * **Quit** signs you out of your account and closes the App.
+
+#### Application
+
+* **Auto-update** automatically updates the application in the event a new version is available.
+* **Open at Login** opens the Desktop App when you log in.  Note that Hosted Services and active Connections will keep running whether the Desktop App is open or not.
+* **Search only device list** - select this option if you have a large number of Devices in your account.  You will then need to enter a search term to find the Devices and Services you wish to connect to.
 * **About** shows you the current version of the App.  If there is an update available, you will see:
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
