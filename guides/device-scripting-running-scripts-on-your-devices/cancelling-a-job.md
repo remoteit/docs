@@ -16,7 +16,7 @@ To cancel this Job, close the "Job Details" dialog, then click on the red circle
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
-![](../../.gitbook/assets/image%20%28283%29.png)
+![](../../.gitbook/assets/image%20%28284%29.png)
 
 Confirm that you wish to cancel, then click on "Submit".
 

@@ -6,11 +6,11 @@
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28322%29.png)
+![](../../../.gitbook/assets/image%20%28323%29.png)
 
 * When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28374%29.png)
+![](../../../.gitbook/assets/image%20%28375%29.png)
 
 * This is the "SSH string":
 
@@ -62,13 +62,13 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2826%29.png)
 
-![](../../../.gitbook/assets/image%20%28333%29.png)
+![](../../../.gitbook/assets/image%20%28334%29.png)
 
 ## Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28439%29.png)
+![](../../../.gitbook/assets/image%20%28440%29.png)
 
 ![](../../../.gitbook/assets/image%20%28103%29.png)
 

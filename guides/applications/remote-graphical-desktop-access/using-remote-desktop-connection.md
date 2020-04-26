@@ -32,7 +32,7 @@ Next, confirm that xrdp is in fact running with the command:
 
 **ps ax \| grep xrdp**
 
-![](../../../.gitbook/assets/image%20%28360%29.png)
+![](../../../.gitbook/assets/image%20%28361%29.png)
 
 You should see something similar to the image above.  The first column of numbers on the left is likely to be different.
 
@@ -46,7 +46,7 @@ At the Main Menu, install a new remote.it Service for xrdp using **RDP, default 
 
 ![](../../../.gitbook/assets/image%20%28267%29.png)
 
-![](../../../.gitbook/assets/image%20%28357%29.png)
+![](../../../.gitbook/assets/image%20%28358%29.png)
 
 When you are done, you will see your rdp Service in the list.
 
@@ -82,7 +82,7 @@ When you see the security warning, click on “Yes” to continue.
 
 Select the account you wish to use and enter the password, then click on "OK".  If you wish to choose an account other than "Administrator", click on "More choices".
 
-![](../../../.gitbook/assets/image%20%28429%29.png)
+![](../../../.gitbook/assets/image%20%28430%29.png)
 
 #### **Linux RDP Connection Login**
 
