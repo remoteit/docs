@@ -26,11 +26,11 @@ remote.it, along with the built-in Screen Sharing app on MacOS, is all you need 
 
 The first step to remotely accessing your MacOS device is to enable Screen Sharing on that device. To do this, open your _System Preferences_ and click _Sharing_.
 
-![](../.gitbook/assets/screen-shot-2020-03-23-at-1.24.38-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-03-23-at-1.24.38-pm.png)
 
 Next, select the Screen Sharing checkbox, and select "All users."
 
-![](../.gitbook/assets/screen-shot-2020-03-23-at-1.30.53-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-03-23-at-1.30.53-pm.png)
 
 Now you are ready to set up a connection with remote.it!
 
@@ -40,11 +40,11 @@ First, download and launch the remote.it Desktop App, found [**here.**](https://
 
 Once you've created an account and signed in, register your Device on the _Hosted_ tab.
 
-![You will be prompted to enter your administrator information.](../.gitbook/assets/screen-shot-2020-03-23-at-1.40.19-pm.png)
+![You will be prompted to enter your administrator information.](../../.gitbook/assets/screen-shot-2020-03-23-at-1.40.19-pm.png)
 
 Next, click "Add" and select VNC from the drop-down menu titled _Type._ Click the check-mark to add the VNC Service to your device.
 
-![You will be prompted to enter your administrator information.](../.gitbook/assets/screen-shot-2020-03-23-at-1.42.33-pm.png)
+![You will be prompted to enter your administrator information.](../../.gitbook/assets/screen-shot-2020-03-23-at-1.42.33-pm.png)
 
 Now, that the Service is created, you're ready to connect remotely!
 
@@ -54,11 +54,11 @@ Now, download the Desktop App on the MacOS device you want to control from. Log 
 
 Click it, then click "Connect." Once you've connected, you will see a monitor icon.
 
-![](../.gitbook/assets/screen-shot-2020-03-23-at-2.03.24-pm%20%281%29.png)
+![](../../.gitbook/assets/screen-shot-2020-03-23-at-2.03.24-pm%20%281%29.png)
 
 Click the icon to launch the Screen Sharing application. Enter in the username and password of the MacOS device you are connecting too, then click "Sign In".
 
-![](../.gitbook/assets/screen-shot-2020-03-23-at-2.07.29-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-03-23-at-2.07.29-pm.png)
 
 You are now remotely connected to your MacOS device!
 
@@ -68,11 +68,11 @@ You are now remotely connected to your MacOS device!
 
 If you want another user to be able to connect to your MacOS device, you will need to share the Device. For more information on sharing Devices, please see this guide:
 
-{% page-ref page="sharing-devices/sharing-a-device-with-a-contact.md" %}
+{% page-ref page="../../guides/sharing-devices/sharing-a-device-with-a-contact.md" %}
 
 ### Desktop App Information
 
 For more information on how to use the Desktop App, see this guide:
 
-{% page-ref page="using-the-desktop-app/" %}
+{% page-ref page="../../guides/using-the-desktop-app/" %}
 

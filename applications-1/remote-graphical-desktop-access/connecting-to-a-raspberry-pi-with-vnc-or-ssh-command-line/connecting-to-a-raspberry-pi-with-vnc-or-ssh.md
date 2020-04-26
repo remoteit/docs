@@ -24,11 +24,11 @@ First, you'll have to enable the ability to SSH and/or VNC into your Pi.
 
 Access your Pi, then click the menu in the upper left corner and select _Preferences_ from the menu. 
 
-![](../../.gitbook/assets/1%20%286%29.png)
+![](../../../.gitbook/assets/1%20%286%29.png)
 
 Next, click _Raspberry Pi Configuration_ and navigate to the _Interfaces_ tab. Make sure that either VNC or SSH \(or both\) are enabled. 
 
-![](../../.gitbook/assets/2.png)
+![](../../../.gitbook/assets/2.png)
 
 Now, let's set up remote.it! 
 
@@ -42,7 +42,7 @@ To VNC or SSH into a Raspberry Pi using remote.it, you'll have to create a remot
 
 Download and install the desktop app, found [**here**](https://github.com/remoteit/desktop/releases/latest). Once it's installed, you can find it on your Pi using the menu in the top left, and navigating to the _Internet_ tab.
 
-![](../../.gitbook/assets/screen-shot-2020-02-20-at-5.49.04-pm.png)
+![](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.49.04-pm.png)
 
 ## Add the desired services
 
@@ -50,19 +50,19 @@ The next step is to add the SSH and/or VNC services to your device, so that you 
 
 Click on the remote.it desktop app and log in using your credentials. Click the _Hosted_ tab at the bottom and register your device.
 
-![Register your device with remote.it](../../.gitbook/assets/screen-shot-2020-02-20-at-5.52.14-pm.png)
+![Register your device with remote.it](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.52.14-pm.png)
 
 Next, navigate to the _Network_ tab or click _Scan for services_. Scan the network that the Pi is on and find your system, labeled “This system.” 
 
-![Scan your network to find your system](../../.gitbook/assets/screen-shot-2020-02-20-at-5.53.01-pm.png)
+![Scan your network to find your system](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.53.01-pm.png)
 
 Click it, and you will see the Services that you can add to the Device. 
 
-![](../../.gitbook/assets/screen-shot-2020-02-20-at-5.53.41-pm.png)
+![](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.53.41-pm.png)
 
 Click Add next to vnc, ssh, or whatever other Service you would like to add. It will take you back to the _Hosted_ tab to finish setting it up. 
 
-![Add the service\(s\)](../../.gitbook/assets/screen-shot-2020-02-20-at-5.54.23-pm.png)
+![Add the service\(s\)](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.54.23-pm.png)
 
 Name the Service, then click the blue checkmark.
 
@@ -76,7 +76,7 @@ Now that you've installed the Service\(s\), you can SSH or VNC into your Pi from
 
 Log into the remote.it Desktop App on the machine you wish to access the Pi from. The Device will appear under the _Remote_ tab. Click it, then connect to the desired service. 
 
-![Click the button to connect](../../.gitbook/assets/screen-shot-2020-02-20-at-5.57.45-pm%20%281%29.png)
+![Click the button to connect](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.57.45-pm%20%281%29.png)
 
 {% hint style="info" %}
 Downloading something like [**PuTTY**](https://www.chiark.greenend.org.uk/~sgtatham/putty/) \(Windows only\) for SSH or [**VNC Viewer**](https://www.realvnc.com/en/connect/download/viewer/) for VNC may be very helpful in connecting to your Raspberry Pi.
@@ -84,19 +84,19 @@ Downloading something like [**PuTTY**](https://www.chiark.greenend.org.uk/~sgtat
 
 Click on the Service you are now connected to. Copy the information into the appropriate program, and connect. 
 
-![This button copies the VNC string, which I will use to connect](../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.13-pm%20%281%29.png)
+![This button copies the VNC string, which I will use to connect](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.13-pm%20%281%29.png)
 
 Voila! You are now connected to the Pi via SSH/VNC using remote.it! Paste the VNC string into your VNC client of choice and you will be able to control your Pi.
 
-![I can now control my Pi from anywhere, using remote.it!](../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.59-pm.png)
+![I can now control my Pi from anywhere, using remote.it!](../../../.gitbook/assets/screen-shot-2020-02-20-at-5.58.59-pm.png)
 
 ## Advanced Applications
 
 If you are looking for more advanced applications of Remote Graphical Desktop Access, please refer to the following guides.
 
-{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md" %}
+{% page-ref page="../using-realvnc-on-raspberry-pi.md" %}
 
-{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-tightvnc-on-debian.md" %}
+{% page-ref page="../using-tightvnc-on-debian.md" %}
 
-{% page-ref page="../../applications-1/remote-graphical-desktop-access/using-remote-desktop-connection.md" %}
+{% page-ref page="../using-remote-desktop-connection.md" %}
 

@@ -24,8 +24,6 @@ Now that you're up and running, you can:
 
 Connect to more service types like VNC, Nx Witness, RDP and more!
 
-{% page-ref page="../../guides/service-types.md" %}
-
 Share or transfer your devices amongst other remote.it users:
 
 Build remote.it into your products using bulk or auto registration \(aka mass registration\):

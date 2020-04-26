@@ -20,9 +20,9 @@ Check out our other useful guides:
 
 {% page-ref page="../../../hosting-a-minecraft-server.md" %}
 
-{% page-ref page="../../../guides/control-your-computer-remotely-mac-to-mac.md" %}
+{% page-ref page="../control-your-computer-remotely-mac-to-mac.md" %}
 
-{% page-ref page="../../../guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 {% page-ref page="../access-your-mac-remotely-from-windows/" %}
 

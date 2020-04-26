@@ -28,7 +28,7 @@ Being able to SSH or VNC to a Raspberry Pi is now easier than ever using our Des
 
 If you want to learn more about creating these Services, see:
 
-{% page-ref page="../guides/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
+{% page-ref page="../applications-1/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
 
 ## Hosting Servers
 
