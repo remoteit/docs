@@ -26,7 +26,7 @@ Fill out the displayed “New Auto Registration” form.
 
 Add a name for this Auto Registration that will be meaningful to you, then choose the desired Product Definition from the drop-down list:
 
-![](../../.gitbook/assets/image%20%28412%29.png)
+![](../../.gitbook/assets/image%20%28413%29.png)
 
 Finally, click on “Register”.
 

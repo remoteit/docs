@@ -10,7 +10,7 @@ macOS
 
 Windows
 
-![](../../.gitbook/assets/image%20%28421%29.png)
+![](../../.gitbook/assets/image%20%28422%29.png)
 
 **Sign In**
 
