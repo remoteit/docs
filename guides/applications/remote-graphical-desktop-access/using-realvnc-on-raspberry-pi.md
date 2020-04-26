@@ -37,11 +37,11 @@ Next, click the 3-line button in the right hand corner, and click “Options”.
 
 Under “Security”, change the “UNIX Authentication” to “VNC password”. Setting this password allows Flash VNC and Mac screen sharing to work.
 
-![](../../../.gitbook/assets/image%20%28377%29.png)
+![](../../../.gitbook/assets/image%20%28378%29.png)
 
 To set this password, Go to “Users & Permissions”. Then click “Password” on the right-hand side. Then enter a password. You will use this when using Flash VNC and Mac Screen Sharing.
 
-![](../../../.gitbook/assets/image%20%28403%29.png)
+![](../../../.gitbook/assets/image%20%28404%29.png)
 
 Then click “Ok”.
 
@@ -63,7 +63,7 @@ Install a new remot3.it Service for VNC using the default port of 5900.  If the 
 
 When you’ve successfully added the remote.it Service for RealVNC, the Main Menu will include an entry for **x11vnc** \(or similar\) as shown below.  This shows the name of the process that was found listening to the specified port.
 
-![](../../../.gitbook/assets/image%20%28434%29.png)
+![](../../../.gitbook/assets/image%20%28435%29.png)
 
 ##  **Making a VNC connection using remot3.it**
 
@@ -95,7 +95,7 @@ Start the RealVNC viewer application, then copy and paste the address from the r
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../../.gitbook/assets/image%20%28452%29.png)
+![](../../../.gitbook/assets/image%20%28454%29.png)
 
 Now you are controlling your Raspberry Pi’s GUI!
 
