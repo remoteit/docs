@@ -22,18 +22,18 @@ Click on a device to connect to and manage its Services.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
 * If a Service is offline, the button will display "Offline".
 
-## Device Details
+### Device Details
 
 * Device ID: this is a unique identifier for each service in your account.  This is set at the time you register each service.
 * Hardware ID - this value is unique per Device, or group of Services.  It is used to group the Services on a Device together.
 * Internal IP: the current device's LAN IP address
 * External IP: the current device's public IP address
 
-## Service Details
+### Service Details
 
 Click on a Service name or the arrow on the right side to open the Service Details view.
 
-## Before Connecting
+#### Before Connecting
 
 ![](../../../.gitbook/assets/image%20%28100%29.png)
 
@@ -45,7 +45,7 @@ Click on a Service name or the arrow on the right side to open the Service Detai
 * "Reconnect on Disconnect" will automatically attempt to reestablish a connection which drops due to a disruption of the network connection.
 * The Raw Connection Log may be requested by our Support in the event you have any trouble connecting.
 
-## After connecting
+#### After connecting
 
 Additional information will be shown and some values will be updated.
 
