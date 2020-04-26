@@ -6,11 +6,11 @@ Auto registration is currently hosted at [https://beta.remote.it](https://beta.r
 
 This is the Product Definition you created in the previous step.
 
-![](../../.gitbook/assets/image%20%28412%29.png)
+![](../../.gitbook/assets/image%20%28414%29.png)
 
 Click on the “gear” icon to add Services to your Product.
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 The “Required Bulk” Service is already added. Each device must have a Bulk Service, and it cannot be deleted.
 

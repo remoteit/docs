@@ -48,7 +48,7 @@ Auto registration is currently hosted at [https://beta.remote.it](https://beta.r
 
 ![](../../.gitbook/assets/image%20%28198%29.png)
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](../../.gitbook/assets/image%20%28263%29.png)
 
 ![](../../.gitbook/assets/image%20%28221%29.png)
 

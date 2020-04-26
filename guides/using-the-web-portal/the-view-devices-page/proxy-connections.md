@@ -26,7 +26,7 @@ For non-web connections, the connection will return a hostname and port value wh
 
 **Reverse proxy:**  For web applications made using the remote.it web portal, the reverse proxy URL opens automatically in a new browser tab.  Reverse proxy connections do not remap the port value.
 
-![](../../../.gitbook/assets/image%20%28259%29.png)
+![](../../../.gitbook/assets/image%20%28260%29.png)
 
 See the "[Applications](../../applications/)" section for more detail about using remote.it proxy connections with different types of applications.
 
