@@ -4,7 +4,7 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 
 # Settings
 
-![](../../.gitbook/assets/image%20%28182%29.png)
+![](../../.gitbook/assets/image%20%28183%29.png)
 
 #### User
 
@@ -22,6 +22,11 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
+#### Advanced
+
+![](../../.gitbook/assets/image%20%2889%29.png)
+
 * **Re-install command line tools** reinstalls the utilities used by the Desktop App.  Support might suggest that you this in the event there is any problem with your connection.
-* **Uninstall** unregisters any Hosted Services, then removes all of the locally installed software, and finally exits the Desktop App.
+* **Uninstall command line tools** unregisters any Hosted Services, then removes all of the locally installed command line software.
+* **Clear all credentials** - see note.
 

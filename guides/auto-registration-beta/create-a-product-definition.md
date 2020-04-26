@@ -23,27 +23,27 @@ Auto Registration requires a dedicated Product Definition used only for Auto Reg
 
 Click on "Products" in the remote.it Menu:
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 To create a new Product Definition, click on “Create Product”.
 
-![](../../.gitbook/assets/image%20%28214%29.png)
+![](../../.gitbook/assets/image%20%28215%29.png)
 
 You’ll need to enter 3 bits of information on the “Create Product” dialog.
 
-![](../../.gitbook/assets/image%20%28119%29.png)
+![](../../.gitbook/assets/image%20%28120%29.png)
 
 1. Enter a Product Name that is meaningful to you.
 
-![](../../.gitbook/assets/image%20%28414%29.png)
+![](../../.gitbook/assets/image%20%28415%29.png)
 
 2. Choose a product platform.  Pick the closest device on the list to your actual product.  This information is stored in your account but it does not affect the functionality, so there is no penalty if it is not correct.
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28231%29.png)
 
 3. Choose the Product Scope.  For the purpose of this beta test, please choose “Private”.
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28115%29.png)
 
 {% hint style="warning" %}
 The ability to create Public and Unlisted Products may be removed in the release.
@@ -51,9 +51,9 @@ The ability to create Public and Unlisted Products may be removed in the release
 
 Finally, click on “Submit”:
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../.gitbook/assets/image%20%28186%29.png)
 
 You will see your new Product Definition in the list.
 
-![](../../.gitbook/assets/image%20%28318%29.png)
+![](../../.gitbook/assets/image%20%28319%29.png)
 
