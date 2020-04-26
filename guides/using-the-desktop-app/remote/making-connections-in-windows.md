@@ -30,7 +30,7 @@ When you select the clipboard icon as shown:
 
 
 
-the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
+the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.  The SSH String is not the same as the editable Launch URL which only works if your browser supports that protocol.
 
 ![](../../../.gitbook/assets/image%20%28386%29.png)
 
