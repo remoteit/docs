@@ -10,13 +10,13 @@ macOS
 
 Windows
 
-![](../../.gitbook/assets/image%20%28444%29.png)
+![](../../.gitbook/assets/image%20%28445%29.png)
 
 **Sign In**
 
 Enter your remote.it sign in credentials \(your email and password\) and click sign in.
 
-![](../../.gitbook/assets/image%20%28292%29.png)
+![](../../.gitbook/assets/image%20%28293%29.png)
 
 {% hint style="info" %}
 **Note:** Please be aware that when you sign in for the first time you will be prompted to enter your Administrator name and password. This is so that remote.it can install the necessary command line tools onto your device. 

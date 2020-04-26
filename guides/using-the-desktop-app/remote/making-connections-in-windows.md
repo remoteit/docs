@@ -6,11 +6,11 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28375%29.png)
+![](../../../.gitbook/assets/image%20%28376%29.png)
 
 ### Launch URL
 
-You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a launch URL to streamline certain operations if your browser supports application launching.  This is more common on macOS. 
+You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching.  Application launching through the browser is more common on macOS. 
 
 #### Launch URL for SSH
 
@@ -24,17 +24,17 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28306%29.png)
+![](../../../.gitbook/assets/image%20%28307%29.png)
 
-When you select the clipboard icon as shown:
+Select the clipboard icon as shown:
 
-![](../../../.gitbook/assets/image%20%28363%29.png)
+![](../../../.gitbook/assets/image%20%28364%29.png)
 
 
 
-the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.  The SSH String is not the same as the editable Launch URL which only works if your browser supports that protocol.
+The SSH string, including the supplied SSH Username, will be copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.  The SSH String is not the same as the editable Launch URL which only works if your browser supports that protocol.
 
-![](../../../.gitbook/assets/image%20%28398%29.png)
+![](../../../.gitbook/assets/image%20%28399%29.png)
 
 * This is the "SSH string" \(assuming you entered "pi" as the SSH username\):
 
@@ -70,7 +70,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28449%29.png)
+![](../../../.gitbook/assets/image%20%28450%29.png)
 
 * This is the VNC string:
 
@@ -80,11 +80,11 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * This can be copied and pasted into the address bar of the RealVNC Viewer application.
 
-![](../../../.gitbook/assets/image%20%28382%29.png)
+![](../../../.gitbook/assets/image%20%28383%29.png)
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28280%29.png)
+![](../../../.gitbook/assets/image%20%28281%29.png)
 
 ![](../../../.gitbook/assets/image%20%28226%29.png)
 
@@ -92,7 +92,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28470%29.png)
+![](../../../.gitbook/assets/image%20%28471%29.png)
 
 ![](../../../.gitbook/assets/image%20%28143%29.png)
 

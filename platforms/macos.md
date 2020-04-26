@@ -6,9 +6,9 @@ description: >-
 
 # MacOS
 
-## Desktop App **for Windows**
+## Desktop App **for macOS**
 
-The remote.it Desktop App for MacOS allows for creating Services and connecting to Devices all in one app. 
+The remote.it Desktop App for macOS allows for creating Services and connecting to Devices all in one app. 
 
 Please, see our documentation on how to use our new Desktop application:
 
