@@ -10,7 +10,7 @@ This section will show you how to create and upload a single Platform bulk regis
 
 On the left-hand menu, select “Registrations”:
 
-![](../../.gitbook/assets/image%20%28458%29.png)
+![](../../.gitbook/assets/image%20%28459%29.png)
 
 Download the bulk registration template CSV file:
 
@@ -22,7 +22,7 @@ This example shows a single Platform being Bulk Registered, so there is only one
 
 If you enter information into the Category columns, that information will optionally be displayed on the "Devices" page after Bulk Registration is completed.
 
-![](../../.gitbook/assets/image%20%28430%29.png)
+![](../../.gitbook/assets/image%20%28431%29.png)
 
 Save the CSV file to your computer using an easy to remember name and location, because you will be uploading it shortly.
 
@@ -46,7 +46,7 @@ Select the checkbox as shown, then click on “Publish”:
 
 The state will change to “publishing” for a few minutes.
 
-![](../../.gitbook/assets/image%20%28407%29.png)
+![](../../.gitbook/assets/image%20%28408%29.png)
 
 It will then go to “preregistered” state:
 

@@ -1,15 +1,14 @@
 ---
-description: >-
-  Hosted Services can receive incoming connections from any remote.it connection
-  initiator.  These include the remote.it portal, mobile apps, REST API, and P2P
-  connections using the connectd daemon.
+description: Use this option to add remote.it Services to the current Windows or Mac PC.
 ---
 
-# Hosted
+# Set up remote access
 
-In this tab you can register and add Services to your local Device. First, choose a name and click the register button. At this point, you may be asked to enter your administrator information.
+In this tab you can register and add Services to your local Device. Note that some commonly used services have been located and may be pre-selected.  If you don't want to register Services on any particular port\(s\) at this time, deselect the appropriate checkbox.  You can always manage installed Services later.
 
-![](../../../.gitbook/assets/31.jpeg)
+Choose a name and click the **Register** button. At this point, you may be asked to enter your administrator information.
+
+![](../../../.gitbook/assets/image%20%28389%29.png)
 
 After you've registered your device you can either add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device.
 

@@ -35,7 +35,7 @@ You’ll need to enter 3 bits of information on the “Create Product” dialog.
 
 1. Enter a Product Name that is meaningful to you.
 
-![](../../.gitbook/assets/image%20%28415%29.png)
+![](../../.gitbook/assets/image%20%28416%29.png)
 
 2. Choose a product platform.  Pick the closest device on the list to your actual product.  This information is stored in your account but it does not affect the functionality, so there is no penalty if it is not correct.
 

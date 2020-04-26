@@ -19,7 +19,7 @@
     * [Making connections in macOS](guides/using-the-desktop-app/remote/making-connections-in-macos.md)
   * [Connections](guides/using-the-desktop-app/connections.md)
   * [Settings](guides/using-the-desktop-app/settings/README.md)
-    * [Hosted](guides/using-the-desktop-app/settings/hosted.md)
+    * [Set up remote access](guides/using-the-desktop-app/settings/hosted.md)
     * [Network](guides/using-the-desktop-app/settings/network.md)
   * [Peer to Peer Connections](guides/using-the-desktop-app/peer-to-peer-connections.md)
 * [Using the CLI \(Beta\)](guides/using-the-cli/README.md)

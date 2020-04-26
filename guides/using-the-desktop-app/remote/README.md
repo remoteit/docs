@@ -18,7 +18,7 @@ Hover your mouse pointer over the dashes to access the individual Services on yo
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28450%29.png)
+![](../../../.gitbook/assets/image%20%28451%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
@@ -55,5 +55,5 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28421%29.png)
+![](../../../.gitbook/assets/image%20%28422%29.png)
 

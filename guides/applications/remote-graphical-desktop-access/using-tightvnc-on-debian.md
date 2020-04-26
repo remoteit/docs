@@ -54,7 +54,7 @@ sudo connectd_installer
 
 At the Main Menu, install a new remote.it Service for VNC.  If the actual port in use is not 5901, you will have the opportunity to set this during the installation.
 
-![](../../../.gitbook/assets/image%20%28433%29.png)
+![](../../../.gitbook/assets/image%20%28434%29.png)
 
 When you’ve successfully installed **tightvncserver** and the remote.it **VNC** Service, the Main Menu will include an entry for **Xtightvnc** as shown above.
 
@@ -66,7 +66,7 @@ To connect, sign in to your remote.it account and locate the device in Devices v
 
 Click on the highlighted Device Name to open the Device Services dialog:
 
-![](../../../.gitbook/assets/image%20%28445%29.png)
+![](../../../.gitbook/assets/image%20%28446%29.png)
 
 Now click on the highlighted Service Name to initiate the connection.  In a few seconds you’ll see a dialog box similar to this:
 
