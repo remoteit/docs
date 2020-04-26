@@ -15,6 +15,7 @@
   * [Launching the Desktop App and Basic Navigation](guides/using-the-desktop-app/launching-the-desktop-app-and-basic-navigation.md)
   * [Devices](guides/using-the-desktop-app/remote/README.md)
     * [Making connections in Windows](guides/using-the-desktop-app/remote/making-connections-in-windows.md)
+    * [Making connections in macOS](guides/using-the-desktop-app/remote/making-connections-in-macos.md)
   * [Connections](guides/using-the-desktop-app/connections.md)
   * [Hosted](guides/using-the-desktop-app/hosted.md)
   * [Network](guides/using-the-desktop-app/network.md)
