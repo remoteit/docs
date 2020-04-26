@@ -46,7 +46,7 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * When you select the "Launch VNC" action \(monitor icon\), the VNC command attempts to execute automatically.  This should work when making a Mac to Mac connection.  If you are connecting from a Mac to a Raspberry Pi running RealVNC, you should install the RealVNC Viewer and use the "Copy VNC" option instead.
 
-![](../../../.gitbook/assets/image%20%28471%29.png)
+![](../../../.gitbook/assets/image%20%28473%29.png)
 
 * When you select the clipboard icon, the connection address is copied to the clipboard.  You can then paste it into your VNC application \(RealVNC Viewer is shown here\).
 
@@ -54,7 +54,7 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28390%29.png)
+![](../../../.gitbook/assets/image%20%28391%29.png)
 
 You should now see the desktop of your connected device.
 
@@ -64,9 +64,9 @@ You should now see the desktop of your connected device.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](https://github.com/remoteit/docs/tree/ac0b32dabd0132c644ae46ce3793623867217237/.gitbook/assets/image%20%28436%29.png)
+![](../../../.gitbook/assets/image%20%28388%29.png)
 
-![](../../../.gitbook/assets/image%20%28152%29.png)
+![](../../../.gitbook/assets/image%20%28430%29.png)
 
 
 

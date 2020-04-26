@@ -12,5 +12,5 @@ As with adding Sharing, you can choose to see the names of Device\(s\) which you
 
 This dialog confirms that sharing was removed from the selected devices.
 
-![](../../.gitbook/assets/image%20%28389%29.png)
+![](../../.gitbook/assets/image%20%28390%29.png)
 

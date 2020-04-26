@@ -10,7 +10,7 @@ On the Settings page, click on "Set up remote access":
 
 In the displayed page, you can register and add Services to your local Device. Note that some commonly used services have been located and may be pre-selected.  If you don't want to register Services on any particular port\(s\) at this time, deselect the appropriate checkbox.  You can always manage installed Services later.
 
-![](../../../.gitbook/assets/image%20%28403%29.png)
+![](../../../.gitbook/assets/image%20%28404%29.png)
 
 The remote.it Admin Panel allows you to connect to this configuration application remotely using a web browser.  
 
