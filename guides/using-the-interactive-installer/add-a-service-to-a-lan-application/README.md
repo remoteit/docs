@@ -12,11 +12,11 @@ Let's install a service for the web interface on my router.   This happens to ha
 
 Now you will see the "Protocol Selection Menu".
 
-![](../../../.gitbook/assets/image%20%28177%29.png)
+![](../../../.gitbook/assets/image%20%28178%29.png)
 
 Select option 2 for web and enter the requested information.  When the list of installed Services redraws, you will see your new remote.it web Service in the table along with the detected LAN application.  It is not possible to detect the program running a LAN application so you will see "OK" here or "not detected".
 
-![](../../../.gitbook/assets/image%20%28155%29.png)
+![](../../../.gitbook/assets/image%20%28156%29.png)
 
 Note that the "LAN Address" for the "Router-UI" remote.it Service shows the IP address you entered.  If you used an mdns address, that would be shown here instead.
 
@@ -26,7 +26,7 @@ Now, when you access your Device at the remote.it web portal, you will see the e
 
 Clicking on the "Router UI" link now takes you to your router's UI.
 
-![](../../../.gitbook/assets/image%20%28430%29.png)
+![](../../../.gitbook/assets/image%20%28431%29.png)
 
 The interactive installer can be used in a similar way for all types of supported TCP Services on other LAN devices.
 
