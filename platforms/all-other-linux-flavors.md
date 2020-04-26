@@ -28,6 +28,16 @@ chmod +x ./auto-install.sh
 ./auto-install.sh
 ```
 
+### Debian OS:
+
+The Debian architecture will be determined and a suitable package will be downloaded and installed using the "dpkg" command.
+
+If you wish to install a tar package instead \(e.g. in case the script can't find a compatible Debian package\), then run:
+
+```text
+sudo ./auto-install.sh f
+```
+
 ### Non-Debian OS:
 
 Some files will be downloaded and tested in order to find a package which will run on your device.  You may see some error messages during this step.  Assuming that a matching package can be identified, the following instructions will be displayed for you to complete manually.  The exact file name may be different than that shown below.
