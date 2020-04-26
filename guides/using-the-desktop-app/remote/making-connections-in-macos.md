@@ -12,6 +12,16 @@ If you see the green "Connect" button, click on it and wait until it turns blue 
 
 You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching.  Application launching through the browser is more common on macOS. 
 
+
+
+#### Launch URL for SSH
+
+![](../../../.gitbook/assets/image%20%28145%29.png)
+
+* \[username\] is only available for SSH connections.  It is the SSH username you specified.
+* \[host\] is usually localhost, or 127.0.0.1.
+* \[port\] is the port assigned to this connection.
+
 ## SSH Connections
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
