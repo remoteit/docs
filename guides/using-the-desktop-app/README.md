@@ -10,9 +10,11 @@ description: >-
 ## **Please manually remove any previously installed version of remote.it Desktop App.**
 {% endhint %}
 
-If this is the first time you've installed the Desktop App, jump ahead to 
+If this is the first time you've installed the Desktop App, jump ahead to [this section](https://docs.remote.it/guides/using-the-desktop-app#then-download-and-install-the-new-one). 
 
-## If you see an "update is available" message, click on "x" to cancel.  
+{% hint style="warning" %}
+If you see an "update is available" message, click on "x" to cancel.  
+{% endhint %}
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
