@@ -8,9 +8,11 @@ If you see the green "Connect" button, click on it and wait until it turns blue 
 
 ![](../../../.gitbook/assets/image%20%28365%29.png)
 
-#### Launch URL
+### Launch URL
 
 You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a launch URL to streamline certain operations if your browser supports application launching.  This is more common on macOS. 
+
+#### Launch URL for SSH
 
 ![](../../../.gitbook/assets/image%20%28141%29.png)
 
