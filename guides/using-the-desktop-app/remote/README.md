@@ -12,13 +12,13 @@ Here you will ﬁnd all the devices you have access to - whether they are in you
 
 Next to each device you can see the number of services \(by the dashed underscores\) and the connection state of the services \(blue is active, green is online but not connected, grey is offline\).
 
-![](../../../.gitbook/assets/image%20%28273%29.png)
+![](../../../.gitbook/assets/image%20%28274%29.png)
 
 Hover your mouse pointer over the dashes to access the individual Services on your Device. The Service name will pop up as a tool tip as shown. Clicking on the dash will take you to a screen where you can manage and use your connection.
 
 Click on a device to connect to and manage its Services.
 
-![](../../../.gitbook/assets/image%20%28439%29.png)
+![](../../../.gitbook/assets/image%20%28440%29.png)
 
 * If a Service is online and has already been connected, the blue "Disconnect" button will be shown.
 * If a Service is online and not yet connected, the green "Connect" button will be shown.
@@ -55,5 +55,5 @@ Additional information will be shown and some values will be updated.
 * Duration shows how long this connection has been active.
 * Throughput shows the current short term average data rate in both directions.
 
-![](../../../.gitbook/assets/image%20%28413%29.png)
+![](../../../.gitbook/assets/image%20%28414%29.png)
 
