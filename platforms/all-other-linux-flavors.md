@@ -1,8 +1,8 @@
 ---
-description: instructions for non-Debian Linux Operating Systems
+description: instructions for Debian and non-Debian Linux Operating Systems
 ---
 
-# Other Linux flavors
+# All Linux distributions
 
 **To install the connectd package**
 

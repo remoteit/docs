@@ -140,7 +140,7 @@
   * [Securing a WordPress Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-wordpress-admin-dashboard.md)
   * [Securing a Joomla Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-joomla-admin-dashboard.md)
 * [Centos](platforms/centos-quick-start.md)
-* [Other Linux flavors](platforms/all-other-linux-flavors.md)
+* [All Linux distributions](platforms/all-other-linux-flavors.md)
 * [Supported platforms and installation](platforms/supported-platforms.md)
 * [MacOS](platforms/macos.md)
 * [Windows](platforms/windows-quick-start.md)
