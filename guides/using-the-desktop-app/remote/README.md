@@ -14,7 +14,7 @@ Next to each device you can see the number of services \(by the dashed underscor
 
 ![](../../../.gitbook/assets/image%20%28271%29.png)
 
-Hover your mouse pointer over the dashes to access the individual Services on your Device. The Service name will pop up as a tool tip as shown. Clicking on the dash will take you to a screen where you can create and use your connection.
+Hover your mouse pointer over the dashes to access the individual Services on your Device. The Service name will pop up as a tool tip as shown. Clicking on the dash will take you to a screen where you can manage and use your connection.
 
 Click on a device to connect to and manage its Services.
 
