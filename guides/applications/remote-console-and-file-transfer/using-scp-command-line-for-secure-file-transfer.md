@@ -22,7 +22,7 @@ If you are using one of the methods to set up a [peer to peer connection](../../
 
 For example, using the Desktop app for Windows:
 
-![](../../../.gitbook/assets/image%20%28376%29.png)
+![](../../../.gitbook/assets/image%20%28378%29.png)
 
 You can now use this information on the scp command line as shown.
 

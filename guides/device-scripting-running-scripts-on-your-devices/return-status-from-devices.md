@@ -12,7 +12,7 @@ This script returns the following info into status columns A through E:
 * Number of installed remote.it Services
 * Version of of the installed connectd package
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![](../../.gitbook/assets/image%20%28140%29.png)
 
 Download the attached file to your system, then upload it to remote.it:
 
