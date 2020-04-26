@@ -12,7 +12,7 @@ The following Actions are available in remote.it and described below:
 6. Transfer Device
 7. Delete
 
-![](../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../.gitbook/assets/image%20%28344%29.png)
 
 ### **Share**
 
