@@ -44,6 +44,12 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 ## VNC Connections
 
+* When you select the "Launch VNC" action \(monitor icon\), the VNC command attempts to execute automatically.  This should work when making a Mac to Mac connection.  If you are connecting from a Mac to a Raspberry Pi running RealVNC, you should install the RealVNC Viewer and use the VNC string instead.
+
+
+
+
+
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
 ![](../../../.gitbook/assets/image%20%28248%29.png)
