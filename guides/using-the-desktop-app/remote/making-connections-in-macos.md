@@ -4,7 +4,7 @@
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28415%29.png)
+![](../../../.gitbook/assets/image%20%28416%29.png)
 
 * When you select the clipboard icon, the SSH string, including the supplied SSH Username, is copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.
 
@@ -44,7 +44,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28232%29.png)
+![](../../../.gitbook/assets/image%20%28233%29.png)
 
 * This is the VNC string:
 
@@ -60,7 +60,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 ![](../../../.gitbook/assets/image%20%2834%29.png)
 
-![](../../../.gitbook/assets/image%20%28428%29.png)
+![](../../../.gitbook/assets/image%20%28429%29.png)
 
 ## Web connections
 
@@ -68,5 +68,5 @@ Select the arrow to launch the connection URL directly in your default browser.
 
 ![](https://github.com/remoteit/docs/tree/ac0b32dabd0132c644ae46ce3793623867217237/.gitbook/assets/image%20%28436%29.png)
 
-![](../../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28139%29.png)
 

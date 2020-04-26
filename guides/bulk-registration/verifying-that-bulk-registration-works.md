@@ -8,7 +8,7 @@ description: >-
 
 If you have correctly followed all of the steps in this section, you should be able to reboot your Platform, and after it boots up, the corresponding Device should appear online in the remote.it "Devices" page.
 
-![](../../.gitbook/assets/image%20%28310%29.png)
+![](../../.gitbook/assets/image%20%28311%29.png)
 
 ### Debugging Bulk Registration
 
@@ -82,7 +82,7 @@ OK: 545293BD-B24E-188C-2CDA-92BD1BC1346C has started
 
 Within 5 minutes, the status of the device should change to "Online" as indicated by the green check.
 
-![](../../.gitbook/assets/image%20%28313%29.png)
+![](../../.gitbook/assets/image%20%28314%29.png)
 
 To prepare this device's OS image to be cloned for manufacturing, run:
 
