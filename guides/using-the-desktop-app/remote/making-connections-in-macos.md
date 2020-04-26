@@ -12,8 +12,6 @@ If you see the green "Connect" button, click on it and wait until it turns blue 
 
 You can see the connection URL and port, e.g. **localhost:33001**.  You can use this directly, or you can create a Launch URL to streamline certain operations if your browser supports application launching.  Application launching through the browser is more common on macOS. 
 
-
-
 #### Launch URL for SSH
 
 ![](../../../.gitbook/assets/image%20%28145%29.png)
