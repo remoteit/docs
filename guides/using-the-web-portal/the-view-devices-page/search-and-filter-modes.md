@@ -10,17 +10,17 @@ The standard "Devices" page in remote.it works well if you have up to a few doze
 
 Filter mode finds the entered string anywhere in the Device Name and is not case sensitive.  This mode is the default mode of your account.   Filter mode is enabled when "Device Search Only" is not checked, as shown here:
 
-![](../../../.gitbook/assets/image%20%28245%29.png)
+![](../../../.gitbook/assets/image%20%28246%29.png)
 
 This example shows the filter term "timer" matching a single Device Name, "Game Timer Pi 70".
 
-![](../../../.gitbook/assets/image%20%28410%29.png)
+![](../../../.gitbook/assets/image%20%28412%29.png)
 
 This shows the filter term "device" matching a number of Device Names.
 
-![](../../../.gitbook/assets/image%20%28296%29.png)
+![](../../../.gitbook/assets/image%20%28297%29.png)
 
-![](../../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2857%29.png)
 
 As you are typing in a Filter term, it does not become active until the third character you enter.
 
@@ -30,15 +30,15 @@ Search mode doesn't display any Devices until you enter the term which you wish 
 
 First, you must select the "Device Search only" checkbox:
 
-![](../../../.gitbook/assets/image%20%28353%29.png)
+![](../../../.gitbook/assets/image%20%28354%29.png)
 
 Note that no Devices are shown.
 
-![](../../../.gitbook/assets/image%20%28148%29.png)
+![](../../../.gitbook/assets/image%20%28149%29.png)
 
 Enter a search term and press Enter.  
 
-![](../../../.gitbook/assets/image%20%28348%29.png)
+![](../../../.gitbook/assets/image%20%28349%29.png)
 
 {% hint style="info" %}
 To match a string anywhere in the Device Name, add an asterisk at the beginning of the search term.
@@ -46,11 +46,11 @@ To match a string anywhere in the Device Name, add an asterisk at the beginning 
 
 If there is no match, you'll see this warning:
 
-![](../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../.gitbook/assets/image%20%28163%29.png)
 
 If there are more than ten matches for the search term, you'll see:
 
-![](../../../.gitbook/assets/image%20%2842%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 If this happens, add additional characters to the search term to narrow it down.
 

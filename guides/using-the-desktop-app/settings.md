@@ -13,7 +13,7 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 * **Quit** signs you out of your account and closes the App.
 * **About** shows you the current version of the App.  If there is an update available, you will see:
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 * **Re-install command line tools** reinstalls the utilities used by the Desktop App.  Support might suggest that you this in the event there is any problem with your connection.
 * **Uninstall** unregisters any Hosted Services, then removes all of the locally installed software, and finally exits the Desktop App.
