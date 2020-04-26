@@ -63,7 +63,7 @@ Install a new remot3.it Service for VNC using the default port of 5900.  If the 
 
 When you’ve successfully added the remote.it Service for RealVNC, the Main Menu will include an entry for **x11vnc** \(or similar\) as shown below.  This shows the name of the process that was found listening to the specified port.
 
-![](../../../.gitbook/assets/image%20%28437%29.png)
+![](../../../.gitbook/assets/image%20%28438%29.png)
 
 ##  **Making a VNC connection using remot3.it**
 
@@ -95,7 +95,7 @@ Start the RealVNC viewer application, then copy and paste the address from the r
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../../.gitbook/assets/image%20%28456%29.png)
+![](../../../.gitbook/assets/image%20%28457%29.png)
 
 Now you are controlling your Raspberry Pi’s GUI!
 

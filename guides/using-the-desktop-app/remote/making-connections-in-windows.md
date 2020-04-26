@@ -70,7 +70,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%28443%29.png)
+![](../../../.gitbook/assets/image%20%28444%29.png)
 
 * This is the VNC string:
 
@@ -92,7 +92,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28463%29.png)
+![](../../../.gitbook/assets/image%20%28464%29.png)
 
 ![](../../../.gitbook/assets/image%20%28141%29.png)
 

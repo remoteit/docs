@@ -20,7 +20,7 @@ description: 'Here you can sign out, quit, send feedback, and more.'
 * **Search only device list** - select this option if you have a large number of Devices in your account.  You will then need to enter a search term to find the Devices and Services you wish to connect to.
 * **About** shows you the current version of the App.  If there is an update available, you will see:
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%28432%29.png)
 
 #### Advanced
 
