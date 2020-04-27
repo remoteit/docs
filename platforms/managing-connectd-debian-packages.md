@@ -52,7 +52,7 @@ sudo apt purge connectd
 
 Follow the link below.
 
-{% page-ref page="../guides/using-the-interactive-installer/" %}
+{% page-ref page="../adding-remote.it-to-your-device/using-the-interactive-installer/" %}
 
 ## Other Debian based Operating Systems
 
@@ -82,7 +82,7 @@ For more information, please see:
 
 Follow the link below.
 
-{% page-ref page="../guides/using-the-interactive-installer/" %}
+{% page-ref page="../adding-remote.it-to-your-device/using-the-interactive-installer/" %}
 
 ### To completely remove the connectd package, including configuration files
 

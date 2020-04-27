@@ -10,5 +10,5 @@ sudo ./auto-install.sh
 
 Now, you're ready to run the interactive installer. Follow the directions given at this link to configure your AWS EC2 instance with a Device Name and a Service for SSH.
 
-{% page-ref page="../../guides/using-the-interactive-installer/" %}
+{% page-ref page="../../adding-remote.it-to-your-device/using-the-interactive-installer/" %}
 

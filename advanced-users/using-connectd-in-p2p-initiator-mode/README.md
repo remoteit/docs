@@ -18,7 +18,7 @@ The **target device** is the device which accepts the remote.it P2P connection f
 
 Whether you wish to connect to a device using a P2P connection on your computer, or using a proxy connection through the remote.it portal, you first need to configure remote.it Services on the target device using the interactive installer. 
 
-{% page-ref page="../../guides/using-the-interactive-installer/" %}
+{% page-ref page="../../adding-remote.it-to-your-device/using-the-interactive-installer/" %}
 
 ### Get the UID of the remote.it Service you wish to connect to
 

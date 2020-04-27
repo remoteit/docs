@@ -6,7 +6,7 @@ description: 'For Windows 10 Command Prompt, Linux and macOS'
 
 SCP \(Secure Copy Protocol\) is a widely used means of sending files from one system to another over a network.  SCP uses the SSH server on the target, so there is no need to set up a remote.it Service for SCP if you already have a remote.it Service for SSH installed.
 
-We'll assume that you've already used the [interactive installer](../../guides/using-the-interactive-installer/) or [bulk registration](../../mass-production/bulk-registration/) to configure a remote.it Service for SSH on your target device.
+We'll assume that you've already used the [interactive installer](../../adding-remote.it-to-your-device/using-the-interactive-installer/) or [bulk registration](../../mass-production/bulk-registration/) to configure a remote.it Service for SSH on your target device.
 
 ### The SCP command line
 

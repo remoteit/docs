@@ -51,7 +51,7 @@ For more details about tested Linux platforms, please see:
 
 ### To configure remote.it Services on your Linux Device
 
-{% page-ref page="../guides/using-the-interactive-installer/" %}
+{% page-ref page="../adding-remote.it-to-your-device/using-the-interactive-installer/" %}
 
 
 

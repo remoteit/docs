@@ -16,7 +16,7 @@ description: >-
 
 Make sure that you have created a remote.it account and installed a remote.it Service for SSH as described at the link below.
 
-{% page-ref page="../../guides/using-the-interactive-installer/add-a-service-to-an-application.md" %}
+{% page-ref page="../../adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-an-application.md" %}
 
 #### Using a proxy connection via the web portal
 
