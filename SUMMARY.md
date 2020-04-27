@@ -5,7 +5,6 @@
   * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
 * [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections/README.md)
   * [Peer to Peer Connections](peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md)
-* [Downloads](downloads.md)
 * [Troubleshooting](troubleshooting-connections.md)
 
 ## Adding remote.it to your device
