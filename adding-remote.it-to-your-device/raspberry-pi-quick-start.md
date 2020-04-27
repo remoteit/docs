@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use a pre-configured Raspbian SD card image to shortcut your remote access
-  setup.
+  Use a pre-configured Raspbian SD card image with remoteit already installed to
+  shortcut your remote access setup.  SSH and VNC are enabled by default.
 ---
 
 # Raspberry Pi Quick Start \(remote.itPi SD Card image\)
