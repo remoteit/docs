@@ -89,12 +89,15 @@ network={
 
 ![The config file is found in \boot](../.gitbook/assets/yesyesyeys.png)
 
-### Find your Pi on the LAN
+### Power on your Pi
 
 1. Remove the micro SD from the card reader and insert it into the remote.itPi. If you are connecting the remote.itPi to the internet via Ethernet, plug the Ethernet cable into the remote.itPi. The other end of the Ethernet cable should connect to an available "LAN" port on your router. 
-2.  Connect a USB power cable to the remote.itPi to power on the Raspberry Pi.  Wait a minute or two for it to complete the boot process. 
-3.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/). 
-4. The browser will search for your remote.itPi device on the LAN. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
+2.  Connect a USB power cable to the remote.itPi to power on the Raspberry Pi.  Wait a minute or two for it to complete the boot process.
+
+### Find your Pi on the LAN
+
+1.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/). 
+2. The browser will search for your remote.itPi device on the LAN. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
 
 {% hint style="warning" %}
 **Note:** Make sure you disable any pop-up blocker extensions or software for the domain "x.remote.it" or this webpage may not load properly.
