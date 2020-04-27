@@ -2,7 +2,7 @@
 description: This method is recommended for Linux installations other than Raspbian.
 ---
 
-# Using the Interactive Installer
+# The Interactive Installer
 
 We recommend that you use one of the following methods for installing remote.it onto a Raspberry Pi, Windows PC or Mac.
 

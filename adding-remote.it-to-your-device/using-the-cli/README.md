@@ -2,7 +2,7 @@
 description: Learn how to use the new remote.it Command Line Interface (CLI).
 ---
 
-# The Command Line Interface
+# The remote.it Command Line Interface
 
 ## Beta Notice
 

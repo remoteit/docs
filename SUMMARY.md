@@ -11,11 +11,12 @@
 ## Adding remote.it to your device
 
 * [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](adding-remote.it-to-your-device/raspberry-pi-quick-start.md)
-* [The Command Line Interface](adding-remote.it-to-your-device/using-the-cli/README.md)
+* [The remote.it Desktop App for Windows and macOS.](adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md)
+* [The remote.it Command Line Interface](adding-remote.it-to-your-device/using-the-cli/README.md)
   * [Usage](adding-remote.it-to-your-device/using-the-cli/usage.md)
   * [Advanced Configuration](adding-remote.it-to-your-device/using-the-cli/advanced-configuration.md)
   * [Troubleshooting](adding-remote.it-to-your-device/using-the-cli/troubleshooting.md)
-* [Using the Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer/README.md)
+* [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer/README.md)
   * [Create a new account \(optional\)](adding-remote.it-to-your-device/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](adding-remote.it-to-your-device/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
   * [Log in](adding-remote.it-to-your-device/using-the-interactive-installer/log-in.md)
@@ -70,32 +71,31 @@
 
 ## Applications
 
-* [Applications](applications-1/README.md)
-  * [Remote console and file transfer](applications-1/remote-console-and-file-transfer/README.md)
-    * [Connecting to an SSH service](applications-1/remote-console-and-file-transfer/connecting-to-ssh.md)
-    * [Using SCP command line for secure file transfer](applications-1/remote-console-and-file-transfer/using-scp-command-line-for-secure-file-transfer.md)
-    * [Using Third-Party SSH/SCP/SFTP Applications](applications-1/remote-console-and-file-transfer/using-third-party-ssh-scp-applications.md)
-  * [Remote Graphical Desktop Access](applications-1/remote-graphical-desktop-access/README.md)
-    * [Control your Windows Device Remotely \(Windows to Windows\)](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md)
-      * [Set up RDP Remote Access](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/set-up-rdp-remote-access.md)
-      * [Register the Target Machine](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/register-the-target-machine.md)
-      * [Create an RDP Service](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/create-an-rdp-service.md)
-      * [Connect Remotely](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/connect-remotely.md)
-      * [Terminate the Connection](applications-1/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/terminate-the-connection.md)
-    * [Control your MacOS Device Remotely \(MacOS to MacOS\)](applications-1/remote-graphical-desktop-access/control-your-computer-remotely-mac-to-mac.md)
-    * [Access your Mac Remotely from Windows](applications-1/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/README.md)
-      * [Enable Screen Sharing](applications-1/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/enable-screen-sharing.md)
-      * [Register the Device & Service](applications-1/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/register-the-device-and-service.md)
-      * [Connect Remotely](applications-1/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/connect-remotely.md)
-    * [Connecting to a Raspberry Pi with VNC or SSH](applications-1/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/README.md)
-      * [Configuring a Raspberry Pi with the remote.it Desktop App](applications-1/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
-    * [Using RealVNC on a Raspberry Pi](applications-1/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md)
-    * [Using TightVNC on any Debian OS](applications-1/remote-graphical-desktop-access/using-tightvnc-on-debian.md)
-    * [Using RDP Remote Desktop Connection](applications-1/remote-graphical-desktop-access/using-remote-desktop-connection.md)
-  * [Connecting to a web server](applications-1/using-with-a-web-server.md)
-  * [Samba Windows file sharing for Linux](applications-1/samba-windows-file-sharing-for-linux.md)
-* [Hosting a Minecraft Server](hosting-a-minecraft-server.md)
-* [Configuring a webcam with Nx Witness](configuring-a-webcam-with-nx-witness.md)
+* [Remote console and file transfer](applications/remote-console-and-file-transfer/README.md)
+  * [Connecting to an SSH service](applications/remote-console-and-file-transfer/connecting-to-ssh.md)
+  * [Using SCP command line for secure file transfer](applications/remote-console-and-file-transfer/using-scp-command-line-for-secure-file-transfer.md)
+  * [Using Third-Party SSH/SCP/SFTP Applications](applications/remote-console-and-file-transfer/using-third-party-ssh-scp-applications.md)
+* [Remote Graphical Desktop Access](applications/remote-graphical-desktop-access/README.md)
+  * [Control your Windows Device Remotely \(Windows to Windows\)](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md)
+    * [Set up RDP Remote Access](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/set-up-rdp-remote-access.md)
+    * [Register the Target Machine](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/register-the-target-machine.md)
+    * [Create an RDP Service](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/create-an-rdp-service.md)
+    * [Connect Remotely](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/connect-remotely.md)
+    * [Terminate the Connection](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/terminate-the-connection.md)
+  * [Control your MacOS Device Remotely \(MacOS to MacOS\)](applications/remote-graphical-desktop-access/control-your-computer-remotely-mac-to-mac.md)
+  * [Access your Mac Remotely from Windows](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/README.md)
+    * [Enable Screen Sharing](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/enable-screen-sharing.md)
+    * [Register the Device & Service](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/register-the-device-and-service.md)
+    * [Connect Remotely](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/connect-remotely.md)
+  * [Connecting to a Raspberry Pi with VNC or SSH](applications/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/README.md)
+    * [Configuring a Raspberry Pi with the remote.it Desktop App](applications/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
+  * [Using RealVNC on a Raspberry Pi](applications/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md)
+  * [Using TightVNC on any Debian OS](applications/remote-graphical-desktop-access/using-tightvnc-on-debian.md)
+  * [Using RDP Remote Desktop Connection](applications/remote-graphical-desktop-access/using-remote-desktop-connection.md)
+* [Connecting to a web server](applications/using-with-a-web-server.md)
+* [Configuring a webcam with Nx Witness](applications/configuring-a-webcam-with-nx-witness.md)
+* [Hosting a Minecraft Server](applications/hosting-a-minecraft-server.md)
+* [Samba Windows file sharing for Linux](applications/samba-windows-file-sharing-for-linux.md)
 
 ## Mass Production
 
@@ -131,6 +131,7 @@
   * [Using connectd in P2P initiator mode on Windows](advanced-users/using-connectd-in-p2p-initiator-mode/using-connectd-in-client-mode-on-windows.md)
   * [Where do I find the UID for my Service?](advanced-users/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
   * [Running connectd using an authhash](advanced-users/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
+* [Using connectd](advanced-users/connectd.md)
 
 ## Platforms
 
@@ -156,8 +157,4 @@
 * [Supported platforms and installation](platforms/supported-platforms.md)
 * [MacOS](platforms/macos.md)
 * [Windows](platforms/windows-quick-start.md)
-
-## connectd Reference
-
-* [Using connectd](connectd-reference/connectd.md)
 
