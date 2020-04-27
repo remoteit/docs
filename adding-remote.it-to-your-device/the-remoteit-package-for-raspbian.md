@@ -17,5 +17,18 @@ sudo apt install -y remoteit
 
 Each of these commands will take several tens of seconds to complete as they download required files.  When the process is done, you will see this message displayed:
 
+```text
+================================================================================
+
+Continue your device registration at http://find.remote.it
+
+================================================================================
+```
+
+Now go to a browser and type find.remote.it into the URL bar and hit the "Enter" key.
+
+* If you're using the Pi's GUI directly, you can use the Pi's browser.
+* If you're connected to the Pi using SSH over the LAN, you can copy the URL to a browser on your local PC.
+
 
 
