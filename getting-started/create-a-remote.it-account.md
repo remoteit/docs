@@ -16,9 +16,9 @@ Next pick one of the following packages to install on your device.
 
 If you already have Raspbian Buster up and running, follow this guide to install the remoteit package.
 
-{% page-ref page="../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md" %}
-
 If you'd like to start with an SD card image with remoteit preinstalled, as well as SSH and VNC enabled by default, follow this guide:
+
+{% page-ref page="../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md" %}
 
 {% page-ref page="../adding-remote.it-to-your-device/raspberry-pi-quick-start.md" %}
 
