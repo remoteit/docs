@@ -22,7 +22,13 @@ Next pick one of the following packages to install on your device.
 
 {% page-ref page="../adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md" %}
 
+### Command Line Interface for Windows, macOS, and Linux \(beta\)
 
+{% page-ref page="../adding-remote.it-to-your-device/using-the-cli/" %}
+
+### All other Linux distributions
+
+{% page-ref page="../platforms/all-other-linux-flavors.md" %}
 
 {% hint style="info" %}
 remote.it is free for personal use under our Fair Use policy. 
