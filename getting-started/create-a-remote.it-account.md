@@ -10,15 +10,17 @@ Sign up for a new account at [remote.it](https://app.remote.it/auth/#/sign-up).
 
 This will allow you to control your devices and access them securely anywhere in the world!
 
+## Install remoteit on your device
+
 Next pick one of the following packages to install on your device.
 
 ### Raspberry Pi
 
 If you already have Raspbian Buster up and running, follow this guide to install the remoteit package.
 
-If you'd like to start with an SD card image with remoteit preinstalled, as well as SSH and VNC enabled by default, follow this guide:
-
 {% page-ref page="../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md" %}
+
+If you'd like to start with an SD card image with remoteit preinstalled, as well as SSH and VNC enabled by default, follow this guide:
 
 {% page-ref page="../adding-remote.it-to-your-device/raspberry-pi-quick-start.md" %}
 
