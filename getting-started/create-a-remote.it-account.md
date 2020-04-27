@@ -14,11 +14,11 @@ Next pick one of the following packages to install on your device.
 
 ### Raspberry Pi
 
+{% page-ref page="../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md" %}
+
 {% page-ref page="../adding-remote.it-to-your-device/raspberry-pi-quick-start.md" %}
 
 ### Windows and macOS
-
-{% page-ref page="../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md" %}
 
 {% page-ref page="../adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md" %}
 
