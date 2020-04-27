@@ -14,7 +14,7 @@ To get to "Devices" from other pages within remote.it, click on "Devices" in the
 
 ![](../../../.gitbook/assets/image%20%28152%29.png)
 
-1.  checkbox used to select devices for [bulk actions](https://remot3it.zendesk.com/hc/en-us/articles/115002042431-How-do-I-use-the-remote-it-Actions-menu-) like sharing, deleting or running a script
+1.  checkbox used to select devices for [bulk actions](the-actions-menu.md) like sharing, deleting or running a script
 2.  "Status" icon which is a green check your device has been detected by our server \(online\) and a grey dash otherwise \(offline\).
 3. Device Name which was entered either when using the interactive installer, or set by one of the bulk registration methods.  Click on the Device Name to open the Services Dialog which shows the links to individual services on your device.
 4. Sharing Status.
