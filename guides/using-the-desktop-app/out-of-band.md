@@ -26,9 +26,9 @@ In the example above, since the router is not connected to the Internet, it is p
 
 **If the OOB indicator is active and one of the networks connected to your Device was to stop functioning, you could still use remote.it to connect to your device because it is still connected to a network.**
 
-![Out of Band Management is unavailable](../.gitbook/assets/oob-1%20%281%29.png)
+![Out of Band Management is unavailable](../../.gitbook/assets/oob-1%20%281%29.png)
 
-![Out of Band Management is available](../.gitbook/assets/oob-2.png)
+![Out of Band Management is available](../../.gitbook/assets/oob-2.png)
 
 {% hint style="info" %}
 Please be aware that the OOB Indicator currently only appears on Linux systems.
