@@ -56,7 +56,9 @@ Follow the simple steps below to activate remote access to the Pi, and from ther
 **Note:** If you haven't formatted your micro SD, you can use Raspberry Pi Imager to do so.
 {% endhint %}
 
-![Using the RPi Imager to write the image to the SD card](../.gitbook/assets/1%20%283%29.png)
+![Using the Raspberry Pi Imager to write the image to the SD card](../.gitbook/assets/1%20%283%29.png)
+
+If you encounter any issues using the Raspberry Pi Imager, try the [Balena Etcher](https://www.balena.io/etcher/) application instead.
 
 ### **Optional: Wi-Fi accessibility**
 
