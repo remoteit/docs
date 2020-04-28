@@ -58,7 +58,9 @@ Follow the simple steps below to activate remote access to the Pi, and from ther
 
 ![Using the Raspberry Pi Imager to write the image to the SD card](../.gitbook/assets/1%20%283%29.png)
 
+{% hint style="info" %}
 If you encounter any issues using the Raspberry Pi Imager, try the [Balena Etcher](https://www.balena.io/etcher/) application instead.
+{% endhint %}
 
 ### **Optional: Wi-Fi accessibility**
 
