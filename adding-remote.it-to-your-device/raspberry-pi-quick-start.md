@@ -21,7 +21,11 @@ Follow the simple steps below to activate remote access to your Pi!
 * remote.itPi Image .zip: [**Download here**](https://downloads.remote.it/remote.itPi/latest/remote.itPi.img.zip)\*\*\*\*
 * Formatted micro SD card
 * micro SD card reader
-* Raspberry Pi Imager \(To write the remote.itPi Image onto the micro SD\): [**Download here**](https://www.raspberrypi.org/downloads/)\*\*\*\*
+* [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) \(To write the remote.itPi Image onto the micro SD\)
+
+{% hint style="info" %}
+If you encounter any issues using the Raspberry Pi Imager, try the [Balena Etcher](https://www.balena.io/etcher/) application instead.
+{% endhint %}
 
 ## Important Information
 
