@@ -30,5 +30,5 @@ Now go to a browser and type find.remote.it into the URL bar and hit the "Enter"
 * If you're using the Pi's GUI directly, you can use the Pi's browser.
 * If you're connected to the Pi using SSH over the LAN, you can copy the URL to a browser on your local PC.
 
-Continue at step 3 [here](https://docs.remote.it/adding-remote.it-to-your-device/raspberry-pi-quick-start#find-your-pi-on-the-lan).
+Now you can access the remoteit web Admin Panel following the instructions [here](https://docs.remote.it/adding-remote.it-to-your-device/raspberry-pi-quick-start#find-your-pi-on-the-lan).
 
