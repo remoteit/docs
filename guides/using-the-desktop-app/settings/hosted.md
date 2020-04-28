@@ -6,23 +6,23 @@ description: Use this option to add remote.it Services to the current Windows or
 
 On the Settings page, click on "Set up remote access":
 
-![](../../../.gitbook/assets/image%20%28382%29.png)
+![](../../../.gitbook/assets/image%20%28384%29.png)
 
 In the displayed page, you can register and add Services to your local Device. Note that some commonly used services have been located and may be pre-selected.  If you don't want to register Services on any particular port\(s\) at this time, deselect the appropriate checkbox.  You can always manage installed Services later.
 
-![](../../../.gitbook/assets/image%20%28407%29.png)
+![](../../../.gitbook/assets/image%20%28409%29.png)
 
 The remote.it Admin Panel allows you to connect to this configuration application remotely using a web browser.  
 
-![](../../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%2812%29.png)
 
 Choose a name and click the **Register** button. At this point, you may be asked to enter your administrator information.  Afterwards, you'll see a progress indicator until the registration completes.
 
-![](../../../.gitbook/assets/image%20%28145%29.png)
+![](../../../.gitbook/assets/image%20%28147%29.png)
 
 After you've registered your Device and any preselected Services, you can manage your existing Services by editing the details \(just click on the field you wish to change\).  
 
-![](../../../.gitbook/assets/image%20%28371%29.png)
+![](../../../.gitbook/assets/image%20%28373%29.png)
 
 In addition, you can add your own custom service or use the network scanner to automatically ﬁnd services on the LAN or your Device. There are many different kinds of Services you can add. 
 
@@ -36,17 +36,17 @@ In addition, you can add your own custom service or use the network scanner to a
 
 To scan your network for Services, click on "Add from Network".  This can take a few minutes if you have a lot of devices on your LAN.
 
-![](../../../.gitbook/assets/image%20%28257%29.png)
+![](../../../.gitbook/assets/image%20%28259%29.png)
 
 If you have more than one active network adapter, you can choose which one to scan.
 
 When the scan completes, you'll see IP addresses for devices which have active TCP listeners detected.
 
-![](../../../.gitbook/assets/image%20%28196%29.png)
+![](../../../.gitbook/assets/image%20%28198%29.png)
 
 Clicking on the down arrow expands to show the list of detected services on that device.
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
 Click "Add" to add a connection Service here. 
 
@@ -58,7 +58,7 @@ Adding a Service on this Device to a LAN address is different than connecting to
 
 To add a Service manually, meaning that you need to know the IP address and port ahead of time, click on "Add Manually". 
 
-![](../../../.gitbook/assets/image%20%28342%29.png)
+![](../../../.gitbook/assets/image%20%28344%29.png)
 
 Give the new Service a name and select the Service type. A typical value for the port will be ﬁlled in automatically, however you can change the port and/or host address if you wish. Then click the blue check mark to save this Service.
 

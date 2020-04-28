@@ -100,14 +100,17 @@ network={
 
 ### Find your Pi on the LAN
 
-1.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/). 
-2. The browser will search for your remote.itPi device on the LAN. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
+1.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/).  You may get a "Not secure" message from your browser, e.g.
+
+![](../.gitbook/assets/image%20%2878%29.png)
+
+    2. The browser will search for your remote.itPi device on the LAN. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
 
 {% hint style="warning" %}
-**Note:** Make sure you disable any pop-up blocker extensions or software for the domain "x.remote.it" or this webpage may not load properly.
+**Note:** Make sure you disable any pop-up blocker extensions or software for the domain "x.remote.it" or this web page may not load properly.
 {% endhint %}
 
-![find.remote.it is searching for devices on the network](../.gitbook/assets/3.png)
+![find.remote.it is searching for devices on the local network](../.gitbook/assets/3.png)
 
 {% hint style="info" %}
 **Note:** If your device isn't detected after a few search attempts, make sure your Wi-Fi credentials are correct in the **wpa\_supplicant.conf** file \(if the device is connected Wi-Fi\) or that the Ethernet is connected properly. Additionally, please make sure that the device you are accessing find.remote.it from is on the same network as the Pi you are trying to locate.
@@ -115,9 +118,9 @@ network={
 
 ### Connect
 
- After scanning completes, you will see something like "1 of 1" or "1 of 2" above the displayed remote.itPi details. That represents "\(current device\) of \(total devices\)" which were found on your LAN. 
+ After scanning completes, you will see something like "1 of 1" or "1 of 2" above the displayed remote.itPi details. That represents "\(current device\) of \(total devices\)" which were found on your LAN.  You can quickly access the remote.it Admin Panel of any devices you've previously configured using remoteit.
 
-The first one may or may not be your Raspberry Pi. Use the forward \( &gt; \) and back \( &lt; \) arrows to locate your new device if more than one is found. Once you find your new remote.itPi, click **CONNECT** to connect to it.
+The first one may or may not be the Raspberry Pi you're trying to configure. Use the forward \( &gt; \) and back \( &lt; \) arrows to locate your new device if more than one is found. Once you find your new remote.itPi, click **CONNECT** to connect to it.
 
 ![If you cannot find your device, please wait a few minutes and try again](../.gitbook/assets/1%20%281%29.png)
 
