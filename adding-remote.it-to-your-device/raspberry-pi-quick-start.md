@@ -136,7 +136,13 @@ You will be prompted to log in to your remote.it account. If you have not create
 
 ![](../.gitbook/assets/3%20%284%29.png)
 
-The Device will be registered with the 3 default Services as shown.  You can add other Services later if you wish, or delete any of the default Services you are not using.  We recommend that you not delete SSH or the remote.it Admin Panel though, as this could prevent you from access your Pi remotely.
+The Device will be registered with the 3 default Services as shown.  
+
+We recommend that you not delete SSH or the remote.it Admin Panel though, as this could prevent you from access your Pi remotely.  You can add other Services later if you wish, or delete any of the default Services you are not using.  
+
+### Adding additional Services on the local Device or networked devices.
+
+To add additional Services after the initial setup, come back to [http://find.remote.it](http://find.remote.it) if on the same LAN as your Device, or access the remote.it Admin Panel remotely using remote.it!
 
 ![](../.gitbook/assets/4.png)
 
