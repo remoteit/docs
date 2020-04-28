@@ -8,7 +8,7 @@ description: >-
 
 ## What is Out of Band Remote Access?
 
-**Conventional remote access involves connecting to a network through it's primary gateway, typically by connecting to a global public IP address through a specific port, ideally through a secure connection. This is an In-band management solution.**
+**Conventional remote access involves connecting to a network through its primary gateway, typically by connecting to a global public IP address through a specific port, ideally through a secure connection. This is an In-band management solution.**
 
 **As the name implies, Out of Band Management \(OOBM\) allow for remote access through a secondary Internet connection, where this secondary connection is only used for remote access and management. More specifically, although there is an Internet connection that exists on the network, because it is not functioning as the primary gateway, it cannot be used by resources on the network to go out to the Internet.  This concept is perhaps best shown where OOBM is used to remotely access an otherwise private network.**
 
