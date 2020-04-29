@@ -8,3 +8,4 @@ redirects:
   connect-rpi: ./adding-remote.it-to-your-device/raspberry-pi-quick-start.md
   connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections.md
   minecraft: ./guides/hosting-a-minecraft-server.md
+  downloads: https://remote.it/downloads
