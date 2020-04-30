@@ -6,11 +6,17 @@ description: >-
 
 # The remote.it Desktop App
 
+{% hint style="info" %}
+If you haven't yet downloaded and installed the Desktop App, jump ahead to [this section](https://docs.remote.it/guides/using-the-desktop-app#then-download-and-install-the-new-one). 
+{% endhint %}
+
+{% hint style="info" %}
+If you already downloaded and installed the latest version of the Desktop App, skip to the [next page](features.md).
+{% endhint %}
+
 {% hint style="warning" %}
 ## **Please manually remove any previously installed version of remote.it Desktop App.**
 {% endhint %}
-
-If this is the first time you've installed the Desktop App, jump ahead to [this section](https://docs.remote.it/guides/using-the-desktop-app#then-download-and-install-the-new-one). 
 
 {% hint style="warning" %}
 If you see an "update is available" message, click on "x" to cancel.  
