@@ -6,7 +6,7 @@ description: >-
 
 # The remoteit package for Raspbian
 
-The following instructions assume that you have connected a keyboard and mouse to your Pi as well as having established a network connection, either using Wi-Fi or Ethernet.
+The following instructions assume you have access to a command line on your Pi \(using a keyboard and monitor, or over your LAN using SSH\) as well as having established a network connection, either using Wi-Fi or Ethernet.
 
 On the Raspberry Pi command line, type or copy and paste the following commands and press the "Enter" key.
 
