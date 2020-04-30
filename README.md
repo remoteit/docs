@@ -1,10 +1,28 @@
 # remote.it Overview
 
+### What is remote.it?
+
+remote.it allows you to make secure remote connections between two computers.
+
+* crossing multiple NATs/firewalls
+* using a single TCP port
+* **portforwardless:** without requiring port forwarding in the router, significantly reducing your network's vulnerability
+* many TCP-based protocols and applications are supported
+  * SSH/SCP - [network console and file transfer](applications/remote-console-and-file-transfer/)
+  * VNC, RDP, Mac Screen Sharing - [remotely access the Graphical User Interface \(GUI\)](applications/remote-graphical-desktop-access/)
+  * http/https \(web servers and applications such as node-red\)
+  * SMB \(Samba\) file sharing
+  * other protocols supported under the "custom TCP" option, e.g. MQTT
+
 ## Getting Started
 
 If you're new to remote.it, we highly recommend starting with our Getting Started guides:
 
 {% page-ref page="getting-started/" %}
+
+Scan the menus on the left side of this page for common topics, or use the search tool at upper right to find all references to a phrase or keyword.
+
+![This is just a picture of the search tool!](.gitbook/assets/image%20%28363%29.png)
 
 ## Looking for API Docs?
 

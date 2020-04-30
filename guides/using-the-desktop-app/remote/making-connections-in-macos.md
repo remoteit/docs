@@ -6,7 +6,7 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28389%29.png)
+![](../../../.gitbook/assets/image%20%28390%29.png)
 
 ### Launch URL
 
@@ -50,7 +50,7 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * If you are connecting from a Mac to a Raspberry Pi running RealVNC, you should install the RealVNC Viewer and use the "Copy VNC" option instead.
 
-![](../../../.gitbook/assets/image%20%28478%29.png)
+![](../../../.gitbook/assets/image%20%28479%29.png)
 
 * When you select the clipboard icon, the connection address is copied to the clipboard.  You can then paste it into your VNC application \(RealVNC Viewer is shown here\).
 
@@ -58,7 +58,7 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28396%29.png)
+![](../../../.gitbook/assets/image%20%28397%29.png)
 
 You should now see the desktop of your connected device.
 
@@ -68,9 +68,9 @@ You should now see the desktop of your connected device.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28393%29.png)
+![](../../../.gitbook/assets/image%20%28394%29.png)
 
-![](../../../.gitbook/assets/image%20%28435%29.png)
+![](../../../.gitbook/assets/image%20%28436%29.png)
 
 
 
