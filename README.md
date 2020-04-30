@@ -22,8 +22,6 @@ If you're new to remote.it, we highly recommend starting with our Getting Starte
 
 Scan the menus on the left side of this page for common topics, or use the search tool at upper right to find all references to a phrase or keyword.
 
-![This is just a picture of the search tool!](.gitbook/assets/image%20%28363%29.png)
-
 ## Looking for API Docs?
 
 If you're a developer looking to integrate remote.it into your product or application, please check out our API documentation guides here:
