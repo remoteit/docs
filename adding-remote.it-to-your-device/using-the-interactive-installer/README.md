@@ -8,6 +8,10 @@ We recommend that you use one of the following methods for installing remote.it 
 
 {% page-ref page="../raspberry-pi-quick-start.md" %}
 
+{% page-ref page="../the-remoteit-package-for-raspbian.md" %}
+
+
+
 For Windows and macOS:
 
 {% page-ref page="../../guides/using-the-desktop-app/" %}
