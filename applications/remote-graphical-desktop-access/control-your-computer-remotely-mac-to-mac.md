@@ -11,7 +11,7 @@ description: >-
 Usually, Screen Sharing remotely between two MacOS devices requires the insecure opening of ports on your internet connection. With remote.it, however, it's possible to remotely control and share screens between two MacOS devices quickly, securely, and without opening ports.
 
 {% hint style="info" %}
-A new video tutorial on this topic has been released! Check it out [**here!**](https://youtu.be/OrljJIk33LA)\*\*\*\*
+A new video tutorial on this topic has been released! Check it out [**here!**](https://www.youtube.com/watch?v=8H7OTBIU2w0)\*\*\*\*
 {% endhint %}
 
 remote.it, along with the built-in Screen Sharing app on MacOS, is all you need for this to work. Please follow the simple steps below to configure remote access:

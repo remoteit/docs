@@ -11,7 +11,7 @@ description: >-
 Usually, establishing a remote connection between two Windows devices requires the insecure opening of ports on your internet router. With remote.it, however, it's possible to remotely control a Windows device quickly, securely, and without opening ports.
 
 {% hint style="info" %}
-We have a video tutorial on this topic. Check it out [**here!**](https://www.youtube.com/watch?v=GBl_-BOkZZQ)\*\*\*\*
+We have a video tutorial on this topic. Check it out [**here!**](https://www.youtube.com/watch?v=y_NewdIiRy0)\*\*\*\*
 {% endhint %}
 
 The remote.it Windows software application along with the Windows 10 built-in Remote Desktop \(RDP\), is all you need for this to work. 
