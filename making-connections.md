@@ -12,5 +12,7 @@ Learn more about proxy and P2P connections at the link below.
 
 {% page-ref page="peer-to-peer-p2p-vs.-proxy-connections/" %}
 
-remote.it also offers mobile apps for both iOS and Android devices.
+remote.it also offers mobile apps for both [iOS](https://apps.apple.com/us/app/remote-it/id1437569166) and [Android](https://play.google.com/store/apps/details?id=com.remoteit) devices.
+
+
 
