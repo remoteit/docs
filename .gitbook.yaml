@@ -8,3 +8,4 @@ redirects:
   connect-rpi: ./making-connections.md
   connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections.md
   minecraft: ./guides/hosting-a-minecraft-server.md
+  /platforms/quick-start-on-raspberry-pi/setup-your-raspberry-pi: ./platforms/quick-start-on-raspberry-pi.md
