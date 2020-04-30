@@ -9,4 +9,4 @@ redirects:
   connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections.md
   minecraft: ./guides/hosting-a-minecraft-server.md
   platforms/quick-start-on-raspberry-pi/setup-your-raspberry-pi: ./platforms/quick-start-on-raspberry-pi.md
-  platforms/quick-start-on-raspberry-pi/install-remote.it: /adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md
+  platforms/quick-start-on-raspberry-pi/install-remote.it: ./adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md
