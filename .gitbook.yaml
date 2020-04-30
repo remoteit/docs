@@ -5,6 +5,6 @@ redirects:
   desktop-welcome: ./guides/using-the-desktop-app/README.md
   connect-mac: ./guides/control-your-computer-remotely-mac-to-mac.md
   connect-windows: ./guides/applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md
-  connect-rpi: ./adding-remote.it-to-your-device/raspberry-pi-quick-start.md
+  connect-rpi: ./making-connections.md
   connect-linux: ./guides/using-the-desktop-app/peer-to-peer-connections.md
   minecraft: ./guides/hosting-a-minecraft-server.md
