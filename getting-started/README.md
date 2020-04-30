@@ -18,7 +18,9 @@ Please follow one of our Guides below if you're new to remote.it:
 
 {% page-ref page="../platforms/centos-quick-start.md" %}
 
+{% page-ref page="../platforms/all-other-linux-flavors.md" %}
+
 ### More platforms!
 
-remote.it works with virtually any platform or device, not just Raspberry Pi and Debian systems. We are actively working on adding more guides for other platforms, but until then, [please contact us](http://support.remot3.it) for help getting set up with your platform!
+remote.it works with virtually any Linux platform or device, not just Raspberry Pi and Debian systems. If you need something we don't seem to offer, [please contact us](http://support.remot3.it) for help getting set up with your platform!
 
