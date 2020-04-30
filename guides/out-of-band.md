@@ -1,8 +1,7 @@
 ---
 description: >-
   How to allow remote access and management of a network through a secondary
-  Internet connection using remote.it.  OOBM is currently only available using
-  the remote.itPi image.
+  Internet connection using remote.it.
 ---
 
 # Out of Band Management \(OOBM\)
