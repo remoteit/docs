@@ -10,7 +10,7 @@ Please follow one of our Guides below if you're new to remote.it:
 
 {% page-ref page="create-a-remote.it-account.md" %}
 
-{% page-ref page="../platforms/quick-start-on-raspberry-pi/" %}
+{% page-ref page="../platforms/quick-start-on-raspberry-pi.md" %}
 
 {% page-ref page="../adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md" %}
 

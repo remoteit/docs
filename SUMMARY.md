@@ -138,12 +138,7 @@
 
 ## Platforms
 
-* [Raspberry Pi](platforms/quick-start-on-raspberry-pi/README.md)
-  * [Set up your Raspberry Pi](platforms/quick-start-on-raspberry-pi/setup-your-raspberry-pi.md)
-  * [Connect to your Raspberry Pi](platforms/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi.md)
-  * [Connecting to the internet](platforms/quick-start-on-raspberry-pi/connecting-to-the-internet.md)
-  * [Install remote.it connectd](platforms/quick-start-on-raspberry-pi/install-remote.it.md)
-  * [Connecting to your Raspberry Pi using remote.it](platforms/quick-start-on-raspberry-pi/connect-to-your-raspberry-pi-1.md)
+* [Raspberry Pi](platforms/quick-start-on-raspberry-pi.md)
 * [Debian OS family](platforms/managing-connectd-debian-packages.md)
 * [AWS Ubuntu](platforms/getting-started-with-remote.it-on-aws-ubuntu/README.md)
   * [Create an AWS EC2 Ubuntu instance](platforms/getting-started-with-remote.it-on-aws-ubuntu/create-an-aws-ec2-ubuntu-instance.md)

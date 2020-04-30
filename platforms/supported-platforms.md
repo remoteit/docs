@@ -42,7 +42,7 @@ Our installer is designed to work with any Linux variant supporting the OS Requi
 
 The Pi Foundation hosts the connectd package at their repositories for a streamlined installation experience.  If you are using Raspbian Stretch or Buster, follow the link below.  For older versions of Raspbian or any other Linux OS running on Raspberry Pi, skip ahead to "Download a package for any Linux".
 
-{% page-ref page="quick-start-on-raspberry-pi/" %}
+{% page-ref page="quick-start-on-raspberry-pi.md" %}
 
 ## Download a package for any Linux
 
