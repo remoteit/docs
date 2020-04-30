@@ -1,10 +1,15 @@
 ---
 description: >-
   How to allow remote access and management of a network through a secondary
-  Internet connection using remote.it.
+  Internet connection using remote.it.  OOBM is currently only available using
+  the remote.itPi image.
 ---
 
 # Out of Band Management \(OOBM\)
+
+{% hint style="info" %}
+OOBM is currently only available using the [remote.itPi image](https://docs.remote.it/adding-remote.it-to-your-device/raspberry-pi-quick-start).
+{% endhint %}
 
 ## What is Out of Band Remote Access?
 
@@ -26,9 +31,9 @@ In the example above, since the router is not connected to the Internet, it is p
 
 **If the OOB indicator is active and one of the networks connected to your Device was to stop functioning, you could still use remote.it to connect to your device because it is still connected to a network.**
 
-![Out of Band Management is unavailable](../../.gitbook/assets/oob-1%20%281%29.png)
+![Out of Band Management is unavailable](../.gitbook/assets/oob-1%20%281%29.png)
 
-![Out of Band Management is available](../../.gitbook/assets/oob-2.png)
+![Out of Band Management is available](../.gitbook/assets/oob-2.png)
 
 {% hint style="info" %}
 Please be aware that the OOB Indicator currently only appears on Linux systems.

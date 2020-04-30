@@ -42,7 +42,6 @@
   * [Settings](guides/using-the-desktop-app/settings/README.md)
     * [Set up remote access](guides/using-the-desktop-app/settings/hosted.md)
   * [Peer to Peer Connections](guides/using-the-desktop-app/peer-to-peer-connections.md)
-  * [Out of Band Management \(OOBM\)](guides/using-the-desktop-app/out-of-band.md)
 * [Using the Web Portal](guides/using-the-web-portal/README.md)
   * [The "Devices" page](guides/using-the-web-portal/the-view-devices-page/README.md)
     * [Connecting to a remote.it Service in the web portal](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)
@@ -70,6 +69,7 @@
 * [Transferring remote.it Devices to another account](guides/transferring-remote.it-devices-to-another-account.md)
 * [Online/offline Notifications](guides/online-offline-notifications.md)
 * [Logs](guides/logs.md)
+* [Out of Band Management \(OOBM\)](guides/out-of-band.md)
 
 ## Applications
 
