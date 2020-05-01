@@ -6,21 +6,21 @@ First, [install connectd on your Raspberry Pi.](https://docs.remote.it/platforms
 
 ![](../.gitbook/assets/image%20%2871%29.png)
 
-![](../.gitbook/assets/image%20%28310%29.png)
+![](../.gitbook/assets/image%20%28311%29.png)
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
 After giving the remote.it Service a name, you should see that the server at the IP address you gave is responding with "OK" in the "Application" column of this new remote.it Service.
 
-![](../.gitbook/assets/image%20%28432%29.png)
+![](../.gitbook/assets/image%20%28433%29.png)
 
 Now, return to the remote.it web portal and connect by clicking on the remote.it Service name:
 
-![](../.gitbook/assets/image%20%28355%29.png)
+![](../.gitbook/assets/image%20%28356%29.png)
 
 This returns the proxy server's URL and port in a generic dialog:
 
-![](../.gitbook/assets/image%20%28105%29.png)
+![](../.gitbook/assets/image%20%28106%29.png)
 
 We will demonstrate the Samba [**smbclient** ](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)command using this proxy address and port.  
 

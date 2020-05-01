@@ -14,7 +14,7 @@ You will see a display of events in reverse chronological order.
 
 The date and time that the event occurred will be shown, along with a message explaining what the event is.
 
-![](../.gitbook/assets/image%20%28490%29.png)
+![](../.gitbook/assets/image%20%28491%29.png)
 
 You'll have to click on the "two arrows" icon to update the logs view.  New events will not automatically display.  The date shows the last time the display was updated.
 
@@ -22,7 +22,7 @@ You'll have to click on the "two arrows" icon to update the logs view.  New even
 
 To download a comma separated variable \(CSV\) file containing all log events, which can be opened in most popular spreadsheet programs, click on the icon indicated below.
 
-![](../.gitbook/assets/image%20%28230%29.png)
+![](../.gitbook/assets/image%20%28231%29.png)
 
 
 

@@ -6,5 +6,5 @@ On the contacts page, click on the "trash can" icon on the right side of the ent
 
 You will see the following confirmation message.  Click on "Delete" to delete the Contact.  Click "Cancel" if you've changed your mind.
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28134%29.png)
 
