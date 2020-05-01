@@ -30,11 +30,11 @@ Connections made through the remote.it [web portal](../../guides/using-the-web-p
 
 Click on the Device Name in Manage Devices view, then select the SSH Service from the Device Services dialog:
 
-![](../../.gitbook/assets/image%20%28190%29.png)
+![](../../.gitbook/assets/image%20%28191%29.png)
 
 The dialog shown below will appear after the connection is established.  You’ll need to copy and paste the hostname and port values from this dialog into the proper locations on your SSH/SCP application. 
 
-![](../../.gitbook/assets/image%20%28378%29.png)
+![](../../.gitbook/assets/image%20%28380%29.png)
 
 #### Using a P2P connection
 
@@ -58,7 +58,7 @@ Click on “Open” to establish the connection.  You will probably see this SSH
 
 Click on “Yes” to proceed.  Now you can log in by entering the device's SSH credentials.
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image%20%28195%29.png)
 
 You are now connected to your device and can run commands in the terminal window, just as if you were sitting right next to it.
 
@@ -76,11 +76,11 @@ Fill out the 4 fields in the Quickconnect bar.  Username and Password are the SS
 Note: you have to preface the hostname with "sftp://" as shown.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28358%29.png)
+![](../../.gitbook/assets/image%20%28360%29.png)
 
 When you connect, you will see the following warning:
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](../../.gitbook/assets/image%20%28198%29.png)
 
 To connect, just click on OK.  If you are using the Desktop or command line approach to create a P2P connection, you can also check the "Always trust this host..." option, which will prevent this warning from appearing again the next time you connect \(as long as you use the same port\).  Since the proxy addresses and ports from connections made through the web portal will change, you **should not** select the "Always trust this host..." checkbox when using a proxy connection to prevent unneeded entries being added in your known hosts file.
 
@@ -88,13 +88,13 @@ To connect, just click on OK.  If you are using the Desktop or command line appr
 
 WinSCP is another popular secure file manager and transfer utility for Windows.  Copy the Host name and Port values from the remote.it SSH connection dialog to WinSCP’s connection screen and select “SCP” as the file protocol.  Click on “Login” to connect.
 
-![](../../.gitbook/assets/image%20%28441%29.png)
+![](../../.gitbook/assets/image%20%28443%29.png)
 
 As with PuTTY, you be warned that there is not a key cached for this address.  Select “Yes” to complete the connection.
 
-![](../../.gitbook/assets/image%20%28359%29.png)
+![](../../.gitbook/assets/image%20%28361%29.png)
 
 Now you can manage your remote and local files easily.
 
-![](../../.gitbook/assets/image%20%28442%29.png)
+![](../../.gitbook/assets/image%20%28444%29.png)
 
