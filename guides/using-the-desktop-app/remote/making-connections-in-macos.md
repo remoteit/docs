@@ -6,7 +6,7 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28399%29.png)
+![](../../../.gitbook/assets/image%20%28400%29.png)
 
 ### Launch URL
 
@@ -24,15 +24,15 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28325%29.png)
+![](../../../.gitbook/assets/image%20%28326%29.png)
 
 * Click on the "Launch SSH" button as shown below.
 
-![](../../../.gitbook/assets/image%20%28346%29.png)
+![](../../../.gitbook/assets/image%20%28347%29.png)
 
 If you have not configured the SSH username, you'll be prompted as shown:
 
-![](../../../.gitbook/assets/image%20%28337%29.png)
+![](../../../.gitbook/assets/image%20%28338%29.png)
 
 Click on "Launch" to open the terminal and automatically launch the SSH command.  You'll see this warning the first time you make a connection:
 
@@ -50,15 +50,15 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * If you are connecting from a Mac to a Raspberry Pi running RealVNC, you should install the RealVNC Viewer and use the "Copy VNC" option instead.
 
-![](../../../.gitbook/assets/image%20%28488%29.png)
+![](../../../.gitbook/assets/image%20%28489%29.png)
 
 * When you select the clipboard icon, the connection address is copied to the clipboard.  You can then paste it into your VNC application \(RealVNC Viewer is shown here\).
 
-![](../../../.gitbook/assets/image%20%28283%29.png)
+![](../../../.gitbook/assets/image%20%28284%29.png)
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28406%29.png)
+![](../../../.gitbook/assets/image%20%28407%29.png)
 
 You should now see the desktop of your connected device.
 
@@ -68,9 +68,9 @@ You should now see the desktop of your connected device.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28403%29.png)
+![](../../../.gitbook/assets/image%20%28404%29.png)
 
-![](../../../.gitbook/assets/image%20%28445%29.png)
+![](../../../.gitbook/assets/image%20%28446%29.png)
 
 
 
