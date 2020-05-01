@@ -139,6 +139,8 @@
 ## Platforms
 
 * [Raspberry Pi](platforms/quick-start-on-raspberry-pi.md)
+* [Windows](platforms/windows-quick-start.md)
+* [MacOS](platforms/macos.md)
 * [Debian OS family](platforms/managing-connectd-debian-packages.md)
 * [AWS Ubuntu](platforms/getting-started-with-remote.it-on-aws-ubuntu/README.md)
   * [Create an AWS EC2 Ubuntu instance](platforms/getting-started-with-remote.it-on-aws-ubuntu/create-an-aws-ec2-ubuntu-instance.md)
@@ -153,6 +155,4 @@
 * [Centos](platforms/centos-quick-start.md)
 * [All Linux distributions](platforms/all-other-linux-flavors.md)
 * [Supported platforms and installation](platforms/supported-platforms.md)
-* [MacOS](platforms/macos.md)
-* [Windows](platforms/windows-quick-start.md)
 

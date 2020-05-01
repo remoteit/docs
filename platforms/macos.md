@@ -16,7 +16,7 @@ Please, see our documentation on how to use our new Desktop application:
 
 ## **Peer to Peer connections** 
 
-The desktop app is the easiest way to make P2P connections on Mac. 
+The Desktop App is the easiest way to make P2P connections on Mac. 
 
 Learn more about the benefits of P2P connections and how to use the app to create them:
 
