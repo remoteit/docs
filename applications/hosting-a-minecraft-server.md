@@ -34,7 +34,11 @@ Launch the desktop app and log in, then navigate to the _Settings_ tab at the bo
 
 ![Click &quot;Set up remote access&quot; to register.](../.gitbook/assets/set-up-remote-access.PNG)
 
-Enter a name for your Device and select any of the quick-add Services you wish to add. The Minecraft server Service is not a quick-add option, so I un-checked all of those Services. Then, hit "Register."
+Enter a name for your Device and select any of the quick-add Services you wish to add. The Minecraft server Service will be a quick-add option if your Minecraft server is running in the background. Make sure it's checked, then hit "Register."
+
+{% hint style="warning" %}
+**Note:** If the Minecraft server doesn't show up as a quick-add option, continue with this section of the tutorial. Otherwise, continue on to the next section, titled "Share the server".
+{% endhint %}
 
 ![](../.gitbook/assets/adding-device.PNG)
 
