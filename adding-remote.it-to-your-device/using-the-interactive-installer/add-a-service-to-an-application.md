@@ -8,7 +8,7 @@ After the first time you log in, when you run connectd\_installer again, you wil
 
 You will see the "Main Menu".  There is a table of installed services but you may not have any installed yet.  You should install one!  
 
-![](../../.gitbook/assets/image%20%28322%29.png)
+![](../../.gitbook/assets/image%20%28324%29.png)
 
 Let's install a service for the SSH connection.  Because the service we wish to connect to is on this device \(as compared to a different device on the same LAN\), use option 1, "Attach/reinstall a remote.it Service to an application".
 

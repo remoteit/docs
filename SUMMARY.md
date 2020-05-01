@@ -11,6 +11,7 @@
 
 ## Adding remote.it to your device
 
+* [find.remote.it](adding-remote.it-to-your-device/find.remote.it.md)
 * [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](adding-remote.it-to-your-device/raspberry-pi-quick-start.md)
 * [The remoteit package for Raspbian](adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md)
 * [The remote.it Desktop App for Windows and macOS.](adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md)
