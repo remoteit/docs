@@ -106,7 +106,7 @@ network={
 
 1.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/).  You may get a "Not secure" message from your browser, e.g.
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
     2. The browser will search for your remote.itPi device on the LAN. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
 

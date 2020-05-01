@@ -22,7 +22,7 @@ If you already downloaded and installed the latest version of the Desktop App, s
 If you see an "update is available" message, click on "x" to cancel.  
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## Then follow these instructions for Windows
 
@@ -40,7 +40,7 @@ To download the latest version of the beta remote.it Desktop App, visit this lin
 
 You will find download links for Mac and Windows applications in this section:
 
-![](../../.gitbook/assets/image%20%28480%29.png)
+![](../../.gitbook/assets/image%20%28485%29.png)
 
 {% hint style="info" %}
 You may get firewall and virus scanner warnings when first installing the beta Desktop App.

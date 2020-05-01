@@ -16,5 +16,5 @@ You will receive a verification e-mail within a few minutes.  In rare cases thes
 
 Once you receive the verification e-mail with the code, choose option 3 to enter the verification code.  You will also enter and confirm your password during this step.
 
-![](../../.gitbook/assets/image%20%28188%29.png)
+![](../../.gitbook/assets/image%20%28190%29.png)
 
