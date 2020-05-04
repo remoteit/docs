@@ -6,7 +6,7 @@ description: >-
 
 # LAN Sharing
 
-![remote.it LAN sharing](.gitbook/assets/image%20%2853%29.png)
+![remote.it LAN sharing](.gitbook/assets/image%20%2854%29.png)
 
 When you use the remoteit App or the headless server to configure peer to peer connections for Devices in your account, you are able to enter the "Bind IP address" as shown:
 
@@ -16,17 +16,17 @@ Most of the time, you will set this value to "localhost" which lets you make a p
 
 In order to change the Bind IP Address, the Service must be disconnected \(showing the green "Connect" button\). 
 
-![](.gitbook/assets/image%20%28488%29.png)
+![](.gitbook/assets/image%20%28491%29.png)
 
 * Click on the "Bind IP Address" field to edit it.
 * Type in 0.0.0.0 as shown.
 * Click on the check mark to confirm the change.
 
-![](.gitbook/assets/image%20%28396%29.png)
+![](.gitbook/assets/image%20%28399%29.png)
 
 When you enter a value of 0.0.0.0, the displayed Bind IP Address will change to your current LAN IP address.  This can be given to other people to access your P2P connection.
 
-![](.gitbook/assets/image%20%28102%29.png)
+![](.gitbook/assets/image%20%28103%29.png)
 
 Click on "Connect" in order to establish the P2P connection.
 

@@ -6,7 +6,7 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28411%29.png)
+![](../../../.gitbook/assets/image%20%28414%29.png)
 
 ### Launch URL
 
@@ -14,7 +14,7 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 #### Launch URL for SSH
 
-![](../../../.gitbook/assets/image%20%28160%29.png)
+![](../../../.gitbook/assets/image%20%28162%29.png)
 
 * \[username\] is only available for SSH connections.  It is the SSH username you specified.
 * \[host\] is usually localhost, or 127.0.0.1.
@@ -24,17 +24,17 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28336%29.png)
+![](../../../.gitbook/assets/image%20%28339%29.png)
 
 Select the clipboard icon as shown:
 
-![](../../../.gitbook/assets/image%20%28398%29.png)
+![](../../../.gitbook/assets/image%20%28401%29.png)
 
 
 
 The SSH string, including the supplied SSH Username, will be copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.  The SSH String is not the same as the editable Launch URL which only works if your browser supports that protocol.
 
-![](../../../.gitbook/assets/image%20%28436%29.png)
+![](../../../.gitbook/assets/image%20%28439%29.png)
 
 * This is the "SSH string" \(assuming you entered "pi" as the SSH username\):
 
@@ -70,7 +70,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * When you select the clipboard icon, the VNC string is copied to the clipboard.  You can then paste it into your VNC application.
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
 * This is the VNC string:
 
@@ -80,19 +80,19 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * This can be copied and pasted into the address bar of the RealVNC Viewer application.
 
-![](../../../.gitbook/assets/image%20%28420%29.png)
+![](../../../.gitbook/assets/image%20%28423%29.png)
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28310%29.png)
+![](../../../.gitbook/assets/image%20%28313%29.png)
 
-![](../../../.gitbook/assets/image%20%28250%29.png)
+![](../../../.gitbook/assets/image%20%28253%29.png)
 
 ## Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28511%29.png)
+![](../../../.gitbook/assets/image%20%28514%29.png)
 
-![](../../../.gitbook/assets/image%20%28158%29.png)
+![](../../../.gitbook/assets/image%20%28160%29.png)
 
