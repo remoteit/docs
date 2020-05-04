@@ -54,7 +54,7 @@ sudo connectd_installer
 
 At the Main Menu, install a new remote.it Service for VNC.  If the actual port in use is not 5901, you will have the opportunity to set this during the installation.
 
-![](../../.gitbook/assets/image%20%28471%29.png)
+![](../../.gitbook/assets/image%20%28473%29.png)
 
 When you’ve successfully installed **tightvncserver** and the remote.it **VNC** Service, the Main Menu will include an entry for **Xtightvnc** as shown above.
 
@@ -62,11 +62,11 @@ When you’ve successfully installed **tightvncserver** and the remote.it **VNC*
 
 To connect, sign in to your remote.it account and locate the device in Devices view.  
 
-![](../../.gitbook/assets/image%20%28259%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 Click on the highlighted Device Name to open the Device Services dialog:
 
-![](../../.gitbook/assets/image%20%28484%29.png)
+![](../../.gitbook/assets/image%20%28486%29.png)
 
 Now click on the highlighted Service Name to initiate the connection.  In a few seconds you’ll see a dialog box similar to this:
 
@@ -84,11 +84,11 @@ Click on the link provided in the second option, which will open a Safari Window
 
 Start the TightVNC viewer application, then copy and paste the address from the remot3.it dialog option \#3 to the “Remote Host” field as shown below. Now, click on “Connect”.
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../.gitbook/assets/image%20%28165%29.png)
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
 Now you are connected remotely to your device's UI.
 

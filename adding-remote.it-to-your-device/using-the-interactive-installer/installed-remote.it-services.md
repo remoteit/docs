@@ -2,7 +2,7 @@
 
 Initially, your table of "Installed remote.it Services" will be empty.  After you install some services, they will show up in this list.
 
-![](../../.gitbook/assets/image%20%28222%29.png)
+![](../../.gitbook/assets/image%20%28224%29.png)
 
 * The "Service Name" is the name you gave this service when you created it.
 * "Protocol" indicates the selection you made at the "Protocol Selection Menu".

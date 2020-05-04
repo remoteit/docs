@@ -20,9 +20,9 @@ Upload the file you wish to send to your device as you uploaded the script, but 
 
 Run the script and select the file you wish to transfer, then click on "Finish".
 
-![](../../.gitbook/assets/image%20%28391%29.png)
+![](../../.gitbook/assets/image%20%28393%29.png)
 
 Once the process completes, you will see the file name, size, and MD5 checksum as reported from the target Device\(s\):
 
-![](../../.gitbook/assets/image%20%28244%29.png)
+![](../../.gitbook/assets/image%20%28246%29.png)
 

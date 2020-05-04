@@ -29,7 +29,7 @@ If you wish to use the Flash \(browser\) VNC option on Windows or Screen Sharing
 
 Open your Raspberry Pi’s GUI \(either using the hardware video output connected to a monitor or using RealVNC viewer with the Pi's LAN address\). Now, to set the VNC authentication mode, click on the VNC icon in the upper right hand corner.
 
-![](../../.gitbook/assets/image%20%28287%29.png)
+![](../../.gitbook/assets/image%20%28289%29.png)
 
 Next, click the 3-line button in the right hand corner, and click “Options”.
 
@@ -37,11 +37,11 @@ Next, click the 3-line button in the right hand corner, and click “Options”.
 
 Under “Security”, change the “UNIX Authentication” to “VNC password”. Setting this password allows Flash VNC and Mac screen sharing to work.
 
-![](../../.gitbook/assets/image%20%28416%29.png)
+![](../../.gitbook/assets/image%20%28418%29.png)
 
 To set this password, Go to “Users & Permissions”. Then click “Password” on the right-hand side. Then enter a password. You will use this when using Flash VNC and Mac Screen Sharing.
 
-![](../../.gitbook/assets/image%20%28443%29.png)
+![](../../.gitbook/assets/image%20%28445%29.png)
 
 Then click “Ok”.
 
@@ -63,17 +63,17 @@ Install a new remot3.it Service for VNC using the default port of 5900.  If the 
 
 When you’ve successfully added the remote.it Service for RealVNC, the Main Menu will include an entry for **x11vnc** \(or similar\) as shown below.  This shows the name of the process that was found listening to the specified port.
 
-![](../../.gitbook/assets/image%20%28476%29.png)
+![](../../.gitbook/assets/image%20%28478%29.png)
 
 ##  **Making a VNC connection using remot3.it**
 
 To connect, sign in to your remote.it account and locate the device in "Devices".  Click on the highlighted Device Name to open the Device Services dialog:
 
-![](../../.gitbook/assets/image%20%28395%29.png)
+![](../../.gitbook/assets/image%20%28397%29.png)
 
 Now click on the name of the Service you just installed in the Device Services List.
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 Click on the service name to initiate the connection.  In a few seconds you’ll see a dialog box similar to this:
 
@@ -91,11 +91,11 @@ Click on the link provided in the second option, which will open a Safari Window
 
 Start the RealVNC viewer application, then copy and paste the address from the remot3.it dialog option \#3 to the “Remote Host” field as shown below. Now, click on “Connect”.
 
-![](../../.gitbook/assets/image%20%28215%29.png)
+![](../../.gitbook/assets/image%20%28217%29.png)
 
 When you see the VNC Authentication dialog, enter your VNC password and click on “OK” to continue.
 
-![](../../.gitbook/assets/image%20%28497%29.png)
+![](../../.gitbook/assets/image%20%28499%29.png)
 
 Now you are controlling your Raspberry Pi’s GUI!
 
