@@ -6,11 +6,11 @@ You'll need to [create a contact](managing-contacts/create-a-contact.md) with th
 
 Select the remote.it Devices you wish to transfer in Devices View by selecting the checkbox in the leftmost column
 
-![](../.gitbook/assets/image%20%28251%29.png)
+![](../.gitbook/assets/image%20%28252%29.png)
 
 From the "ACTIONS" menu, select "Transfer Device".
 
-![](../.gitbook/assets/image%20%28264%29.png)
+![](../.gitbook/assets/image%20%28265%29.png)
 
 The Bulk Transfer dialog will display.  
 
@@ -18,11 +18,11 @@ The Bulk Transfer dialog will display.
 
 To show the list of Devices you are transferring, click on the down arrow.
 
-![](../.gitbook/assets/image%20%28240%29.png)
+![](../.gitbook/assets/image%20%28241%29.png)
 
 To hide the list of Devices, click on the up arrow.
 
-![](../.gitbook/assets/image%20%28322%29.png)
+![](../.gitbook/assets/image%20%28323%29.png)
 
 Click on this field to begin typing a name to find a match.  You can click on the down arrow to show a list of your contacts so you can browse all of them.
 
@@ -32,11 +32,11 @@ Click on this field to begin typing a name to find a match.  You can click on th
 
 Press the "Enter" key when the correct Contact is highlighted, or use your mouse to click on the contact to complete your selection.
 
-![](../.gitbook/assets/image%20%28390%29.png)
+![](../.gitbook/assets/image%20%28391%29.png)
 
 Click on the "Transfer" button.
 
-![](../.gitbook/assets/image%20%28348%29.png)
+![](../.gitbook/assets/image%20%28349%29.png)
 
 Since transferring a remote.it Device is not undo-able, we provide this extra warning to help you avoid transferring Device\(s\) by mistake.
 
@@ -44,7 +44,7 @@ Since transferring a remote.it Device is not undo-able, we provide this extra wa
 
 After clicking on "YES, TRANSFER", you'll see the Transfer Confirmation dialog.
 
-![](../.gitbook/assets/image%20%28283%29.png)
+![](../.gitbook/assets/image%20%28284%29.png)
 
 The Device\(s\) will be transferred from your account to your Contact's account.  It may take 30 seconds per Device to complete.  When the transfer is completed, both you and the recipient will receive confirmation e-mails.
 
