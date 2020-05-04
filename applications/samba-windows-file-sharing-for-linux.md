@@ -4,23 +4,23 @@ The Samba package allows Linux PCs to access the file system of Windows PCs over
 
 First, [install connectd on your Raspberry Pi.](https://docs.remote.it/platforms/quick-start-on-raspberry-pi/install-remote.it)  Use the [interactive installer](../adding-remote.it-to-your-device/using-the-interactive-installer/) to [add a remote.it Service to a LAN application](../adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) pointing at the NAS \(192.168.1.254\) and configure it to use Samba on default port 445.
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
-![](../.gitbook/assets/image%20%28328%29.png)
+![](../.gitbook/assets/image%20%28330%29.png)
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 After giving the remote.it Service a name, you should see that the server at the IP address you gave is responding with "OK" in the "Application" column of this new remote.it Service.
 
-![](../.gitbook/assets/image%20%28451%29.png)
+![](../.gitbook/assets/image%20%28453%29.png)
 
 Now, return to the remote.it web portal and connect by clicking on the remote.it Service name:
 
-![](../.gitbook/assets/image%20%28373%29.png)
+![](../.gitbook/assets/image%20%28375%29.png)
 
 This returns the proxy server's URL and port in a generic dialog:
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 We will demonstrate the Samba [**smbclient** ](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)command using this proxy address and port.  
 

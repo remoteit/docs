@@ -2,9 +2,9 @@
 
 On the contacts page, click on the "trash can" icon on the right side of the entry to wish to delete.
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 
 You will see the following confirmation message.  Click on "Delete" to delete the Contact.  Click "Cancel" if you've changed your mind.
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
