@@ -32,7 +32,7 @@ Next, confirm that xrdp is in fact running with the command:
 
 **ps ax \| grep xrdp**
 
-![](../../.gitbook/assets/image%20%28419%29.png)
+![](../../.gitbook/assets/image%20%28420%29.png)
 
 You should see something similar to the image above.  The first column of numbers on the left is likely to be different.
 
@@ -44,9 +44,9 @@ Run the remote.it configuration script:
 
 At the Main Menu, install a new remote.it Service for xrdp using **RDP, default port 3389**.
 
-![](../../.gitbook/assets/image%20%28310%29.png)
+![](../../.gitbook/assets/image%20%28311%29.png)
 
-![](../../.gitbook/assets/image%20%28414%29.png)
+![](../../.gitbook/assets/image%20%28415%29.png)
 
 When you are done, you will see your rdp Service in the list.
 
@@ -56,7 +56,7 @@ When you are done, you will see your rdp Service in the list.
 
 To connect, sign in to your remote.it account and locate the Device you just installed in the Device List.
 
-![](../../.gitbook/assets/image%20%28258%29.png)
+![](../../.gitbook/assets/image%20%28259%29.png)
 
 Click on the Device Name to open the Device Services dialog box:
 
@@ -64,7 +64,7 @@ Click on the Device Name to open the Device Services dialog box:
 
 Click on the link of the rdp connection you wish to connect to.  Within a few moments you will see the "TCP Connection" dialog.
 
-![](../../.gitbook/assets/image%20%28313%29.png)
+![](../../.gitbook/assets/image%20%28314%29.png)
 
 Start the Remote Desktop application, copy and paste the address from the remote.it dialog to the “Computer” field as shown in the example below \(using the values that are displayed when the connection dialog box appears\), then click on “Connect”.
 
@@ -72,7 +72,7 @@ Start the Remote Desktop application, copy and paste the address from the remote
 
 When you see this dialog, click on "Connect":
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 When you see the security warning, click on “Yes” to continue.
 
@@ -82,7 +82,7 @@ When you see the security warning, click on “Yes” to continue.
 
 Select the account you wish to use and enter the password, then click on "OK".  If you wish to choose an account other than "Administrator", click on "More choices".
 
-![](../../.gitbook/assets/image%20%28496%29.png)
+![](../../.gitbook/assets/image%20%28497%29.png)
 
 #### **Linux RDP Connection Login**
 
