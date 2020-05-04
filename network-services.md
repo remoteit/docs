@@ -24,7 +24,7 @@ In order for Network Services to be configured properly, the target device will 
 2. An equivalent to a static IP address, e.g. "DHCP Reservation" through your router, so it always appears on the same LAN IP address.
 3. An mdns or "Bonjour" address, such as raspberrypi.local, which is unique for all devices on your LAN.  Note that if you use the avahi-daemon on a Raspberry Pi, and you have more than one running on the same LAN, their mdns names will be indexed, e.g. raspberrypi-1.local, raspberrypi-2.local, which may not work properly as the assignment is not predictable.
 
-To configure Network Services if you have installed the [remoteit App](../adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md) or the [remoteit Raspbian package,](../adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md) follow the instructions given [here](network-services.md).
+To configure Network Services if you have installed the [remoteit App](adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md) or the [remoteit Raspbian package,](adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md) follow the instructions given [here](network-services.md).
 
-If you would like to configure Network Services and you have installed the [connectd ](../platforms/all-other-linux-flavors.md)package, follow [these instructions](../adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) instead.
+If you would like to configure Network Services and you have installed the [connectd ](platforms/all-other-linux-flavors.md)package, follow [these instructions](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) instead.
 
