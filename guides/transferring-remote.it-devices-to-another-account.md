@@ -32,7 +32,7 @@ Click on this field to begin typing a name to find a match.  You can click on th
 
 Press the "Enter" key when the correct Contact is highlighted, or use your mouse to click on the contact to complete your selection.
 
-![](../.gitbook/assets/image%20%28404%29.png)
+![](../.gitbook/assets/image%20%28405%29.png)
 
 Click on the "Transfer" button.
 

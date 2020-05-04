@@ -14,7 +14,7 @@ You may see this warning.  Click on the "Open" button to proceed.
 
 You can ﬁnd the remote.it **r3** icon in the task bar. Clicking or right clicking allows you to quickly access the application. 
 
-![](../../.gitbook/assets/image%20%28394%29.png)
+![](../../.gitbook/assets/image%20%28395%29.png)
 
 You will see a list of recently used connections below.  Clicking on a connection name shows a menu for quick actions.
 
@@ -29,7 +29,7 @@ Double click on the remote.it desktop icon to launch the application.
   
 You can ﬁnd the remote.it **r3** icon in the task tray. 
 
-![](../../.gitbook/assets/image%20%28494%29.png)
+![](../../.gitbook/assets/image%20%28495%29.png)
 
 Clicking or right clicking allows you to quickly access the application. You will see a list of recently used connections below.  Clicking on a connection name shows a menu for quick actions.
 
