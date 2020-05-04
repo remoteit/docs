@@ -16,17 +16,17 @@ Click on the "Connect" button and a drop-down menu of all that Device's Services
 
 When you click on the Device Name on the Devices page, you'll see the Device Services Dialog.  This also shows additional information about your Services which 
 
-![](../../../.gitbook/assets/image%20%28117%29.png)
+![](../../../.gitbook/assets/image%20%28118%29.png)
 
 #### Connection dialog
 
 For non-web connections, the connection will return a hostname and port value which can be used on a command line or in a GUI application depending on what you are doing.  The example below is for an SSH connection.
 
-![](../../../.gitbook/assets/image%20%28274%29.png)
+![](../../../.gitbook/assets/image%20%28275%29.png)
 
 **Reverse proxy:**  For web applications made using the remote.it web portal, the reverse proxy URL opens automatically in a new browser tab.  Reverse proxy connections do not remap the port value.
 
-![](../../../.gitbook/assets/image%20%28310%29.png)
+![](../../../.gitbook/assets/image%20%28311%29.png)
 
 See the "[Applications]()" section for more detail about using remote.it proxy connections with different types of applications.
 

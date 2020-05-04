@@ -8,7 +8,7 @@ Start by using the sample script in the first example, which you can find using 
 
 Select "Scripting" from the menu:
 
-![](../../.gitbook/assets/image%20%28175%29.png)
+![](../../.gitbook/assets/image%20%28176%29.png)
 
 Next, click on "Upload".
 
@@ -18,7 +18,7 @@ In the "Storage Upload" dialog, use "Choose File" to locate the script file you'
 
 Make sure that "Executable script or program" is selected, then click on "Upload".
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
 When the upload completes, you'll see this notification:
 
