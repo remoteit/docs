@@ -6,7 +6,7 @@ Auto registration is currently hosted at [https://beta.remote.it](https://beta.r
 
 This is the Product Definition you created in the previous step.
 
-![](../../.gitbook/assets/image%20%28228%29.png)
+![](../../.gitbook/assets/image%20%28229%29.png)
 
 Click on the “gear” icon to add Services to your Product.
 
@@ -30,7 +30,7 @@ On the dialog that appears,
 
 4. Choose whether the Service will be enabled by default or not. If it is not enabled by default, the setting to enable it can be set later. In that case, the devices using this Product Definition must be rebooted to pick up the changes.
 
-![](../../.gitbook/assets/image%20%28277%29.png)
+![](../../.gitbook/assets/image%20%28278%29.png)
 
 Click on “Submit” to finish adding this Service.
 

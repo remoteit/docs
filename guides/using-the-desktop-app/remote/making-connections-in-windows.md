@@ -6,7 +6,7 @@ Make sure your connection is active \(blue\).
 
 If you see the green "Connect" button, click on it and wait until it turns blue as shown above.
 
-![](../../../.gitbook/assets/image%20%28418%29.png)
+![](../../../.gitbook/assets/image%20%28419%29.png)
 
 ### Launch URL
 
@@ -24,17 +24,17 @@ You can see the connection URL and port, e.g. **localhost:33001**.  You can use 
 
 * The SSH username is a user-configurable login name that will be included in the connection login string.  This setting only appears on SSH connections.  
 
-![](../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../.gitbook/assets/image%20%28344%29.png)
 
 Select the clipboard icon as shown:
 
-![](../../../.gitbook/assets/image%20%28405%29.png)
+![](../../../.gitbook/assets/image%20%28406%29.png)
 
 
 
 The SSH string, including the supplied SSH Username, will be copied to the clipboard.  You can then paste it into a terminal or command prompt to initiate an SSH connection.  The SSH String is not the same as the editable Launch URL which only works if your browser supports that protocol.
 
-![](../../../.gitbook/assets/image%20%28443%29.png)
+![](../../../.gitbook/assets/image%20%28444%29.png)
 
 * This is the "SSH string" \(assuming you entered "pi" as the SSH username\):
 
@@ -80,19 +80,19 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 * This can be copied and pasted into the address bar of the RealVNC Viewer application.
 
-![](../../../.gitbook/assets/image%20%28427%29.png)
+![](../../../.gitbook/assets/image%20%28428%29.png)
 
 * Provide the username and password to complete the VNC connection.
 
-![](../../../.gitbook/assets/image%20%28317%29.png)
+![](../../../.gitbook/assets/image%20%28318%29.png)
 
-![](../../../.gitbook/assets/image%20%28256%29.png)
+![](../../../.gitbook/assets/image%20%28257%29.png)
 
 ## Web connections
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28518%29.png)
+![](../../../.gitbook/assets/image%20%28519%29.png)
 
 ![](../../../.gitbook/assets/image%20%28162%29.png)
 
