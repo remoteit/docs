@@ -4,11 +4,11 @@ Now, you can change your AWS security group to completely close open access from
 
 Before:
 
-![](../../.gitbook/assets/image%20%28484%29.png)
+![](../../.gitbook/assets/image%20%28485%29.png)
 
 After:
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 Confirm that direct SSH access to the AWS EC2 instance times out now:
 

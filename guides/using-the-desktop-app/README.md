@@ -40,7 +40,7 @@ To download the latest version of the beta remote.it Desktop App, visit this lin
 
 You will find download links for Mac and Windows applications in this section:
 
-![](../../.gitbook/assets/image%20%28493%29.png)
+![](../../.gitbook/assets/image%20%28494%29.png)
 
 {% hint style="info" %}
 You may get firewall and virus scanner warnings when first installing the beta Desktop App.

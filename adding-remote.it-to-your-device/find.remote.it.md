@@ -10,11 +10,11 @@ The **remoteit** package is an update over the older **connectd** package.  This
 
 Once you have a remoteit enabled device running on your network, you can access it using http://find.remote.it.  Use the left and right arrows to navigate through all of your LAN devices if you have more than one.
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 Click on "Register" to register and configure Services on a new Device.
 
-![](../.gitbook/assets/image%20%28294%29.png)
+![](../.gitbook/assets/image%20%28295%29.png)
 
 Click on "Connect" to access Devices which you've already configured.
 

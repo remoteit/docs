@@ -6,5 +6,5 @@ If you wish to remove all remote.it Services from your device, including the Dev
 
 Confirm that you really do want to remove all Services, then watch as they shut down 1 by 1 and are removed from your account.  When this is completed, the script exits.
 
-![](../../.gitbook/assets/image%20%28152%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
