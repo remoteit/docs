@@ -14,7 +14,7 @@ Once you have a remoteit enabled device running on your network, you can access 
 
 Click on "Register" to register and configure Services on a new Device.
 
-![](../.gitbook/assets/image%20%28307%29.png)
+![](../.gitbook/assets/image%20%28308%29.png)
 
 Click on "Connect" to access Devices which you've already configured.
 

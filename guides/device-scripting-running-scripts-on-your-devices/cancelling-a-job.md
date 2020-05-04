@@ -4,11 +4,11 @@ The most common reason for cancelling a job is that one of the tasks within the 
 
 If your Job stays in the "running" state longer than you expect, you can check on the status of individual devices by clicking on the highlighted "running" link:
 
-![](../../.gitbook/assets/image%20%28189%29.png)
+![](../../.gitbook/assets/image%20%28190%29.png)
 
 Now you will see a dialog showing the detailed status of the script on each Device.
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28130%29.png)
 
 The Status is "done" on all Devices in this example except for the "Liverock-Bulk-03" Device.  In this example demonstrating a script failure, the "Liverock-Bulk-03" Device uses a different OS than all the others and it is missing a utility that the script depends on.
 
@@ -16,7 +16,7 @@ To cancel this Job, close the "Job Details" dialog, then click on the red circle
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
-![](../../.gitbook/assets/image%20%28335%29.png)
+![](../../.gitbook/assets/image%20%28336%29.png)
 
 Confirm that you wish to cancel, then click on "Submit".
 
