@@ -10,15 +10,15 @@ The standard "Devices" page in remote.it works well if you have up to a few doze
 
 Filter mode finds the entered string anywhere in the Device Name and is not case sensitive.  This mode is the default mode of your account.   Filter mode is enabled when "Device Search Only" is not checked, as shown here:
 
-![](../../../.gitbook/assets/image%20%28292%29.png)
+![](../../../.gitbook/assets/image%20%28293%29.png)
 
 This example shows the filter term "timer" matching a single Device Name, "Game Timer Pi 70".
 
-![](../../../.gitbook/assets/image%20%28479%29.png)
+![](../../../.gitbook/assets/image%20%28480%29.png)
 
 This shows the filter term "device" matching a number of Device Names.
 
-![](../../../.gitbook/assets/image%20%28348%29.png)
+![](../../../.gitbook/assets/image%20%28349%29.png)
 
 ![](../../../.gitbook/assets/image%20%2866%29.png)
 
@@ -30,7 +30,7 @@ Search mode doesn't display any Devices until you enter the term which you wish 
 
 First, you must select the "Device Search only" checkbox:
 
-![](../../../.gitbook/assets/image%20%28414%29.png)
+![](../../../.gitbook/assets/image%20%28415%29.png)
 
 Note that no Devices are shown.
 
@@ -38,7 +38,7 @@ Note that no Devices are shown.
 
 Enter a search term and press Enter.  
 
-![](../../../.gitbook/assets/image%20%28407%29.png)
+![](../../../.gitbook/assets/image%20%28408%29.png)
 
 {% hint style="info" %}
 To match a string anywhere in the Device Name, add an asterisk at the beginning of the search term.

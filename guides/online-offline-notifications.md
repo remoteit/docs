@@ -15,11 +15,11 @@ To enable Notifications, click on the small arrow next to your user name at the 
 
 Next, click on "Account":
 
-![](../.gitbook/assets/image%20%28272%29.png)
+![](../.gitbook/assets/image%20%28273%29.png)
 
 Scroll down until you find the "Notifications" switches.  By default, Notifications are disabled.
 
-![](../.gitbook/assets/image%20%28435%29.png)
+![](../.gitbook/assets/image%20%28436%29.png)
 
 Click on the slider controls on the right hand side to enable or disable notifications.  You can choose to enable or disable notifications for devices which you own, as well as devices which were shared to you from a different account.
 

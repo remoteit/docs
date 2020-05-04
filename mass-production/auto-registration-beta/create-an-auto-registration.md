@@ -20,7 +20,7 @@ Use the Registrations page at https://beta.remote.it to create a new Auto Regist
 
 Click on “Create Auto Registration”:
 
-![](../../.gitbook/assets/image%20%28468%29.png)
+![](../../.gitbook/assets/image%20%28469%29.png)
 
 Fill out the displayed “New Auto Registration” form. 
 
@@ -38,9 +38,9 @@ Click on the indicated "Settings" icon to finalize your Auto Registration.
 
 Select the lower two checkboxes as shown, then click on “Submit”. 
 
-![](../../.gitbook/assets/image%20%28298%29.png)
+![](../../.gitbook/assets/image%20%28299%29.png)
 
 The status will change to “preregistered”, as shown below.
 
-![](../../.gitbook/assets/image%20%28383%29.png)
+![](../../.gitbook/assets/image%20%28384%29.png)
 
