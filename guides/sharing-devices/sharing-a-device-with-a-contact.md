@@ -12,7 +12,7 @@ description: >-
 
 Return to the "Devices" page and select the checkbox\(es\) on the left side of the row\(s\) showing the remote.it Device\(s\) you wish to share \("1" below\).  Note that prior to sharing, the Share icon is plain and light grey in color \("2" below\).
 
-![](../../.gitbook/assets/image%20%28265%29.png)
+![](../../.gitbook/assets/image%20%28266%29.png)
 
 Now, from the Actions menu, select "Share":
 
@@ -20,7 +20,7 @@ Now, from the Actions menu, select "Share":
 
 This opens the Bulk Sharing dialog, where you can use the Contact Picker to choose contacts to share your device\(s\) to.
 
-![](../../.gitbook/assets/image%20%28280%29.png)
+![](../../.gitbook/assets/image%20%28282%29.png)
 
 Click on the down arrow to the the list of device\(s\) which you wish to share.  
 
@@ -28,15 +28,15 @@ Click on the down arrow to the the list of device\(s\) which you wish to share.
 
 It changes to an up arrow which you can click to hide the list.
 
-![](../../.gitbook/assets/image%20%28449%29.png)
+![](../../.gitbook/assets/image%20%28451%29.png)
 
 Click on this field, then begin typing the name of a contact to share these Device\(s\) to.  Any matching contacts will appear in a drop down list where you can select the contact you have in mind.
 
-![](../../.gitbook/assets/image%20%28259%29.png)
+![](../../.gitbook/assets/image%20%28260%29.png)
 
 Press the Enter key or click your mouse on the selected contact to add this contact to the share list.  The cursor will appear at the end of the chosen contacts.
 
-![](../../.gitbook/assets/image%20%28231%29.png)
+![](../../.gitbook/assets/image%20%28232%29.png)
 
 Keep doing this for all contacts which need to be added.
 
@@ -46,7 +46,7 @@ Keep doing this for all contacts which need to be added.
 
 If you have Contacts whom you've invited, but have not created a remote.it account yet, you will see this warning.  You can't share a device to a contact who has not yet created an account.
 
-![](../../.gitbook/assets/image%20%28292%29.png)
+![](../../.gitbook/assets/image%20%28294%29.png)
 
 #### Allowing other users to run bulk scripts on your Shared Device
 
@@ -56,25 +56,25 @@ Check this checkbox if you want to allow the selected Contacts to execute bulk s
 
 When you've finished selecting contacts, click on "Add Sharing".
 
-![](../../.gitbook/assets/image%20%28416%29.png)
+![](../../.gitbook/assets/image%20%28418%29.png)
 
 You'll see this confirmation message.  Close it when you are done reading it.
 
-![](../../.gitbook/assets/image%20%28467%29.png)
+![](../../.gitbook/assets/image%20%28469%29.png)
 
 The Contact\(s\) you selected will get a notification e-mail.  The Device sharing completes automatically.
 
 Once the Sharing operation is completed, your Device will show up in their "Devices" page with a slash through the "Share" icon:
 
-![](../../.gitbook/assets/image%20%28393%29.png)
+![](../../.gitbook/assets/image%20%28395%29.png)
 
 By hovering the mouse cursor over the share icon, a remote.it user can quickly see who has shared it to them.  The slash indicates that by clicking on the icon, they can terminate sharing.
 
-![](../../.gitbook/assets/image%20%28204%29.png)
+![](../../.gitbook/assets/image%20%28205%29.png)
 
 There will be a checkbox on the Share icon in your account for a Device you have shared to someone else:
 
-![](../../.gitbook/assets/image%20%28258%29.png)
+![](../../.gitbook/assets/image%20%28259%29.png)
 
 Now your Contact will be able to connect to any remote.it Service on the shared Device as if it belonged to them.  
 

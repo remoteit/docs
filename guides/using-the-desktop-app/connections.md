@@ -15,11 +15,11 @@ Here you can see all the Services you can connect to.
 
 #### An example connections page
 
-![](../../.gitbook/assets/image%20%28490%29.png)
+![](../../.gitbook/assets/image%20%28492%29.png)
 
 You can click on any green "CONNECT" button to establish a peer to peer connection.  This will provide you with a localhost \(127.0.0.1\) address along with an generated port value which you can use in your application.
 
-![](../../.gitbook/assets/image%20%28407%29.png)
+![](../../.gitbook/assets/image%20%28409%29.png)
 
 The throughput of the connection is shown to the right of the connection. 
 
