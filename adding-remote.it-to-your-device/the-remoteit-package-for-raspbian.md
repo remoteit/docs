@@ -32,3 +32,21 @@ Now go to a browser and type find.remote.it into the URL bar and hit the "Enter"
 
 Now you can access the remoteit web Admin Panel following the instructions [here](https://docs.remote.it/adding-remote.it-to-your-device/raspberry-pi-quick-start#find-your-pi-on-the-lan).
 
+### Updating the remoteit package
+
+{% hint style="info" %}
+We recommend connecting locally when updating existing devices. 
+{% endhint %}
+
+When upgrading a remote system, you should use 
+
+```text
+nohup sudo apt install -y remoteit &
+```
+
+ to force the upgrade in the background. You may be disconnected during the upgrade, but will be able to reconnect afterwards. The output of the upgrade process will be saved in nohup.out.
+
+### Upgrading from connectd
+
+You can install the remoteit Raspbian package over a previous installation of the older connectd package, version 2.4.26.  Your services and startup scripts will be converted automatically.
+
