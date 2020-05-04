@@ -6,11 +6,11 @@ Auto registration is currently hosted at [https://beta.remote.it](https://beta.r
 
 This is the Product Definition you created in the previous step.
 
-![](../../.gitbook/assets/image%20%28480%29.png)
+![](../../.gitbook/assets/image%20%28481%29.png)
 
 Click on the “gear” icon to add Services to your Product.
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 The “Required Bulk” Service is already added. Each device must have a Bulk Service, and it cannot be deleted.
 
@@ -44,5 +44,5 @@ When you are done adding Services, select the checkbox “Check to lock product 
 
 When you check the "Lock Product" checkbox, you'll see the "Product Lock Notice".  It's just a reminder.  You will get the Bulk Identification Code in a subsequent step.
 
-![](../../.gitbook/assets/image%20%28219%29.png)
+![](../../.gitbook/assets/image%20%28220%29.png)
 
