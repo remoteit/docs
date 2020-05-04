@@ -51,7 +51,7 @@ When you are done, select the “Check to lock product and create provisioning f
 
 Note that the icons under the “Actions” column have changed:
 
-![](../../.gitbook/assets/image%20%28484%29.png)
+![](../../.gitbook/assets/image%20%28485%29.png)
 
 Click on the circled “i” icon.  On the “Product Information and Usage” dialog which appears, locate the Bulk Identification Code.  
 ****

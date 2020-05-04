@@ -5,6 +5,7 @@
   * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
 * [Making connections](making-connections.md)
 * [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections/README.md)
+  * [Network Services](peer-to-peer-p2p-vs.-proxy-connections/network-services.md)
   * [Peer to Peer Connections](peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md)
 * [LAN Sharing](lan-sharing.md)
 * [Troubleshooting](troubleshooting-connections.md)

@@ -8,7 +8,7 @@ In order to share or transfer a Device, first you must set up a Contact in remot
 
 ![](../../.gitbook/assets/image%20%28427%29.png)
 
-![](../../.gitbook/assets/image%20%28496%29.png)
+![](../../.gitbook/assets/image%20%28497%29.png)
 
 Fill in the Contact's details in the dialog which appears.  The only required field is their email address. Everything else is optional.
 

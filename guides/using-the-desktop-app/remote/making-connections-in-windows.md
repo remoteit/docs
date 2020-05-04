@@ -92,7 +92,7 @@ You can use the SSH string in Linux and Mac terminal as well.
 
 Select the arrow to launch the connection URL directly in your default browser.
 
-![](../../../.gitbook/assets/image%20%28502%29.png)
+![](../../../.gitbook/assets/image%20%28503%29.png)
 
 ![](../../../.gitbook/assets/image%20%28155%29.png)
 
