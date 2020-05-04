@@ -28,7 +28,7 @@ When you enter a value of 0.0.0.0, the displayed Bind IP Address will change to 
 
 Click on "Connect" in order to establish the P2P connection.
 
-Supposing that your PC's IP address is 192.168.1.125, you can continue to access this connection using:
+Supposing that your PC's IP address is 192.168.1.160, you can continue to access this connection using:
 
 ```text
 localhost:33000
@@ -37,7 +37,7 @@ localhost:33000
 Other users will be able to access this P2P connection on the LAN using:
 
 ```text
-192.168.1.125:33000
+192.168.1.160:33000
 ```
 
 To disable LAN sharing, set the "Bind IP Address" back to "localhost".
