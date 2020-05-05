@@ -8,11 +8,11 @@ It gives you a sortable and filterable view of all of the devices registered to 
 
 To get to "Devices" from other pages within remote.it, click on "Devices" in the menu at the left side of the screen.
 
-![](../../../.gitbook/assets/image%20%28433%29.png)
+![](../../../.gitbook/assets/image%20%28434%29.png)
 
 ### The Device List's first seven columns
 
-![](../../../.gitbook/assets/image%20%28167%29.png)
+![](../../../.gitbook/assets/image%20%28168%29.png)
 
 1.  checkbox used to select devices for [bulk actions](the-actions-menu.md) like sharing, deleting or running a script
 2.  "Status" icon which is a green check your device has been detected by our server \(online\) and a grey dash otherwise \(offline\).
@@ -26,13 +26,13 @@ To get to "Devices" from other pages within remote.it, click on "Devices" in the
 
 The 5 status columns A through E can be used to get information from Devices using [Device Scripting](../../device-scripting-running-scripts-on-your-devices/).
 
-![](../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../.gitbook/assets/image%20%28154%29.png)
 
 ### Category Columns
 
 The Category columns contain optional user-specified information entered with during [Bulk Registration](../../../mass-production/bulk-registration/) or set manually using the "[Actions](the-actions-menu.md)" menu "Set Category" action.
 
-![](../../../.gitbook/assets/image%20%28523%29.png)
+![](../../../.gitbook/assets/image%20%28524%29.png)
 
 
 
