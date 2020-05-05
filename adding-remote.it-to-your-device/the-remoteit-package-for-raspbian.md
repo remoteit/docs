@@ -12,7 +12,7 @@ On the Raspberry Pi command line, type or copy and paste the following commands 
 
 ```text
 sudo apt update
-sudo apt install -y remoteit
+sudo apt install remoteit
 ```
 
 Each of these commands will take several tens of seconds to complete as they download required files.  When the process is done, you will see this message displayed:
