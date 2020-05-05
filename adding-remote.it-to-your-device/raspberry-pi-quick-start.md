@@ -14,7 +14,11 @@ remote.itPi is an SD card operating system image for Raspberry Pi based on the l
 
 Once connected to the network, the Pi will provide direct remote access for authenticated users to any computers, routers, NAS storage boxes, printers, etc. connected to the same remote network.
 
-Follow the simple steps below to activate remote access to your Pi!
+Follow the simple steps below to activate remote access to your Pi!  Here's a video to help.
+
+{% embed url="https://youtu.be/j9EsCvBF-cA" %}
+
+
 
 ## What you'll need
 
