@@ -15,7 +15,7 @@ sudo apt update
 sudo apt install remoteit
 ```
 
-Each of these commands will take several tens of seconds to complete as they download required files.  When the process is done, you will see this message displayed.  The details of alternate connection addresses will depend on your network.
+Each of these commands will take less than a minute to complete as they download required files.  When the process is done, you will see this message displayed.  The details of alternate connection addresses will depend on your network.
 
 ```text
 ================================================================================
