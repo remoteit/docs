@@ -15,12 +15,14 @@ sudo apt update
 sudo apt install remoteit
 ```
 
-Each of these commands will take several tens of seconds to complete as they download required files.  When the process is done, you will see this message displayed:
+Each of these commands will take several tens of seconds to complete as they download required files.  When the process is done, you will see this message displayed.  The details of alternate connection addresses will depend on your network.
 
 ```text
 ================================================================================
 
-Continue your device registration at http://find.remote.it
+Continue your device configuration at http://find.remote.it
+                                   or http://raspberrypi.local:29999
+                                   or http://192.168.1.243:29999
 
 ================================================================================
 ```
@@ -31,6 +33,8 @@ Now go to a browser and type find.remote.it into the URL bar and hit the "Enter"
 * If you're connected to the Pi using SSH over the LAN, you can copy the URL to a browser on your local PC.
 
 Now you can access the remoteit web Admin Panel following the instructions [here](https://docs.remote.it/adding-remote.it-to-your-device/raspberry-pi-quick-start#find-your-pi-on-the-lan).
+
+If find.remote.it does not work, try one of the alternate addresses shown when the installation completed.
 
 ### Updating the remoteit package
 
