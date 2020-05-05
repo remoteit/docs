@@ -12,3 +12,4 @@ redirects:
   minecraft: ./guides/hosting-a-minecraft-server.md
   platforms/quick-start-on-raspberry-pi/setup-your-raspberry-pi: ./platforms/quick-start-on-raspberry-pi.md
   platforms/quick-start-on-raspberry-pi/install-remote.it: ./adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md
+  guides/connecting-to-a-device/proxy-connections/connecting-to-ssh: ./applications/remote-console-and-file-transfer.md
