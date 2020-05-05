@@ -50,3 +50,7 @@ nohup sudo apt install -y remoteit &
 
 You can install the remoteit Raspbian package over a previous installation of the older connectd package, version 2.4.26.  Your services and startup scripts will be converted automatically.
 
+{% hint style="warning" %}
+Upgrading over connectd ONLY works for Services registered using connectd\_installer or connectd\_register.  Do NOT install remoteit over connectd if you have registered Services using Bulk or Auto Registration.
+{% endhint %}
+
