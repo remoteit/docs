@@ -16,17 +16,17 @@ Auto Registration requires a dedicated Product Definition used only for Auto Reg
 
 Use the Registrations page at https://beta.remote.it to create a new Auto Registration.
 
-![](../../.gitbook/assets/image%20%28205%29.png)
+![](../../.gitbook/assets/image%20%28206%29.png)
 
 Click on “Create Auto Registration”:
 
-![](../../.gitbook/assets/image%20%28473%29.png)
+![](../../.gitbook/assets/image%20%28474%29.png)
 
 Fill out the displayed “New Auto Registration” form. 
 
 Add a name for this Auto Registration that will be meaningful to you, then choose the desired Product Definition from the drop-down list:
 
-![](../../.gitbook/assets/image%20%28253%29.png)
+![](../../.gitbook/assets/image%20%28254%29.png)
 
 Finally, click on “Register”.
 
@@ -34,13 +34,13 @@ You will see your Auto Registration in the table, as shown below.
 
 Click on the indicated "Settings" icon to finalize your Auto Registration.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 Select the lower two checkboxes as shown, then click on “Submit”. 
 
-![](../../.gitbook/assets/image%20%28301%29.png)
+![](../../.gitbook/assets/image%20%28302%29.png)
 
 The status will change to “preregistered”, as shown below.
 
-![](../../.gitbook/assets/image%20%28387%29.png)
+![](../../.gitbook/assets/image%20%28388%29.png)
 
