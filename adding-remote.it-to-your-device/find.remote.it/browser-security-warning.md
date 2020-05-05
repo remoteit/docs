@@ -10,9 +10,9 @@ Examples of browser security warnings you may see:
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-![](../../.gitbook/assets/image%20%28450%29.png)
+![](../../.gitbook/assets/image%20%28452%29.png)
 
-![](../../.gitbook/assets/image%20%28517%29.png)
+![](../../.gitbook/assets/image%20%28519%29.png)
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
