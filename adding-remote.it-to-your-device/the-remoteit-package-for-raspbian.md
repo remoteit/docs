@@ -41,7 +41,7 @@ We recommend connecting locally when updating existing devices.
 When upgrading a remote system, you should use 
 
 ```text
-nohup sudo apt install -y remoteit &
+nohup sudo apt install remoteit &
 ```
 
  to force the upgrade in the background. You may be disconnected during the upgrade, but will be able to reconnect afterwards. The output of the upgrade process will be saved in nohup.out.
