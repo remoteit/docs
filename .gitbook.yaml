@@ -4,7 +4,7 @@ redirects:
   out-of-band: ./guides/out-of-band.md
   desktop-welcome: ./guides/using-the-desktop-app/README.md
   desktop-help: ./guides/using-the-desktop-app/features.md
-  desktop-https: ./
+  desktop-https: ./adding-remote.it-to-your-device/raspberry-pi-quick-start#find-your-pi-on-the-lan
   connect-mac: ./guides/control-your-computer-remotely-mac-to-mac.md
   connect-windows: ./guides/applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md
   connect-rpi: ./making-connections.md
