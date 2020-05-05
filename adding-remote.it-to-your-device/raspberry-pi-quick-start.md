@@ -106,7 +106,7 @@ network={
 
 1.  From your computer, open your browser and navigate to: [http://find.remote.it](http://find.remote.it/).  You may get a "Not secure" message from your browser, e.g.
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 Learn more at the link below.
 

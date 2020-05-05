@@ -36,7 +36,7 @@ The solution is easy however and depends on how you are connecting:
 
 * **Web portal**: If you are connecting from the [app.remote.it](https://app.remote.it) web portal, then you can just click the checkbox to "Make Public" - which disables IP restrictions for this particular connection.
 
-![](.gitbook/assets/image%20%28223%29.png)
+![](.gitbook/assets/image%20%28224%29.png)
 
 * **Mobile**: If you are on mobile, make sure to disable IP address restrictions for the connection.
 * **API**: If you are connecting via the API, please make sure to pass the `hostip` parameter in the body of your request set to the IP address given to you by the cellular network. This is _not_ the IP address of your device.  It is the address of your client.
