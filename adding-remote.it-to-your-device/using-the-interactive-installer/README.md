@@ -23,7 +23,7 @@ We recommend that you use one of the following methods for installing remote.it 
 If you are using an OS other than Raspberry Pi Raspbian, Windows, or macOS, please follow the instructions at the following link to install remote.it's **connectd** package onto your Linux device.  
 
 {% hint style="info" %}
-Note that the connectd package described below does not support the [find.remote.it](../find.remote.it.md) feature.
+Note that the connectd package described below does not support the [find.remote.it](../find.remote.it/) feature.
 {% endhint %}
 
 {% page-ref page="../../platforms/all-other-linux-flavors.md" %}

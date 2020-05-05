@@ -55,5 +55,5 @@ Finally, click on “Submit”:
 
 You will see your new Product Definition in the list.
 
-![](../../.gitbook/assets/image%20%28528%29.png)
+![](../../.gitbook/assets/image%20%28529%29.png)
 

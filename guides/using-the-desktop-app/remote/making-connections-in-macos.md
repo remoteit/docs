@@ -50,7 +50,7 @@ Type in "yes" followed by the Enter key.  Enter the password when prompted, then
 
 * If you are connecting from a Mac to a Raspberry Pi running RealVNC, you should install the RealVNC Viewer and use the "Copy VNC" option instead.
 
-![](../../../.gitbook/assets/image%20%28516%29.png)
+![](../../../.gitbook/assets/image%20%28517%29.png)
 
 * When you select the clipboard icon, the connection address is copied to the clipboard.  You can then paste it into your VNC application \(RealVNC Viewer is shown here\).
 
