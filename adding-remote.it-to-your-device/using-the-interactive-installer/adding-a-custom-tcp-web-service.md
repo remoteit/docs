@@ -6,7 +6,7 @@ Web \(http\) and Secure Web \(https\) connections will automatically open a new 
 
 If you wish to set up a TCP service that is not SSH, VNC, http\(s\), or NxWitness, use option 6 on the Protocol Section Menu:
 
-![](../../.gitbook/assets/image%20%28427%29.png)
+![](../../.gitbook/assets/image%20%28428%29.png)
 
 Next, enter the port you wish to use:
 
@@ -14,7 +14,7 @@ Next, enter the port you wish to use:
 
 Give the new service a name:
 
-![](../../.gitbook/assets/image%20%28312%29.png)
+![](../../.gitbook/assets/image%20%28313%29.png)
 
 Then you will return to the main menu.
 

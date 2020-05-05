@@ -6,9 +6,9 @@ description: Contacts are required for remote.it Device sharing and transfer.
 
 In order to share or transfer a Device, first you must set up a Contact in remote.it. Click on "Contacts" in the left-side menu, then "Create Contact":
 
-![](../../.gitbook/assets/image%20%28448%29.png)
+![](../../.gitbook/assets/image%20%28449%29.png)
 
-![](../../.gitbook/assets/image%20%28518%29.png)
+![](../../.gitbook/assets/image%20%28519%29.png)
 
 Fill in the Contact's details in the dialog which appears.  The only required field is their email address. Everything else is optional.
 
