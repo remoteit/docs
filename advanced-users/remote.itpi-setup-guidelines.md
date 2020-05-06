@@ -5,7 +5,7 @@
 Unlike a traditional Raspberry Pi configuration, remote.itPi has been specifically designed to allow for _**headless**_ configuration, meaning that it can be set up without needing to connect a monitor, keyboard, or mouse to it. Instead, all you need is a computer on the same network, with any modern browser.  
 
 {% hint style="info" %}
-**Note:** if you do want to connect a monitor, keyboard and mouse, you can set it up that way too.
+**Note:** You may optionally connect a monitor, keyboard and mouse to your Pi to setup
 {% endhint %}
 
 Following are instructions to get your remote.itPi setup.
@@ -22,7 +22,7 @@ Following are instructions to get your remote.itPi setup.
 3. How to [connect to your resources](remote.itpi-setup-guidelines.md#connecting-to-your-resources-from-anywhere) from anywhere.
 4. How to use [Out of Band Management.](remote.itpi-setup-guidelines.md#using-out-of-band-management)
 
-## Getting your remote.itPi on your Network
+## 1. Getting your remote.itPi on your Network
 
 ### **Recommended:** Using Ethernet 
 
@@ -80,7 +80,7 @@ Click through all the dialogues that appear to set the SSH password, locale, tim
 
 Move to the next section “Registering and setting up remote access”.
 
-## Registering and Setting-Up Remote Access
+## 2. Registering and Setting-Up Remote Access
 
 i. From a computer on the same network as the Raspberry Pi 4, open a browser and type [find.remote.it](https://find.remote.it) into the browser’s address bar.
 
@@ -119,13 +119,13 @@ viii. Simply click “add” to the services you want to be able to remotely acc
 
 ix. Once you’ve finished registering the remote access you want, you are ready to test that you can get to your devices.
 
-## Connecting to your Resources from Anywhere
+## 3. Connecting to your Resources from Anywhere
 
 Here is an overview of connection to devices on your network:
 
 {% page-ref page="../lan-sharing.md" %}
 
-## Using Out of Band Management
+## 4. Using Out of Band Management
 
 The remote.itPi includes an out of band management feature, that allows remote access through a secondary Internet connection. This is typically useful if the remote network that you are managing is isolated from the Internet \(no internet connection\) or if perhaps the Internet connection has gone down, and you need a way to get to the network to reset the router.  
   
@@ -146,7 +146,7 @@ If both those conditions are met, out of band mode is automatically detected and
 
 ![The OUT OF BAND Indicator on the top right is active.](https://lh6.googleusercontent.com/ad3h01-JDqKMd_rf8xyXSW7vE63MWrHjZ8Ohg8r-b2fu9_yWtxeqN08iEBO9zzUsDAoxi3gvMr2OZudjxA0IfDvuzIuFpePmOEdla9SEfhWpsOvWQYG_jh9faiF7e2is9L0jdzwl)
 
-## Connecting Remotely from Anywhere
+## 5. Connecting Remotely from Anywhere
 
 Remotely connecting to registered devices and services can be done from:
 
