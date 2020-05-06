@@ -139,6 +139,7 @@
   * [Where do I find the UID for my Service?](advanced-users/using-connectd-in-p2p-initiator-mode/where-do-i-find-the-uid-for-my-service.md)
   * [Running connectd using an authhash](advanced-users/using-connectd-in-p2p-initiator-mode/running-connectd-using-an-authhash.md)
 * [Using connectd](advanced-users/connectd.md)
+* [remote.itPi Setup Guidelines](advanced-users/remote.itpi-setup-guidelines.md)
 
 ## Platforms
 

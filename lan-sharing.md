@@ -46,5 +46,3 @@ To disable LAN sharing, set the "Bind IP Address" back to "localhost".
 
 {% page-ref page="adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md" %}
 
-
-
