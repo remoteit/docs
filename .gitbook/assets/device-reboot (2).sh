@@ -10,21 +10,13 @@
 #
 # $2 parameter is the API server to use for completion status
 #
-VERSION="1.0.6"
-MODIFIED="February 18, 2019"
+VERSION="1.0.5"
+MODIFIED="February 11, 2019"
 
 TOOL_DIR="/usr/bin"
-if [ -e ${TOOL_DIR}/weavedconnectd.pi ]; then
-    NOTIFIER=task_notify.sh
-    source "$TOOL_DIR"/weavedlibrary
-	logger "Weaved"
-else
-    NOTIFIER=connectd_task_notify
-    source "$TOOL_DIR"/connectd_library
-	logger "connectd"
-fi
-
+NOTIFIER=connectd_task_notify
 FOLDER="/root/.remote.it"
+source "$TOOL_DIR"/connectd_library
 
 ###############################################################
 
@@ -39,17 +31,9 @@ fi
 REBOOTFILE="$FOLDER"/reboot.sh
 echo "#!/bin/bash" > "$REBOOTFILE"
 echo "# REBOOT DEVICE" >> "$REBOOTFILE"
-
-if [ -e ${TOOL_DIR}/connectd_library ]; then
-    echo "source /usr/bin/connectd_library" >> "$REBOOTFILE"
+echo "source /usr/bin/connectd_library" >> "$REBOOTFILE"
 # connectd start includes the "wait for internet available" function
-    echo "connectd_start" >> "$REBOOTFILE"
-else
-    echo "source /usr/bin/weavedibrary" >> "$REBOOTFILE"
-# weavedstart.sh does not wait for internet
-    echo "weavedstart.sh" >> "$REBOOTFILE"
-fi
-
+echo "connectd_start" >> "$REBOOTFILE"
 echo "sleep 5" >> "$REBOOTFILE"
 echo "${TOOL_DIR}/$NOTIFIER a $1 $2 'Rebooted.'" >> $REBOOTFILE
 echo "${TOOL_DIR}/$NOTIFIER 1 $1 $2 'Job Complete'" >> $REBOOTFILE

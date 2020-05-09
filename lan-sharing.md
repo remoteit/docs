@@ -12,9 +12,9 @@ When you use the remoteit App or the headless server to configure peer to peer c
 
 ![](.gitbook/assets/image%20%2828%29.png)
 
-Most of the time, you will set this value to "localhost" which lets you make a peer to peer connection from the computer running the remoteit app or headless server.  However, by setting the "Bind IP Address" to "0.0.0.0", you can allow other users on your LAN to access this peer to peer connection.  This works whether they have a remote.it account or not.
+Most of the time, you will set this value to "localhost" which lets you make a peer to peer connection from the computer running the remoteit app or headless server. However, by setting the "Bind IP Address" to "0.0.0.0", you can allow other users on your LAN to access this peer to peer connection. This works whether they have a remote.it account or not.
 
-In order to change the Bind IP Address, the Service must be disconnected \(showing the green "Connect" button\). 
+In order to change the Bind IP Address, the Service must be disconnected \(showing the green "Connect" button\).
 
 ![](.gitbook/assets/image%20%28508%29.png)
 
@@ -24,7 +24,7 @@ In order to change the Bind IP Address, the Service must be disconnected \(showi
 
 ![](.gitbook/assets/image%20%28415%29.png)
 
-When you enter a value of 0.0.0.0, the displayed Bind IP Address will change to your current LAN IP address.  This can be given to other people to access your P2P connection.
+When you enter a value of 0.0.0.0, the displayed Bind IP Address will change to your current LAN IP address. This can be given to other people to access your P2P connection.
 
 ![](.gitbook/assets/image%20%28106%29.png)
 
