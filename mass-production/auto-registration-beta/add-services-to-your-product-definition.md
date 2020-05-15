@@ -30,7 +30,7 @@ On the dialog that appears,
 
 4. Choose whether the Service will be enabled by default or not. If it is not enabled by default, the setting to enable it can be set later. In that case, the devices using this Product Definition must be rebooted to pick up the changes.
 
-![](../../.gitbook/assets/image%20%28284%29.png)
+![](../../.gitbook/assets/image%20%28285%29.png)
 
 Click on “Submit” to finish adding this Service.
 

@@ -14,7 +14,7 @@ This script adds a line to your crontab to execute the part of the script that r
 
 When the rebooting process starts, you should see:
 
-![](../../.gitbook/assets/image%20%28272%29.png)
+![](../../.gitbook/assets/image%20%28273%29.png)
 
 When it has completed, you should see:
 

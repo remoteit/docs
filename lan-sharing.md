@@ -16,13 +16,13 @@ Most of the time, you will set this value to "localhost" which lets you make a p
 
 In order to change the Bind IP Address, the Service must be disconnected \(showing the green "Connect" button\).
 
-![](.gitbook/assets/image%20%28508%29.png)
+![](.gitbook/assets/image%20%28509%29.png)
 
 * Click on the "Bind IP Address" field to edit it.
 * Type in 0.0.0.0 as shown.
 * Click on the check mark to confirm the change.
 
-![](.gitbook/assets/image%20%28415%29.png)
+![](.gitbook/assets/image%20%28416%29.png)
 
 When you enter a value of 0.0.0.0, the displayed Bind IP Address will change to your current LAN IP address. This can be given to other people to access your P2P connection.
 

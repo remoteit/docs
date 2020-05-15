@@ -34,7 +34,7 @@ Click on the Device Name in Manage Devices view, then select the SSH Service fro
 
 The dialog shown below will appear after the connection is established.  You’ll need to copy and paste the hostname and port values from this dialog into the proper locations on your SSH/SCP application. 
 
-![](../../.gitbook/assets/image%20%28418%29.png)
+![](../../.gitbook/assets/image%20%28419%29.png)
 
 #### Using a P2P connection
 
@@ -76,7 +76,7 @@ Fill out the 4 fields in the Quickconnect bar.  Username and Password are the SS
 Note: you have to preface the hostname with "sftp://" as shown.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28396%29.png)
+![](../../.gitbook/assets/image%20%28397%29.png)
 
 When you connect, you will see the following warning:
 
@@ -88,13 +88,13 @@ To connect, just click on OK.  If you are using the Desktop or command line appr
 
 WinSCP is another popular secure file manager and transfer utility for Windows.  Copy the Host name and Port values from the remote.it SSH connection dialog to WinSCP’s connection screen and select “SCP” as the file protocol.  Click on “Login” to connect.
 
-![](../../.gitbook/assets/image%20%28482%29.png)
+![](../../.gitbook/assets/image%20%28483%29.png)
 
 As with PuTTY, you be warned that there is not a key cached for this address.  Select “Yes” to complete the connection.
 
-![](../../.gitbook/assets/image%20%28397%29.png)
+![](../../.gitbook/assets/image%20%28398%29.png)
 
 Now you can manage your remote and local files easily.
 
-![](../../.gitbook/assets/image%20%28483%29.png)
+![](../../.gitbook/assets/image%20%28484%29.png)
 

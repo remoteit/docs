@@ -8,19 +8,19 @@ This script returns the following info into status columns A through E:
 
 * Operating System name
 * Linux Version \(uname -a command\)
-* Uptime
+* Uptime \(time since last reboot\)
 * Number of installed remote.it Services
-* Version of of the installed connectd package
+* Version of of the installed connectd or remoteit package
 
-![](../../.gitbook/assets/image%20%28159%29.png)
+![](../../.gitbook/assets/image%20%28272%29.png)
 
 Download the attached file to your system, then upload it to remote.it:
 
-{% file src="../../.gitbook/assets/get-pi-status.sh" caption="Script returns status from any Linux based device" %}
+{% file src="../../.gitbook/assets/get-pi-status.sh" caption="Script returns status from any Linux based debice" %}
 
 If you are on Windows, editing this file in Notepad will cause issues because the line feeds are not compatible with your Pi's Linux OS. We suggest you use a Linux compatible text editor for Windows such as [Notepad++](https://notepad-plus-plus.org/).
 
-In the script, the `/usr/bin/connectd_task_notify` __script is used to report various interesting bits of info about your systems. `/usr/bin/connectd_task_notify` is installed when you install the connectd package.  The variables `TOOL_DIR` and `NOTIFIER` are used for this purpose.
+In the script, the `/usr/bin/connectd_task_notify` __script is used to report various interesting bits of info about your systems. `/usr/bin/connectd_task_notify` is installed when you install the remoteit or connectd packages.  The variables `TOOL_DIR` and `NOTIFIER` are used for this purpose.
 
 ```bash
 TOOL_DIR="/usr/bin" 

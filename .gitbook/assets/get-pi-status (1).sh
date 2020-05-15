@@ -16,43 +16,8 @@
 #StatusD = counts and returns the number remote.it Services
 #StatusE = connectd package version
 
-VERSION="1.0.7"
-MODIFIED="May 14, 2020"
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin
-
 TOOL_DIR="/usr/bin"
-set -x
-
-# look for weavedconnectd package notifier
-if [ -e ${TOOL_DIR}/task_notify.sh ]; then
-    NOTIFIER=task_notify.sh
-	package=weavedconnectd
-    logger "Weaved status script"
-elif [ -e ${TOOL_DIR}/connectd_task_notify ]; then
-	dpkg -s connectd
-	if [ $? -eq 0 ]; then
-		logger "connectd status script"
-		NOTIFIER=connectd_task_notify
-		package=connectd
-	else
-		dpkg -s remoteit
-		if [ $? -eq 0 ]; then
-			NOTIFIER=connectd_task_notify
-			package=remoteit
-			logger "remoteit status script"	
-		else
-			dpkg -s remoteit-desktop
-			if [ $? -eq 0 ]; then
-				NOTIFIER=connectd_task_notify
-				package=remoteit-desktop
-				logger "remoteit-desktop status script"	
-			else
-				logger "remoteit $0 error - couldn't identify package"
-				exit 1
-			fi
-		fi
-	fi
-fi
+NOTIFIER="connectd_task_notify"
 
 # Clear all status columns A-E in remote.it portal
 
@@ -83,7 +48,7 @@ ret=$(${TOOL_DIR}/$NOTIFIER b $1 $2 "$fwversion")
 # retrieve the system uptime 
 uptime=$(uptime | sed 's/^.*up *//; s/, *[0-9]* user.*$/m/; s/day[^0-9]*/d, /;s/\([hm]\).*m$/\1/;s/:/h, /;s/^//')
 # send to status column c in remote.it portal
-ret=$(${TOOL_DIR}/$NOTIFIER c $1 $2 "Uptime:\n$uptime")
+ret=$(${TOOL_DIR}/$NOTIFIER c $1 $2 "$uptime")
 #-------------------------------------------------
 
 # Update status column D (StatusD) in remote.it portal
@@ -91,15 +56,15 @@ ret=$(${TOOL_DIR}/$NOTIFIER c $1 $2 "Uptime:\n$uptime")
 # retrieve the number of active remote.it Services
 nsvcs=$(ps ax | grep connect | grep -v grep | wc -l)
 # send to status d
-ret=$(${TOOL_DIR}/$NOTIFIER d $1 $2 "$nsvcs\nservices")
+ret=$(${TOOL_DIR}/$NOTIFIER d $1 $2 "$nsvcs")
 #-------------------------------------------------
 
 # Update status column E (StatusE) in remote.it portal
 #-------------------------------------------------
-# get the package version of whichever package is installed
-cversion=$(dpkg -s $package | grep Version)
+# use free command to retrieve free memory space value
+cversion=$(dpkg -s connectd | grep Version)
 # send to status e
-ret=$(${TOOL_DIR}/$NOTIFIER e $1 $2 "$package\n$cversion")
+ret=$(${TOOL_DIR}/$NOTIFIER e $1 $2 "$cversion")
 #-------------------------------------------------
 
 #=======================================================================
