@@ -20,6 +20,8 @@ In this guide you will learn how to host a Minecraft multiplayer server using re
 
 Before starting the process of setting up your Minecraft server to run on remote.it, please make sure to [**create**](https://app.remote.it/auth/#/sign-up) an account and [**download**](https://downloads.remote.it/desktop/latest/remoteit-installer.exe) and install the desktop app. If you need help setting up a Minecraft server, there are many resources online detailing [**how to**](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server), as well as a remote.it ****[**video tutorial.**](https://www.youtube.com/watch?v=natSu296POg) ****
 
+Additionally, please be aware that setting up a Minecraft server on a Mac is slightly different from setting up a server on a Windows machine. When creating the server on the Mac, it is not necessary to create a .bat file. Simply run the .jar file to start the server.
+
 {% hint style="info" %}
 **NOTE:** DO NOT port forward! Set up the server to run on your machine locally and remote.it will take care of the rest.
 {% endhint %}
