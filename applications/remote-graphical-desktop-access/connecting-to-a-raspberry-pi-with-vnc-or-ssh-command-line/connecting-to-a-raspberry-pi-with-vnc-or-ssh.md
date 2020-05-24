@@ -28,7 +28,7 @@ Access your Pi, then click the menu in the upper left corner and select _Prefere
 
 Next, click _Raspberry Pi Configuration_ and navigate to the _Interfaces_ tab. Make sure that either VNC or SSH \(or both\) are enabled. 
 
-![](../../../.gitbook/assets/2.png)
+![](../../../.gitbook/assets/interfaces-tab.png)
 
 Now, let's set up remote.it! 
 
