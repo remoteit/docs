@@ -14,7 +14,7 @@ This script returns the following info into status columns A through E:
 
 ![](../../.gitbook/assets/image%20%28272%29.png)
 
-Download the attached file to your system, then upload it to remote.it:
+Download the attached file to your PC, then upload it to remote.it:
 
 {% file src="../../.gitbook/assets/get-pi-status \(2\).sh" caption="Script returns status from any Linux based device" %}
 
