@@ -10,7 +10,7 @@ After first time installation, find the remote.it icon in your Applications. fol
 
 You may see this warning.  Click on the "Open" button to proceed.
 
-![](../../.gitbook/assets/image%20%28256%29.png)
+![](../../.gitbook/assets/image%20%28538%29.png)
 
 You can ﬁnd the remote.it **r3** icon in the task bar. Clicking or right clicking allows you to quickly access the application. 
 
