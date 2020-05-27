@@ -6,7 +6,7 @@
 
 After first time installation, find the remote.it icon in your Applications. folder.  Double click to launch the remote.it app.
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](../../.gitbook/assets/image%20%28537%29.png)
 
 You may see this warning.  Click on the "Open" button to proceed.
 
