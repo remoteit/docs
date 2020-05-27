@@ -16,7 +16,7 @@ This script returns the following info into status columns A through E:
 
 Download the attached file to your system, then upload it to remote.it:
 
-{% file src="../../.gitbook/assets/get-pi-status.sh" caption="Script returns status from any Linux based debice" %}
+{% file src="../../.gitbook/assets/get-pi-status \(2\).sh" caption="Script returns status from any Linux based device" %}
 
 If you are on Windows, editing this file in Notepad will cause issues because the line feeds are not compatible with your Pi's Linux OS. We suggest you use a Linux compatible text editor for Windows such as [Notepad++](https://notepad-plus-plus.org/).
 
