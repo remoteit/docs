@@ -160,7 +160,9 @@ connectd -c \
       <td style="text-align:left">Maximum number of packets outstanding on a connection. Set to 12.</td>
     </tr>
   </tbody>
-</table>{% page-ref page="where-do-i-find-the-uid-for-my-service.md" %}
+</table>
+
+{% page-ref page="where-do-i-find-the-uid-for-my-service.md" %}
 
 #### Example: 
 

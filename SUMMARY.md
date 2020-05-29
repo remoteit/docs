@@ -1,7 +1,6 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
-* [Untitled](untitled.md)
 * [Getting Started](getting-started/README.md)
   * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
 * [Making connections](making-connections.md)

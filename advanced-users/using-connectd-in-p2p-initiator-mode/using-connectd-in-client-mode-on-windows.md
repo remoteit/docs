@@ -161,7 +161,9 @@ connectd.exe -c \
         12.</td>
     </tr>
   </tbody>
-</table>{% page-ref page="where-do-i-find-the-uid-for-my-service.md" %}
+</table>
+
+{% page-ref page="where-do-i-find-the-uid-for-my-service.md" %}
 
 #### Example: 
 

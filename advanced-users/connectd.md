@@ -86,7 +86,9 @@ connectd -c \
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>#### Example:
+</table>
+
+#### Example:
 
 ```bash
 connectd -s -c \
