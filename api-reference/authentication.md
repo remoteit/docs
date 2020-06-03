@@ -43,6 +43,20 @@ User successfully logged in. The below "token" is used in any authenticated API 
 }
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Username or password is invalid.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "status": "false",
+    "reason": "[0102] The username or password is invalid",
+    "code": "GENERAL_ERROR"
+}
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
