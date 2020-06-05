@@ -33,6 +33,10 @@ Enter your remote.it sign in credentials \(your email and password\) and click s
 
 ![](../../.gitbook/assets/image%20%28340%29.png)
 
+{% hint style="info" %}
+**Note:** Please be aware that when you sign in for the first time you will be prompted to enter your Administrator name and password. This is so that remote.it can install the necessary command line tools onto your device. 
+{% endhint %}
+
 After signing in, you will access one of the 3 main views by clicking on the icons on the bottom edge of the application window.
 
 ![](../../.gitbook/assets/image%20%28540%29.png)
@@ -44,10 +48,6 @@ After signing in, you will access one of the 3 main views by clicking on the ico
 {% page-ref page="settings/" %}
 
 
-
-{% hint style="info" %}
-**Note:** Please be aware that when you sign in for the first time you will be prompted to enter your Administrator name and password. This is so that remote.it can install the necessary command line tools onto your device. 
-{% endhint %}
 
 \*\*\*\*
 
