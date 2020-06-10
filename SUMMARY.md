@@ -90,6 +90,7 @@
     * [Connect Remotely](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/connect-remotely.md)
     * [Terminate the Connection](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/terminate-the-connection.md)
   * [Control your MacOS Device Remotely \(MacOS to MacOS\)](applications/remote-graphical-desktop-access/control-your-computer-remotely-mac-to-mac.md)
+  * [Remote Access a Windows computer from a Mac](applications/remote-graphical-desktop-access/remote-access-a-windows-computer-from-a-mac.md)
   * [Access your Mac Remotely from Windows](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/README.md)
     * [Enable Screen Sharing](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/enable-screen-sharing.md)
     * [Register the Device & Service](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/register-the-device-and-service.md)
