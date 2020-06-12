@@ -24,7 +24,7 @@ To remove sharing, click on the icon in the "Share" column.
 
 #### Devices you have shared to others
 
-A check next to the "head and shoulders" icon indicates that you have shared this device to another remote.it user.
+A check next to the "head and shoulders" icon indicates that you have shared this Device \(or one or more of its Services\) to another remote.it user.
 
 ![](../../.gitbook/assets/image%20%28545%29.png)
 
