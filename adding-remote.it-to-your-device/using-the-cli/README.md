@@ -4,34 +4,13 @@ description: Learn how to use the new remote.it Command Line Interface (CLI).
 
 # The remote.it Command Line Interface
 
-## Beta Notice
+### Installation
 
-**This project is currently in "beta" and is not ready for production use yet. If you want to use remote.it on your production Devices, please use an alternate method! Click the following link to see our other options:**
+The remoteit Command Line Interface \(CLI\) is installed as part of the remoteit package and Desktop applications.
 
-## Get Started
+{% page-ref page="../the-remoteit-package-for-raspbian.md" %}
 
-### Download
-
-Please download the latest release [**here.**](https://github.com/remoteit/cli/releases/latest)\*\*\*\*
-
-* For Raspberry PI use `remoteit_linux_armv6`
-
-  * Place it onto your system `PATH` \(usually `/usr/local/bin` or `/usr/bin`\)
-  * `sudo cp ./remoteit_linux_armv6 /usr/local/bin/remoteit`
-
-* For Linux use `remoteit_linux_x86_64`
-
-  * Place it onto your system `PATH` \(usually `/usr/local/bin` or `/usr/bin`\)
-  * `sudo cp ./remoteit_linux_x86_64 /usr/local/bin/remoteit`
-
-* For Mac use `remoteit_mac-osx_x86_64`
-
-  * Place it onto your system `PATH` \(usually `/usr/local/bin` or `/usr/bin`\)
-  * `sudo cp ./remoteit_mac-osx_x86_64 /usr/local/bin/remoteit`
-
-* For Windows use `remoteit_windows_x86_64.exe`
-  * Place it onto your system `PATH` \(usually `C:\Windows`\)
-  * `copy remoteit_windows_x86_64.exe C:\windows\`
+{% page-ref page="../the-remote.it-desktop-app-for-windows-and-macos..md" %}
 
 ## Setup
 
