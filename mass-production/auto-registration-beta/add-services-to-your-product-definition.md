@@ -1,9 +1,5 @@
 # Add Services to your Product Definition
 
-{% hint style="info" %}
-Auto registration is currently hosted at [https://beta.remote.it](https://beta.remote.it)
-{% endhint %}
-
 This is the Product Definition you created in the previous step.
 
 ![](../../.gitbook/assets/image%20%28233%29.png)
