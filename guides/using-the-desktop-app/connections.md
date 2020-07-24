@@ -1,7 +1,7 @@
 ---
 description: >-
-  You initiate a connection to a remote Service using the "remote" tab, which is
-  equivalent to the "Device" page at the remote.it portal.
+  You initiate a connection to a remote Service using the "Connections" tab,
+  which is equivalent to the "Devices" page at the remote.it portal.
 ---
 
 # Connections
