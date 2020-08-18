@@ -84,7 +84,7 @@ The examples supplied for options 2 and 3 use "&" at the end of the connectd com
 If you are developing your own apps including P2P mode, you'll need to keep track of the process ID \(PID\) so that you can kill the connectd daemon when you are done using the P2P connection.  Examples 2 and 3 show two different ways this can be done.
 
 {% hint style="warning" %}
-Note that the "-c" method, which passes the username and password, is deprecated.  These scripts have not yet been updated.  Find more info [here](running-connectd-using-an-authhash.md).
+Note that the "-c" method, which passes the username and password, is deprecated.  These scripts have not yet been updated.  You'll need to use "-p" with the account auth\_hash.  Find more info [here](running-connectd-using-an-authhash.md).
 {% endhint %}
 
 #### Option 1: connectd P2P using connectd with command line parameters
