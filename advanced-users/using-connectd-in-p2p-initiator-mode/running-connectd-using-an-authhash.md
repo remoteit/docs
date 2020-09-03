@@ -6,7 +6,7 @@ description: Optional mode which does not require you to use your password
 
 ## Running connectd with service\_authhash
 
-Most of the parameters are the same as with a username and password except for the service\_authhash and ip restriction settings indicated below:
+Most of the parameters are the same as with a username and password except for the service\_authhash, ip restriction settings, proxy lifetime, and idle-limit settings indicated below.
 
 ```bash
 connectd -p 
@@ -16,10 +16,10 @@ connectd -p
     T3000 \
     2 \
     127.0.0.1 \
-    0.0.0.0 \        # 0.0.0.0 allows all or enter an IP to restrict to
-    10 \
-    0 \
-    0
+    0.0.0.0 \       # 0.0.0.0 allows all or enter an IP to restrict to
+    10 \            # maxoutstanding
+    0 \             # proxylifetime-minutes 0=no-limit
+    0               # idle-limit 0=no-limit
 ```
 
 To get the service\_authhash for your account from remote.it you need to use the login API:
