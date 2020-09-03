@@ -14,10 +14,12 @@ connectd -p
     16509BA77F1AF0FBAA7BBB3B2B992ED90308CAB9 \  # service_authhash
     80:00:00:00:00:00:00:F1 \
     T3000 \
-    1 \
+    2 \
     127.0.0.1 \
     0.0.0.0 \        # 0.0.0.0 allows all or enter an IP to restrict to
-    10 
+    10 \
+    0 \
+    0
 ```
 
 To get the service\_authhash for your account from remote.it you need to use the login API:
