@@ -21,17 +21,12 @@ You may wish to try the interactive installer to test the connectd package on yo
 
 1. By default, this is the MAC address of the wlan0 network interface. 
 2. The Hardware ID can be easily changed to a different value \(for example a serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/hardware\_id.txt.
-3. By default, this is the MAC address of the wlan0 network interface. 
-4. The Hardware ID can be easily changed to a different value \(for example a serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/hardware\_id.txt.
 
 **Registration Key**: a not necessarily unique identifier known in advance by the OEM.
 
 1. It can be the same as the Hardware ID, a different unique value, or even a constant.
 2. By default, the registration key is the MAC address of the eth0 network interface.
 3. The registration key can be easily changed to a different value \(for example a constant, ****serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
-4. It can be the same as the Hardware ID, a different unique value, or even a constant.
-5. By default, the registration key is the MAC address of the eth0 network interface.
-6. The registration key can be easily changed to a different value \(for example a constant, _\*\*_serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
 
 ## Using network interfaces other than wlan0 or eth0 to supply the MAC address
 
