@@ -21,17 +21,12 @@ You may wish to try the interactive installer to test the connectd package on yo
 
 1. By default, this is the MAC address of the wlan0 network interface. 
 2. The Hardware ID can be easily changed to a different value \(for example a serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/hardware\_id.txt.
-3. By default, this is the MAC address of the wlan0 network interface. 
-4. The Hardware ID can be easily changed to a different value \(for example a serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/hardware\_id.txt.
 
 **Registration Key**: a not necessarily unique identifier known in advance by the OEM.
 
 1. It can be the same as the Hardware ID, a different unique value, or even a constant.
 2. By default, the registration key is the MAC address of the eth0 network interface.
 3. The registration key can be easily changed to a different value \(for example a constant, ****serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
-4. It can be the same as the Hardware ID, a different unique value, or even a constant.
-5. By default, the registration key is the MAC address of the eth0 network interface.
-6. The registration key can be easily changed to a different value \(for example a constant, _\*\*_serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
 
 ## Using network interfaces other than wlan0 or eth0 to supply the MAC address
 
@@ -67,12 +62,6 @@ For this example, let's suppose that you wish to use the MAC address of enp3s0 f
 4. Save the file /usr/bin/connectd\_options
 5. Delete the file /etc/connectd/hardware\_id.txt
 6. Delete the file /etc/connectd/registration\_key.txt
-7. Edit the file /usr/bin/connectd\_options.
-8. Find the line: REG\_ID\_ADAPTER="wlan0" and change it to REG\_ID\_ADAPTER="enp3s0"
-9. Find the line: REG\_KEY\_ADAPTER="eth0" and change it to REG\_ID\_ADAPTER="wlp2s0"
-10. Save the file /usr/bin/connectd\_options
-11. Delete the file /etc/connectd/hardware\_id.txt
-12. Delete the file /etc/connectd/registration\_key.txt
 
 ## Confirm your settings for Hardware ID and Registration Key
 
