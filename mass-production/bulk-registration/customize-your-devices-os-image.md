@@ -62,12 +62,6 @@ For this example, let's suppose that you wish to use the MAC address of enp3s0 f
 4. Save the file /usr/bin/connectd\_options
 5. Delete the file /etc/connectd/hardware\_id.txt
 6. Delete the file /etc/connectd/registration\_key.txt
-7. Edit the file /usr/bin/connectd\_options.
-8. Find the line: REG\_ID\_ADAPTER="wlan0" and change it to REG\_ID\_ADAPTER="enp3s0"
-9. Find the line: REG\_KEY\_ADAPTER="eth0" and change it to REG\_ID\_ADAPTER="wlp2s0"
-10. Save the file /usr/bin/connectd\_options
-11. Delete the file /etc/connectd/hardware\_id.txt
-12. Delete the file /etc/connectd/registration\_key.txt
 
 ## Confirm your settings for Hardware ID and Registration Key
 
