@@ -22,11 +22,24 @@ Using the remote.it CLI is consistent across platforms but please note:
 
 ### Quick start
 
-Getting a new Device setup in your remote.it account using our CLI is easy as 1-2-3:
+Getting a new Device setup in your remote.it account using our CLI is accomplished in a few easy steps:
 
 ```text
-sudo remoteit signin # First - signin into your account
-sudo remoteit setup # Then - setup a Device
-sudo remoteit add # Finally - add services (as many as needed)
+# First, install the CLI
+
+sudo remoteit agent install
+sudo remoteit tools install
+
+# Then signin
+
+sudo remoteit signin --user <remote.it username> --pass <account password>
+
+# Next, register your Device
+
+sudo remoteit register --name <name of your device>
+
+# Finally, add a Service (As many as needed)
+
+sudo remoteit add --name <service name> --port <port> --type <connection type> 
 ```
 

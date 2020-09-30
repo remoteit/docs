@@ -26,11 +26,11 @@ You may wish to try the interactive installer to test the connectd package on yo
 
 1. It can be the same as the Hardware ID, a different unique value, or even a constant.
 2. By default, the registration key is the MAC address of the eth0 network interface.
-3. The registration key can be easily changed to a different value \(for example a constant, ****serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
+3. The registration key can be easily changed to a different value \(for example a constant, _\*\*_serial number, IMEI, or MSN\) by writing the desired value to the file /etc/connectd/registration\_key.txt.
 
 ## Using network interfaces other than wlan0 or eth0 to supply the MAC address
 
-The Raspberry Pi 3 with built in wireless LAN, along with the Raspbian Stretch operating system, automatically calls the wireless LAN adapter "wlan0" and the Ethernet adapter "eth0".  However, your Platform may not use these names, or it may only have one network interface available.
+The Raspberry Pi 3 with built in wireless LAN, along with the Raspbian Stretch operating system, automatically calls the wireless LAN adapter "wlan0" and the Ethernet adapter "eth0". However, your Platform may not use these names, or it may only have one network interface available.
 
 Run the "ip -br link" command to view your network interfaces, their names, and MAC addresses.
 
@@ -52,7 +52,7 @@ This example \(from a Gigabyte Brix PC running Ubuntu\) shows 3 network adapters
 As long as the MAC address is readable and not all zeroes, the network adapter can be used for Bulk Registration even if it is "DOWN", although clearly you need at least one network interface to be "UP", otherwise you will not be able to connect to the internet!
 {% endhint %}
 
-It is your choice which network adapter to use for Hardware ID and which to use for Registration Key.  If you only have one network adapter available, we recommend that you use that for both the Hardware ID and the Registration Key.
+It is your choice which network adapter to use for Hardware ID and which to use for Registration Key. If you only have one network adapter available, we recommend that you use that for both the Hardware ID and the Registration Key.
 
 For this example, let's suppose that you wish to use the MAC address of enp3s0 for your Hardware ID and the MAC address of wlp2s0 for your Registration Key.
 
@@ -75,7 +75,7 @@ Bulk ID Code is missing. Add your code to bulk_identification_code.txt.
 $
 ```
 
-Note that the colons have been removed from the MAC addresses.  
+Note that the colons have been removed from the MAC addresses.
 
 {% hint style="info" %}
 Note that the Bulk ID code is missing. This is normal at this stage. The Bulk ID code will be described and added in a following step.
