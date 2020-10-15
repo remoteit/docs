@@ -176,7 +176,5 @@ In this example, since the target application is Windows Remote Desktop, enterin
 
 Connecting using the Desktop App is simple, and a guide to do so can be found here:
 
-{% page-ref page="../guides/using-the-desktop-app/connections.md" %}
-
 ![Here is an image of a sample connection made by the Desktop App](https://lh4.googleusercontent.com/xYCwEAW5u4s4rDrOOs38fdbAYXdhenrXvvuI5L6C4MATYH6Mk6I32T_xel7PTkSJgFx27ci7tatX3q1_atwJQBd8koWbfu3RWOOM3ShC281NOUGrNJNNi2LjGxqoMM_0O3nwCZVE)
 

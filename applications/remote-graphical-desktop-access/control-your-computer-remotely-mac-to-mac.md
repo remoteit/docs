@@ -74,5 +74,5 @@ If you want another user to be able to connect to your MacOS device, you will ne
 
 For more information on how to use the Desktop App, see this guide:
 
-{% page-ref page="../../guides/using-the-desktop-app/" %}
+{% page-ref page="../../guides/using-the-desktop-app.md" %}
 

@@ -36,16 +36,7 @@
 
 ## Using remote.it <a id="guides"></a>
 
-* [The remote.it Desktop App](guides/using-the-desktop-app/README.md)
-  * [Features](guides/using-the-desktop-app/features.md)
-  * [Launching the Desktop App and Basic Navigation](guides/using-the-desktop-app/launching-the-desktop-app-and-basic-navigation.md)
-  * [Devices](guides/using-the-desktop-app/remote/README.md)
-    * [Making connections in Windows](guides/using-the-desktop-app/remote/making-connections-in-windows.md)
-    * [Making connections in macOS](guides/using-the-desktop-app/remote/making-connections-in-macos.md)
-  * [Connections](guides/using-the-desktop-app/connections.md)
-  * [Settings](guides/using-the-desktop-app/settings/README.md)
-    * [Set up remote access](guides/using-the-desktop-app/settings/hosted.md)
-  * [Peer to Peer Connections](guides/using-the-desktop-app/peer-to-peer-connections.md)
+* [The remote.it Desktop App](guides/using-the-desktop-app.md)
 * [Using the Web Portal](guides/using-the-web-portal/README.md)
   * [The "Devices" page](guides/using-the-web-portal/the-view-devices-page/README.md)
     * [Connecting to a remote.it Service in the web portal](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)

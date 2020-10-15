@@ -122,7 +122,7 @@ Paste it into the Minecraft Server Address field and you will be able to connect
 
 Please check out our other potentially useful guides!
 
-{% page-ref page="../guides/using-the-desktop-app/" %}
+{% page-ref page="../guides/using-the-desktop-app.md" %}
 
 {% page-ref page="../guides/using-the-web-portal/" %}
 

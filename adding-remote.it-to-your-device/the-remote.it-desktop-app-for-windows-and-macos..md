@@ -2,7 +2,7 @@
 
 Please follow the link below for installation and usage instructions.
 
-{% page-ref page="../guides/using-the-desktop-app/" %}
+{% page-ref page="../guides/using-the-desktop-app.md" %}
 
 
 

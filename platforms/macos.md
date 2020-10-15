@@ -12,15 +12,13 @@ The remote.it Desktop App for macOS allows for creating Services and connecting 
 
 Please, see our documentation on how to use our new Desktop application:
 
-{% page-ref page="../guides/using-the-desktop-app/" %}
+{% page-ref page="../guides/using-the-desktop-app.md" %}
 
 ## **Peer to Peer connections** 
 
 The Desktop App is the easiest way to make P2P connections on Mac. 
 
 Learn more about the benefits of P2P connections and how to use the app to create them:
-
-{% page-ref page="../guides/using-the-desktop-app/peer-to-peer-connections.md" %}
 
 ## SSH and VNC
 

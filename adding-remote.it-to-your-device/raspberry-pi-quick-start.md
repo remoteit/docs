@@ -191,7 +191,7 @@ remoteitPi uses a Desktop application for the Raspberry Pi. There are multiple w
 
 To learn more about the Desktop App, please see this guide:
 
-{% page-ref page="../guides/using-the-desktop-app/" %}
+{% page-ref page="../guides/using-the-desktop-app.md" %}
 
 #### Additional Applications
 
