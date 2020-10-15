@@ -18,7 +18,7 @@ remote.it allows you to make secure remote connections between two computers.
 
 If you're new to remote.it, we highly recommend starting with our Getting Started guides:
 
-{% page-ref page="getting-started/" %}
+{% page-ref page="getting-started.md" %}
 
 Scan the menus on the left side of this page for common topics, or use the search tool at upper right to find all references to a phrase or keyword.
 

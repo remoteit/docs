@@ -1,8 +1,7 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Create a remote.it account](getting-started/create-a-remote.it-account.md)
+* [Getting Started](getting-started.md)
 * [Making connections](making-connections.md)
 * [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections/README.md)
   * [Peer to Peer Connections](peer-to-peer-p2p-vs.-proxy-connections/peer-to-peer-connections.md)
