@@ -1,12 +1,12 @@
----
-description: >-
-  Follow these instructions to download and install the remoteit package on a Pi
-  already using Raspbian Buster.
----
-
 # The remoteit package for Raspbian
 
-The following instructions assume you have access to a command line on your Pi \(using a keyboard and monitor, or over your LAN using SSH\) as well as having established a network connection, either using Wi-Fi or Ethernet.
+## This information has moved.
+
+Pleae find the updated article at the link below.
+
+[https://support.remote.it/hc/en-us/articles/360047542051-Installing-remoteit-on-a-Raspberry-Pi-running-Raspbian-or-Raspberry-Pi-OS](https://support.remote.it/hc/en-us/articles/360047542051-Installing-remoteit-on-a-Raspberry-Pi-running-Raspbian-or-Raspberry-Pi-OS)
+
+TThe following instructions assume you have access to a command line on your Pi \(using a keyboard and monitor, or over your LAN using SSH\) as well as having established a network connection, either using Wi-Fi or Ethernet.
 
 On the Raspberry Pi command line, type or copy and paste the following commands and press the "Enter" key.
 
