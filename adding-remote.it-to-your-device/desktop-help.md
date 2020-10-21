@@ -1,8 +1,10 @@
 # The remote.it Desktop App for Windows and macOS.
 
-Please follow the link below for installation and usage instructions.
+### This information has moved.
 
-{% page-ref page="../guides/using-the-desktop-app.md" %}
+Please find the updated article at this link:
+
+[https://support.remote.it/hc/en-us/sections/360010275391-The-remote-it-Desktop-App](https://support.remote.it/hc/en-us/sections/360010275391-The-remote-it-Desktop-App)
 
 
 
