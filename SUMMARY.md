@@ -151,3 +151,7 @@
 * [All Linux distributions](platforms/all-other-linux-flavors.md)
 * [Supported platforms and installation](platforms/supported-platforms.md)
 
+## desktop-help
+
+* [The remote.it Desktop App](desktop-help/the-remote.it-desktop-app.md)
+
