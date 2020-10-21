@@ -6,7 +6,7 @@ If you are using the remote.it web portal at [https://remote.it](https://remote.
 
 You can also install the remote.it App onto Windows or Mac computers, which lets you make Peer to Peer \(P2P\) connections.
 
-{% page-ref page="adding-remote.it-to-your-device/the-remote.it-desktop-app-for-windows-and-macos..md" %}
+{% page-ref page="adding-remote.it-to-your-device/desktop-help.md" %}
 
 Learn more about proxy and P2P connections at the link below.
 

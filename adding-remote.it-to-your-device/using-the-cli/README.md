@@ -10,7 +10,7 @@ The remoteit Command Line Interface \(CLI\) is installed as part of the remoteit
 
 {% page-ref page="../the-remoteit-package-for-raspbian.md" %}
 
-{% page-ref page="../the-remote.it-desktop-app-for-windows-and-macos..md" %}
+{% page-ref page="../desktop-help.md" %}
 
 ## Setup
 
