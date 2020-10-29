@@ -30,7 +30,7 @@ This page gives you a list of contacts with other remote.it accounts to share de
 
 #### Scripting
 
-This page allows you to upload, store, and run scripts on your remote.it devices. [Tutorial](../device-scripting-running-scripts-on-your-devices/)
+This page allows you to upload, store, and run scripts on your remote.it devices. [Tutorial](../device-scripting-running-scripts-on-your-devices.md)
 
 ### Other Pages
 

@@ -76,7 +76,7 @@ Other helpful web portal guides:
 
 {% page-ref page="../../troubleshooting-connections.md" %}
 
-{% page-ref page="../device-scripting-running-scripts-on-your-devices/" %}
+{% page-ref page="../device-scripting-running-scripts-on-your-devices.md" %}
 
 To learn how to share devices without using Port Sharing, please proceed to the following guides.
 

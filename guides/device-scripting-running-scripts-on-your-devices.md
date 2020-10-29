@@ -1,29 +1,10 @@
 # Device Scripting
 
-## Overview
+## This information has moved.
 
-remote.it wants to make your life easier as a product creator and one of the tools we've developed to do that is called "Device Scripting".
+Please find the updated articles at:
 
-In essence, Device Scripting allows you to run a script \(written in any language you have installed on your Operating System\) on any number of devices and then sit back and watch it run.
+[https://support.remote.it/hc/en-us/categories/360003803911-Bulk-Scripting](https://support.remote.it/hc/en-us/categories/360003803911-Bulk-Scripting)
 
-This is a quite powerful feature and takes away a lot of the drudgery involved in managing thousands oof devices in the field.
 
-## Creating scripts
-
-remote.it allows you to write Device Scripts in any language your host operating system supports because the script is run just like any other executable script on your machine. This means you can write in bash, Python, Ruby, Node, etc, assuming you have these installed globally on your system.
-
-**More documentation and examples coming soon!**
-
-## Use cases
-
-Below are just some of the possible use cases for Device Scripting
-
-* Trigger an update of all your devices or a subset of them
-* Grab logs from many devices at once and upload them to remote.it
-* Turn off a device, perhaps using PoE \(Power over Ethernet\) or some other method
-* Trigger your device to reboot or shutdown
-
-As the product creator, the possibilities are endless with Device Scripting. 
-
-If you've come up with an interesting use case for running Device Scripts, we'd love to hear about it!
 

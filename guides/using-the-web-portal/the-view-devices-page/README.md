@@ -24,7 +24,7 @@ To get to "Devices" from other pages within remote.it, click on "Devices" in the
 
 ### The Status Columns
 
-The 5 status columns A through E can be used to get information from Devices using [Device Scripting](../../device-scripting-running-scripts-on-your-devices/).
+The 5 status columns A through E can be used to get information from Devices using [Device Scripting](../../device-scripting-running-scripts-on-your-devices.md).
 
 ![](../../../.gitbook/assets/image%20%28156%29.png)
 

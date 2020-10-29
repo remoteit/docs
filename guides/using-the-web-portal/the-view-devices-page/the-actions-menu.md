@@ -44,7 +44,7 @@ Scripts may be used to perform specific actions on your devices if they support 
 
 Several sample scripts are available here:
 
-{% page-ref page="../../device-scripting-running-scripts-on-your-devices/" %}
+{% page-ref page="../../device-scripting-running-scripts-on-your-devices.md" %}
 
 ### **Set Category**
 
