@@ -30,7 +30,7 @@ The 5 status columns A through E can be used to get information from Devices usi
 
 ### Category Columns
 
-The Category columns contain optional user-specified information entered with during [Bulk Registration](../../../mass-production/bulk-registration/) or set manually using the "[Actions](the-actions-menu.md)" menu "Set Category" action.
+The Category columns contain optional user-specified information entered with during [Bulk Registration](../../../mass-production/bulk-registration.md) or set manually using the "[Actions](the-actions-menu.md)" menu "Set Category" action.
 
 ![](../../../.gitbook/assets/image%20%28532%29.png)
 

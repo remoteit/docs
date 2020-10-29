@@ -96,21 +96,8 @@
 
 ## Mass Production
 
-* [Bulk Registration Overview](mass-production/bulk-registration/README.md)
-  * [Create a Product Definition](mass-production/bulk-registration/create-a-product-definition.md)
-  * [Customize your Platform's OS image](mass-production/bulk-registration/customize-your-devices-os-image.md)
-  * [Create a Bulk Registration](mass-production/bulk-registration/create-a-bulk-registration.md)
-  * [Verify Bulk Registration](mass-production/bulk-registration/verifying-that-bulk-registration-works.md)
-  * [Bulk Registration OEM reference](mass-production/bulk-registration/bulk-registration-oem-reference.md)
-* [Auto Registration - Getting started](mass-production/auto-registration-beta/README.md)
-  * [Auto Registration Setup](mass-production/auto-registration-beta/auto-registration-setup-beta.md)
-  * [Create a Product Definition](mass-production/auto-registration-beta/create-a-product-definition.md)
-  * [Add Services to your Product Definition](mass-production/auto-registration-beta/add-services-to-your-product-definition.md)
-  * [Create an Auto Registration](mass-production/auto-registration-beta/create-an-auto-registration.md)
-  * [Device Setup for Auto Registration](mass-production/auto-registration-beta/device-setup-for-auto-registration.md)
-  * [Production Preparation](mass-production/auto-registration-beta/production-preparation/README.md)
-    * [Verifying Auto Registration and Cloning](mass-production/auto-registration-beta/production-preparation/verifying-auto-registration-and-cloning/README.md)
-      * [Auto Registration Information](mass-production/auto-registration-beta/production-preparation/verifying-auto-registration-and-cloning/auto-registration-information.md)
+* [Bulk Registration Overview](mass-production/bulk-registration.md)
+* [Auto Registration - Overview](mass-production/auto-registration-beta.md)
 
 ## API Reference
 
