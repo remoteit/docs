@@ -59,12 +59,7 @@
 
 * [Remote console and file transfer](applications/remote-console-and-file-transfer.md)
 * [Remote Graphical Desktop Access](applications/remote-graphical-desktop-access/README.md)
-  * [Control your Windows Device Remotely \(Windows to Windows\)](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md)
-    * [Set up RDP Remote Access](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/set-up-rdp-remote-access.md)
-    * [Register the Target Machine](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/register-the-target-machine.md)
-    * [Create an RDP Service](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/create-an-rdp-service.md)
-    * [Connect Remotely](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/connect-remotely.md)
-    * [Terminate the Connection](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/terminate-the-connection.md)
+  * [Control your Windows Device Remotely \(Windows to Windows\)](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows.md)
   * [Control your MacOS Device Remotely \(MacOS to MacOS\)](applications/remote-graphical-desktop-access/control-your-computer-remotely-mac-to-mac.md)
   * [Remote Access a Windows computer from a Mac](applications/remote-graphical-desktop-access/remote-access-a-windows-computer-from-a-mac.md)
   * [Access your Mac Remotely from Windows](applications/remote-graphical-desktop-access/access-your-mac-remotely-from-windows/README.md)
