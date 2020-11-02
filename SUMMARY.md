@@ -57,10 +57,7 @@
 
 ## Applications
 
-* [Remote console and file transfer](applications/remote-console-and-file-transfer/README.md)
-  * [Connecting to an SSH service](applications/remote-console-and-file-transfer/connecting-to-ssh.md)
-  * [Using SCP command line for secure file transfer](applications/remote-console-and-file-transfer/using-scp-command-line-for-secure-file-transfer.md)
-  * [Using Third-Party SSH/SCP/SFTP Applications](applications/remote-console-and-file-transfer/using-third-party-ssh-scp-applications.md)
+* [Remote console and file transfer](applications/remote-console-and-file-transfer.md)
 * [Remote Graphical Desktop Access](applications/remote-graphical-desktop-access/README.md)
   * [Control your Windows Device Remotely \(Windows to Windows\)](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/README.md)
     * [Set up RDP Remote Access](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows/set-up-rdp-remote-access.md)
