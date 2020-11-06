@@ -58,14 +58,7 @@
 ## Applications
 
 * [Remote console and file transfer](applications/remote-console-and-file-transfer.md)
-* [Remote Graphical Desktop Access](applications/remote-graphical-desktop-access/README.md)
-  * [Control your Windows Device Remotely \(Windows to Windows\)](applications/remote-graphical-desktop-access/control-your-windows-device-remotely-windows-to-windows.md)
-  * [Control your MacOS Device Remotely](applications/remote-graphical-desktop-access/control-your-computer-remotely-mac-to-mac.md)
-  * [Connecting to a Raspberry Pi with VNC or SSH](applications/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/README.md)
-    * [Configuring a Raspberry Pi with the remote.it Desktop App](applications/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md)
-  * [Using RealVNC on a Raspberry Pi](applications/remote-graphical-desktop-access/using-realvnc-on-raspberry-pi.md)
-  * [Using TightVNC on any Debian OS](applications/remote-graphical-desktop-access/using-tightvnc-on-debian.md)
-  * [Using RDP Remote Desktop Connection](applications/remote-graphical-desktop-access/using-remote-desktop-connection.md)
+* [Remote Graphical Desktop Access](applications/remote-graphical-desktop-access.md)
 * [Connecting to a web server](applications/using-with-a-web-server.md)
 * [Configuring a webcam with Nx Witness](applications/configuring-a-webcam-with-nx-witness.md)
 * [Hosting a Minecraft Server](applications/hosting-a-minecraft-server.md)

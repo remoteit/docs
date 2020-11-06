@@ -26,8 +26,6 @@ Being able to SSH or VNC to a Raspberry Pi is now easier than ever using our Des
 
 If you want to learn more about creating these Services, see:
 
-{% page-ref page="../applications/remote-graphical-desktop-access/connecting-to-a-raspberry-pi-with-vnc-or-ssh-command-line/connecting-to-a-raspberry-pi-with-vnc-or-ssh.md" %}
-
 ## Hosting Servers
 
 Recently, we added support for hosting game servers to our Desktop application.
