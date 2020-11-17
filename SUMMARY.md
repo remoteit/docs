@@ -88,26 +88,6 @@
 * [Using connectd](advanced-users/connectd.md)
 * [remote.itPi Setup Guidelines](advanced-users/remote.itpi-setup-guidelines.md)
 
-## Platforms
-
-* [Raspberry Pi](platforms/quick-start-on-raspberry-pi.md)
-* [Windows](platforms/windows-quick-start.md)
-* [MacOS](platforms/macos.md)
-* [Debian OS family](platforms/managing-connectd-debian-packages.md)
-* [AWS Ubuntu](platforms/getting-started-with-remote.it-on-aws-ubuntu/README.md)
-  * [Create an AWS EC2 Ubuntu instance](platforms/getting-started-with-remote.it-on-aws-ubuntu/create-an-aws-ec2-ubuntu-instance.md)
-  * [Configure your Security Group](platforms/getting-started-with-remote.it-on-aws-ubuntu/configure-your-security-group.md)
-  * [Connect to your EC2 instance directly](platforms/getting-started-with-remote.it-on-aws-ubuntu/connect-to-your-ec2-instance-directly.md)
-  * [Download and install the connectd Debian package](platforms/getting-started-with-remote.it-on-aws-ubuntu/download-and-install-the-connectd-debian-package.md)
-  * [Add a Device Name and a remote.it SSH Service](platforms/getting-started-with-remote.it-on-aws-ubuntu/add-a-device-name-and-a-remote.it-ssh-service.md)
-  * [Connect to your EC2 instance using remote.it](platforms/getting-started-with-remote.it-on-aws-ubuntu/connect-to-your-ec2-instance-using-remote.it.md)
-  * [Completely close your AWS Security Group](platforms/getting-started-with-remote.it-on-aws-ubuntu/completely-close-your-aws-security-group.md)
-  * [Securing a WordPress Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-wordpress-admin-dashboard.md)
-  * [Securing a Joomla Admin Dashboard on AWS EC2](platforms/getting-started-with-remote.it-on-aws-ubuntu/securing-a-joomla-admin-dashboard.md)
-* [Centos](platforms/centos-quick-start.md)
-* [All Linux distributions](platforms/all-other-linux-flavors.md)
-* [Supported platforms and installation](platforms/supported-platforms.md)
-
 ## desktop-help
 
 * [The remote.it Desktop App](desktop-help/the-remote.it-desktop-app.md)

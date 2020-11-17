@@ -26,5 +26,5 @@ In order for Network Services to be configured properly, the target device will 
 
 To configure Network Services if you have installed the [remoteit App](adding-remote.it-to-your-device/desktop-help.md) or the [remoteit Raspbian package,](adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md) follow the instructions given [here](network-services.md).
 
-If you would like to configure Network Services and you have installed the [connectd ](platforms/all-other-linux-flavors.md)package, follow [these instructions](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) instead.
+If you would like to configure Network Services and you have installed the [connectd ]()package, follow [these instructions](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) instead.
 

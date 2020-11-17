@@ -26,7 +26,5 @@ If you are using an OS other than Raspberry Pi Raspbian, Windows, or macOS, plea
 Note that the connectd package described below does not support the [find.remote.it](../find.remote.it.md) feature.
 {% endhint %}
 
-{% page-ref page="../../platforms/all-other-linux-flavors.md" %}
-
 After you've finished installing the connectd package, you can configure remote.it Services to connect to your device's TCP-based servers such as SSH, VNC, http\(s\), etc.
 
