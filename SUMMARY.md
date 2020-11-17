@@ -21,7 +21,6 @@
   * [Advanced Configuration](adding-remote.it-to-your-device/using-the-cli/advanced-configuration.md)
   * [Troubleshooting](adding-remote.it-to-your-device/using-the-cli/troubleshooting.md)
 * [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer/README.md)
-  * [Create a new account \(optional\)](adding-remote.it-to-your-device/using-the-interactive-installer/create-a-new-account-optional.md)
   * [Plan what you want to connect to](adding-remote.it-to-your-device/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
   * [Log in](adding-remote.it-to-your-device/using-the-interactive-installer/log-in.md)
   * [Give your device a name](adding-remote.it-to-your-device/using-the-interactive-installer/give-your-device-a-name.md)
