@@ -70,7 +70,7 @@ For a video tutorial, check out:
 
 Other helpful web portal guides:
 
-{% page-ref page="../using-the-web-portal/" %}
+{% page-ref page="../using-the-web-portal.md" %}
 
 {% page-ref page="../managing-contacts/" %}
 

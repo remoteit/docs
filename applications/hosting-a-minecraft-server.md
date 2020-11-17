@@ -124,7 +124,7 @@ Please check out our other potentially useful guides!
 
 {% page-ref page="../guides/using-the-desktop-app.md" %}
 
-{% page-ref page="../guides/using-the-web-portal/" %}
+{% page-ref page="../guides/using-the-web-portal.md" %}
 
 {% page-ref page="../making-connections.md" %}
 

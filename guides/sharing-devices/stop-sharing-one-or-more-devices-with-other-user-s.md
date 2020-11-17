@@ -1,6 +1,6 @@
 # Stop sharing one or more Devices with other user\(s\)
 
-If you have shared one or more Devices to another user and you now want to remove Sharing, select the Device\(s\) and then choose "Unshare" from the "[Actions](../using-the-web-portal/the-view-devices-page/the-actions-menu.md)" menu.
+If you have shared one or more Devices to another user and you now want to remove Sharing, select the Device\(s\) and then choose "Unshare" from the "[Actions]()" menu.
 
 ![](../../.gitbook/assets/image%20%2841%29.png)
 

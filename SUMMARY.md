@@ -36,11 +36,7 @@
 ## Using remote.it <a id="guides"></a>
 
 * [The remote.it Desktop App](guides/using-the-desktop-app.md)
-* [Using the Web Portal](guides/using-the-web-portal/README.md)
-  * [The "Devices" page](guides/using-the-web-portal/the-view-devices-page/README.md)
-    * [Connecting to a remote.it Service in the web portal](guides/using-the-web-portal/the-view-devices-page/proxy-connections.md)
-    * [The Actions Menu](guides/using-the-web-portal/the-view-devices-page/the-actions-menu.md)
-    * [Search and Filter Modes](guides/using-the-web-portal/the-view-devices-page/search-and-filter-modes.md)
+* [Using the Web Portal](guides/using-the-web-portal.md)
 * [Device Scripting](guides/device-scripting-running-scripts-on-your-devices.md)
 * [Managing Contacts](guides/managing-contacts/README.md)
   * [Creating a Contact](guides/managing-contacts/create-a-contact.md)

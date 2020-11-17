@@ -60,7 +60,5 @@ In addition, users whose targets are on metered cell connections were experienci
 
 To learn how to make proxy connections, click on one of the links below.
 
-{% page-ref page="../guides/using-the-web-portal/the-view-devices-page/proxy-connections.md" %}
-
 {% page-ref page="../api-reference/devices/connect.md" %}
 
