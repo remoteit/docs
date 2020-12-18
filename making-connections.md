@@ -1,18 +1,12 @@
 # Making connections
 
-If you are using the remote.it web portal at [https://remote.it](https://remote.it) to connect to your remote Devices, you do not have to install any software on your client PC, allowing you to use any computer with a browser and an internet connection.  This type of connection is called a "proxy" connection as the data passes through one of remote.it's proxy servers.
+## This information has moved.
 
-{% page-ref page="guides/using-the-web-portal.md" %}
+Please find the updated article at the link below.
 
-You can also install the remote.it App onto Windows or Mac computers, which lets you make Peer to Peer \(P2P\) connections.
+{% embed url="https://support.remote.it/hc/en-us/sections/360009191431-Connection-Information" %}
 
-{% page-ref page="adding-remote.it-to-your-device/desktop-help.md" %}
 
-Learn more about proxy and P2P connections at the link below.
-
-{% page-ref page="peer-to-peer-p2p-vs.-proxy-connections/" %}
-
-remote.it also offers mobile apps for both [iOS](https://apps.apple.com/us/app/remote-it/id1437569166) and [Android](https://play.google.com/store/apps/details?id=com.remoteit) devices.
 
 
 

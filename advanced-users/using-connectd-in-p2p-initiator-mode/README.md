@@ -6,7 +6,7 @@ description: >-
 
 # Using connectd in P2P initiator mode
 
-{% page-ref page="../../peer-to-peer-p2p-vs.-proxy-connections/" %}
+{% page-ref page="../../peer-to-peer-p2p-vs.-proxy-connections.md" %}
 
 ### Initiators and targets
 
