@@ -15,10 +15,7 @@
 * [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](adding-remote.it-to-your-device/raspberry-pi-quick-start.md)
 * [The remoteit package for Raspbian](adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md)
 * [The remote.it Desktop App for Windows and macOS.](adding-remote.it-to-your-device/desktop-help.md)
-* [The remote.it Command Line Interface](adding-remote.it-to-your-device/using-the-cli/README.md)
-  * [Usage](adding-remote.it-to-your-device/using-the-cli/usage.md)
-  * [Advanced Configuration](adding-remote.it-to-your-device/using-the-cli/advanced-configuration.md)
-  * [Troubleshooting](adding-remote.it-to-your-device/using-the-cli/troubleshooting.md)
+* [The remote.it Command Line Interface](adding-remote.it-to-your-device/using-the-cli.md)
 * [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer.md)
 
 ## Using remote.it <a id="guides"></a>

@@ -4,5 +4,7 @@
 
 Please find the updated article at:
 
-[https://support.remote.it/hc/en-us/articles/360044929972-find-remote-it](https://support.remote.it/hc/en-us/articles/360044929972-find-remote-it)
+{% embed url="https://support.remote.it/hc/en-us/articles/360044929972-find-remote-it" %}
+
+
 
