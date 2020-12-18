@@ -1,6 +1,6 @@
 # Remote console and file transfer
 
-This information has moved
+## This information has moved
 
 Please find the updated articles at the link below:
 
