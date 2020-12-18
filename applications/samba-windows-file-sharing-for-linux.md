@@ -2,7 +2,7 @@
 
 The Samba package allows Linux PCs to access the file system of Windows PCs over a LAN.  See [https://www.samba.org/](https://www.samba.org/) for many more details.  Below, we demonstrate a configuration which uses a remote.it Samba Service on a Raspberry Pi configured for a LAN application \(pointed at the Samba server\) running on a Buffalo NAS device.  We use the remote.it Service installed on the Pi to access the Samba server on the NAS, where we don't have shell access and can't install remote.it directly.
 
-First, [install connectd on your Raspberry Pi.](https://docs.remote.it/platforms/quick-start-on-raspberry-pi/install-remote.it)  Use the [interactive installer](../adding-remote.it-to-your-device/using-the-interactive-installer/) to [add a remote.it Service to a LAN application](../adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/) pointing at the NAS \(192.168.1.254\) and configure it to use Samba on default port 445.
+First, [install connectd on your Raspberry Pi.](https://docs.remote.it/platforms/quick-start-on-raspberry-pi/install-remote.it)  Use the [interactive installer](../adding-remote.it-to-your-device/using-the-interactive-installer.md) to [add a remote.it Service to a LAN application]() pointing at the NAS \(192.168.1.254\) and configure it to use Samba on default port 445.
 
 ![](../.gitbook/assets/image%20%2877%29.png)
 

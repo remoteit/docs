@@ -19,17 +19,7 @@
   * [Usage](adding-remote.it-to-your-device/using-the-cli/usage.md)
   * [Advanced Configuration](adding-remote.it-to-your-device/using-the-cli/advanced-configuration.md)
   * [Troubleshooting](adding-remote.it-to-your-device/using-the-cli/troubleshooting.md)
-* [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer/README.md)
-  * [Plan what you want to connect to](adding-remote.it-to-your-device/using-the-interactive-installer/plan-what-you-want-to-connect-to.md)
-  * [Log in](adding-remote.it-to-your-device/using-the-interactive-installer/log-in.md)
-  * [Give your device a name](adding-remote.it-to-your-device/using-the-interactive-installer/give-your-device-a-name.md)
-  * [Add a Service to an application](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-an-application.md)
-  * [Add a Service to a LAN application](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/README.md)
-    * [Using mdns for LAN applications](adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-a-lan-application/using-mdns-for-lan-applications.md)
-  * [Adding a custom TCP/Web service](adding-remote.it-to-your-device/using-the-interactive-installer/adding-a-custom-tcp-web-service.md)
-  * [Installed remote.it Services](adding-remote.it-to-your-device/using-the-interactive-installer/installed-remote.it-services.md)
-  * [Remove a single remote.it Service](adding-remote.it-to-your-device/using-the-interactive-installer/remove-a-single-remote.it-service.md)
-  * [Remove all remote.it Services](adding-remote.it-to-your-device/using-the-interactive-installer/remove-all-remote.it-services.md)
+* [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer.md)
 
 ## Using remote.it <a id="guides"></a>
 
