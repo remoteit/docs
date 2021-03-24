@@ -31,7 +31,7 @@ Whether to wait for the connection or not. Should be set to "true"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="hostip" type="string" required=true %}
-The clients public IP address, which is used to enforce "IP restriction" upon making the connection. Defaults to the IP address of the the API caller if not provided. Pass "0.0.0.0" if you want any IP address to connect \(warning: this is potentially insecure if your resource is not itself secured properly!\)
+Controls the connection mode.  See description below.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -58,33 +58,35 @@ Connection with device successfully created.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### Connection modes
-
-#### Public
-
-By setting the "hostip" parameter to 0.0.0.0, anyone who has the connection URL and port can connect to it until the connection expires or is closed using the API described at [Terminating a proxy connection to a device](device-connect-stop.md).
-
-#### IP Restricted
-
-By setting the "hostip" parameter to the client's public IP address, IP restriction is enabled.  Only connections coming from that public IP address will be allowed.
-
-#### IP Latching
-
-By setting the "hostip" parameter to 255.255.255.255, whoever uses the connection URL and port first will block all other connections.
-
 {% hint style="info" %}
-For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following.  It does not need an explicit port value to be used.
+For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following.  It does not need an explicit port value to be used.  These are "reverse proxies".   Reverse proxies are always public, which is why the randomized URL is generated at the time of creating the connection.
 
 ```text
 "proxy": "https://xprbjalo.p18.rt3.io"
 ```
 
-For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown:
+For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown below.  These are "port proxies".
 
 ```text
 "proxy": "http:\/\/proxy18.rt3.io:38575"
 ```
 {% endhint %}
+
+### Connection modes
+
+The following options apply only to "port proxies", namely all Service types except the **http** and **https** Service types, which use "reverse proxies".  Reverse proxies are always public which is why the randomized URL is created.
+
+#### Public
+
+By setting the "hostip" parameter to 0.0.0.0, anyone who has the connection URL and port can connect to it until the connection expires or is closed using the API described at [Terminating a proxy connection to a device](device-connect-stop.md).  If you use the Public connection mode, make sure that your resources are properly password protected.
+
+#### IP Restricted
+
+By setting the "hostip" parameter to the client's public IP address, IP restriction is enabled.  Only connections coming from that public IP address will be allowed.  Any other incoming connection will be blocked.
+
+#### IP Latching
+
+By setting the "hostip" parameter to 255.255.255.255, whoever uses the connection URL and port first will "latch" the connection, blocking all other connection attempts regardless of where they originated.
 
 {% hint style="info" %}
 The value returned for "connectionid" can be used with the [/device/connect/stop](device-connect-stop.md#terminate-a-proxy-connection-to-a-device) API endpoint to terminate the proxy connection to your target when you are done using it.
