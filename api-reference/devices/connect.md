@@ -58,6 +58,20 @@ Connection with device successfully created.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+### Connection modes
+
+#### Public
+
+By setting the "hostip" parameter to 0.0.0.0, anyone who has the connection URL and port can connect to it until the connection expires or is closed using the API described at [Terminating a proxy connection to a device](device-connect-stop.md).
+
+#### IP Restricted
+
+By setting the "hostip" parameter to the client's public IP address, IP restriction is enabled.  Only connections coming from that public IP address will be allowed.
+
+#### IP Latching
+
+By setting the "hostip" parameter to 255.255.255.255, whoever uses the connection URL and port first will block all other connections.
+
 {% hint style="info" %}
 For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following.  It does not need an explicit port value to be used.
 
