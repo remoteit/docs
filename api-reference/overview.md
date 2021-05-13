@@ -1,3 +1,7 @@
+---
+description: REST-API and GraphQL API
+---
+
 # API Overview
 
 remote.it is powered by a robust set of APIs that allow you to do anything via an API that you can do with our [web portal](https://app.remote.it) or mobile applications.
