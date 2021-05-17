@@ -9,6 +9,19 @@
 * [Troubleshooting](troubleshooting-connections.md)
 * [Downloads](downloads.md)
 
+## API Reference
+
+* [GraphQL](api-reference/graphql/README.md)
+  * [Authentication](api-reference/graphql/authentication.md)
+  * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
+  * [Usage Examples](api-reference/graphql/usage-examples.md)
+* [REST-API Overview](api-reference/overview/README.md)
+  * [Authentication](api-reference/overview/authentication.md)
+  * [Devices](api-reference/overview/devices/README.md)
+    * [Listing Devices](api-reference/overview/devices/list.md)
+    * [Connecting to a Service using the API](api-reference/overview/devices/connect.md)
+    * [Terminating a proxy connection to a device](api-reference/overview/devices/device-connect-stop.md)
+
 ## Adding remote.it to your device
 
 * [find.remote.it](adding-remote.it-to-your-device/find.remote.it.md)
@@ -43,15 +56,6 @@
 
 * [Bulk Registration Overview](mass-production/bulk-registration.md)
 * [Auto Registration - Overview](mass-production/auto-registration-beta.md)
-
-## API Reference
-
-* [API Overview](api-reference/overview.md)
-* [Authentication](api-reference/authentication.md)
-* [Devices](api-reference/devices/README.md)
-  * [Listing Devices](api-reference/devices/list.md)
-  * [Connecting to a Service using the API](api-reference/devices/connect.md)
-  * [Terminating a proxy connection to a device](api-reference/devices/device-connect-stop.md)
 
 ## Advanced Users
 
