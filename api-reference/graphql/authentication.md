@@ -5,7 +5,7 @@ The GraphQL API requires authentication for queries and mutations. remote.it aut
 * keys do not expire
 * keys can be disabled and revoked \(deleted\) by the user at any time
 * keys are not dependent on password
-* keys are more secure
+* keys are more secure \(the secret is never transmitted because the request is signed\)
 
 ## Key Management
 
@@ -104,7 +104,7 @@ else:
 ```
 {% endtab %}
 
-{% tab title="bash" %}
+{% tab title="bash/cURL" %}
 Enter access key, secret and developer key which will call the graphql request in the script using openssl
 
 ```text
