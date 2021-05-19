@@ -12,8 +12,8 @@
 ## API Reference
 
 * [API Overview](api-reference/overview.md)
+* [Authentication](api-reference/authentication.md)
 * [GraphQL Overview](api-reference/graphql/README.md)
-  * [Authentication](api-reference/graphql/authentication.md)
   * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
   * [Usage Examples](api-reference/graphql/usage-examples.md)
 * [REST-API Overview](api-reference/rest-api-overview/README.md)
