@@ -11,16 +11,17 @@
 
 ## API Reference
 
-* [GraphQL](api-reference/graphql/README.md)
+* [API Overview](api-reference/overview.md)
+* [GraphQL Overview](api-reference/graphql/README.md)
   * [Authentication](api-reference/graphql/authentication.md)
   * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
   * [Usage Examples](api-reference/graphql/usage-examples.md)
-* [REST-API Overview](api-reference/overview/README.md)
-  * [Authentication](api-reference/overview/authentication.md)
-  * [Devices](api-reference/overview/devices/README.md)
-    * [Listing Devices](api-reference/overview/devices/list.md)
-    * [Connecting to a Service using the API](api-reference/overview/devices/connect.md)
-    * [Terminating a proxy connection to a device](api-reference/overview/devices/device-connect-stop.md)
+* [REST-API Overview](api-reference/rest-api-overview/README.md)
+  * [Authentication](api-reference/rest-api-overview/authentication.md)
+  * [Devices](api-reference/rest-api-overview/devices/README.md)
+    * [Listing Devices](api-reference/rest-api-overview/devices/list.md)
+    * [Connecting to a Service using the API](api-reference/rest-api-overview/devices/connect.md)
+    * [Terminating a proxy connection to a device](api-reference/rest-api-overview/devices/device-connect-stop.md)
 
 ## Adding remote.it to your device
 
