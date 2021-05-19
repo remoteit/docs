@@ -8,7 +8,7 @@ description: >-
 
 ## Queries
 
-All queries will be in context of your user and are just the query examples which you can use in your graphQL IDE and to build the structure of the query programatically. For code examples see earlier sections. The examples below names the query and adds the variables, you will need to include the variable section to execute the query successfully. 
+All queries will be in context of your user and are just the query examples which you can use in your graphQL IDE and to build the structure of the query programatically. For code examples see earlier sections. The examples below name the query and adds the variables, you will need to include the variable section to execute the query successfully. 
 
 ### Get Devices
 

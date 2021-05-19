@@ -1,6 +1,7 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
+* [Getting Started](getting-started.md)
 * [Making connections](making-connections.md)
 * [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections.md)
 * [Network Services](network-services.md)
@@ -12,6 +13,7 @@
 
 * [API Overview](api-reference/overview.md)
 * [Authentication](api-reference/authentication.md)
+* [Using Developer Tools](api-reference/using-developer-tools.md)
 * [GraphQL Overview](api-reference/graphql/README.md)
   * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
   * [Usage Examples](api-reference/graphql/usage-examples.md)
