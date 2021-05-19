@@ -1,7 +1,6 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
-* [Getting Started](getting-started.md)
 * [Making connections](making-connections.md)
 * [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections.md)
 * [Network Services](network-services.md)
