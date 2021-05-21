@@ -18,14 +18,6 @@
     * [Connecting to a Service using the API](api-reference/rest-api-overview/devices/connect.md)
     * [Terminating a proxy connection to a device](api-reference/rest-api-overview/devices/device-connect-stop.md)
 
-## Adding remote.it to your device
-
-* [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](adding-remote.it-to-your-device/raspberry-pi-quick-start.md)
-* [The remoteit package for Raspbian](adding-remote.it-to-your-device/the-remoteit-package-for-raspbian.md)
-* [The remote.it Desktop App for Windows and macOS.](adding-remote.it-to-your-device/desktop-help.md)
-* [The remote.it Command Line Interface](adding-remote.it-to-your-device/using-the-cli.md)
-* [The Interactive Installer](adding-remote.it-to-your-device/using-the-interactive-installer.md)
-
 ## Using remote.it <a id="guides"></a>
 
 * [The remote.it Desktop App](guides/using-the-desktop-app.md)
@@ -70,4 +62,13 @@
 * [LAN Sharing](archive/lan-sharing.md)
 * [Troubleshooting](archive/troubleshooting-connections.md)
 * [find.remote.it](archive/find.remote.it.md)
+* [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](archive/raspberry-pi-quick-start.md)
+* [The remoteit package for Raspbian](archive/the-remoteit-package-for-raspbian.md)
+* [The remote.it Desktop App for Windows and macOS.](archive/desktop-help.md)
+* [The remote.it Command Line Interface](archive/using-the-cli.md)
+
+---
+
+* [The Interactive Installer](using-the-interactive-installer.md)
+* [The Interactive Installer](https://support.remote.it/hc/en-us/sections/360010786372-Using-the-connectd-package)
 
