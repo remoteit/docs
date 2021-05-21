@@ -15,4 +15,3 @@ redirects:
   guides/connecting-to-a-device/proxy-connections/connecting-to-ssh: ./applications/remote-console-and-file-transfer/README.md
   guides/using-the-interactive-installer/installed-remote.it-services: ./adding-remote.it-to-your-device/using-the-interactive-installer/installed-remote.it-services.md
   guides/using-the-interactive-installer/add-a-service-to-a-lan-application: ./adding-remote.it-to-your-device/using-the-interactive-installer/add-a-service-to-an-application.md
-  getting-started: https://support.remote.it/hc/en-us/categories/360003417511-Getting-Started
