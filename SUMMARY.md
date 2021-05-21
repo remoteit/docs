@@ -1,11 +1,6 @@
 # Table of contents
 
 * [remote.it Overview](README.md)
-* [Making connections](making-connections.md)
-* [Peer to Peer vs Proxy Connections](peer-to-peer-p2p-vs.-proxy-connections.md)
-* [Network Services](network-services.md)
-* [LAN Sharing](lan-sharing.md)
-* [Troubleshooting](troubleshooting-connections.md)
 * [Downloads](downloads.md)
 
 ## API Reference
@@ -70,4 +65,9 @@
 ## Archive
 
 * [Getting Started](archive/getting-started.md)
+* [Making connections](archive/making-connections.md)
+* [Peer to Peer vs Proxy Connections](archive/peer-to-peer-p2p-vs.-proxy-connections.md)
+* [Network Services](archive/network-services.md)
+* [LAN Sharing](archive/lan-sharing.md)
+* [Troubleshooting](archive/troubleshooting-connections.md)
 

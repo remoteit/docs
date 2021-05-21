@@ -125,7 +125,7 @@ ix. Once you’ve finished registering the remote access you want, you are ready
 
 Here is an overview of connection to devices on your network:
 
-{% page-ref page="../lan-sharing.md" %}
+{% page-ref page="../archive/lan-sharing.md" %}
 
 ## 4. Using Out of Band Management
 
