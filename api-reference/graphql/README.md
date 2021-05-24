@@ -10,6 +10,8 @@ For more information on GraphQL, learn on the official GraphQL website [**here.*
 
 `https://api.remote.it/graphql/v1` Continue through this documentation to learn about our schema and some useful examples.
 
+remote.it authentication uses HTTP Request Signature; more on Authentication can be found [here](../authentication.md).
+
 ### Developer Tools
 
 These are some of the most popular developer tools used with GraphQL API's which you can use to explore the schema

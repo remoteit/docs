@@ -12,7 +12,6 @@
   * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
   * [Usage Examples](api-reference/graphql/usage-examples.md)
 * [REST-API Overview](api-reference/rest-api-overview/README.md)
-  * [Authentication](api-reference/rest-api-overview/authentication.md)
   * [Devices](api-reference/rest-api-overview/devices/README.md)
     * [Listing Devices](api-reference/rest-api-overview/devices/list.md)
     * [Connecting to a Service using the API](api-reference/rest-api-overview/devices/connect.md)
