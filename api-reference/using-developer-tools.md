@@ -40,7 +40,7 @@ You can type a sample GraphQL query to [https://api.remote.it/graphql/v1](https:
 }
 ```
 
-Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication. You then can click on the _**remote.it API authentication**_ tag, and select a specific profile otherwise the default profile will be used. 
+Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication. You then can ctrl + click on the field to select the _**remote.it API authentication**_ tag, and select a specific profile otherwise the default profile will be used. 
 
 You now can send the request and execute the query using the credentials stored earlier.
 
