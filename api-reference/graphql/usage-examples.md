@@ -146,7 +146,7 @@ mutation updateSharing($action: SharingAction, $emails: [String!]!, $notify: Boo
 #Variables
 {
   "action": "ADD",
-  "emails": ["bstrech@gmail.com"],
+  "emails": ["apisample@remote.it"],
   "notify": false,
   "scripting": true,
   "deviceId": "80:00:00:00:01:0A:FA:C6",

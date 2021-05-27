@@ -29,8 +29,8 @@ The file is in the standard ini file format:
 
 ```text
 [default]
-R3_ACCESS_KEY_ID=Z5QCS6ZO7POELMVDNOYJ
-R3_SECRET_ACCESS_KEY=cgMWC14Qsktnq/nbF+iZzy2q2yc4sVPkQn3J0m5i
+R3_ACCESS_KEY_ID=Z5QCS6ZO7PXXXMVDNXXX
+R3_SECRET_ACCESS_KEY=XXXWC14Qsktnq/nbF+iXxXq2yc4sVPkQn3J0m5i
 ```
 
 You can save more than one key pair under different profiles \(sections\) in the remote.it credentials file. Profile names are case-insensitive, cannot contain a period \(.\) and default is the default profile name.
