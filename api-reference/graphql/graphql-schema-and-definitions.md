@@ -17,5 +17,5 @@ Basic types are:
 * Int
 * Float
 * Boolean
-* DateTime \(returned in ISO 8601 format\)
+* DateTime \(ISO 8601 format Date String\)
 

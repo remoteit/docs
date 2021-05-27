@@ -8,7 +8,7 @@ description: >-
 
 ## Queries
 
-All queries will be in context of your user and are just the query examples which you can use in your graphQL IDE and to build the structure of the query programatically. For code examples see earlier sections. The examples below name the query and adds the variables. You will need to include the variable section to execute the query successfully. 
+All queries will be in context of the user associated with the access key and secret. These are query examples which you can use in your graphQL IDE and to build the structure of the query programatically. For code examples see earlier sections. The examples below name the query and adds the variables. You will need to include the variable section or put the values inline to execute the query successfully. 
 
 ### Get Your Devices
 
@@ -124,9 +124,43 @@ This will return all devices with "tim" in the name and is not case sensitive. F
 }
 ```
 
+### Get Your Contacts
+
+Contacts are used for sharing and transfer actions.
+
+```bash
+{
+  login {
+    contacts {
+      email
+    }
+  }
+
+}
+```
+
+Response Example
+
+```bash
+{
+  "data": {
+    "login": {
+      "contacts": [
+        {
+          "email": "example@remote.it"
+        },
+        {
+          "email": "apisample@remote.it"
+        }
+      ]
+    }
+  }
+}
+```
+
 ## Mutations
 
-Mutations are queries which update data.
+Mutations are queries which update data. All mutations are in context of the user associated with the access key and secret being used.
 
 ### Update Device Sharing
 
