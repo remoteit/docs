@@ -10,7 +10,7 @@ description: >-
 
 All queries will be in context of your user and are just the query examples which you can use in your graphQL IDE and to build the structure of the query programatically. For code examples see earlier sections. The examples below name the query and adds the variables. You will need to include the variable section to execute the query successfully. 
 
-### Get Devices
+### Get Your Devices
 
 Fetch your inactive devices. 
 
@@ -124,5 +124,49 @@ This will return all devices with "tim" in the name and is not case sensitive. F
 }
 ```
 
+## Mutations
 
+Mutations are queries which update data.
+
+### Update Device Sharing
+
+```bash
+# Notes:
+# Action options are "ADD", "REMOVE", "LEAVE"
+# Notify sends email to the emails included in the share action. Default is true
+# Scripting allows the users to execute scripts on the device. Default is false. N/A if removing the share
+# Omit services parameter if you want to add or remove sharing of all services belonging to the device
+# If using the services parameter, any services not explicitly sent will remain unchanged i.e.if previously shared will remain shared
+
+mutation updateSharing($action: SharingAction, $emails: [String!]!, $notify: Boolean, $scripting: Boolean, $deviceId: String!, $services:[ServiceSharingOptions!]){
+  share(action: $action, email:$emails, notify: $notify, scripting: $scripting, deviceId: $deviceId, services: $services)
+}
+
+
+#Variables
+{
+  "action": "ADD",
+  "emails": ["bstrech@gmail.com"],
+  "notify": false,
+  "scripting": true,
+  "deviceId": "80:00:00:00:01:0A:FA:C6",
+  "services": [
+    {
+    "serviceId": "80:00:00:00:01:0A:FA:C7",
+  	"action": "ADD"
+    }
+  ]
+}
+```
+
+Response
+
+```bash
+#failure will return false
+{
+  "data": {
+    "share": true
+  }
+}
+```
 
