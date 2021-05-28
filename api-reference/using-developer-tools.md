@@ -44,7 +44,3 @@ Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authenticat
 
 You now can send the request and execute the query using the credentials stored earlier.
 
-### Generate a REST-API Request
-
-
-
