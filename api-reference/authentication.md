@@ -35,19 +35,17 @@ R3_SECRET_ACCESS_KEY=XXXWC14Qsktnq/nbF+iXxXq2yc4sVPkQn3J0m5i
 
 You can save more than one key pair under different profiles \(sections\) in the remote.it credentials file. Profile names are case-insensitive, cannot contain a period \(.\) and default is the default profile name.
 
-## Using GraphQL
-
-
-
 ## API Request Signing
 
 To authenticate an API request, the client must generate a signature using the previously created key and secret.
 
-Here are a few examples:
+### Examples
 
 {% tabs %}
 {% tab title="Python" %}
 This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code.
+
+#### GraphQL
 
 ```text
 import binascii
@@ -68,10 +66,32 @@ if response.status_code == 200:
 else:
     print(response.status_code)
 ```
+
+#### REST-API
+
+```text
+import binascii
+import os
+
+import requests
+from requests_http_signature import HTTPSignatureAuth
+
+key_id = os.environ.get('R3_ACCESS_KEY_ID')
+key = os.environ.get('R3_SECRET_ACCESS_KEY')
+
+response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
+
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(response.status_code)
+```
 {% endtab %}
 
 {% tab title="bash/cURL" %}
 Enter access key, secret and developer key which will call the graphql request in the script using openssl
+
+#### GraphQL
 
 ```text
 #!/bin/bash
@@ -110,6 +130,46 @@ SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${S
 SIGNATURE_HEADER="Signature keyId=\"${KEY_ALIAS}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
 
 curl -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} -d "${DATA}" --insecure
+```
+
+#### REST-API 
+
+```text
+#!/bin/bash
+
+KEY_ALIAS="ACCESS_KEY"
+SECRET_BASE64="ACCESS_SECRET"
+SECRET=`echo ${SECRET_BASE64} | base64 --decode`
+DEVELOPER_KEY="DEVELOPER_KEY"
+
+HOST="api.remot3.it"
+URL_PATH="apv/v27/device/list/all"
+URL="https://{$HOST}/{$URL_PATH}"
+
+VERB="POST"
+
+CONTENT_TYPE="application/json"
+
+LC_VERB=`echo "${VERB}" | tr '[:upper:]' '[:lower:]'`
+
+DATE=$(LANG=en_US date "+%a, %d %b %Y %H:%M:%S %Z")
+
+CONTENT_LENGTH=${#DATA}
+
+SIGNING_STRING="(request-target): ${LC_VERB} /${URL_PATH}
+host: ${HOST}
+date: ${DATE}
+content-type: ${CONTENT_TYPE}
+content-length: ${CONTENT_LENGTH}"
+
+echo ${SIGNING_STRING}
+
+SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${SECRET}" | base64`
+
+SIGNATURE_HEADER="Signature keyId=\"${KEY_ALIAS}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
+
+curl -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
+
 ```
 {% endtab %}
 
