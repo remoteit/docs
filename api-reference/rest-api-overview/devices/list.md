@@ -91,6 +91,7 @@ else:
 const axios = require("axios");
 const hmacAdapter = require("axios-adapter-hmac");
  
+# To be replaced by http request signature example
 # For more on authentication see https://docs.remote.it/api-reference/authentication
 const auth = XXX
 
@@ -190,16 +191,18 @@ namespace remote.it_api_example
 
 {% tab title="PHP" %}
 ```php
+
 <?php
+
+$access_key = getenv ( string 'R3_ACCESS_KEY_ID') 
+$access_secret = getenv ( string 'R3_SECRET_ACCESS_KEY') 
+$hash = hash_hmac('sha256', $access_key, $access_secret);
 
 $ch = curl_init();
 curl_setopt_array($ch, array(
     CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
     CURLOPT_HTTPHEADER => array(
-        # To be replaced by http request signature example
-        # For more on authentication see https://docs.remote.it/api-reference/authentication
-        #"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
-        #"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+       auth: keyId="abc123",algorithm="hmac-sha256",headers="(request-target) date",signature="base64string"
     ),
     CURLOPT_RETURNTRANSFER => true
 ));
