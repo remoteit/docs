@@ -71,6 +71,7 @@ import os
 import requests
 from requests_http_signature import HTTPSignatureAuth
 
+# For more on authentication see https://docs.remote.it/api-reference/authentication
 key_id = os.environ.get('R3_ACCESS_KEY_ID')
 key = os.environ.get('R3_SECRET_ACCESS_KEY')
 
@@ -90,8 +91,7 @@ else:
 const axios = require("axios");
 const hmacAdapter = require("axios-adapter-hmac");
  
-# For more information on authentication see https://docs.remote.it/api-reference/authentication
-
+# For more on authentication see https://docs.remote.it/api-reference/authentication
 const auth = XXX
 
 
@@ -120,6 +120,7 @@ import os
 import requests
 from requests_http_signature import HTTPSignatureAuth
 
+# For more on authentication see https://docs.remote.it/api-reference/authentication
 key_id = os.environ.get('R3_ACCESS_KEY_ID')
 key = os.environ.get('R3_SECRET_ACCESS_KEY')
 
@@ -154,6 +155,8 @@ namespace remote.it_api_example
             requestData.RequestUri = new Uri(url);
 
             # To be replaced by http request signature example
+            # For more on authentication see https://docs.remote.it/api-reference/authentication
+
             # requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
             # requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));            
 
@@ -193,7 +196,8 @@ $ch = curl_init();
 curl_setopt_array($ch, array(
     CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
     CURLOPT_HTTPHEADER => array(
-        # TO be replaced by http request signature example
+        # To be replaced by http request signature example
+        # For more on authentication see https://docs.remote.it/api-reference/authentication
         #"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
         #"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
     ),
