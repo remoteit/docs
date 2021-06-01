@@ -17,12 +17,8 @@ Get your list of devices.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="developerkey" type="string" required=true %}
-Your developer key which can be found by logging into remote.it and going to your "Account" settings page.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="token" type="string" required=true %}
-Your session token, created by logging in using the API.
+{% api-method-parameter name="auth" type="string" required=true %}
+HTTP request signature. See https://docs.remote.it/api-reference/authentication for more information about authentication.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -69,29 +65,41 @@ Some response values are omitted from the example above because they are only us
 {% tabs %}
 {% tab title="cURL" %}
 ```bash
-#!/bin/sh
+import binascii
+import os
 
-TOKEN="login_token"
-DEVKEY="your_developer_key"
+import requests
+from requests_http_signature import HTTPSignatureAuth
 
-curl -H "token:$TOKEN" \
-     -H "developerkey:$DEVKEY" \
-     https://api.remot3.it/apv/v27/device/list/all
+key_id = os.environ.get('R3_ACCESS_KEY_ID')
+key = os.environ.get('R3_SECRET_ACCESS_KEY')
+
+response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
+
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(response.status_code)
 ```
 {% endtab %}
 
 {% tab title="Node \(Javascript\)" %}
 ```javascript
-const axios = require("axios");
+# This example uses the npm modules axios and axios-adapter-hmac
 
-const developerkey = process.env.REMOTEIT_DEVELOPER_KEY;
-const token = process.env.REMOTEIT_TOKEN;
+const axios = require("axios");
+const hmacAdapter = require("axios-adapter-hmac");
+ 
+# For more information on authentication see https://docs.remote.it/api-reference/authentication
+
+const auth = XXX
+
 
 axios
   .get("https://api.remot3.it/apv/v27/device/list/all", {
     headers: {
-      developerkey,
-      token
+      #to finish
+      auth
     }
   })
   .then(response => {
@@ -106,23 +114,21 @@ axios
 
 {% tab title="Python" %}
 ```python
-import requests
+import binascii
 import os
 
-headers = {
-    "developerkey": os.environ["REMOTEIT_DEVELOPER_KEY"],
-    # Created using the login API
-    "token": os.environ["REMOTEIT_TOKEN"]
-}
+import requests
+from requests_http_signature import HTTPSignatureAuth
 
-url = "https://api.remot3.it/apv/v27/device/list/all"
+key_id = os.environ.get('R3_ACCESS_KEY_ID')
+key = os.environ.get('R3_SECRET_ACCESS_KEY')
 
-response = requests.get(url, headers=headers)
-response_body = response.json()
+response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
 
-print("Status Code: %s" % response.status_code)
-print("Raw Response: %s" % response.raw)
-print("Body: %s" % response_body)
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(response.status_code)
 ```
 {% endtab %}
 
@@ -147,8 +153,9 @@ namespace remote.it_api_example
             requestData.Method = HttpMethod.Get;
             requestData.RequestUri = new Uri(url);
 
-            requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
-            requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));            
+            # To be replaced by http request signature example
+            # requestData.Headers.Add("developerkey", Environment.GetEnvironmentVariable("REMOTEIT_DEVELOPER_KEY"));
+            # requestData.Headers.Add("token", Environment.GetEnvironmentVariable("REMOTEIT_TOKEN"));            
 
             try
             {
@@ -186,8 +193,9 @@ $ch = curl_init();
 curl_setopt_array($ch, array(
     CURLOPT_URL => "https://api.remot3.it/apv/v27/device/list/all",
     CURLOPT_HTTPHEADER => array(
-        "developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
-        "token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
+        # TO be replaced by http request signature example
+        #"developerkey: ".$_ENV["REMOTEIT_DEVELOPER_KEY"],
+        #"token: ".$_ENV["REMOTEIT_TOKEN"] // Created using the login API
     ),
     CURLOPT_RETURNTRANSFER => true
 ));
