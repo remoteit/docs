@@ -187,6 +187,7 @@ key_id = os.environ.get('R3_ACCESS_KEY_ID')
 key = os.environ.get('R3_SECRET_ACCESS_KEY')
 DEVICE_ADDRESS="80:00:00:3F:AE:00:00:11" #update to the correct service ID
 
+#see above for examples of host IP values and how they affect who can connect.
 DATA={"wait":"true","deviceaddress":"$DEVICE_ADDRESS", "hostip": os.environ["MY_PUBLIC_IP"] }
 
 response = requests.post('https://api.remot3.it/apv/v27/device/connect', data=json.dumps(DATA), auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
