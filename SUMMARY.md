@@ -12,10 +12,9 @@
   * [GraphQL Schema and Definitions](api-reference/graphql/graphql-schema-and-definitions.md)
   * [Usage Examples](api-reference/graphql/usage-examples.md)
 * [REST-API Overview](api-reference/rest-api-overview/README.md)
-  * [Devices](api-reference/rest-api-overview/devices/README.md)
-    * [Listing Devices](api-reference/rest-api-overview/devices/list.md)
-    * [Connecting to a Service using the API](api-reference/rest-api-overview/devices/connect.md)
-    * [Terminating a proxy connection to a device](api-reference/rest-api-overview/devices/device-connect-stop.md)
+  * [Listing Devices](api-reference/rest-api-overview/list.md)
+  * [Connecting to a Service using the API](api-reference/rest-api-overview/connect.md)
+  * [Terminating a proxy connection to a device](api-reference/rest-api-overview/device-connect-stop.md)
 
 ## Archive
 
