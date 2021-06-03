@@ -89,17 +89,19 @@ else:
 {% endtab %}
 
 {% tab title="bash/cURL" %}
-Enter access key, secret and developer key which will call the graphql request in the script using openssl
+ These example reads the ~/.remoteit/credentials file for the variables of your access key and secret. In the REST-API example you will also need your Developer API Key which you can get from your account page [https://app.remote.it/\#account](https://app.remote.it/#account)
 
 #### GraphQL
 
 ```text
 #!/bin/bash
+set -a
+. ~/.remoteit/credentials
+set +a
 
-KEY_ALIAS="ACCESS_KEY"
-SECRET_BASE64="ACCESS_SECRET"
-SECRET=`echo ${SECRET_BASE64} | base64 --decode`
-DEVELOPER_KEY="DEVELOPER_KEY"
+echo $R3_ACCESS_KEY_ID
+
+SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
 
 HOST="api.remote.it"
 URL_PATH="graphql/v1"
@@ -127,26 +129,30 @@ echo ${SIGNING_STRING}
 
 SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${SECRET}" | base64`
 
-SIGNATURE_HEADER="Signature keyId=\"${KEY_ALIAS}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
+SIGNATURE_HEADER="Signature keyId=\"${R3_ACCESS_KEY_ID}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
 
-curl -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} -d "${DATA}" --insecure
+curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} -d "${DATA}" --insecure
 ```
 
 #### REST-API 
 
+Replace the developer key value with your Developer API Key.
+
 ```text
 #!/bin/bash
+set -a
+. ~/.remoteit/credentials
+set +a
 
-KEY_ALIAS="ACCESS_KEY"
-SECRET_BASE64="ACCESS_SECRET"
-SECRET=`echo ${SECRET_BASE64} | base64 --decode`
-DEVELOPER_KEY="DEVELOPER_KEY"
+DEVELOPER_KEY="XXXXXX" #get your Developer API Key from your account page 
+
+SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
 
 HOST="api.remot3.it"
 URL_PATH="apv/v27/device/list/all"
 URL="https://{$HOST}/{$URL_PATH}"
 
-VERB="POST"
+VERB="GET"
 
 CONTENT_TYPE="application/json"
 
@@ -154,21 +160,120 @@ LC_VERB=`echo "${VERB}" | tr '[:upper:]' '[:lower:]'`
 
 DATE=$(LANG=en_US date "+%a, %d %b %Y %H:%M:%S %Z")
 
-CONTENT_LENGTH=${#DATA}
 
 SIGNING_STRING="(request-target): ${LC_VERB} /${URL_PATH}
 host: ${HOST}
 date: ${DATE}
 content-type: ${CONTENT_TYPE}
-content-length: ${CONTENT_LENGTH}"
+content-length: 0"
 
 echo ${SIGNING_STRING}
 
 SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${SECRET}" | base64`
 
-SIGNATURE_HEADER="Signature keyId=\"${KEY_ALIAS}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
+SIGNATURE_HEADER="Signature keyId=\"${R3_ACCESS_KEY_ID}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
 
-curl -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
+curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
+
+```
+{% endtab %}
+
+{% tab title="Node" %}
+
+
+Enter access key, secret and developer key which will call the graphql request in the script using openssl
+
+```text
+const fs = require('fs')
+const ini = require('ini')
+const os = require('os')
+const path = require('path')
+const httpSignature = require('http-signature')
+const https: require('https')
+
+const R3_ACCESS_KEY_ID = 'R3_ACCESS_KEY_ID'
+const R3_SECRET_ACCESS_KEY = 'R3_SECRET_ACCESS_KEY'
+
+const CREDENTIALS_FILE = '.remoteit/credentials'
+const DEFAULT_PROFILE = 'default'
+
+const SIGNATURE_ALGORITHM = 'hmac-sha256'
+const SIGNED_HEADERS = '(request-target) host date content-type content-length'
+
+const data = JSON.stringify({
+  todo: 'Buy the milk'
+})
+
+const options = {
+  hostname: 'whatever.com',
+  port: 443,
+  path: '/todos',
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Content-Length': data.length
+  }
+}
+
+const file = path.resolve(os.homedir(), CREDENTIALS_FILE)
+
+      if (!fs.existsSync(file)) return `remote.it credentials file not found: ${file}`
+
+      let credentials
+
+      try {
+        credentials = ini.parse(fs.readFileSync(file, 'utf-8'))
+      } catch (error) {
+        return `remote.it credentials file error: ${error.message}`
+      }
+
+      if (profile) {
+        credentials = getSection(credentials, profile)
+
+        if (!credentials) return `remote.it profile not found: ${profile}`
+      } else {
+        credentials = getSection(credentials, DEFAULT_PROFILE) || credentials
+      }
+
+      const key = credentials[R3_ACCESS_KEY_ID]
+
+      if (!key) return `remote.it credentials missing: ${R3_ACCESS_KEY_ID}`
+
+      const secret = credentials[R3_SECRET_ACCESS_KEY]
+
+      if (!secret) return `remote.it credentials missing: ${R3_SECRET_ACCESS_KEY}`
+
+      await Promise.all([
+        context.store.setItem(R3_ACCESS_KEY_ID, key),
+        context.store.setItem(R3_SECRET_ACCESS_KEY, secret)
+      ])
+      
+const [key, secret] = await Promise.all([
+      context.store.getItem(R3_ACCESS_KEY_ID),
+      context.store.getItem(R3_SECRET_ACCESS_KEY)
+    ])
+          
+httpSignature.sign(new RequestWrapper(context.request), {
+      keyId: key,
+      key: Buffer.from(secret, 'base64'),
+      algorithm: SIGNATURE_ALGORITHM,
+      headers: SIGNED_HEADERS.split(/\s+/)
+    })
+
+const req = https.request(options, res => {
+  console.log(`statusCode: ${res.statusCode}`)
+
+  res.on('data', d => {
+    process.stdout.write(d)
+  })
+})
+
+req.on('error', error => {
+  console.error(error)
+})
+
+req.write(data)
+req.end()
 
 ```
 {% endtab %}
