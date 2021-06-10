@@ -1,19 +1,21 @@
 # Update Device or Service Name
 
+You will need the service ID which can be retrieved using the [graphQL API](../graphql/usage-examples.md#find-services-by-name) or REST-API [device list](list.md#get-your-device-list) or [find by name](list.md#device-find-by-name).
+
 {% api-method method="post" host="https://api.remote.it/apv/v27/device/name/" path="" %}
 {% api-method-summary %}
 Update Service Name
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint is used to update a service/device name. In the case of the device name, update the "bulk service". You will need the service ID which can be retrieved using the graphQL API Usage Examples or REST-API device list or find by name Listing Devices.
+This endpoint is used to update a service/device name. In the case of the device name, update the "bulk service". 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Auth" type="string" required=true %}
-Use the authorization headers required. 
+{% api-method-parameter name="auth" type="string" required=true %}
+HTTP request signature or deprecated token and developerkey
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
@@ -36,6 +38,102 @@ Success is status code 200 and json string. Failure will also return status code
 
 ```
 {"status":"true"}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.remot3.it" path="/apv/v27/device/list/all" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="auth" type="string" required=true %}
+HTTP request signature. See https://docs.remote.it/api-reference/authentication for more information about authentication.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.remot3.it" path="/apv/v27/device/list/all" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="auth" type="string" required=true %}
+HTTP request signature. See https://docs.remote.it/api-reference/authentication for more information about authentication.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.remot3.it" path="/apv/v27/device/list/all" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="auth" type="string" required=true %}
+HTTP request signature. See https://docs.remote.it/api-reference/authentication for more information about authentication.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
