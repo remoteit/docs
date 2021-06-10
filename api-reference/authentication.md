@@ -127,7 +127,7 @@ curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Develo
 {% endtab %}
 
 {% tab title="Node" %}
-
+Coming Soon, this is a work in progress!
 
 ```text
 const fs = require('fs')
@@ -146,14 +146,12 @@ const DEFAULT_PROFILE = 'default'
 const SIGNATURE_ALGORITHM = 'hmac-sha256'
 const SIGNED_HEADERS = '(request-target) host date content-type content-length'
 
-const data = JSON.stringify({
-  todo: 'Buy the milk'
-})
+const data = JSON.stringify("")
 
 const options = {
-  hostname: 'whatever.com',
+  hostname: 'api.remot3.it',
   port: 443,
-  path: '/todos',
+  path: 'graphql/v1',
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -225,49 +223,9 @@ req.end()
 {% endtab %}
 
 {% tab title="Python" %}
-This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
+This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.              
 
-#### GraphQL
-
-```text
-import binascii
-import os
-
-import requests
-from requests_http_signature import HTTPSignatureAuth
-
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = os.environ.get('R3_SECRET_ACCESS_KEY')
-
-response = requests.post('https://api.remote.it/graphql/v1',
-                         json={"query": "query { login { id email devices { items { id name }}}}"},
-                         auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
-
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)                
-```
-
-#### REST-API
-
-```text
-import binascii
-import os
-
-import requests
-from requests_http_signature import HTTPSignatureAuth
-
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = os.environ.get('R3_SECRET_ACCESS_KEY')
-
-response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
-
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)
-```
+Example coming soon!
 {% endtab %}
 
 {% tab title="Other Languages" %}
