@@ -19,6 +19,8 @@ _**Please note: Generation of keys is crypto-random and the secret is only avail
 
 You are limited to 2 active access keys. The account page will also show when the key was created and last used for authentication. If you suspect your key has been compromised, generate a new one, replace it in your code and disable. If desired you can delete the compromised key after disabling it.
 
+In addition, if you will be using the REST-API you will also need to retrieve your Developer API Key. This can also be found in the Account section of the web portal.
+
 ### Create a remote.it Credentials File
 
 You will need to follow the steps above with Key Management to generate your access key and secret before proceeding
@@ -31,75 +33,26 @@ The file is in the standard ini file format:
 [default]
 R3_ACCESS_KEY_ID=Z5QCS6ZO7PXXXMVDNXXX
 R3_SECRET_ACCESS_KEY=XXXWC14Qsktnq/nbF+iXxXq2yc4sVPkQn3J0m5i
+R3_DEVELOPER_API_KEY=XXXXXXX
 ```
 
 You can save more than one key pair under different profiles \(sections\) in the remote.it credentials file. Profile names are case-insensitive, cannot contain a period \(.\) and default is the default profile name.
 
 ## API Request Signing
 
-To authenticate an API request, the client must generate a signature using the previously created key and secret.
+To authenticate an API request, the client must generate a signature using the previously created key and secret. The REST-API example you will also need your Developer API Key which you can get from your account page [https://app.remote.it/\#account](https://app.remote.it/#account)
 
 ### Examples
 
 {% tabs %}
-{% tab title="Python" %}
-This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code.
-
-#### GraphQL
-
-```text
-import binascii
-import os
-
-import requests
-from requests_http_signature import HTTPSignatureAuth
-
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = os.environ.get('R3_SECRET_ACCESS_KEY')
-
-response = requests.post('https://api.remote.it/graphql/v1',
-                         json={"query": "query { login { id email devices { items { id name }}}}"},
-                         auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
-
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)
-```
-
-#### REST-API
-
-```text
-import binascii
-import os
-
-import requests
-from requests_http_signature import HTTPSignatureAuth
-
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = os.environ.get('R3_SECRET_ACCESS_KEY')
-
-response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
-
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)
-```
-{% endtab %}
-
 {% tab title="bash/cURL" %}
- These example reads the ~/.remoteit/credentials file for the variables of your access key and secret. In the REST-API example you will also need your Developer API Key which you can get from your account page [https://app.remote.it/\#account](https://app.remote.it/#account)
+ These example reads the ~/.remoteit/credentials file for the variables of your access key and secret. In 
 
 #### GraphQL
 
 ```text
 #!/bin/bash
-set -a
-. ~/.remoteit/credentials
-set +a
-
-echo $R3_ACCESS_KEY_ID
+source ~/.remoteit/credentials
 
 SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
 
@@ -140,11 +93,7 @@ Replace the developer key value with your Developer API Key.
 
 ```text
 #!/bin/bash
-set -a
-. ~/.remoteit/credentials
-set +a
-
-DEVELOPER_KEY="XXXXXX" #get your Developer API Key from your account page 
+source ~/.remoteit/credentials
 
 SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
 
@@ -173,15 +122,12 @@ SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${S
 
 SIGNATURE_HEADER="Signature keyId=\"${R3_ACCESS_KEY_ID}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
 
-curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${DEVELOPER_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
-
+curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${R3_DEVELOPER_API_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
 ```
 {% endtab %}
 
 {% tab title="Node" %}
 
-
-Enter access key, secret and developer key which will call the graphql request in the script using openssl
 
 ```text
 const fs = require('fs')
@@ -275,6 +221,52 @@ req.on('error', error => {
 req.write(data)
 req.end()
 
+```
+{% endtab %}
+
+{% tab title="Python" %}
+This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
+
+#### GraphQL
+
+```text
+import binascii
+import os
+
+import requests
+from requests_http_signature import HTTPSignatureAuth
+
+key_id = os.environ.get('R3_ACCESS_KEY_ID')
+key = os.environ.get('R3_SECRET_ACCESS_KEY')
+
+response = requests.post('https://api.remote.it/graphql/v1',
+                         json={"query": "query { login { id email devices { items { id name }}}}"},
+                         auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
+
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(response.status_code)                
+```
+
+#### REST-API
+
+```text
+import binascii
+import os
+
+import requests
+from requests_http_signature import HTTPSignatureAuth
+
+key_id = os.environ.get('R3_ACCESS_KEY_ID')
+key = os.environ.get('R3_SECRET_ACCESS_KEY')
+
+response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
+
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(response.status_code)
 ```
 {% endtab %}
 

@@ -219,3 +219,59 @@ print_r($responseData);
 {% endtab %}
 {% endtabs %}
 
+### 
+
+### Device Find By Name
+
+Find a Service by name
+
+{% api-method method="post" host="https:api.remot3.it/apv/v27" path="/device/find/by/name/" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Auth" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "devices": [
+        {
+            "createdate": "2018-03-29T04:19:02.19-04:00",
+            "deviceaddress": "80:00:00:80:01:00:01:25",
+            "devicealias": "Demo_Router_Web_Port_80",
+            "devicelastip": "126.237.116.49",
+            "devicestate": "active",
+            "devicetype": "00:1E:00:00:00:01:00:00:04:60:00:50:00:01:00:00",
+            "georegion": "Asia"
+            "lastcontacted": "2018-12-29T14:56:50-05:00"
+            "lastinternalip": "10.61.12.80"
+            "ownerusername": "joeh@remot3.it"
+            "servicetitle": "Basic Web"
+            "shared": "shared-from"
+        }
+    ],
+    "status": "true"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
