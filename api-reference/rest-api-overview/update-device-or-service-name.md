@@ -2,7 +2,7 @@
 
 You will need the service ID which can be retrieved using the [graphQL API](../graphql/usage-examples.md#find-services-by-name) or REST-API [device list](list.md#get-your-device-list) or [find by name](list.md#device-find-by-name)
 
-{% api-method method="post" host="https://api.remote.it/apv/v27" path="/device/name" %}
+{% api-method method="post" host="https://api.remote.it" path="/apv/v27/device/name" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
@@ -43,4 +43,6 @@ Success and failure are status code 200. Failure is status value of false
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

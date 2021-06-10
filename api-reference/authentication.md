@@ -97,7 +97,7 @@ source ~/.remoteit/credentials
 
 SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
 
-HOST="api.remot3.it"
+HOST="api.remote.it"
 URL_PATH="apv/v27/device/list/all"
 URL="https://{$HOST}/{$URL_PATH}"
 

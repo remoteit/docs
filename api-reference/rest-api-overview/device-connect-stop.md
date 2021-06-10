@@ -1,6 +1,6 @@
 # Terminating a proxy connection to a device
 
-{% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect/stop" %}
+{% api-method method="post" host="https://api.remote.it" path="/apv/v27/device/connect/stop" %}
 {% api-method-summary %}
 Terminate a proxy connection to a device
 {% endapi-method-summary %}

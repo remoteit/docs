@@ -5,7 +5,7 @@
 It is highly recommended that you use the graphQL API for fetching the device list. Only use this API if you have 100 devices or less. 
 {% endhint %}
 
-{% api-method method="get" host="https://api.remot3.it" path="/apv/v27/device/list/all" %}
+{% api-method method="get" host="https://api.remote.it" path="/apv/v27/device/list/all" %}
 {% api-method-summary %}
 Get your device list
 {% endapi-method-summary %}
