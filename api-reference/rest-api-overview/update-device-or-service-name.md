@@ -6,7 +6,7 @@ Update Service Name
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint is used to update a service/device name. In the case of the device name, update the "bulk service". You will need the service ID which can be retrieved using the graphQL API \(https://docs.remote.it/api-reference/graphql/usage-examples\#find-services-by-name\) or REST-API device list queries. Not
+This endpoint is used to update a service/device name. In the case of the device name, update the "bulk service". You will need the service ID which can be retrieved using the graphQL API Usage Examples or REST-API device list or find by name Listing Devices.
 {% endapi-method-description %}
 
 {% api-method-spec %}
