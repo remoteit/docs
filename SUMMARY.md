@@ -1,11 +1,9 @@
 # Table of contents
 
-* [remote.it Overview](README.md)
-* [Downloads](downloads.md)
+* [remote.it API](README.md)
 
 ## API Reference
 
-* [API Overview](api-reference/overview.md)
 * [Authentication](api-reference/authentication.md)
 * [Using Developer Tools](api-reference/using-developer-tools.md)
 * [GraphQL Overview](api-reference/graphql/README.md)
@@ -16,39 +14,4 @@
   * [Update Device or Service Name](api-reference/rest-api-overview/update-device-or-service-name.md)
   * [Connecting to a Service using the API](api-reference/rest-api-overview/connect.md)
   * [Terminating a proxy connection to a device](api-reference/rest-api-overview/device-connect-stop.md)
-
-## Archive
-
-* [Getting Started](archive/getting-started.md)
-* [Bulk Registration Overview](archive/bulk-registration.md)
-* [Auto Registration - Overview](archive/auto-registration-beta.md)
-* [Making connections](archive/making-connections.md)
-* [Peer to Peer vs Proxy Connections](archive/peer-to-peer-p2p-vs.-proxy-connections.md)
-* [Network Services](archive/network-services.md)
-* [LAN Sharing](archive/lan-sharing.md)
-* [Troubleshooting](archive/troubleshooting-connections.md)
-* [find.remote.it](archive/find.remote.it.md)
-* [Raspberry Pi Quick Start \(remote.itPi SD Card image\)](archive/raspberry-pi-quick-start/README.md)
-  * [remote.itPi Setup Guidelines](archive/raspberry-pi-quick-start/remote.itpi-setup-guidelines.md)
-  * [The remoteit package for Raspbian](archive/raspberry-pi-quick-start/the-remoteit-package-for-raspbian.md)
-* [The remote.it Desktop App for Windows and macOS.](archive/desktop-help.md)
-* [The remote.it Command Line Interface](archive/using-the-cli.md)
-* [The Interactive Installer](archive/using-the-interactive-installer.md)
-* [Remote console and file transfer](archive/remote-console-and-file-transfer.md)
-* [Managing Contacts](archive/managing-contacts.md)
-* [Sharing Devices](archive/sharing-devices.md)
-* [Transferring remote.it Devices to another account](archive/transferring-remote.it-devices-to-another-account.md)
-* [Device Scripting](archive/device-scripting-running-scripts-on-your-devices.md)
-* [Logs](archive/logs.md)
-* [Online/offline Notifications](archive/online-offline-notifications.md)
-* [Using connectd in P2P initiator mode](archive/using-connectd-in-p2p-initiator-mode.md)
-* [Connecting to a web server](archive/using-with-a-web-server.md)
-* [Remote Graphical Desktop Access](archive/remote-graphical-desktop-access.md)
-* [Configuring a webcam with Nx Witness](archive/configuring-a-webcam-with-nx-witness.md)
-* [Hosting a Minecraft Server](archive/hosting-a-minecraft-server.md)
-* [Samba Windows file sharing for Linux](archive/samba-windows-file-sharing-for-linux.md)
-* [Using the Web Portal](archive/using-the-web-portal.md)
-* [The remote.it Desktop App](archive/using-the-desktop-app/README.md)
-  * [The remote.it Desktop App](archive/using-the-desktop-app/the-remote.it-desktop-app.md)
-  * [Out of Band Management \(OOBM\)](archive/using-the-desktop-app/out-of-band.md)
 
