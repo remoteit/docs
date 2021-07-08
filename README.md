@@ -20,7 +20,7 @@ We are in the process of adding more to our documentation website. If you have n
 
 
 
-If you want all other documentation for remote.it, please visit our main documentation site below:
+If you want all other documentation for remote.it, please visit our support documentation site below:
 
 {% embed url="https://support.remote.it/hc/en-us/articles/360045228131-Welcome-to-remote-it-" %}
 
