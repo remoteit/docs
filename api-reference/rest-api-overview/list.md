@@ -26,7 +26,7 @@ HTTP request signature. See https://docs.remote.it/api-reference/authentication 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Connection with device successfully created.
+Device list response
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -49,6 +49,18 @@ Connection with device successfully created.
     ],
     "status": "true"
 }
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+NOTE: This will still return a status code of 200: OK, but the response body will have the status false.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "status": "true"
+}    
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -115,22 +127,43 @@ axios
 
 {% tab title="Python" %}
 ```python
-import binascii
 import os
-
 import requests
 from requests_http_signature import HTTPSignatureAuth
+from base64 import b64decode
 
 # For more on authentication see https://docs.remote.it/api-reference/authentication
 key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = os.environ.get('R3_SECRET_ACCESS_KEY')
+key_secret_id = os.environ.get('R3_SECRET_ACCESS_KEY')
+api_key = os.environ.get('R3_DEVELOPER_API_KEY')
 
-response = requests.get('https://api.remot3.it/apv/v27/device/list/all', auth=HTTPSignatureAuth(key=binascii.a2b_base64(key), key_id=key_id))
+body = ''  #update this with your data if posting with a body
+host = 'api.remote.it'
+url_path = '/apv/v27/device/list/all'
+content_type_header = 'application/json'
+content_length_header = str(len(body))
+headers = {
+    'host': host,
+    'content-type': content_type_header,
+    'content-length': content_length_header,
+    'DeveloperKey': api_key
+}
+response = requests.get('https://' + host + url_path,
+                        auth=HTTPSignatureAuth(algorithm="hmac-sha256",
+                                               key=b64decode(key_secret_id),
+                                               key_id=key_id,
+                                               headers=[
+                                                   '(request-target)', 'host',
+                                                   'date', 'content-type',
+                                                   'content-length'
+                                               ]),
+                        headers=headers)
 
 if response.status_code == 200:
     print(response.text)
 else:
     print(response.status_code)
+    print(response.text)
 ```
 {% endtab %}
 

@@ -124,18 +124,15 @@ This will return all devices with "tim" in the name and is not case sensitive. F
 }
 ```
 
-### Get Your Contacts
+### Get Event Logs
 
-Contacts are used for sharing and transfer actions.
+This request will fetch connection logs for all of your devices in a csv format. You can also request other logs of DEVICE\_STATE \(device online/offline activity\) and DEVICE\_SHARE \(device sharing activity\). The url will expire in 1 hour. Max 10000 lines or 28 seconds of execution. Min and max dates should not exceed 1 month.
 
 ```bash
 {
   login {
-    contacts {
-      email
-    }
+    eventsUrl(minDate: "2021-06-01", maxDate: "2021-07-01", types: DEVICE_CONNECT)
   }
-
 }
 ```
 
@@ -145,18 +142,58 @@ Response Example
 {
   "data": {
     "login": {
-      "contacts": [
+      "eventsUrl": "https://api.remote.it/graphql/v1/files/e60xxxx-8a71-4870-bxxf-xxxdd2021f7.csv"
+    }
+  }
+}
+```
+
+### Get Event Logs for a Specific Device
+
+This request will fetch connection logs for a specific device in a csv format. You can also request other logs of DEVICE\_STATE \(device online/offline activity\) and DEVICE\_SHARE \(device sharing activity\). 
+
+```bash
+{
+  login {
+    device(id: "80:00:01:f2:7E:XX:00:7B") {
+      eventsUrl(minDate: "2021-06-01", maxDate: "2021-07-01", types: DEVICE_CONNECT)
+    }
+  }
+}
+```
+
+Response Example
+
+```bash
+{
+  "data": {
+    "login": {
+      "device": [
         {
-          "email": "example@remote.it"
-        },
-        {
-          "email": "apisample@remote.it"
+          "eventsUrl": "https://api.remote.it/graphql/v1/files/af7xxx-82x7-464c-xxxc-132xxxx.csv"
         }
       ]
     }
   }
 }
 ```
+
+### Event Log CSV File
+
+| Field | Description |
+| :--- | :--- |
+| id | Event ID |
+| timestamp | DateTime of the Event in ISO 8601 format Date String |
+| type | Event Type |
+| actor | The email address user that performed the action if appropriate |
+| devices | List of devices referenced by this event |
+| owner | Email of the owner of the device |
+
+Each event type also has additional attributes
+
+#### DEVICE\_STATE
+
+
 
 ## Mutations
 
