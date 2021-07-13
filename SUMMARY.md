@@ -1,9 +1,10 @@
 # Table of contents
 
-* [remote.it API](README.md)
+* [remote.it](README.md)
 
 ## API Reference
 
+* [Overview](api-reference/overview.md)
 * [Authentication](api-reference/authentication.md)
 * [Using Developer Tools](api-reference/using-developer-tools.md)
 * [GraphQL Overview](api-reference/graphql/README.md)
@@ -14,4 +15,8 @@
   * [Update Device or Service Name](api-reference/rest-api-overview/update-device-or-service-name.md)
   * [Connecting to a Service using the API](api-reference/rest-api-overview/connect.md)
   * [Terminating a proxy connection to a device](api-reference/rest-api-overview/device-connect-stop.md)
+
+## Package Installation
+
+* [Installing the remote.it Package](package-installation/installing-the-remote.it-package.md)
 

@@ -1,26 +1,22 @@
----
-description: Learn how to use the powerful remote.it API.
----
+# remote.it
 
-# remote.it API
+### What is remote.it?
 
-remote.it is powered by a robust set of APIs that allow you to do anything via an API that you can do with our [web portal](https://app.remote.it) or mobile applications.
+remote.it allows you to make secure remote connections between two computers.
 
-Below are pages documenting our various APIs. It is best to start with the authentication docs since all other APIs require you to authenticate. It is also recommended to use the graphQL API where possible as it allows a flexible query that avoids multiple REST-API calls to only request the the data you need. Use the REST-API for connections and modifications to data.
-
-{% page-ref page="api-reference/authentication.md" %}
-
-{% page-ref page="api-reference/graphql/" %}
-
-{% page-ref page="api-reference/rest-api-overview/" %}
+* crossing multiple NATs/firewalls
+* using a single TCP port
+* **portforwardless:** without requiring port forwarding in the router, significantly reducing your network's vulnerability
+* many TCP-based protocols and applications are supported
+  * SSH/SCP - [network console and file transfer](https://support.remote.it/hc/en-us/sections/360009162531-Remote-console-and-file-transfer)
+  * VNC, RDP, Mac Screen Sharing - [remotely access the Graphical User Interface \(GUI\)](https://support.remote.it/hc/en-us/categories/360001173912-Applications)
+  * http/https \(web servers and applications such as node-red\)
+  * SMB \(Samba\) file sharing
+  * other protocols supported under the "custom TCP" option, e.g. MQTT
 
 {% hint style="info" %}
-We are in the process of adding more to our documentation website. If you have needs beyond the above APIs here, [please contact us](http://support.remot3.it).
+We are in the process of adding more to our documentation website. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
 {% endhint %}
 
 
-
-If you want all other documentation for remote.it, please visit our support documentation site below:
-
-{% embed url="https://support.remote.it/hc/en-us/articles/360045228131-Welcome-to-remote-it-" %}
 
