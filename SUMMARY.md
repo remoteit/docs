@@ -2,6 +2,12 @@
 
 * [remote.it Overview](README.md)
 
+## Getting Started
+
+* [Introduction](getting-started/introduction.md)
+* [Installation and Set Up](getting-started/installing-the-remote.it-package.md)
+* [Connecting Using the Desktop Application](getting-started/connecting-using-the-desktop-application.md)
+
 ## API Reference
 
 * [Overview](api-reference/overview.md)
@@ -15,10 +21,4 @@
   * [Update Device or Service Name](api-reference/rest-api-overview/update-device-or-service-name.md)
   * [Connecting to a Service using the API](api-reference/rest-api-overview/connect.md)
   * [Terminating a proxy connection to a device](api-reference/rest-api-overview/device-connect-stop.md)
-
-## Getting Started
-
-* [Introduction](getting-started/introduction.md)
-* [Installation and Set Up](getting-started/installing-the-remote.it-package.md)
-* [Connecting Using the Desktop Application](getting-started/connecting-using-the-desktop-application.md)
 
