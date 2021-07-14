@@ -1,6 +1,6 @@
 # Table of contents
 
-* [remote.it](README.md)
+* [remote.it Overview](README.md)
 
 ## API Reference
 
@@ -16,7 +16,9 @@
   * [Connecting to a Service using the API](api-reference/rest-api-overview/connect.md)
   * [Terminating a proxy connection to a device](api-reference/rest-api-overview/device-connect-stop.md)
 
-## Package Installation
+## Getting Started
 
-* [Installing the remote.it Package](package-installation/installing-the-remote.it-package.md)
+* [Introduction](getting-started/introduction.md)
+* [Installation and Set Up](getting-started/installing-the-remote.it-package.md)
+* [Connecting Using the Desktop Application](getting-started/connecting-using-the-desktop-application.md)
 
