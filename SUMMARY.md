@@ -1,12 +1,17 @@
 # Table of contents
 
-* [remote.it Overview](README.md)
+* [Overview](README.md)
 
-## Getting Started
+## Installation
 
-* [Introduction](getting-started/introduction.md)
-* [Installation and Set Up](getting-started/installing-the-remote.it-package.md)
-* [Connecting Using the Desktop Application](getting-started/connecting-using-the-desktop-application.md)
+* [Linux](installation/installing-the-remote.it-package.md)
+* [Raspberry Pi](installation/raspberry-pi.md)
+* [CLI](installation/cli.md)
+
+## CLI
+
+* [Overview](cli/overview.md)
+* [Usage](cli/usage.md)
 
 ## API Reference
 

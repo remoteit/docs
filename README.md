@@ -1,4 +1,4 @@
-# remote.it Overview
+# Overview
 
 remote.it allows you to make secure remote connections between two computers. Some of the benefits include:
 
