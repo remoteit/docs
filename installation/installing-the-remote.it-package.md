@@ -41,7 +41,7 @@ You will need this claim code to complete the setup in the next steps
 
 Open your remote.it desktop application and log in. Then add the device using the registration claim code by clicking the + \(Device Registration\) in the upper left.
 
-![](../.gitbook/assets/remoteitandslackbenoitkinokoremoteitandraspberrypiquickstartremoteitpisdcardimageremoteit-2-2png.png)
+![](../.gitbook/assets/screen_shot_2021-07-21_at_4_18_43_pm.png)
 
 You have now successfully registered the device to your account and should see it in your device list. If you get a message that it was not found, this indicates that the device was already claimed.
 

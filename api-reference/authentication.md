@@ -44,13 +44,17 @@ To authenticate an API request, the client must generate a signature using the p
 
 ### Examples
 
+{% hint style="warning" %}
+These are examples of query requests only for the purposes of how to do the request signing. Please refer to the schema and usage documentation for requests which are supported.
+{% endhint %}
+
 {% tabs %}
 {% tab title="bash/cURL" %}
- These example reads the ~/.remoteit/credentials file for the variables of your access key and secret. In 
+The examples reads the ~/.remoteit/credentials file for the variables of your access key, secret, and developer key.
 
 #### GraphQL
 
-```text
+```bash
 #!/bin/bash
 source ~/.remoteit/credentials
 
@@ -89,9 +93,9 @@ curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Date:$
 
 #### REST-API 
 
-Replace the developer key value with your Developer API Key.
+Make sure your credentials file has the R3\_DEVELOPER\_API\_KEY
 
-```text
+```bash
 #!/bin/bash
 source ~/.remoteit/credentials
 
@@ -127,98 +131,101 @@ curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Develo
 {% endtab %}
 
 {% tab title="Node" %}
-Coming Soon, this is a work in progress!
+#### G**raphQL**
 
-```text
-const fs = require('fs')
-const ini = require('ini')
-const os = require('os')
-const path = require('path')
-const httpSignature = require('http-signature')
-const https: require('https')
+```javascript
+const fs = require("fs");
+const ini = require("ini");
+const os = require("os");
+const path = require("path");
+const httpSignature = require("http-signature");
+const https = require("https");
 
-const R3_ACCESS_KEY_ID = 'R3_ACCESS_KEY_ID'
-const R3_SECRET_ACCESS_KEY = 'R3_SECRET_ACCESS_KEY'
+const R3_ACCESS_KEY_ID = "R3_ACCESS_KEY_ID";
+const R3_SECRET_ACCESS_KEY = "R3_SECRET_ACCESS_KEY";
 
-const CREDENTIALS_FILE = '.remoteit/credentials'
-const DEFAULT_PROFILE = 'default'
+const CREDENTIALS_FILE = ".remoteit/credentials";
+const DEFAULT_PROFILE = "default";
 
-const SIGNATURE_ALGORITHM = 'hmac-sha256'
-const SIGNED_HEADERS = '(request-target) host date content-type content-length'
+const SIGNATURE_ALGORITHM = "hmac-sha256";
+const SIGNED_HEADERS = "(request-target) host date content-type content-length";
 
-const data = JSON.stringify("")
+const query = {
+  query: `{ login { email  devices (size: 1000, from: 0) { items { id name services { id name} } } } }`,
+};
+const data = JSON.stringify(query);
 
 const options = {
-  hostname: 'api.remot3.it',
+  hostname: "api.remote.it",
   port: 443,
-  path: 'graphql/v1',
-  method: 'POST',
+  path: "graphql/v1",
+  method: "POST",
   headers: {
-    'Content-Type': 'application/json',
-    'Content-Length': data.length
-  }
+    "Content-Type": "application/json",
+    "Content-Length": data.length,
+  },
+};
+
+const file = path.resolve(os.homedir(), CREDENTIALS_FILE);
+
+if (!fs.existsSync(file))
+  return `remote.it credentials file not found: ${file}`;
+
+let credentials;
+
+try {
+  credentials = ini.parse(fs.readFileSync(file, "utf-8"));
+} catch (error) {
+  return `remote.it credentials file error: ${error.message}`;
 }
 
-const file = path.resolve(os.homedir(), CREDENTIALS_FILE)
+if (profile) {
+  credentials = getSection(credentials, profile);
 
-      if (!fs.existsSync(file)) return `remote.it credentials file not found: ${file}`
+  if (!credentials) return `remote.it profile not found: ${profile}`;
+} else {
+  credentials = getSection(credentials, DEFAULT_PROFILE) || credentials;
+}
 
-      let credentials
+const key = credentials[R3_ACCESS_KEY_ID];
 
-      try {
-        credentials = ini.parse(fs.readFileSync(file, 'utf-8'))
-      } catch (error) {
-        return `remote.it credentials file error: ${error.message}`
-      }
+if (!key) return `remote.it credentials missing: ${R3_ACCESS_KEY_ID}`;
 
-      if (profile) {
-        credentials = getSection(credentials, profile)
+const secret = credentials[R3_SECRET_ACCESS_KEY];
 
-        if (!credentials) return `remote.it profile not found: ${profile}`
-      } else {
-        credentials = getSection(credentials, DEFAULT_PROFILE) || credentials
-      }
+if (!secret) return `remote.it credentials missing: ${R3_SECRET_ACCESS_KEY}`;
 
-      const key = credentials[R3_ACCESS_KEY_ID]
+await Promise.all([
+  context.store.setItem(R3_ACCESS_KEY_ID, key),
+  context.store.setItem(R3_SECRET_ACCESS_KEY, secret),
+]);
 
-      if (!key) return `remote.it credentials missing: ${R3_ACCESS_KEY_ID}`
-
-      const secret = credentials[R3_SECRET_ACCESS_KEY]
-
-      if (!secret) return `remote.it credentials missing: ${R3_SECRET_ACCESS_KEY}`
-
-      await Promise.all([
-        context.store.setItem(R3_ACCESS_KEY_ID, key),
-        context.store.setItem(R3_SECRET_ACCESS_KEY, secret)
-      ])
-      
 const [key, secret] = await Promise.all([
-      context.store.getItem(R3_ACCESS_KEY_ID),
-      context.store.getItem(R3_SECRET_ACCESS_KEY)
-    ])
-          
+  context.store.getItem(R3_ACCESS_KEY_ID),
+  context.store.getItem(R3_SECRET_ACCESS_KEY),
+]);
+
 httpSignature.sign(new RequestWrapper(context.request), {
-      keyId: key,
-      key: Buffer.from(secret, 'base64'),
-      algorithm: SIGNATURE_ALGORITHM,
-      headers: SIGNED_HEADERS.split(/\s+/)
-    })
+  keyId: key,
+  key: Buffer.from(secret, "base64"),
+  algorithm: SIGNATURE_ALGORITHM,
+  headers: SIGNED_HEADERS.split(/\s+/),
+});
 
-const req = https.request(options, res => {
-  console.log(`statusCode: ${res.statusCode}`)
+const req = https.request(options, (res) => {
+  console.log(`statusCode: ${res.statusCode}`);
 
-  res.on('data', d => {
-    process.stdout.write(d)
-  })
-})
+  res.on("data", (data) => {
+    process.stdout.write(data);
+  });
+});
 
-req.on('error', error => {
-  console.error(error)
-})
+req.on("error", (error) => {
+  console.error(error);
+});
 
-req.write(data)
-req.end()
-
+req.write(data);
+req.end();
 ```
 {% endtab %}
 
@@ -271,7 +278,6 @@ else:
 #### REST-API
 
 ```text
-import os
 import requests
 from requests_http_signature import HTTPSignatureAuth
 from base64 import b64decode

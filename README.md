@@ -16,5 +16,23 @@ remote.it allows you to make secure remote connections between two computers. So
 We are in the process of adding more to our documentation website. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
 {% endhint %}
 
+## The remote.it components
 
+### connectd
+
+connectd is the component that is installed on the devices which will be connected. In the case of a peer to peer connection, connectd will be installed on the connection initiating device as well. You can also interact with connectd to run network diagnostics and troubleshoot other issues with your device.
+
+### Installation Packages
+
+remote.it supports installation of a desktop application, CLI or just connectd on multiple platforms and architectures.
+
+The [**Desktop**](https://link.remote.it/support/desktop-overview) application provides a UI to interact with your devices which includes configuration, connections, and event logs. This is the easiest application for technical and non-technical users.
+
+The [**CLI**](installation/cli.md) provides a local command line interface to the device to which it is installed. This includes configuration, connections, status, and some debugging tools. This is useful when a UI is not needed, however you may also need to use some API requests to use some of the functions such as connections.
+
+Other packages can install just the **connectd** component. This is useful when a UI is not needed and a small footprint on the device is needed. For example, an embedded device with very limited storage.
+
+### APIs
+
+APIs are the backbone of the applications and provide ways to view and manage your remote.it account as well as your devices, connections, and event logs. Further details on the APIs can be found [here](api-reference/overview.md).
 
