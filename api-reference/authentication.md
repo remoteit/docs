@@ -93,7 +93,9 @@ curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Date:$
 
 #### REST-API 
 
-Make sure your credentials file has the R3\_DEVELOPER\_API\_KEY
+{% hint style="warning" %}
+Please note, that you need the DEVELOPER API KEY in addition to the access key and access key secret. This example is for the purposes of demonstrating the REST-API request signing. For the device list, please use the graphQL API example above. 
+{% endhint %}
 
 ```bash
 #!/bin/bash
@@ -276,6 +278,10 @@ else:
 ```
 
 #### REST-API
+
+{% hint style="warning" %}
+Please note, that you need the DEVELOPER API KEY in addition to the access key and access key secret. This example is for the purposes of demonstrating the REST-API request signing. For the device list, please use the graphQL API example above. 
+{% endhint %}
 
 ```text
 import requests
