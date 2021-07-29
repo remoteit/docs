@@ -18,7 +18,7 @@ This REST-API request creates a proxy connection to a service. See authenticatio
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="auth" type="string" required=false %}
+{% api-method-parameter name="auth" type="string" required=true %}
 See authentication section for the auth headers required.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
