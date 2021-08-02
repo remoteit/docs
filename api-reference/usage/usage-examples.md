@@ -4,7 +4,7 @@
 
 ### On Demand Connections
 
-To create a connection from one device to another which will reconnect on demand, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover. 
+To create a connection from one device to another which will reconnect on demand, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover.
 
 {% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect" %}
 {% api-method-summary %}
@@ -33,7 +33,7 @@ Whether to wait for the connection or not. Should be set to "true"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="hostip" type="string" required=true %}
-Controls the connection mode.  See description below.
+Controls the connection mode. See description below.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -54,7 +54,6 @@ Connection with device successfully created.
     },
     "status": "true"
 }
-
 ```
 {% endapi-method-response-example %}
 
@@ -74,13 +73,13 @@ Bad requests and not authorized requests will still return as a status 200 but w
 {% endapi-method %}
 
 {% hint style="info" %}
-For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following.  It does not need an explicit port value to be used.  These are "reverse proxies".   Reverse proxies are always public, which is why the randomized URL is generated at the time of creating the connection.
+For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following. It does not need an explicit port value to be used. These are "reverse proxies". Reverse proxies are always public, which is why the randomized URL is generated at the time of creating the connection.
 
 ```text
 "proxy": "https://xprbjalo.p18.rt3.io"
 ```
 
-For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown below.  These are "port proxies".
+For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown below. These are "port proxies".
 
 ```text
 "proxy": "http:\/\/proxy18.rt3.io:38575"
@@ -89,22 +88,22 @@ For all other types of remote.it Services, the returned value for "proxy" will i
 
 ### Proxy Connection Modes
 
-The following options apply only to "port proxies", namely all Service types except the **http** and **https** Service types, which use "reverse proxies".  Reverse proxies are always public which is why the randomized URL is created.
+The following options apply only to "port proxies", namely all Service types except the **http** and **https** Service types, which use "reverse proxies". Reverse proxies are always public which is why the randomized URL is created.
 
 #### Public
 
-By setting the "hostip" parameter to 0.0.0.0, anyone who has the connection URL and port can connect to it until the connection expires or is closed using the API described at [Terminating a proxy connection to a device](usage-examples.md#stop-a-proxy-connection).  If you use the Public connection mode, make sure that your resources are properly password protected.
+By setting the "hostip" parameter to 0.0.0.0, anyone who has the connection URL and port can connect to it until the connection expires or is closed using the API described at [Terminating a proxy connection to a device](usage-examples.md#stop-a-proxy-connection). If you use the Public connection mode, make sure that your resources are properly password protected.
 
 #### IP Restricted
 
-By setting the "hostip" parameter to the client's public IP address, IP restriction is enabled.  Only connections coming from that public IP address will be allowed.  Any other incoming connection will be blocked.
+By setting the "hostip" parameter to the client's public IP address, IP restriction is enabled. Only connections coming from that public IP address will be allowed. Any other incoming connection will be blocked.
 
 #### IP Latching
 
 By setting the "hostip" parameter to 255.255.255.255, whoever uses the connection URL and port first will "latch" the connection, blocking all other connection attempts regardless of where they originated.
 
 {% hint style="info" %}
-The value returned for "connectionid" can be used with the [/device/connect/stop]() API endpoint to terminate the proxy connection to your target when you are done using it.
+The value returned for "connectionid" can be used with the [/device/connect/stop](usage-examples.md) API endpoint to terminate the proxy connection to your target when you are done using it.
 {% endhint %}
 
 {% hint style="info" %}
@@ -116,7 +115,7 @@ Some response values are omitted from the example above because they are only us
 
 ### Terminating an On Demand Connection
 
-To stop an on demand connection from one device to another, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover. 
+To stop an on demand connection from one device to another, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover.
 
 {% api-method method="post" host="https://api.remote.it" path="/apv/v27/device/connect/stop" %}
 {% api-method-summary %}
@@ -163,12 +162,12 @@ Connection with device successfully stopped.
 {% api-method-response-example httpCode=401 %}
 {% api-method-response-example-description %}
 One or more of:  
-a\) developerkey failed validation   
+a\) developerkey failed validation  
 b\) connectionid incorrect or missing  
-c\) deviceaddress incorrect or missing  
+c\) deviceaddress incorrect or missing
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "status": "false",
     "reason":"<error message>"
@@ -183,6 +182,4 @@ c\) deviceaddress incorrect or missing
 **Note**  
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
-
-## 
 

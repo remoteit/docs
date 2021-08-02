@@ -1,5 +1,7 @@
 # Linux
 
+## New Installation
+
 This guide will step you through the set up of remote.it on **Debian, Ubuntu and Linux** devices using the command line/terminal and an installation package
 
 {% hint style="info" %}
@@ -67,4 +69,8 @@ Click save. You will now see the new service.
 ![](../.gitbook/assets/remote_it_and_downloads.png)
 
 Repeat this process until you have all the services you want available via remote.it. You are now ready to connect and/or share this device.
+
+## Upgrade
+
+XXXX
 
