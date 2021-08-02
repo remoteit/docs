@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Platforms & Packages](platforms-and-packages.md)
 
 ## Installation
 

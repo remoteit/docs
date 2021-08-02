@@ -13,7 +13,7 @@ remote.it allows you to make secure remote connections between two computers. So
   * other protocols supported under the "custom TCP" option, e.g. MQTT
 
 {% hint style="info" %}
-We are in the process of adding more to our documentation website. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
+We are in the process of adding more to our developer documentation. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
 {% endhint %}
 
 ## The remote.it components
@@ -30,7 +30,7 @@ The [**Desktop**](https://link.remote.it/support/desktop-overview) application p
 
 The [**CLI**](installation/cli.md) provides a local command line interface to the device to which it is installed. This includes configuration, connections, status, and some debugging tools. This is useful when a UI is not needed, however you may also need to use some API requests to use some of the functions such as connections.
 
-Other packages can install just the **connectd** component. This is useful when a UI is not needed and a small footprint on the device is needed. For example, an embedded device with very limited storage.
+Other packages can install just the **connectd Daemon** component. This is useful when a UI is not needed and a small footprint on the device is needed. For example, an embedded device with very limited storage.
 
 ### APIs
 
