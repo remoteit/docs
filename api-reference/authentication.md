@@ -114,13 +114,14 @@ CONTENT_TYPE="application/json"
 LC_VERB=`echo "${VERB}" | tr '[:upper:]' '[:lower:]'`
 
 DATE=$(LANG=en_US date "+%a, %d %b %Y %H:%M:%S %Z")
-
+DATA=''
+CONTENT_LENGTH=${#DATA}
 
 SIGNING_STRING="(request-target): ${LC_VERB} /${URL_PATH}
 host: ${HOST}
 date: ${DATE}
 content-type: ${CONTENT_TYPE}
-content-length: 0"
+content-length: ${CONTENT_LENGTH}"
 
 echo ${SIGNING_STRING}
 
@@ -256,7 +257,7 @@ headers = {
     'host': host,
     'path': url_path,
     'content-type': content_type_header,
-    'content-length': str(len(json.dumps(body))),
+    'content-length': content_length_header,
 }
 
 response = requests.post('https://' + host + url_path,
