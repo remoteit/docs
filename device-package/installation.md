@@ -10,13 +10,14 @@ Linux Distributions
 
 | Distribution | Architecture/package manager | URL |
 | :--- | :--- | :--- |
+| Arch Linux | x86-64 \(pacman\) | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86\_64.pkg.tar.zst](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86_64.pkg.tar.zst) |
 | Debian | amd64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb) |
 | Debian | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb) |
 | Debian | arm64 jetson nano | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb) |
 | OpenWrt | opkg | [https://downloads.remote.it/remoteit/v4.13.5/remoteit\_4.13.5.ipk](https://downloads.remote.it/remoteit/v4.13.5/remoteit_4.13.5.ipk) |
 | Raspberry Pi OS | armhf | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb) |
 | Raspberry Pi OS | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.rpi.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.rpi.deb) |
-| RedHat Linux | arch64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm) |
+| RedHat Linux | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm) |
 | RedHat Linux | x86\_64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.x86\_64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.x86_64.rpm) |
 
 ## New Installation
