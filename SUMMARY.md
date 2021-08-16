@@ -32,4 +32,5 @@
   * [Event Logs](api-reference/usage/event-logs.md)
   * [Connections](api-reference/usage/usage-examples.md)
   * [Webhooks](api-reference/usage/webhooks.md)
+  * [Access Keys](api-reference/usage/access-keys.md)
 
