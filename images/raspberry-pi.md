@@ -1,12 +1,20 @@
 # Raspberry Pi
 
-{% hint style="info" %}
-Do you already have a configured Raspberry Pi? Use the [Linux installation guide](installing-the-remote.it-package.md)
+{% hint style="warning" %}
+Do you already have a configured Raspberry Pi? You can install on of the following:
+
+[Target Service Daemon](../device-package/installation.md) if you only need to support connections to the Pi and want a small footprint
+
+[CLI](../cli/overview.md) if you do not need a UI and are comfortable using the command line or scripting
+
+[Desktop](../desktop/overview-and-installation.md) if you want a fully supported UI to configure other devices and/or connect to other devices.
 {% endhint %}
 
 remote.itPi is an SD card operating system image for Raspberry Pi bundled with remote.it. The remote.itPi image includes the free remote.it application to enable instant remote access using SSH or VNC to any private network where the Pi is connected.
 
 Once connected to the network, the Pi will provide direct remote access for authenticated users to any computers, routers, NAS storage boxes, printers, etc. connected to the same remote network.
+
+## Installation
 
 There are 3 options available:
 

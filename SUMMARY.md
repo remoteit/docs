@@ -3,17 +3,24 @@
 * [Overview](README.md)
 * [Platforms & Packages](platforms-and-packages.md)
 
-## Installation
+## Device Package
 
-* [Linux](installation/installing-the-remote.it-package.md)
-* [Windows](installation/windows.md)
-* [Raspberry Pi](installation/raspberry-pi.md)
-* [CLI](installation/cli.md)
+* [Overview & Installation](device-package/installation.md)
+* [Usage](device-package/usage.md)
 
 ## CLI
 
-* [Overview](cli/overview.md)
+* [Overview and Installation](cli/overview.md)
 * [Usage](cli/usage.md)
+
+## Desktop
+
+* [Overview and Installation](desktop/overview-and-installation.md)
+
+## Images
+
+* [AWS AMI](images/aws-ami.md)
+* [Raspberry Pi](images/raspberry-pi.md)
 
 ## API Reference
 
