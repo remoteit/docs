@@ -180,31 +180,6 @@ sudo nohup apt install ./file &
 Continue in terminal on the target device
 
 ```text
-yum update
-```
-
-{% hint style="warning" %}
-If using remoteit to access ssh to the device, you will lose your ssh connection to the device during this step. This is normal since we are replacing the daemon and remoteit will restart the service. 
-{% endhint %}
-
-You may also need to install nohup which is not installed by default on most systems. This allows the installation to continue once the upgrade is in process and ssh hangs up temporarily.
-
-```text
-yum install coreutils
-```
-
-During this  next step your desktop app will notify you that the device has gone offline. This is normal as the remoteit target service will stop during upgrade.   
-Once this step completes you will again be notified that the device has come back online. If you were using the desktop for your connection, this connection will resume.
-
-```text
-nohup yum install ./file &
-```
-{% endtab %}
-
-{% tab title="yum" %}
-Continue in terminal on the target device
-
-```text
 opkg update
 ```
 
@@ -223,6 +198,31 @@ Once this step completes you will again be notified that the device has come bac
 
 ```text
 nohup opkg install ./file &
+```
+{% endtab %}
+
+{% tab title="yum" %}
+Continue in terminal on the target device
+
+```text
+yum update
+```
+
+{% hint style="warning" %}
+If using remoteit to access ssh to the device, you will lose your ssh connection to the device during this step. This is normal since we are replacing the daemon and remoteit will restart the service. 
+{% endhint %}
+
+You may also need to install nohup which is not installed by default on most systems. This allows the installation to continue once the upgrade is in process and ssh hangs up temporarily.
+
+```text
+yum install coreutils
+```
+
+During this  next step your desktop app will notify you that the device has gone offline. This is normal as the remoteit target service will stop during upgrade.   
+Once this step completes you will again be notified that the device has come back online. If you were using the desktop for your connection, this connection will resume.
+
+```text
+nohup yum install ./file &
 ```
 {% endtab %}
 {% endtabs %}
