@@ -46,3 +46,7 @@ Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authenticat
 
 You now can send the request and execute the query using the credentials stored earlier.
 
+{% hint style="warning" %}
+If you want to start using the API requests in your code, you cannot use the generated code out of Insomnia as the generated signature is only good for that specific request. You will need to use the http request signing methodology. Some examples can be found on the [authentication page](authentication.md#examples).
+{% endhint %}
+
