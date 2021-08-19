@@ -18,7 +18,7 @@ We are in the process of adding more to our developer documentation. Can't find 
 
 ## The remote.it components
 
-### remoteit Service Daemon
+### remoteit Service Agent
 
 remoteit is the component that is installed on the devices which will be connected. In the case of a peer to peer connection, remoteit will be installed on the connection initiating device as well. You can also interact with remoteit to run network diagnostics and troubleshoot other issues with your device.
 

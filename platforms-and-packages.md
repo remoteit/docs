@@ -12,7 +12,7 @@
 
 ## Package Components
 
-| **Packages** | **OS** | **UI** | **CLI** | **Daemon** |
+| **Packages** | **OS** | **UI** | **CLI** | **Agent** |
 | :--- | :--- | :---: | :---: | :---: |
 | **remoteitPi Image** | **Pi OS** | **X** | **X** | **X** |
 | **AWS AMI** | **Amazon Linux 2** | **X** | **X** | **X** |
