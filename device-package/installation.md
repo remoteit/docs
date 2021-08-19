@@ -133,7 +133,7 @@ Repeat this process until you have all the services you want available via remot
 ## Upgrades
 
 {% hint style="info" %}
-If you have a device with Desktop or CLI installed, upgrade those applications directly. If you have a version of the target service daemon &lt; 4 \(formerly known as connectd\), please [contact support](https://support.remote.it/hc/en-us/requests/new) so that we can assist you directly.
+If you have a device with Desktop or CLI installed, upgrade those applications directly. If you have a version of remoteit &lt; 3.0, please [contact support](https://support.remote.it/hc/en-us/requests/new) so that we can assist you directly.
 {% endhint %}
 
 To upgrade a device with remoteit device package Version 4 and higher installed follow these instructions.
