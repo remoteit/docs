@@ -11,6 +11,8 @@ Linux Distributions
 | Distribution | Architecture/package manager | URL |
 | :--- | :--- | :--- |
 | Arch Linux | x86-64 \(pacman\) | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86\_64.pkg.tar.zst](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86_64.pkg.tar.zst) |
+| AWS Linux 2 | arm 64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm) |
+| AWS Linux 2 | x86\_64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.x86\_64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.x86_64.rpm) |
 | Debian | amd64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb) |
 | Debian | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb) |
 | Debian | arm64 jetson nano | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb) |
@@ -132,11 +134,11 @@ Repeat this process until you have all the services you want available via remot
 
 ## Upgrades
 
-{% hint style="info" %}
-If you have a device with Desktop or CLI installed, upgrade those applications directly. If you have a version of remoteit which is 3.0 or greater, you can follow these instructions to upgrade. If you have a version which is older than 3.0, please [contact support](https://support.remote.it/hc/en-us/requests/new) so that we can assist you directly.
+{% hint style="warning" %}
+If you have a device with Desktop or CLI installed, upgrade those applications directly. If you have a version of remoteit which is older than 3.0, please [contact support](https://support.remote.it/hc/en-us/requests/new) so that we can assist you directly.
 {% endhint %}
 
-To upgrade a device with remoteit device package Version 4 and higher installed follow these instructions.
+To upgrade a device with remoteit device package Version 3.0 and higher installed follow these instructions.
 
 ### 1. Connect to ssh service on your device
 
