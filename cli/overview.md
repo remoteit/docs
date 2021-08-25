@@ -24,3 +24,61 @@ The remote.it CLI has slightly different behavior if you are running as a root u
 | Debian | ARM64 | [https://downloads.remote.it/cli/latest/remoteit\_linux\_arm64](https://downloads.remote.it/cli/latest/remoteit_linux_arm64) |
 | Debian | x86\_64 | [https://downloads.remote.it/cli/latest/remoteit\_linux\_x86\_64](https://downloads.remote.it/cli/latest/remoteit_linux_x86_64) |
 
+## Installation
+
+Download the binary for the platform and Architecture/Distribution to the device. 
+
+{% tabs %}
+{% tab title="Debian" %}
+Place the file in /usr/bin and rename to "remoteit"
+
+You will need to change permissions on the file to make it executable by opening Terminal
+
+```text
+chmod +x /usr/bin/remoteit
+```
+
+After placing the binary and making it executable, you will need to install the agent using the following command
+
+```text
+sudo remoteit agent install
+```
+
+At this point you can start using CLI. See [Usage](usage.md)
+{% endtab %}
+
+{% tab title="MacOS" %}
+Place the file in /usr/local/bin and rename to "remoteit"
+
+You will need to change permissions on the file to make it executable by opening Terminal
+
+```text
+chmod +x /usr/local/bin/remoteit
+```
+
+After placing the binary and making it executable, you will need to install the agent using the following command
+
+```text
+sudo remoteit agent install
+```
+
+At this point you can start using CLI see [Usage](usage.md)
+{% endtab %}
+
+{% tab title="Windows" %}
+Place the file in your drive which has "Program Files" typically your c drive and rename to "remoteit.exe"
+
+You will need to update your PATH environmental variables to add the full path to the exe.
+
+You will need to install the agent using the following command as admin in command line
+
+```text
+remoteit agent install
+```
+
+At this point you can start using CLI see [Usage](usage.md)
+{% endtab %}
+{% endtabs %}
+
+
+
