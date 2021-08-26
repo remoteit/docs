@@ -6,7 +6,9 @@ You can interact with remoteit to run network diagnostics and troubleshoot other
 
 ## Supported Platforms
 
-Linux Distributions
+{% hint style="info" %}
+AWS Cloud users, please pick the distribution package that matches your OS and architecture installed on your instance below.
+{% endhint %}
 
 | Distribution | Architecture/package manager | URL |
 | :--- | :--- | :--- |
