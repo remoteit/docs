@@ -100,7 +100,9 @@ sudo yum install ./file
 {% endtabs %}
 
 {% hint style="warning" %}
-You will need this claim code to complete the setup in the next steps. Save it until you complete registering the device.
+You will need this claim code to complete the setup in the next steps. Save it until you complete registering the device. 
+
+**This claim code is valid for 24 hours. If not used before then, re-run your installation command to get a new code.**
 {% endhint %}
 
 ![](../.gitbook/assets/2021-07-14-124424_3840x2160_scrot.png)
