@@ -31,7 +31,7 @@ This guide will step you through the set up of remote.it on **Debian, Ubuntu and
 {% hint style="warning" %}
 Prerequisites: 
 
-1. You have a remote.it account \(If not, please go ahead and create an account at [https://app.remote.it](https://app.remote.it)
+1. You have a remote.it account \(If not, please go ahead and create an account at [https://app.remote.it](https://app.remote.it)\)
 2. You have installed the remote.it Desktop application on a machine you will be using to configure and connect to your device. \(This doesn't need to be on the same network as the device you are setting up\) See [https://remote.it/download/](https://remote.it/download/) for the different options available.
 {% endhint %}
 
