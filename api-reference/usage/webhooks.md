@@ -5,7 +5,7 @@ remote.it supports **webhooks** which allow you to receive HTTP push notificatio
 Your webhook consumer is a simple HTTP endpoint. It is not an email address or a general website url. It must satisfy the following conditions:
 
 * It's available in a publicly accessible HTTPS, non-localhost URL
-* It will respond to the remote.it Webhook push \(HTTP POST request\) with a `HTTP 200` \("OK"\) response
+* It will respond to the remote.it Webhook push \(HTTP POST request\) with a `HTTP 200` \("OK"\) response within 5 seconds
 
 If a delivery fails \(i.e. server unavailable or responded with a non-200 HTTP status code\), the push might subsequently be retried a couple of times. If the webhook URL continues to be unresponsive the webhook might be disabled by remote.it, and must be re-enabled again manually.
 
