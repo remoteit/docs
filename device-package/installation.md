@@ -97,6 +97,22 @@ sudo yum install ./file
 
 **When this completes you will see the claim code to use in the desktop application to complete the setup.**
 {% endtab %}
+
+{% tab title="pacman" %}
+Continue in terminal on the target device
+
+```text
+sudo pacman -Syy
+```
+
+Once that completes, then continue with the installation replacing the path and file name as appropriate
+
+```text
+sudo pacman -U ./file
+```
+
+**When this completes you will see the claim code to use in the desktop application to complete the setup.**
+{% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
