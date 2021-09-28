@@ -10,7 +10,7 @@ You can interact with remoteit to run network diagnostics and troubleshoot other
 AWS Cloud users, please pick the distribution package that matches your OS and architecture installed on your instance below.
 {% endhint %}
 
-| Distribution | Architecture/package manager | URL |
+| Distribution | Architecture/package manager | URL for Package |
 | :--- | :--- | :--- |
 | Arch Linux | x86-64 \(pacman\) | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86\_64.pkg.tar.zst](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86_64.pkg.tar.zst) |
 | AWS Linux 2 | arm 64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1.aarch64.rpm) |
@@ -44,7 +44,9 @@ sudo command is only required on systems where you are not logged in as root.
 {% endhint %}
 
 ```text
-sudo wget https://downloads.remote.it/remoteit/v4.13.3/remoteit-4.13.3.armhf.rpi.deb
+sudo wget [URL for Package (i.e. 
+https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb
+)]
 ```
 
 ### 2. Update your package manager and install
@@ -60,7 +62,8 @@ sudo apt update
 Once that completes, then continue with the installation replacing the path and file name as appropriate
 
 ```text
-sudo apt install ./file
+sudo apt install [file name (i.e. ./remoteit-4.13.5.armhf.rpi.deb
+)]
 ```
 
 **When this completes you will see the claim code to use in the desktop application to complete the setup.**
