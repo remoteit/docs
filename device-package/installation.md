@@ -18,6 +18,7 @@ AWS Cloud users, please pick the distribution package that matches your OS and a
 | Debian | amd64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.amd64.deb) |
 | Debian | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.deb) |
 | Debian | arm64 jetson nano | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.jetson.deb) |
+| Debian | armhf | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb) |
 | OpenWrt | opkg | [https://downloads.remote.it/remoteit/v4.13.5/remoteit\_4.13.5.ipk](https://downloads.remote.it/remoteit/v4.13.5/remoteit_4.13.5.ipk) |
 | Raspberry Pi OS | armhf | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.armhf.rpi.deb) |
 | Raspberry Pi OS | arm64 | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.rpi.deb](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5.arm64.rpi.deb) |
