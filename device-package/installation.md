@@ -38,7 +38,15 @@ Prerequisites:
 
 ### 1. Download the package
 
-Open a terminal window on the device where remote.it will be installed. Then download the package. Example below is for a specific pi package. Please use the appropriate package url. This will place the file in your home directory [See above](installation.md#supported-platforms) for specific packages and urls.
+Open a terminal window on the device where remote.it will be installed, then download the package. 
+
+Example below is for a specific pi package. Please use the appropriate package url. This will place the file in your home directory [See above](installation.md#supported-platforms) for specific packages and urls. 
+
+**For Debian OS distributions, if you are not sure of the architecture, you can run the following command:**
+
+```text
+sudo dpkg --print-architecture
+```
 
 {% hint style="info" %}
 sudo command is only required on systems where you are not logged in as root. 
