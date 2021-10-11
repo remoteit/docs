@@ -2,10 +2,10 @@
 
 The REST-API and GraphQL API require authentication for requests. remote.it authentication uses HTTP Request Signature. The advantages of this method are:
 
-* keys do not expire
-* keys can be disabled and revoked \(deleted\) by the user at any time
-* keys are not dependent on password
-* keys are more secure \(the secret is never transmitted because the request is signed\)
+* Keys do not expire
+* Keys can be disabled and revoked \(deleted\) by the user at any time
+* Keys are not dependent on password
+* Keys are more secure \(the secret is never transmitted because the request is signed\)
 
 ## Key Management
 
