@@ -45,14 +45,14 @@ Response Example
 }      
 ```
 
-| Attributes | Data Type | Description |
-| :--- | :--- | :--- |
-| ID | Int | The primary key of the application type used in queries such as [Get Devices By An Attribute](devices-and-services.md#get-devices-by-an-attribute) |
-| name | String | The given short name for an application type. This is unique |
-| description | String | Further explanation of the application type |
-| port | Int | The default port for the application type. This can be overridden on a service by service basis |
-| protocol | String | The protocol used when creating a connection to this application type |
-| proxy | Boolean | Whether the application type will use a reverse proxy when creating a proxy connection. |
+| Attributes  | Data Type | Description                                                                                                                                        |
+| ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID          | Int       | The primary key of the application type used in queries such as [Get Devices By An Attribute](devices-and-services.md#get-devices-by-an-attribute) |
+| name        | String    | The given short name for an application type. This is unique                                                                                       |
+| description | String    | Further explanation of the application type                                                                                                        |
+| port        | Int       | The default port for the application type. This can be overridden on a service by service basis                                                    |
+| protocol    | String    | The protocol used when creating a connection to this application type                                                                              |
+| proxy       | Boolean   | Whether the application type will use a reverse proxy when creating a proxy connection.                                                            |
 
 ## Get Your Devices
 
@@ -128,51 +128,13 @@ In this example we will be fetching all devices with "tim" in the name using gra
 
 Other available parameters available:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Parameter</th>
-      <th style="text-align:left">Data Type</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">application</td>
-      <td style="text-align:left">Int</td>
-      <td style="text-align:left">
-        <p>ID of the application type (service type). Using this parameter will return
-          devices which have services of a given type and if the services are returned
-          in the query will only include the services of this type. For example,
-          if you request an application type id which is mapped to SSH and include
-          the services, only services of type of SSH will be returned in the services
-          array even when there are other services defined on the device.</p>
-        <p>To get available service types, please see <a href="devices-and-services.md#application-types">Application Types</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">hardwareid</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">The hardware ID associated with the device.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">name</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">String which is present in the name of the device and is not case sensitive.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">platform</td>
-      <td style="text-align:left">[Int]</td>
-      <td style="text-align:left">Array of platform IDs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">state</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">accepted values &quot;active&quot; and &quot;inactive&quot;</td>
-    </tr>
-  </tbody>
-</table>
+| Parameter   | Data Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| application | Int       | <p>ID of the application type (service type). Using this parameter will return devices which have services of a given type and if the services are returned in the query will only include the services of this type. For example, if you request an application type id which is mapped to SSH and include the services, only services of type of SSH will be returned in the services array even when there are other services defined on the device.</p><p>To get available service types, please see <a href="devices-and-services.md#application-types">Application Types</a></p> |
+| hardwareid  | String    | The hardware ID associated with the device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| name        | String    | String which is present in the name of the device and is not case sensitive.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| platform    | \[Int]    | Array of platform IDs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| state       | String    | accepted values "active" and "inactive"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 Additional attributes will become available over time. Please refer to the schema documentation for the extensive list.
 
@@ -248,59 +210,36 @@ Response Example
 
 You can update a device or service name by using a REST-API request. You may need to fetch your device list to get the ID of the service you wish to modify. When you want to update a device name, update using the device ID. 
 
-{% api-method method="post" host="" path="/apv/v27/device/name" %}
-{% api-method-summary %}
-Update Service Name
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="" path="/apv/v27/device/name" method="post" summary="Update Service Name" %}
+{% swagger-description %}
 You can update a device or service name by using a REST-API request. You may need to fetch your device list to get the ID of the service you wish to modify. When you want to update a device name, update it using the device ID for the service ID. The body parameters are a JSON string.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="auth" type="string" required=true %}
+{% swagger-parameter in="header" name="auth" type="string" %}
 
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="devicealias" type="string" required=false %}
+{% swagger-parameter in="body" name="devicealias" type="string" %}
 The new name.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="deviceaddress" type="string" required=false %}
+{% swagger-parameter in="body" name="deviceaddress" type="string" %}
 The service ID to be changed. In the case of a device name, use the device ID returned from get devices
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-If the request is successful, then it will respond with "status"="true". If there was failure outside of authorization or bad request, then the response will still have a status code of 200 but the "status" would be "false" in the response body.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="If the request is successful, then it will respond with "status"="true". If there was failure outside of authorization or bad request, then the response will still have a status code of 200 but the "status" would be "false" in the response body." %}
 ```
 {
   "status": "true"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Post data is not correct. Either missing the required deviceaddress or devicealias parameters OR an invalid deviceaddress was provided
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Post data is not correct. Either missing the required deviceaddress or devicealias parameters OR an invalid deviceaddress was provided" %}
 ```
 {
 "status": "false"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

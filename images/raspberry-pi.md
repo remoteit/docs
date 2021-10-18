@@ -18,16 +18,16 @@ Once connected to the network, the Pi will provide direct remote access for auth
 
 There are 3 options available:
 
-1. [ARM](https://downloads.remote.it/remote.itPi/latest/remote.itPi.img.zip) - 32-bit supporting SSH and VNC by default \(GUI enabled OS\)
-2. [ARM64](https://downloads.remote.it/remote.itPi/latest/remote.itPi_arm64.img.zip) - 64-bit supporting SSH and VNC by default \(GUI enabled OS\)
-3. [ARM - Lite](https://downloads.remote.it/remote.itPi/latest/remote.itPi_lite.img.zip) - 32-bit supporting SSH by default \(GUI disabled OS\)
+1. [ARM](https://downloads.remote.it/remote.itPi/latest/remote.itPi.img.zip) - 32-bit supporting SSH and VNC by default (GUI enabled OS)
+2. [ARM64](https://downloads.remote.it/remote.itPi/latest/remote.itPi_arm64.img.zip) - 64-bit supporting SSH and VNC by default (GUI enabled OS)
+3. [ARM - Lite](https://downloads.remote.it/remote.itPi/latest/remote.itPi_lite.img.zip) - 32-bit supporting SSH by default (GUI disabled OS)
 
 To get started, you will need the following
 
 * remote.it Desktop installed on your computer
 * remote.it Pi Image
 * Formatted micro SD card & reader
-* OS image writer \(Rasberry Pi Imager, balenaEtcher, or similar\)
+* OS image writer (Rasberry Pi Imager, balenaEtcher, or similar)
 
 {% tabs %}
 {% tab title="Video Guide" %}
@@ -50,22 +50,22 @@ If you encounter any issues using the Raspberry Pi Imager, try the [Balena Etche
    1. Under "Operating System," click **CHOOSE OS**. When prompted, select the "**Use custom"** option. Locate and select the **remote.itPi.img** that you extracted from the .zip file.
    2. Under "SD Card," click **CHOOSE SD CARD**. When prompted, select your formatted micro SD's drive.
    3. Click **WRITE** to begin writing the remote.itPi image onto the micro SD. This process will take a few minutes.
-4. Add wifi accessibility **\(Optional\)**
-   1. Add a wpa\_supplicant.conf file to the root of your SD card \(this will be read by the raspberry pi on boot and will set these configurations for the wireless networking. File configuration options and details can be found on the raspberrypi.org website here [https://www.raspberrypi.org/documentation/configuration/wireless/headless.md](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+4. Add wifi accessibility** (Optional)**
+   1. Add a wpa_supplicant.conf file to the root of your SD card (this will be read by the raspberry pi on boot and will set these configurations for the wireless networking. File configuration options and details can be found on the raspberrypi.org website here [https://www.raspberrypi.org/documentation/configuration/wireless/headless.md](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
    2. Eject the micro SD card from your computer.
 5. Insert the micro SD card into your Raspberry Pi and power on.
    1. If you are using ethernet for internet connection, ensure that you have an ethernet cable connected with access to the internet
    2. Wait a few minutes for your Raspberry Pi to complete the boot process
-6. Find you Raspberry Pi on the LAN and register it to your account
+6.  Find you Raspberry Pi on the LAN and register it to your account
 
-   1. Using a remote.it feature to discover the Raspberry Pi, open [http://find.remote.it](http://find.remote.it) in your browser which will search for your Raspberry Pi on the LAN
-      1. Make sure you have disabled any pop-up blocker extensions or software for the remote.it domain
-   2. After scanning completes and is successful,  click the "CONNECT" button on your Raspberry Pi device see [find.remote.it](raspberry-pi.md#find-remote-it) below for more details.
-   3. Sign In to your remote.it account \(you can create one here if you do not have one\)
-   4. Register your Raspberry Pi with remote.it by providing a name and clicking "REGISTER"
-      1. You should see the installed services depending on your image this could be SSH, VNC, and remote.it Admin Panel. DO NOT remove the SSH or the remote.it Admin Panel as this will prevent your from accessing your Raspberry Pi with remote.it.
+    1. Using a remote.it feature to discover the Raspberry Pi, open [http://find.remote.it](http://find.remote.it) in your browser which will search for your Raspberry Pi on the LAN
+       1. Make sure you have disabled any pop-up blocker extensions or software for the remote.it domain
+    2. After scanning completes and is successful,  click the "CONNECT" button on your Raspberry Pi device see [find.remote.it](raspberry-pi.md#find-remote-it) below for more details.
+    3. Sign In to your remote.it account (you can create one here if you do not have one)
+    4. Register your Raspberry Pi with remote.it by providing a name and clicking "REGISTER"
+       1. You should see the installed services depending on your image this could be SSH, VNC, and remote.it Admin Panel. DO NOT remove the SSH or the remote.it Admin Panel as this will prevent your from accessing your Raspberry Pi with remote.it.
 
-   Congratulations! Your Raspberry Pi is now registered to your remote.it account and you can now connect to remote.it Pi from any device using remote.it or a browser.
+    Congratulations! Your Raspberry Pi is now registered to your remote.it account and you can now connect to remote.it Pi from any device using remote.it or a browser.
 {% endtab %}
 {% endtabs %}
 
@@ -73,11 +73,11 @@ If you encounter any issues using the Raspberry Pi Imager, try the [Balena Etche
 
 **find.remote.it** is a network tool that lets you locate and connect to or register all the devices on your LAN which have the **remoteit** package installed.  This update enables a fully web based configuration tool for your local area network.
 
-Once you have a **remoteit** enabled device running on your LAN, you can access it using [http://find.remote.it](http://find.remote.it/). Use the left and right arrows to navigate through all of your LAN devices if you have more than one.
+Once you have a **remoteit** enabled device running on your LAN, you can access it using [http://find.remote.it](http://find.remote.it). Use the left and right arrows to navigate through all of your LAN devices if you have more than one.
 
 ### Browser Security Warning
 
-You may see a browser security warning when accessing find.remote.it on your LAN. [remote.it](http://remote.it/) uses a certificate to allow encryption of your connection during the initial setup of your device. We can’t ask you to get a domain name and a certificate so we can communicate with your new device, so we have done that for you with a self-signed certificate. That means you will have to acknowledge it is OK to trust us and the self-signed certificate. If you are uncomfortable with this practice, or do not understand, you do not have to allow the connection.  You can use the remoteit [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811) instead.
+You may see a browser security warning when accessing find.remote.it on your LAN. [remote.it](http://remote.it) uses a certificate to allow encryption of your connection during the initial setup of your device. We can’t ask you to get a domain name and a certificate so we can communicate with your new device, so we have done that for you with a self-signed certificate. That means you will have to acknowledge it is OK to trust us and the self-signed certificate. If you are uncomfortable with this practice, or do not understand, you do not have to allow the connection.  You can use the remoteit [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811) instead.
 
 ### Troubleshooting
 
@@ -91,14 +91,14 @@ You may encounter issues configuring your device from another computer on the sa
 
 * Disabling IP Isolation mode in your router
 * Connecting your client PC to the network using an Ethernet cable
-* Configuring your device directly though its own console \(i.e. keyboard and monitor\) using the remote.it [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811).
+* Configuring your device directly though its own console (i.e. keyboard and monitor) using the remote.it [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811).
 
 #### Miscellaneous other reasons
 
 find.remote.it may fail for other reasons which may be difficult to diagnose.  You may also try:
 
-* Accessing the newly installed web admin page using &lt;IP address&gt;:29999 in your browser, where &lt;IP address&gt; is the LAN IP address of the device you are attempting to configure.
-* Configuring your device directly though its own console \(i.e. keyboard and monitor\) using the remote.it [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811).
+* Accessing the newly installed web admin page using \<IP address>:29999 in your browser, where \<IP address> is the LAN IP address of the device you are attempting to configure.
+* Configuring your device directly though its own console (i.e. keyboard and monitor) using the remote.it [Command Line Interface](https://support.remote.it/hc/en-us/articles/360050382811).
 * Make sure that the [remote.it agent is running properly](https://support.remote.it/hc/en-us/articles/360046373452).
 
 ## Adding/removing services
@@ -106,4 +106,3 @@ find.remote.it may fail for other reasons which may be difficult to diagnose.  Y
 You can make additional services available on remote.it, such as a web page. Make sure that these services are running on your Raspberry Pi and then add them using the Desktop Application or CLI.
 
 You can also remove available services on remote.it by using the Desktop Application or CLI. Please note that once deleted, you can add that service type back, but it will actually be a new service definition.
-

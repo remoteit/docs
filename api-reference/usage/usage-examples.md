@@ -6,44 +6,28 @@
 
 To create a connection from one device to another which will reconnect on demand, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover.
 
-{% api-method method="post" host="https://api.remot3.it" path="/apv/v27/device/connect" %}
-{% api-method-summary %}
-Create a Proxy Connection
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.remot3.it" path="/apv/v27/device/connect" method="post" summary="Create a Proxy Connection" %}
+{% swagger-description %}
 This REST-API request creates a proxy connection to a service. See authentication section for information on how to add the correct headers.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="auth" type="string" required=true %}
+{% swagger-parameter in="header" name="auth" type="string" %}
 See authentication section for the auth headers required.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="deviceaddress" type="string" required=true %}
-The service address \(e.g. service ID\) for the device you'd like to connect to
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="deviceaddress" type="string" %}
+The service address (e.g. service ID) for the device you'd like to connect to
+{% endswagger-parameter %}
 
-{% api-method-parameter name="wait" type="boolean" required=true %}
+{% swagger-parameter in="body" name="wait" type="boolean" %}
 Whether to wait for the connection or not. Should be set to "true"
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="hostip" type="string" required=true %}
+{% swagger-parameter in="body" name="hostip" type="string" %}
 Controls the connection mode. See description below.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Connection with device successfully created.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Connection with device successfully created." %}
 ```javascript
 {
     "connection": {
@@ -55,33 +39,27 @@ Connection with device successfully created.
     "status": "true"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Bad requests and not authorized requests will still return as a status 200 but with the response text as status false
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Bad requests and not authorized requests will still return as a status 200 but with the response text as status false" %}
 ```javascript
 {
     "status": "false"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="info" %}
 For http and https remote.it Services, the returned value for "proxy" will be a single string similar to the following. It does not need an explicit port value to be used. These are "reverse proxies". Reverse proxies are always public, which is why the randomized URL is generated at the time of creating the connection.
 
-```text
+```
 "proxy": "https://xprbjalo.p18.rt3.io"
 ```
 
 For all other types of remote.it Services, the returned value for "proxy" will include a hostname and a port value separated by a colon, as shown below. These are "port proxies".
 
-```text
+```
 "proxy": "http:\/\/proxy18.rt3.io:38575"
 ```
 {% endhint %}
@@ -107,7 +85,7 @@ The value returned for "connectionid" can be used with the [/device/connect/stop
 {% endhint %}
 
 {% hint style="info" %}
-**Note**  
+**Note**\
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
 
@@ -117,69 +95,46 @@ Some response values are omitted from the example above because they are only us
 
 To stop an on demand connection from one device to another, you can use the Desktop Application or the CLI tool. This type of connection is Peer to Peer by default with a Proxy Failover.
 
-{% api-method method="post" host="https://api.remote.it" path="/apv/v27/device/connect/stop" %}
-{% api-method-summary %}
-Terminate a Proxy Connection
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.remote.it" path="/apv/v27/device/connect/stop" method="post" summary="Terminate a Proxy Connection" %}
+{% swagger-description %}
 This REST-API request will stop a proxy connection from one device to another. See the authentication page for further information about authentication
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="auth" type="string" required=true %}
+{% swagger-parameter in="header" name="auth" type="string" %}
 See the Authentication Page for further details about this header and request signing.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="deviceaddress" type="string" required=true %}
-The service address \(e.g. service ID\) for the device you connected to, but now you want to terminate the proxy for that connection.
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="deviceaddress" type="string" %}
+The service address (e.g. service ID) for the device you connected to, but now you want to terminate the proxy for that connection.
+{% endswagger-parameter %}
 
-{% api-method-parameter name="connectionid" type="string" required=true %}
+{% swagger-parameter in="body" name="connectionid" type="string" %}
 The connection ID returned from the /device/connect API call
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Connection with device successfully stopped.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Connection with device successfully stopped." %}
 ```javascript
 {
     "status": "true",
     "connectionid":"A481EBED-C678-4DA4-60D2-60F1FE8EB5DA"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-One or more of:  
-a\) developerkey failed validation  
-b\) connectionid incorrect or missing  
-c\) deviceaddress incorrect or missing
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="401" description="One or more of:
+a) developerkey failed validation
+b) connectionid incorrect or missing
+c) deviceaddress incorrect or missing" %}
+```
 {
     "status": "false",
     "reason":"<error message>"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 {% hint style="info" %}
-**Note**  
+**Note**\
 Some response values are omitted from the example above because they are only used in very specific circumstances.
 {% endhint %}
-
