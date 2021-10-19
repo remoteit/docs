@@ -10,7 +10,7 @@ Insomnia is an API request IDE and a remote.it plugin is available to assist wit
 For graphQL, you can explore the schema, generate queries and mutations.\
 For the REST-API, you can create http requests.
 
-### Download and Install Insomnia
+## Download and Install Insomnia
 
 {% embed url="https://insomnia.rest/" %}
 
@@ -42,7 +42,7 @@ You can type a sample GraphQL query to [https://api.remote.it/graphql/v1](https:
 
 If you haven't already set up your machine with the credentials file, see [here](authentication.md) and do so now.
 
-Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication. Click on the_**Token**_ field and `CTRL+Space`to select the _**remote.it API authentication **_tag, and select a specific profile otherwise the default profile will be used. 
+Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication. Click on the_**Token**_ field and `CTRL+Space`to select the _**remote.it API authentication **_tag, and select a specific profile otherwise the default profile will be used.&#x20;
 
 You now can send the request and execute the query using the credentials stored earlier.
 
@@ -50,7 +50,7 @@ You now can send the request and execute the query using the credentials stored 
 If you want to start using the API requests in your code, you cannot use the generated code out of Insomnia as the generated signature is only good for that specific request. You will need to use the http request signing methodology. Some examples can be found on the [authentication page](authentication.md#examples).
 {% endhint %}
 
-### Download and Install Postman
+## Download and Install Postman
 
 {% embed url="https://www.postman.com" %}
 These instructions have been written using Version 9.0.5
@@ -58,9 +58,15 @@ These instructions have been written using Version 9.0.5
 
 ### Create a Remote.it Environment
 
-You can quickly change postman environments for any request. All our required keys and headers will be stored here. Add and Save the values retrieved from your [credential](authentication.md#create-a-remote.it-credentials-file)s file. 
+You can quickly change postman environments for any request. All our required keys and headers will be stored here. Add and Save the values retrieved from your [credentials file](authentication.md#create-a-remote.it-credentials-file).&#x20;
 
-![Keys omitted](<../.gitbook/assets/Screen Shot 2021-10-15 at 5.03.07 PM.png>)
+![](<../.gitbook/assets/Screen Shot 2021-10-15 at 5.03.07 PM.png>)
+
+```
+R3_ACCESS_KEY_ID
+R3_SECRET_ACCESS_KEY
+R3_DEVELOPER_API_KEY
+```
 
 ### Create and Setup Request
 
@@ -72,109 +78,116 @@ Make sure to create a _**POST**_ request and select _**Raw**_ or _**GraphQL**_ a
 
 #### Pre-Request Script
 
-Add the Pre-Request Script below to generate the needed environment variables for each request. This **MUST** be run prior to every request. 
+Add the Pre-Request Script below to generate the needed environment variables for each request. This **MUST** be run prior to every request.&#x20;
 
 ```
+//Sign with Remote.it Http-Signature
+const urlTool = require('url')
+
 function computeHttpSignature(config, headerHash) {
-  var template = 'Signature keyId="${keyId}",algorithm="${algorithm}",headers="${headers}",signature="${signature}"',
-      sig = template;
+  let sig = 'Signature keyId="${keyId}",algorithm="${algorithm}",headers="${headers}",signature="${signature}"'
 
   // compute sig here
-  var signingBase = '';
+  let signingBase = ''
   config.headers.forEach(function(h){
-    if (signingBase !== '') { signingBase += '\n'; }
-    signingBase += h.toLowerCase() + ": " + headerHash[h];
-  });
+    if (signingBase !== '') { signingBase += '\n' }
+    signingBase += h.toLowerCase() + ": " + headerHash[h]
+  })
 
-  var hashf = (function() {
+  const hashf = (function() {
       switch (config.algorithm) {
-        case 'hmac-sha1': return CryptoJS.HmacSHA1;
-        case 'hmac-sha256': return CryptoJS.HmacSHA256;
-        case 'hmac-sha512': return CryptoJS.HmacSHA512;
-        default : return null;
+        case 'hmac-sha1': return CryptoJS.HmacSHA1
+        case 'hmac-sha256': return CryptoJS.HmacSHA256
+        case 'hmac-sha512': return CryptoJS.HmacSHA512
+        default : return null
       }
-    }());
+    }())
 
-  var hash = hashf(signingBase, config.secretkey);
-  console.log(signingBase)
-  var signatureOptions = {
+  const hash = hashf(signingBase, config.secretkey)
+  const signatureOptions = {
         keyId : config.keyId,
         algorithm: config.algorithm,
         headers: config.headers,
         signature : CryptoJS.enc.Base64.stringify(hash)
-      };
+      }
 
   // build sig string here
   Object.keys(signatureOptions).forEach(function(key) {
     var pattern = "${" + key + "}",
-        value = (typeof signatureOptions[key] != 'string') ? signatureOptions[key].join(' ') : signatureOptions[key];
-    sig = sig.replace(pattern, value);
-  });
-  return sig;
+        value = (typeof signatureOptions[key] != 'string') ? signatureOptions[key].join(' ') : signatureOptions[key]
+    sig = sig.replace(pattern, value)
+  })
+  return sig
 }
 
 //postman version 9.0.5 doesn't allow you get length of the body in all cases. Its dependent on the body 'mode' and computed at send request
 function computeContentLength(mode, body){
     switch (mode) {
-        case 'raw': return body.raw.length;
-        case 'graphql': return getModifiedBody(body.graphql).length;
-        default : return 0;
+        case 'raw': { 
+            if (body.raw == undefined) {
+                return 0
+            } else {
+                return Buffer.byteLength(body.raw)
+                
+            }
+        }
+        case 'graphql': return Buffer.byteLength(getModifiedBody(body.graphql))
+        default : return 0
     }  
-    
 }
+
 function getModifiedBody(body) {
-    var modifiedBody = {}
+    let modifiedBody = {}
     Object.keys(body).forEach(function (h) {
-        if (body[h] !== "" || body[h] !== 'undefined') modifiedBody[h]= body[h]
+        if (body[h] !== "" && body[h] !== 'undefined') modifiedBody[h]= body[h]
     })
-    return JSON.stringify(modifiedBody)
+    const modifiedBodyString = JSON.stringify(modifiedBody)
+    return modifiedBodyString
 }
 
-var curDate = new Date().toGMTString();
-var targetUrl = request.url.trim(); // there may be surrounding ws
-targetUrl = targetUrl.replace(new RegExp('^https?://[^/]+/'),'/'); // strip hostname
-var host = pm.request.url.host.join('.')
-var method = request.method.toLowerCase();
+function replaceVariables(content) {
+    while(content.indexOf('{{') >= 0) {
+        const variableName = content.substring(content.indexOf('{{')+2, content.indexOf('}}'))
+        const variableValue= pm.environment.get(variableName) || pm.globals.get(variableName)
+        content = content.replace('{{'+variableName+'}}', variableValue)
+    }
+    return content
+}
 
-var content_length = computeContentLength(pm.request.body.mode, pm.request.body)
+const url = replaceVariables(request.url)
+const { hostname } = urlTool.parse(url)
+const accessKey = pm.environment.get('R3_ACCESS_KEY_ID') || pm.globals.get('R3_ACCESS_KEY_ID')
+const accessKeySecretPreParse = pm.environment.get("R3_SECRET_ACCESS_KEY") || pm.globals.get("R3_SECRET_ACCESS_KEY")
+const accessKeySecret = CryptoJS.enc.Base64.parse(accessKeySecretPreParse)
+const curDate = new Date().toGMTString()
+const targetUrl = url.trim().replace(new RegExp('^https?://[^/]+/'),'/') // strip hostname
+const method = request.method.toLowerCase()
+const contentLength = computeContentLength(pm.request.body.mode, pm.request.body)
+const contentType = 'application/json'
 
-var content_type = 'application/json'
-
-var headerHash = {
+const headerHash = {
       date : curDate,
       '(request-target)' : method + ' ' + targetUrl,
-      'host' : host,
-      'content-type': content_type,
-      'content-length' : content_length
-    };
-var config = {
+      'host' : hostname,
+      'content-type': contentType,
+      'content-length' : contentLength
+    }
+const config = {
       algorithm : 'hmac-sha256',
-      keyId : pm.environment.get('R3_ACCESS_KEY_ID'),
-      secretkey : CryptoJS.enc.Base64.parse(pm.environment.get('R3_SECRET_ACCESS_KEY')),
+      keyId : accessKey,
+      secretkey : accessKeySecret,
       headers : [ '(request-target)', 'host','date', 'content-type', 'content-length' ]
-    };
-var sig = computeHttpSignature(config, headerHash);
-postman.setEnvironmentVariable('R3_AUTH_HEADER', sig);
-postman.setEnvironmentVariable('R3_CONTENT_TYPE', content_type)
-postman.setEnvironmentVariable('R3_CONTENT_LENGTH', content_length)
-postman.setEnvironmentVariable("R3_DATE", curDate);
+    }
+const sig = computeHttpSignature(config, headerHash)
+
+pm.request.headers.add({key: 'Authorization', value: sig})
+pm.request.headers.add({key: 'Date', value: curDate})
+pm.request.headers.add({key: 'content-length', value: contentLength})
+pm.request.headers.add({key: 'content-type', value: contentType})
+pm.request.headers.add({key: 'developerkey', value: '{{R3_DEVELOPER_API_KEY}}' })
 ```
 
-#### Headers
-
-NExt add the headers and their corresponding variables. You can do this as a Bulk Edit or individiually. 
-
-```
-Authorization:{{R3_AUTH_HEADER}}
-Date:{{R3_DATE}}
-DeveloperKey:{{R3_DEVELOPER_API_KEY}}
-Content-Type:{{R3_CONTENT_TYPE}}
-Content-Length:{{R3_CONTENT_LENGTH}}
-```
-
-![](<../.gitbook/assets/Screen Shot 2021-10-18 at 10.45.43 AM.png>)
-
-#### Send Request and review results
+### Send Request and review results
 
 ![GraphQL](<../.gitbook/assets/Screen Shot 2021-10-18 at 10.58.45 AM.png>)
 
