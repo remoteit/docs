@@ -1,38 +1,45 @@
-# Overview
-
-remote.it allows you to make secure remote connections between two computers. Some of the benefits include:
-
-* Crossing multiple NATs/firewalls
-* Using a single TCP port
-* **portforwardless:** without requiring port forwarding in the router, significantly reducing your network's vulnerability
-* Many TCP/UDP-based protocols and applications are supported
-  * SSH/SCP - [network console and file transfer](https://support.remote.it/hc/en-us/sections/360009162531-Remote-console-and-file-transfer)
-  * VNC, RDP, Mac Screen Sharing - [remotely access the Graphical User Interface \(GUI\)](https://support.remote.it/hc/en-us/categories/360001173912-Applications)
-  * http/https \(web servers and applications such as node-red\)
-  * SMB \(Samba\) file sharing
-  * other protocols supported under the "custom TCP" option, e.g. MQTT
+# Get Started
 
 {% hint style="info" %}
 We are in the process of adding more to our developer documentation. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
 {% endhint %}
 
-## The remote.it components
+## What is it?
 
-### remoteit Service Agent
+remote.it is a platform that brings the world of disconnected networks to your browser, desktop and mobile devices. Securely access devices connected to any network like they were on your own local network.
 
-remoteit is the component that is installed on the devices which will be connected. In the case of a peer to peer connection, remoteit will be installed on the connection initiating device as well. You can also interact with remoteit to run network diagnostics and troubleshoot other issues with your device.
+remote.it lets you connect between your devices on the internet in a secure and convenient manner. In a **connection**, the device which begins the connection is called the **initiator device** and the device which responds is the **target device**.
 
-### Installation Packages
+## Why did we make it?
 
-remote.it supports installation of a desktop application, CLI or just connectd on multiple platforms and architectures.
+Our founders expertise started in TCP/IP and it grew from there. As cloud technologies advanced, it begged the question, why hasn’t networking changed? With the cloud, connecting to devices has never been easier. So, we developed [remote.it](http://remote.it) to simplify the way people and businesses connect to devices. Our goal is increase your productivity by reducing your time to device, easing access management, and giving you the peace-of-mind of making connections with no open ports.
 
-The [**Desktop**](https://link.remote.it/support/desktop-overview) application provides a UI to interact with your devices which includes configuration, connections, and event logs. This is the easiest application for technical and non-technical users.
+## How does remote.it work?
 
-The [**CLI**](cli/overview.md) provides a local command line interface to the device to which it is installed. This includes configuration, connections, status, and some debugging tools. This is useful when a UI is not needed, however you may also need to use some API requests to use some of the functions such as connections.
+When you register a device, remote.it will maintain a minimal connection while the device is online. When the devices have access to the internet **you** also have access to the device. The service agent requires **outbound** UDP traffic on ports 5959 through 5970 to communicate with remote.it.
 
-The [**Device Package**](device-package/installation.md) installs the Target Service Daemon component. This is useful when a UI is not needed and a small footprint on the device is needed. For example, an embedded device with limited storage.
+When you register a service on a target device you're saying that you will communicate to that device on that particular target port. When ready to access we provide a local device or proxy address and port where all traffic will be routed to the target device and port. &#x20;
 
-### APIs
+![](<.gitbook/assets/local to target.png>)
 
-APIs are the backbone of the applications and provide ways to view and manage your remote.it account as well as your devices, connections, and event logs. Further details on the APIs can be found [here](api-reference/overview.md).
+There are two methods we use to provide that connection access when you're ready for it. You can use either one on the same connection.
 
+More details can be found on our connection types [here](https://link.remote.it/documentation-desktop/linux-connections)
+
+[Proxy Connections](features/connection-options/peer-2-peer-and-proxy.md)- remote.it maintains geolocated initiators that generate unique addresses. These are great if the endpoint you're trying to access is closer to us than you. This connection type is not persistent and has a defined time to live.
+
+![](<.gitbook/assets/p2p vs prox 2.svg>)
+
+[Peer-2-Peer](features/connection-options/peer-2-peer-and-proxy.md)- when you request a peer-2-peer connection the remote.it service builds a tunnel from the initiating device to the target device. This connection can only be initiated on devices that have the service agent installed. This has low latency and will maintain the connection for as long as internet connection is available to both devices.&#x20;
+
+![](<.gitbook/assets/p2p vs prox 1.svg>)
+
+## Let's Start
+
+Here's what is required.&#x20;
+
+1. A remote.it account - create at [app.remote.it](https://link.remote.it/portal)
+2. remote.it service agent installed on the target device. This is bundled with all our install options. The minimal install is the [device package](software/device-package/supported-platforms.md).
+3. Download our [Desktop](software/desktop/) or [CLI](software/cli/) for Peer-2-Peer connections or our [web portal](https://link.remote.it/portal) for only proxy connections.
+
+Check out the [Glossary](introduction/glossary-of-terms.md) for more details on these terms
