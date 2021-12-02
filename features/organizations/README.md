@@ -1,9 +1,5 @@
 # Organizations
 
-{% hint style="info" %}
-Coming in December 2021
-{% endhint %}
-
 For all levels of plans you can now create your own Organization and invite members to immediately collaborate and share all your devices. An Organization owner can purchase additional seats and assign them to members. This allows members to get access to all devices owned by the Organization.
 
 ## Create
