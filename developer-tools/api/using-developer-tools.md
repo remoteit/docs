@@ -42,7 +42,13 @@ You can type a sample GraphQL query to [https://api.remote.it/graphql/v1](https:
 
 If you haven't already set up your machine with the credentials file, see [here](authentication.md) and do so now.
 
-Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication. Click on the_**Token**_ field and `CTRL+Space`to select the _**remote.it API authentication**_ tag, and select a specific profile otherwise the default profile will be used.&#x20;
+Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication.&#x20;
+
+![](../../.gitbook/assets/Insomnia-BearerToekn.png)
+
+Click on the_**Token**_ field and `CTRL+Space`to select the _**remote.it API authentication**_ tag, and select a specific profile otherwise the default profile will be used.&#x20;
+
+![](../../.gitbook/assets/Insomnia-remote.it-API.png)
 
 You now can send the request and execute the query using the credentials stored earlier.
 
