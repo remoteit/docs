@@ -1,10 +1,10 @@
 # Supported Platforms
 
-
-
 {% hint style="info" %}
 AWS Cloud users, please pick the distribution package that matches your OS and architecture installed on your instance below.
 {% endhint %}
+
+### CLI
 
 | Platform | Architecture/Distribution | URL                                                                                                                                            |
 | -------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |

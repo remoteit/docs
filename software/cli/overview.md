@@ -27,7 +27,7 @@ After placing the binary and making it executable, you will need to install the 
 sudo remoteit agent install
 ```
 
-At this point you can start using CLI. See [Usage](broken-reference)
+At this point you can start using CLI. See [Usage](../../developer-tools/cli-usage.md)
 {% endtab %}
 
 {% tab title="MacOS" %}

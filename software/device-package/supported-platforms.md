@@ -4,6 +4,8 @@
 AWS Cloud users, please pick the distribution package that matches your OS and architecture installed on your instance below.
 {% endhint %}
 
+### Device Package <a href="#device_package_supported_platforms" id="device_package_supported_platforms"></a>
+
 | Distribution    | Architecture/package manager | URL for Package                                                                                                                                                          |
 | --------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Arch Linux      | x86-64 (pacman)              | [https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86\_64.pkg.tar.zst](https://downloads.remote.it/remoteit/v4.13.5/remoteit-4.13.5-1-x86\_64.pkg.tar.zst) |

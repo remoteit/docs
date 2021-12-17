@@ -6,7 +6,7 @@ Either method will result in the following when the device boots and connects to
 * The device will be registered to the same account
 * The device will be configured with the same services which were defined
 
-This method is supported for any platforms which can install the [Device Package](../software/device-package/installation.md#supported-platforms) and only supports the device to be used as connection endpoints and not as an initiator of connections.
+This method is supported for any platforms which can install the [Device Package](../software/device-package/supported-platforms.md#device\_package\_supported\_platforms) and only supports the device to be used as connection endpoints and not as an initiator of connections.
 
 ## Setup
 
@@ -58,7 +58,7 @@ sudo apt install ./remoteit-4.13.5.armhf.rpi.deb
 Write the Bulk Identification Code you retrieved in step 2 to a "registration" file.
 
 ```bash
-sudo echo YOUR-BULK-IDENTIFICATION-CODE > /etc/remoteit/registration
+echo YOUR-BULK-IDENTIFICATION-CODE | sudo tee /etc/remoteit/registration
 ```
 
 ### 5. Start production

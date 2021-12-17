@@ -6,7 +6,7 @@ This method will result in the following when the device boots and connects to t
 * The device will be registered to the customer's account
 * The device will need to be configured with appropriate services for their use.
 
-This method is supported for any platforms which can install the [Device Package](../software/device-package/installation.md#supported-platforms).
+This method is supported for any platforms which can install the [Device Package](../software/device-package/supported-platforms.md#device\_package\_supported\_platforms).
 
 ## Setup
 
