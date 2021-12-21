@@ -28,7 +28,7 @@ sudo touch /etc/remoteit/registration
 Install the package onto your device.
 
 ```bash
-sudo apt install ./remoteit-4.13.5.armhf.rpi.deb
+sudo apt install ./remoteit-4.13.6.armhf.rpi.deb
 ```
 
 ### 2. Copy the image onto another device
