@@ -17,7 +17,7 @@ AWS Cloud users, please pick the distribution package that matches your OS and a
 | Debian          | armhf                        | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.armhf.rpi.deb](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.armhf.rpi.deb)                 |
 | OpenWrt         | opkg                         | [https://downloads.remote.it/remoteit/v4.13.6/remoteit\_4.13.6.ipk](https://downloads.remote.it/remoteit/v4.13.6/remoteit\_4.13.6.ipk)                                   |
 | Raspberry Pi OS | armhf                        | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.armhf.rpi.deb](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.armhf.rpi.deb)                 |
-| Raspberry Pi OS | arm64                        | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.5.arm64.rpi.deb](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.5.arm64.rpi.deb)                 |
+| Raspberry Pi OS | arm64                        | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.arm64.rpi.deb](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.arm64.rpi.deb)                 |
 | RedHat Linux    | arm64                        | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6-1.aarch64.rpm](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6-1.aarch64.rpm)                 |
 | RedHat Linux    | x86\_64                      | [https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6-1.x86\_64.rpm](https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6-1.x86\_64.rpm)                 |
 
