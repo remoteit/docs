@@ -28,9 +28,8 @@ sudo command is only required on systems where you are not logged in as root.&#x
 {% endhint %}
 
 ```
-sudo wget [URL for Package (i.e. 
-https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.arm64.deb
-)]
+sudo wget [URL for Package 
+(i.e. https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.arm64.deb)]
 ```
 
 ### 2. Update your package manager and install
@@ -46,8 +45,7 @@ sudo apt update
 Once that completes, then continue with the installation replacing the path and file name as appropriate
 
 ```
-sudo apt install [file name (i.e. ./remoteit-4.13.6.armhf.rpi.deb
-)]
+sudo apt install [file name (i.e. ./remoteit-4.13.6.armhf.rpi.deb)]
 ```
 
 **When this completes you will see the claim code to use in the desktop application to complete the setup.**
