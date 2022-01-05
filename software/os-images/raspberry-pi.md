@@ -1,7 +1,7 @@
 # Raspberry Pi
 
 {% hint style="warning" %}
-Do you already have a configured Raspberry Pi? You can install on of the following:
+Do you already have a configured Raspberry Pi? You can install one of the following:
 
 [Device Package](../device-package/installation.md) if you only need to support connections to the Pi and want a small footprint
 
