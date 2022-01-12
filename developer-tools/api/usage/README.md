@@ -58,11 +58,11 @@ Queries are requests which read the data and will not change the data. All queri
 
 ### Fetching updates
 
-If you're working on building an application which display data and you want the status information to update (near) realtime, use the [webhook](../../webhooks.md). To prevent excessive usage of our API, we recommend that you be mindful about your implementation.
+If you're working on building an application which display data and you want the status information to update (near) realtime, use the [webhook](../../webhooks/). To prevent excessive usage of our API, we recommend that you be mindful about your implementation.
 
 **Do's:**
 
-* Register a programmatic [webhook](../../webhooks.md) and get updates for status changes on your devices. When you detect changes, update the device information
+* Register a programmatic [webhook](../../webhooks/) and get updates for status changes on your devices. When you detect changes, update the device information
 
 **Dont's:**
 
