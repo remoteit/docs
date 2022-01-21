@@ -324,6 +324,46 @@ else:
 ```
 {% endtab %}
 
+{% tab title="C#" %}
+This example is using RestSharp to make the requests, and the built in cryptography library (System.Security.Cryptography) to sign the **** request. This demonstrates using a configuration manager to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
+
+ExecuteRequest requires a string which is your graphQL query body.
+
+**graphQL**
+
+```
+private static readonly RestClient Client = new RestClient("https://api.remote.it/graphql/v1");
+private static readonly HMACSHA256 SignatureGenerator = new HMACSHA256(Convert.FromBase64String(ConfigurationManager.AppSettings.Get("R3_SECRET_ACCESS_KEY")));
+
+public static async Task<IRestResponse> ExecuteRequest(string requestContent)
+{
+    string date = DateTime.UtcNow.ToString("ddd, dd MMM yyy HH':'mm':'ss 'GMT'");
+
+    string signatureParams = "(request-target): post /graphql/v1\n" +
+    "host: api.remote.it\n" +
+    $"date: {date}\n" +
+    "content-type: application/json\n" + 
+    $"content-length: {requestContent.Length}";
+    string signature = Convert.ToBase64String(SignatureGenerator.ComputeHash(Encoding.UTF8.GetBytes(signatureParams)));
+
+    RestRequest request = new RestRequest(Method.POST);
+    request.AddHeader("Host", "api.remote.it");
+    request.AddHeader("Date", date);
+    request.AddHeader("Content-Type", "application/json");
+    request.AddHeader("Content-Length", requestContent.Length.ToString());
+    request.AddHeader("Authorization", 
+        $"Signature keyId=\"{ConfigurationManager.AppSettings.Get("R3_ACCESS_KEY_ID")}\"," +
+            "algorithm=\"hmac-sha256\"," +
+            "headers=\"(request-target) host date content-type content-length\"," +
+            $"signature=\"{signature}\"");
+    request.AddParameter("application/json", requestContent, ParameterType.RequestBody);
+
+    var response = await Client.ExecuteAsync(request);
+    return response;
+}
+```
+{% endtab %}
+
 {% tab title="Other Languages" %}
 You can reference different standard implementations of the signature in different languages from w3c-ccg [https://github.com/w3c-ccg/http-signatures/issues/1](https://github.com/w3c-ccg/http-signatures/issues/1)
 {% endtab %}
