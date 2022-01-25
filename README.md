@@ -18,7 +18,7 @@ Our founders expertise started in TCP/IP and it grew from there. As cloud techno
 
 When you register a device, remote.it will maintain a minimal connection while the device is online. When the devices have access to the internet **you** also have access to the device. The service agent requires **outbound** UDP traffic on ports 5959 through 5970 to communicate with remote.it.
 
-When you register a service on a target device you're saying that you will communicate to that device on that particular target port. When ready to access we provide a local device or proxy address and port where all traffic will be routed to the target device and port. &#x20;
+When you register a service on a target device you're saying that you will communicate to that device on that particular service port. When ready to access we provide a local device or proxy address and port where all traffic will be routed to the target device and port. &#x20;
 
 ![](<.gitbook/assets/local to target.png>)
 

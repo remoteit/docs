@@ -25,6 +25,34 @@ Without the user and pass options it will prompt for the username and password.
 sudo remoteit signin --user <remote.it username> --pass <password>
 ```
 
+### Sign in with Credentials
+
+{% hint style="success" %}
+These instructions do not require elevated sudo privileges on the device
+{% endhint %}
+
+For accounts that do not have username and password can still use the CLI. Instructions for creating credentials [here](api/authentication.md#key-management).
+
+```
+remoteit configure
+```
+
+You will be prompted to enter your key, secret and user defined profile name
+
+```
+key    : R3_ACCESS_KEY_ID
+secret : R3_SECRET_ACCESS_KEY
+profile: default
+```
+
+You must then enable the active profile
+
+```
+remoteit configure --profile default --enabled
+```
+
+You have successfully signed in with credentials over username and password
+
 ### Sign Out
 
 ```bash
