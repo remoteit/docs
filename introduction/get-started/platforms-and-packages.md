@@ -34,32 +34,21 @@ Installation includes a GUI to monitor, setup and initiate services, connections
 * Mac
 * Windows
 {% endtab %}
-
-{% tab title="OS Images" %}
-These images are compiled by remote.it and shared for your use.&#x20;
-
-Image includes the raspbian OS with remote.it pre-installed for configuration into your account.
-
-remote.it installation includes a GUI to monitor, setup and initiate services, connections and users. The CLI used to setup and initiate outbound connections and Service Agent for inbound connections.
-
-* Raspberry Pi
-{% endtab %}
 {% endtabs %}
 
-| **Platform**      | **Device Package** | **CLI**       | **Desktop** | <p><strong>Image</strong><br><strong>(OS + Desktop)</strong></p> |
-| ----------------- | :----------------: | :-----------: | :---------: | :--------------------------------------------------------------: |
-| **Linux**         |        **X**       |     **X**     |    **X**    |                                                                  |
-| **Mac**           |                    |     **X**     |    **X**    |                                                                  |
-| **Raspberry  Pi** |        **X**       |     **X**     |    **X**    |                               **X**                              |
-| **Windows**       |                    |     **X**     |    **X**    |                                                                  |
-| **OpenWrt**       |        **X**       |               |             |                                                                  |
+| **Platform**      | **Device Package** | **CLI**       | **Desktop** |
+| ----------------- | :----------------: | :-----------: | :---------: |
+| **Linux**         |        **X**       |     **X**     |    **X**    |
+| **Mac**           |                    |     **X**     |    **X**    |
+| **Raspberry  Pi** |        **X**       |     **X**     |    **X**    |
+| **Windows**       |                    |     **X**     |    **X**    |
+| **OpenWrt**       |        **X**       |               |             |
 
 ## Package Components
 
-| **Packages**            | **OS**    | **UI** | **CLI** | **Agent** |
-| ----------------------- | --------- | :----: | :-----: | :-------: |
-| **remoteitPi Image**    | **Pi OS** |  **X** |  **X**  |   **X**   |
-| **Desktop Application** |           |  **X** |  **X**  |   **X**   |
-| **CLI**                 |           |        |  **X**  |   **X**   |
-| **Device Package**      |           |        |         |   **X**   |
+| **Packages**            | **UI** | **CLI** | **Agent** |
+| ----------------------- | :----: | :-----: | :-------: |
+| **Desktop Application** |  **X** |  **X**  |   **X**   |
+| **CLI**                 |        |  **X**  |   **X**   |
+| **Device Package**      |        |         |   **X**   |
 

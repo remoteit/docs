@@ -19,8 +19,6 @@
   * [Installation](software/cli/overview.md)
 * [Desktop](software/desktop/README.md)
   * [Installation](software/desktop/overview-and-installation.md)
-* [OS Images](software/os-images/README.md)
-  * [Raspberry Pi](software/os-images/raspberry-pi.md)
 * [Web Portal & Mobile](software/web-portal-and-mobile.md)
 * [Custom Solutions](software/custom-solutions.md)
 
