@@ -29,7 +29,7 @@ sudo command is only required on systems where you are not logged in as root.&#x
 
 ```
 sudo wget [URL for Package 
-(i.e. https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.arm64.deb)]
+(i.e. https://downloads.remote.it/remoteit/v4.13.7/remoteit-4.13.7.arm64.deb)]
 ```
 
 ### 2. Update your package manager and install
@@ -45,7 +45,7 @@ sudo apt update
 Once that completes, then continue with the installation replacing the path and file name as appropriate
 
 ```
-sudo apt install [file name (i.e. ./remoteit-4.13.6.armhf.rpi.deb)]
+sudo apt install [file name (i.e. ./remoteit-4.13.7.armhf.rpi.deb)]
 ```
 
 **When this completes you will see the claim code to use in the desktop application to complete the setup.**
@@ -156,7 +156,7 @@ Create an ssh connection to the device via remote.it and open terminal. (If you 
 Download the installation package to the device where remote.it will be installed. Example below is for a specific pi package. Please use the appropriate package url. This will place the file in your home directory [See above](installation.md#supported-platforms).
 
 ```
-sudo wget https://downloads.remote.it/remoteit/v4.13.6/remoteit-4.13.6.armhf.rpi.deb
+sudo wget https://downloads.remote.it/remoteit/v4.13.7/remoteit-4.13.7.armhf.rpi.deb
 ```
 
 ### 3. Install the new package
