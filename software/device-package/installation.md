@@ -9,7 +9,35 @@ Prerequisites:&#x20;
 
 1. You have a remote.it account (If not, please go ahead and create an account at [https://app.remote.it](https://app.remote.it))
 2. You have installed the remote.it Desktop application on a machine you will be using to configure and connect to your device. (This doesn't need to be on the same network as the device you are setting up) See [https://remote.it/download/](https://remote.it/download/) for the different options available.
+3. SSH access to the device you want to install remote.it and connect to
 {% endhint %}
+
+## Quick Install
+
+This quick install allows you to just paste a single command into the terminal of the target device. You must have the Desktop App installed and a remote.it account created before proceeding.
+
+### 1. Open the remote.it Desktop App
+
+Your desktop app must be version 3.5.2 or greater.&#x20;
+
+### 2. Click add device and select "Raspberry Pi and Linux"
+
+![](../../.gitbook/assets/Screen\_Shot\_2022-02-08\_at\_12\_04\_30\_PM.png)
+
+### 3. Copy the code and paste into the terminal window of your target device
+
+This command will automatically detect the platform and architecture of your device. It then downloads and installs the appropriate package. It will then register the device to your account.
+
+### 4. Set up services
+
+Your desktop app should notify you that your new device has been registered. remote.it will automatically detect and set up SSH.
+
+If you have additional services you would like to add, follow the directions provided [here](installation.md#4.-set-up-services-on-your-device-1).\
+
+
+## Manual Installation
+
+We recommend using the quick install method above since it will download the package and install it automatically. You can use this method if you prefer to select the package and install it manually.
 
 ### 1. Download the package
 

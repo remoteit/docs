@@ -1,7 +1,27 @@
 # Get Started
 
+## Quick Start
+
+Here's what is required.&#x20;
+
+1. **Download and install the** [**Desktop**](software/desktop/overview-and-installation.md) **app** \
+   ****You will be using this to setup other devices and start connections
+2. **Install and configure remote.it on your target device**\
+   ****(The device you will be connecting to)
+   1. **Windows or Mac**\
+      ****Install the [Desktop](software/desktop/) or [CLI](software/cli/)
+   2. **Raspberry Pi or Linux based systems, use the command provided in the Desktop to install and configure remote.it.**\
+      ****![](<.gitbook/assets/Screen\_Shot\_2022-02-08\_at\_12\_04\_30\_PM (1).png>)****
+3. **Connect!**
+
+Once configured you can then share the device or individual services to others.[ Learn more](https://link.remote.it/blog/manage-access).
+
+Check out the [Glossary](introduction/glossary-of-terms.md) for more details on these terms
+
+
+
 {% hint style="info" %}
-We are in the process of adding more to our developer documentation. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
+We are in the process of adding more to our documentation. Can't find what you are looking for? [Please contact us](http://support.remot3.it).
 {% endhint %}
 
 ## What is it?
@@ -34,12 +54,3 @@ More details can be found on our connection types [here](https://link.remote.it/
 
 ![](<.gitbook/assets/p2p vs prox 1.svg>)
 
-## Let's Start
-
-Here's what is required.&#x20;
-
-1. A remote.it account - create at [app.remote.it](https://link.remote.it/portal)
-2. remote.it service agent installed on the target device. This is bundled with all our install options. The minimal install is the [device package](software/device-package/supported-platforms.md).
-3. Download our [Desktop](software/desktop/) or [CLI](software/cli/) for Peer-2-Peer connections or our [web portal](https://link.remote.it/portal) for only proxy connections.
-
-Check out the [Glossary](introduction/glossary-of-terms.md) for more details on these terms
