@@ -4,7 +4,7 @@
 
 Application types are service type definitions which are used as parameters for Get Devices By An Attribute and in services. In the case of services only the ID is returned so you will reference this response.
 
-```javascript
+```graphql
 query {
   applicationTypes {
    id
@@ -62,9 +62,8 @@ In this example we will be fetching your devices using graphQL. If you wish to g
 This example only shows some of the variables and available attributes for the device and service collections.
 {% endhint %}
 
-```
+```graphql
 #Query
-
 query getDevices($size: Int, $from: Int, $sort: String) {
   login {
     devices(size: $size, from: $from, sort: $sort) {
@@ -83,7 +82,6 @@ query getDevices($size: Int, $from: Int, $sort: String) {
     }
   }
 }
-
 #Variables
 {
   "size": 1000,
@@ -142,9 +140,8 @@ Additional attributes will become available over time. Please refer to the schem
 This example only shows some of the variables and available attributes for the device and service collections.
 {% endhint %}
 
-```
+```graphql
 #Query
-
 query getDevices($size: Int, $from: Int, $sort: String, $state: String, $name: String) {
   login {
     devices(size: $size, from: $from, sort: $sort, state: $state, name: $name) {
@@ -163,7 +160,6 @@ query getDevices($size: Int, $from: Int, $sort: String, $state: String, $name: S
     }
   }
 }
-
 #Variables
 {
   "size": 1000,
@@ -208,38 +204,50 @@ Response Example
 
 ## Update a Device/Service Name
 
-You can update a device or service name by using a REST-API request. You may need to fetch your device list to get the ID of the service you wish to modify. When you want to update a device name, update using the device ID. 
+Only the owner of the device **or an admin on the organization owning the device** can update the name of the device or service.
 
-{% swagger baseUrl="" path="/apv/v27/device/name" method="post" summary="Update Service Name" %}
-{% swagger-description %}
-You can update a device or service name by using a REST-API request. You may need to fetch your device list to get the ID of the service you wish to modify. When you want to update a device name, update it using the device ID for the service ID. The body parameters are a JSON string.
-{% endswagger-description %}
+| Parameters | Data Type | Description                                              |
+| ---------- | --------- | -------------------------------------------------------- |
+| serviceId  | String    | This is the device Id or service Id that will be updated |
+| name       | String    | The new name of the device or service                    |
 
-{% swagger-parameter in="header" name="auth" type="string" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="devicealias" type="string" %}
-The new name.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="deviceaddress" type="string" %}
-The service ID to be changed. In the case of a device name, use the device ID returned from get devices
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="If the request is successful, then it will respond with "status"="true". If there was failure outside of authorization or bad request, then the response will still have a status code of 200 but the "status" would be "false" in the response body." %}
-```
-{
-  "status": "true"
+```graphql
+mutation {
+  renameService(
+    serviceId: "80:00:00:01:23:45:67:89",
+    name: "New Name"
+  )
 }
 ```
-{% endswagger-response %}
 
-{% swagger-response status="400" description="Post data is not correct. Either missing the required deviceaddress or devicealias parameters OR an invalid deviceaddress was provided" %}
-```
+Query Response
+
+```graphql
 {
-"status": "false"
+  "data": {
+    "renameService": true
+  }
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+
+## Delete Device
+
+Only the owner of the device **or an admin on the organization owning the device** can delete a device. Devices can only be deleted when the state is `inactive`.
+
+```graphql
+mutation {
+  deleteDevice(
+    deviceId: "80:00:00:98:01:23:45:67"
+  )
+}
+```
+
+Query Response
+
+```graphql
+{
+  "data": {
+    "deleteDevice": true
+  }
+}
+```

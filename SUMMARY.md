@@ -52,6 +52,8 @@
     * [Event Logs](developer-tools/api/usage/event-logs.md)
     * [Connections](developer-tools/api/usage/usage-examples.md)
     * [Access Keys](developer-tools/api/usage/access-keys.md)
+    * [Device Sharing](developer-tools/api/usage/device-sharing.md)
+    * [Custom Attributes](developer-tools/api/usage/custom-attributes.md)
 * [CLI Usage](developer-tools/cli-usage.md)
 * [Webhooks](developer-tools/webhooks/README.md)
   * [Slack Integration](developer-tools/webhooks/slack-integration.md)
