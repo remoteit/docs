@@ -117,6 +117,26 @@ The enabled option disables the service without deleting it. The hostname option
 sudo remoteit modify --id <service id> --enable <boolean> --port <port> --hostname <hostname> --type <application type> 
 ```
 
+### Generate P2P connection to service
+
+Once you have created a service on a **target device** you can generate a a persistent address on demand connection from the CLI on your **initiator** device. This requires the service id and **local port**. Verify there are not other connections on the local port before generating.
+
+```bash
+sudo remoteit connection add --id <service id> --port <port> --p2p true
+```
+
+The connection will be generated in the background. Run the status command to retrieve the generated url in the Address column.
+
+```
+sudo remoteit status
+ ✓ Fetching status
+
+Connections:
+ UID                     | Name         | Type    | Status | Address                                                | Enabled | P2P  | Failover  
+----------------------------------------------------------------------------------------------------------------------------------------------
+ 80:07:06:01:20:30:40:50 | service name | SSH (28)| online | <device_name>-<service_name>.at.remote.it:<local_port> | true    | true | false 
+```
+
 ### Unregister
 
 Unregister this device from your account and removes the services. This will also remove access to this device for any users to which you have shared this device. This will cause a disconnect for all other users who had an active connection to this service as well. If you are concerned about the disconnect, you can use the graphQL API to fetch active connection to this service and then notify users accordingly. Once unregistered, this device can be registered again.&#x20;
