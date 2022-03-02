@@ -50,7 +50,7 @@ sudo touch /etc/remoteit/registration
 Install the package onto your device.
 
 ```bash
-sudo apt install ./remoteit-4.13.7.armhf.rpi.deb
+sudo apt install ./remoteit-4.14.1.armhf.rpi.deb
 ```
 
 ### 4. Set the Bulk Identification Code
