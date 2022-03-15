@@ -11,11 +11,11 @@ The REST-API and GraphQL API require authentication for requests. remote.it auth
 
 You can generate, enable, disable and delete keys in the Account section of the web portal here [https://app.remote.it](https://app.remote.it). Screen shot is provided below.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _**Please note: Generation of keys is crypto-random and the secret is only available immediately after creation by clicking the “Show secret access key” link or downloading the key as a CSV file (containing the Access Key ID and Secret Access Key)**_
 {% endhint %}
 
-![](../../.gitbook/assets/account\_-\_remote\_it.png)
+![](../../.gitbook/assets/Account\_-\_remote\_it-2.png)
 
 You are limited to 2 active access keys. The account page will also show when the key was created and last used for authentication. If you suspect your key has been compromised, generate a new one, replace it in your code and disable. If desired you can delete the compromised key after disabling it.
 
