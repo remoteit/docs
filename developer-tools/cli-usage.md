@@ -33,6 +33,13 @@ These instructions do not require elevated sudo privileges on the device
 
 For accounts that do not have username and password can still use the CLI. Instructions for creating credentials [here](api/authentication.md#key-management).
 
+create an empty credentials file in your home folder if it doesn't already exist.
+
+```
+mkdir -p ~/.remoteit
+touch ~/.remoteit/credentials
+```
+
 ```
 remoteit configure
 ```
