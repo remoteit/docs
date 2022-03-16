@@ -27,8 +27,8 @@ sudo remoteit signin --user <remote.it username> --pass <password>
 
 ### Sign in with Credentials
 
-{% hint style="success" %}
-These instructions do not require elevated sudo privileges on the device
+{% hint style="warning" %}
+If you switch to using credentials with the CLI `sudo` privileges are no longer required when running many of these commands on the device. All subsequent calls will need to be made by the same user.
 {% endhint %}
 
 For accounts that do not have username and password can still use the CLI. Instructions for creating credentials [here](api/authentication.md#key-management).
