@@ -3,7 +3,7 @@
 {% hint style="info" %}
 A detailed use guide on LAN Sharing&#x20;
 
-[https://support.remote.it/hc/en-us/articles/360044868312-LAN-Sharing](https://support.remote.it/hc/en-us/articles/360044868312-LAN-Sharing)
+[https://link.remote.it/support/lan-sharing](https://link.remote.it/support/lan-sharing)
 {% endhint %}
 
 Sharing a service across your local network is a great easy way to reduce time spent setting up additional machines with their own accounts. The share is done on a specific service and you can control who can access it.&#x20;
