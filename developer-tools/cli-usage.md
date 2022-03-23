@@ -17,6 +17,10 @@ sudo remoteit help
 
 ## Account
 
+{% hint style="danger" %}
+**With 2FA enabled,** you'll need to provide an authentication code when accessing remote.it through your browser, desktop and mobile apps. If you access remote.it using other methods, such as the API or the CLI, you'll need to sign in with credentials using and access key and secret.
+{% endhint %}
+
 ### Sign In
 
 Without the user and pass options it will prompt for the username and password.

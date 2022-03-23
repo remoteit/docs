@@ -7,6 +7,10 @@ The REST-API and GraphQL API require authentication for requests. remote.it auth
 * Keys are not dependent on password
 * Keys are more secure (the secret is never transmitted because the request is signed)
 
+{% hint style="danger" %}
+**With 2FA enabled,** you'll need to provide an authentication code when accessing remote.it through your browser, desktop and mobile apps. If you access remote.it using other methods, such as the API or the CLI, you'll need to sign in with credentials using and access key and secret.
+{% endhint %}
+
 ## Key Management
 
 You can generate, enable, disable and delete keys in the Account section of the web portal here [https://app.remote.it](https://app.remote.it). Screen shot is provided below.
