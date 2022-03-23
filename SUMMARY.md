@@ -44,9 +44,9 @@
 
 ## Developer Tools
 
+* [Authentication](developer-tools/authentication.md)
 * [API](developer-tools/api/README.md)
   * [Using Developer Tools](developer-tools/api/using-developer-tools.md)
-  * [Authentication](developer-tools/api/authentication.md)
   * [Usage](developer-tools/api/usage/README.md)
     * [Devices and Services](developer-tools/api/usage/devices-and-services.md)
     * [Event Logs](developer-tools/api/usage/event-logs.md)

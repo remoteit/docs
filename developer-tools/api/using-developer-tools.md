@@ -40,7 +40,7 @@ You can type a sample GraphQL query to [https://api.remote.it/graphql/v1](https:
 }
 ```
 
-If you haven't already set up your machine with the credentials file, see [here](authentication.md) and do so now.
+If you haven't already set up your machine with the credentials file, see [here](../authentication.md) and do so now.
 
 Select the _**Auth**_ tab of the query and select _**Bearer Token**_ authentication.&#x20;
 
@@ -53,7 +53,7 @@ Click on the_**Token**_ field and `CTRL+Space`to select the _**remote.it API aut
 You now can send the request and execute the query using the credentials stored earlier.
 
 {% hint style="warning" %}
-If you want to start using the API requests in your code, you cannot use the generated code out of Insomnia as the generated signature is only good for that specific request. You will need to use the http request signing methodology. Some examples can be found on the [authentication page](authentication.md#examples).
+If you want to start using the API requests in your code, you cannot use the generated code out of Insomnia as the generated signature is only good for that specific request. You will need to use the http request signing methodology. Some examples can be found on the [authentication page](../authentication.md#examples).
 {% endhint %}
 
 ## Download and Install Postman
@@ -64,7 +64,7 @@ These instructions have been written using Version 9.0.5
 
 ### Create a Remote.it Environment
 
-You can quickly change postman environments for any request. All our required keys and headers will be stored here. Add and Save the values retrieved from your [credentials file](authentication.md#create-a-remote.it-credentials-file).&#x20;
+You can quickly change postman environments for any request. All our required keys and headers will be stored here. Add and Save the values retrieved from your [credentials file](../authentication.md#create-a-remote.it-credentials-file).&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2021-10-15 at 5.03.07 PM.png>)
 
