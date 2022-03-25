@@ -19,7 +19,7 @@ You can generate, enable, disable and delete keys in the Account section of the 
 _**Please note: Generation of keys is crypto-random and the secret is only available immediately after creation by clicking the “Show secret access key” link or downloading the key as a CSV file (containing the Access Key ID and Secret Access Key)**_
 {% endhint %}
 
-![](../../.gitbook/assets/Account\_-\_remote\_it-2.png)
+![](../.gitbook/assets/Account\_-\_remote\_it-2.png)
 
 You are limited to 2 active access keys. The account page will also show when the key was created and last used for authentication. If you suspect your key has been compromised, generate a new one, replace it in your code and disable. If desired you can delete the compromised key after disabling it.
 
@@ -140,99 +140,121 @@ curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Develo
 {% tab title="Node" %}
 **GraphQL**
 
+This typescript example shows&#x20;
+
+1. How to retrieve credentials from the remote.it credentials file using a `default` profile
+2. Use `http-signature` client library to Authenticate each request
+3. How to query GraphQL using variables and the `https` library
+
 ```javascript
-const fs = require("fs");
-const ini = require("ini");
-const os = require("os");
-const path = require("path");
-const httpSignature = require("http-signature");
-const https = require("https");
-
-const R3_ACCESS_KEY_ID = "R3_ACCESS_KEY_ID";
-const R3_SECRET_ACCESS_KEY = "R3_SECRET_ACCESS_KEY";
-
-const CREDENTIALS_FILE = ".remoteit/credentials";
-const DEFAULT_PROFILE = "default";
-
-const SIGNATURE_ALGORITHM = "hmac-sha256";
-const SIGNED_HEADERS = "(request-target) host date content-type content-length";
-
-const query = {
-  query: `{ login { email  devices (size: 1000, from: 0) { items { id name services { id name} } } } }`,
-};
-const data = JSON.stringify(query);
-
-const options = {
-  hostname: "api.remote.it",
-  port: 443,
-  path: "graphql/v1",
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    "Content-Length": data.length,
-  },
-};
-
-const file = path.resolve(os.homedir(), CREDENTIALS_FILE);
-
-if (!fs.existsSync(file))
-  return `remote.it credentials file not found: ${file}`;
-
-let credentials;
-
-try {
-  credentials = ini.parse(fs.readFileSync(file, "utf-8"));
-} catch (error) {
-  return `remote.it credentials file error: ${error.message}`;
+import fs from 'fs'
+import https from 'https'
+import os from 'os'
+import path from 'path'
+​
+import httpSignature from 'http-signature'  // npm install http-signature
+import ini from 'ini'                       // npm install ini
+​
+const R3_ACCESS_KEY_ID = 'R3_ACCESS_KEY_ID'
+const R3_SECRET_ACCESS_KEY = 'R3_SECRET_ACCESS_KEY'
+​
+const CREDENTIALS_FILE = '.remoteit/credentials'
+const DEFAULT_PROFILE = 'default'
+​
+const SIGNATURE_ALGORITHM = 'hmac-sha256'
+const SIGNED_HEADERS = '(request-target) host date content-type content-length'
+​
+const APPLICATION_JSON = 'application/json'
+​
+const GRAPHQL_HOST = 'api.remote.it'
+const GRAPHQL_URL = '/graphql/v1'
+​
+function getCredentials(profileName = DEFAULT_PROFILE) {
+  const file = path.resolve(os.homedir(), CREDENTIALS_FILE)
+​
+  if (!fs.existsSync(file)) throw new Error(`remote.it credentials file not found: ${file}`)
+​
+  const credentials = ini.parse(fs.readFileSync(file, 'utf-8'))
+​
+  const profile = Object.entries(credentials).find(([name]) => name.toUpperCase() === profileName.toUpperCase())
+​
+  if (!profile) throw new Error(`remote.it profile not found: ${profileName}`)
+​
+  const [_, section] = profile
+​
+  const keyId = section[R3_ACCESS_KEY_ID]
+​
+  if (!keyId) throw new Error(`remote.it credentials missing: ${R3_ACCESS_KEY_ID}`)
+​
+  const secret = section[R3_SECRET_ACCESS_KEY]
+​
+  if (!secret) throw new Error(`remote.it credentials missing: ${R3_SECRET_ACCESS_KEY}`)
+​
+  return {keyId, secret}
 }
-
-if (profile) {
-  credentials = getSection(credentials, profile);
-
-  if (!credentials) return `remote.it profile not found: ${profile}`;
-} else {
-  credentials = getSection(credentials, DEFAULT_PROFILE) || credentials;
+​
+async function graphql(keyId, secret, query, variables) {
+  const body = JSON.stringify({query, variables})
+​
+  const options = {
+    host: GRAPHQL_HOST,
+    port: 443,
+    path: GRAPHQL_URL,
+    method: 'POST',
+    headers: {
+      'Content-Type': APPLICATION_JSON,
+      'Content-Length': body.length
+    },
+    body
+  }
+​
+  return new Promise((resolve, reject) => {
+    const request = https.request(options, response => {
+      response.on('data', json => resolve(JSON.parse(json)))
+    })
+​
+    httpSignature.sign(request, {
+      keyId,
+      key: Buffer.from(secret, 'base64'),
+      algorithm: SIGNATURE_ALGORITHM,
+      headers: SIGNED_HEADERS.split(/\s+/)
+    })
+​
+    request.on('error', error => reject(error))
+​
+    request.write(body)
+    request.end()
+  })
 }
-
-const key = credentials[R3_ACCESS_KEY_ID];
-
-if (!key) return `remote.it credentials missing: ${R3_ACCESS_KEY_ID}`;
-
-const secret = credentials[R3_SECRET_ACCESS_KEY];
-
-if (!secret) return `remote.it credentials missing: ${R3_SECRET_ACCESS_KEY}`;
-
-await Promise.all([
-  context.store.setItem(R3_ACCESS_KEY_ID, key),
-  context.store.setItem(R3_SECRET_ACCESS_KEY, secret),
-]);
-
-const [key, secret] = await Promise.all([
-  context.store.getItem(R3_ACCESS_KEY_ID),
-  context.store.getItem(R3_SECRET_ACCESS_KEY),
-]);
-
-httpSignature.sign(new RequestWrapper(context.request), {
-  keyId: key,
-  key: Buffer.from(secret, "base64"),
-  algorithm: SIGNATURE_ALGORITHM,
-  headers: SIGNED_HEADERS.split(/\s+/),
-});
-
-const req = https.request(options, (res) => {
-  console.log(`statusCode: ${res.statusCode}`);
-
-  res.on("data", (data) => {
-    process.stdout.write(data);
-  });
-});
-
-req.on("error", (error) => {
-  console.error(error);
-});
-
-req.write(data);
-req.end();
+​
+(async () => {
+  try {
+    const query = 'query TestQuery($id: String!) {' +
+      '  login {' +
+      '    device(id: [$id]) {' +
+      '      name' +
+      '      endpoint {' +
+      '        timestamp' +
+      '        state' +
+      '        externalAddress' +
+      '      }' +
+      '    }' +
+      '  }' +
+      '}'
+​
+    const variables = {
+      id: '80:00:00:00:01:02:03:04'
+    }
+​
+    const {keyId, secret} = getCredentials()
+​
+    const result = await graphql(keyId, secret, query, variables)
+​
+    console.log(JSON.stringify(result, null, 2))
+  } catch (error) {
+    console.error(error)
+  }
+})()
 ```
 {% endtab %}
 
