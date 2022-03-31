@@ -32,6 +32,22 @@ Query Response
 }
 ```
 
+#### Category and Status Fields
+
+We have reserved names of remote.it Device attributes which will be displayed on the Web Portal and Desktop UIs. These attributes are for Category and Status fields. The UI currently can display Category A-E and Status A-E. These must be set against the Device ID (also known as the Bulk Service's "Service ID" of the remote.it Device). The convention for the name is $remoteit.categoryA for category attributes and $remoteit.statusA for status attributes. The convention is the same for removing and retrieving these attributes.
+
+**Example Category Mutation**&#x20;
+
+```graphql
+mutation {
+  setAttribute(
+    name: "$remoteit.categoryA",
+    value: "my category A value",
+    serviceId: "80:00:00:00:12:34:56:78",
+  )
+}
+```
+
 ### Remove Attribute
 
 ```graphql
