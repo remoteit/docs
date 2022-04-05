@@ -32,7 +32,7 @@ This command will automatically detect the platform and architecture of your dev
 
 Your desktop app should notify you that your new device has been registered. remote.it will automatically detect and set up SSH.
 
-If you have additional services you would like to add, follow the directions provided [here](installation.md#4.-set-up-services-on-your-device-1).\
+If you have additional services you would like to add, follow the directions provided [here](installation.md#4.-set-up-services-on-your-device).\
 
 
 ## Manual Installation
@@ -266,8 +266,7 @@ nohup yum install ./file &
 
 ## Uninstall
 
-These instructions apply to the remoteit Device Package Version 4 and higher.\
-For earlier versions please refer to our [support guide](https://link.remote.it/support/remove-connectd).
+These instructions apply to the remoteit Device Package Version 4 and higher.
 
 {% hint style="danger" %}
 **If you remove remote.it software while using a remote.it connection you will lose access to the device through our service immediately.**
