@@ -258,8 +258,8 @@ async function graphql(keyId, secret, query, variables) {
 ```
 {% endtab %}
 
-{% tab title="Python" %}
-This example is using a helper library requests\_http\_signature for python which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
+{% tab title="Python 3" %}
+This example is using a helper library requests\_http\_signature for Python 3 which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environment variables rather than including it in the code. You will need to set the environment variables before executing.
 
 **GraphQL**
 
