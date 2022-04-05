@@ -6,8 +6,8 @@ remote.it allows you to make secure remote connections between two computers. So
 * Using a single TCP port
 * **portforwardless:** without requiring port forwarding in the router, significantly reducing your network's vulnerability
 * Many TCP/UDP-based protocols and applications are supported
-  * SSH/SCP - [network console and file transfer](https://support.remote.it/hc/en-us/sections/360009162531-Remote-console-and-file-transfer)
-  * VNC, RDP, Mac Screen Sharing - [remotely access the Graphical User Interface (GUI)](https://support.remote.it/hc/en-us/categories/360001173912-Applications)
+  * SSH/SCP - [network console and file transfer](https://support.remote.it/hc/en-us/sections/4412840105997-Remote-Console-and-File-Transfer)
+  * VNC, RDP, Mac Screen Sharing - [remotely access the Graphical User Interface (GUI)](https://support.remote.it/hc/en-us/sections/4423781834253-Remote-desktop-control)
   * http/https (web servers and applications such as node-red)
   * SMB (Samba) file sharing
   * other protocols supported under the "custom TCP" option, e.g. MQTT
@@ -42,4 +42,4 @@ The Android app acts as an initiator or target device
 
 ### APIs
 
-APIs are the backbone of the applications and provide ways to view and manage your remote.it account as well as your devices, connections, and event logs. Further details on the APIs can be found [here](broken-reference).
+APIs are the backbone of the applications and provide ways to view and manage your remote.it account as well as your devices, connections, and event logs. Further details on the APIs can be found [here](../../developer-tools/api/usage/#what-is-graphql).
