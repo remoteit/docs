@@ -43,6 +43,12 @@ remoteit version
 {% endtab %}
 {% endtabs %}
 
+**Example output**
+
+```
+1.8.7
+```
+
 ## Account
 
 {% hint style="danger" %}
@@ -199,6 +205,33 @@ remoteit supportedApplications
 {% endtab %}
 {% endtabs %}
 
+New application types are added all of the time, but common ones are listed below.\
+
+
+```
+ ID      | Name                | Default Port   | Protocol   | Description               
+-------------------------------------------------------------------------------------------
+ 42      | Admin Panel         | 29999          | TCP        | remote.it admin panel     
+ 43      | Terraria            | 7777           | TCP        | Terraria server           
+ 8       | HTTPS               | 443            | TCP        | Secure web protocol       
+ 8       | HTTPS               | 443            | TCP        | Secure web protocol       
+ 8       | HTTPS               | 443            | TCP        | Secure web protocol       
+ 28      | SSH                 | 22             | TCP        | Secure shell terminal     
+ 4       | VNC                 | 5900           | TCP        | VNC remote desktop        
+ 34      | SMB/CIFS            | 445            | TCP        | Internet file sharing     
+ 32770   | WireGuard           | 51820          | UDP        | WireGuard VPN server      
+ 32771   | Minecraft Bedrock   | 19132          | UDP        | Minecraft Bedrock server  
+ 1       | TCP                 | 0              | TCP        | Generic TCP               
+ 41      | Minecraft           | 25565          | TCP        | Minecraft server          
+ 7       | HTTP                | 80             | TCP        | Web protocol              
+ 5       | RDP                 | 3389           | TCP        | Microsoft remote desktop  
+ 39      | OpenVPN             | 1194           | TCP        | OpenVPN server            
+ 7       | HTTP                | 80             | TCP        | Web protocol              
+ 32769   | UDP                 | 0              | UDP        | Generic UDP               
+ 37      | NxWitness           | 7001           | TCP        | Nx Witness VMS            
+ 38      | Nextcloud           | 443            | TCP        | Nextcloud hub  
+```
+
 ### List services and status on this device <a href="#cli_status" id="cli_status"></a>
 
 You can add an option of --j or --json to output the results in JSON
@@ -217,23 +250,68 @@ remoteit status
 {% endtab %}
 {% endtabs %}
 
+**Example output**
+
+Device and services are this device information. Connections are connections from this device to other services.
+
+```
+Device:
+ UID                        | Name                             | Type              | Status       | Address                 
+------------------------------------------------------------------------------------------------------------------------------
+ 80:00:XX:XX:XX:XX:XX:C6    | My-MBP-15                        | device            | connected    | 127.0.0.1:65535         
+
+
+Services:
+ UID                        | Name                             | Type              | Status       | Address                  | Enabled  
+-----------------------------------------------------------------------------------------------------------------------------------------
+ 80:00:XX:XX:XX:XX:XX:C6    | vnc                              | VNC (4)           | connected    | 127.0.0.1:5900           | true     
+ 80:00:XX:XX:XX:XX:XX:C6    | remoteit admin                   | Admin Panel (42)  | connected    | 127.0.0.1:29999          | true     
+ 80:00:XX:XX:XX:XX:XX:C6    | ssh                              | SSH (28)          | connected    | 192.168.1.60:3389        | true     
+
+
+Connections:
+ UID                        | Name                             | Type              | Status       | Address                                                    | Enabled   | P2P   | Failover  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 80:55:XX:XX:XX:XX:XX:C6    | rds-mssql-replica                | TCP (1)           | ready        | someservice.at.remote.it:33002   | true      | false | false     
+ 80:00:XX:XX:XX:XX:XX:C6    | Minecraft SSH                    | SSH (28)          | ready        | minecraft-ssh.at.remote.it:33001                 | true      | false | false     
+
+```
+
 ### Add a new service on this device
 
 Adds a new service to this device. This will define a remote.it Service which is running on this machine. NOTE: This does not detect if the actual service is running on this machine. The type option will accept either the ID or Name of an application type and is not case sensitive. Available service types can be found [here](broken-reference).&#x20;
 
 {% tabs %}
 {% tab title="Linux/Mac" %}
-```bash
+```shell
 sudo remoteit add --name <service name> --port <service port> --type <application type> 
+```
+
+
+
+Example adding an SSH service
+
+```bash
+sudo remoteit add --name "my ssh service" --port 22 --type 28
 ```
 {% endtab %}
 
 {% tab title="Windows" %}
-```
+```bash
 remoteit add --name <service name> --port <service port> --type <application type>
+```
+
+
+
+Example adding an SSH service
+
+```bash
+remoteit add --name "my ssh service" --port 22 --type 28
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 You can also add a service which connects to an application on another device on the same LAN. This is also referred to as a [jumpbox](../features/connection-options/jump-boxes.md). The host name can be either an IPv4 IP address or mDNS address (i.e. raspberrypi.local) of the device which is running the application.
 
@@ -242,11 +320,27 @@ You can also add a service which connects to an application on another device on
 ```bash
 sudo remoteit add --name <service name> --port <service port> --type <application type> --hostname <hostname>
 ```
+
+
+
+Example of adding service to "jump" to RDP on a windows desktop on the LAN
+
+```bash
+sudo remoteit add --name "my windows RDP" --port 3389 --type 28 --hostname "192.168.1.60"
+```
 {% endtab %}
 
 {% tab title="Windows" %}
 ```
 remoteit add --name <service name> --port <service port> --type <application type> --hostname <hostname>
+```
+
+
+
+Example of adding service to "jump" to RDP on windows desktop on the LAN
+
+```bash
+remoteit add --name "my windows RDP" --port 3389 --type 28 --hostname "192.168.1.60"
 ```
 {% endtab %}
 {% endtabs %}
