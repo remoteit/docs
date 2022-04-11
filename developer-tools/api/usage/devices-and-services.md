@@ -251,3 +251,31 @@ Query Response
   }
 }
 ```
+
+## Remove a Service
+
+Only the owner of the device **or an admin on the organization owning the device** can remove a service from a device.&#x20;
+
+{% hint style="danger" %}
+Services will be removed even if active and in use&#x20;
+{% endhint %}
+
+```graphql
+mutation {
+  removeService(
+    id:"80:00:00:98:01:23:45:67"
+    )
+}
+```
+
+Query Response
+
+```graphql
+{
+  "data": {
+    "removeService": true
+  }
+}
+```
+
+&#x20;
