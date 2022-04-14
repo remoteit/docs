@@ -74,10 +74,10 @@ mutation UpdateMultipleAttributes($attributes: Object!, $serviceId: String!) {
 {
   "attributes": {
     "$remoteit": {
-      "categoryA": "Uptime:1h, 06m",
-      "categoryB": "Version:navitas-5.4.1649680544",
-      "categoryC": "Serial:lps8k380254",
-      "categoryD": "GatewayID:a840411f41244150"
+      "categoryA": "Uptime: 1h, 06m",
+      "categoryB": "Version: 1.0",
+      "categoryC": "Serial Number: x292jsu2",
+      "categoryD": "MAC: AUWS83729A"
     },
     "MoreJsonAttributes": {
       "version": "1.0"
