@@ -32,7 +32,7 @@ Query Response
 }
 ```
 
-#### Category and Status Fields
+### Category and Status Fields
 
 We have reserved names of remote.it Device attributes which will be displayed on the Web Portal and Desktop UIs. These attributes are for Category and Status fields. The UI currently can display Category A-E and Status A-E. These must be set against the Device ID (also known as the Bulk Service's "Service ID" of the remote.it Device). The convention for the name is $remoteit.categoryA for category attributes and $remoteit.statusA for status attributes. The convention is the same for removing and retrieving these attributes.
 
@@ -57,6 +57,34 @@ mutation {
     value: null,
     serviceId: "80:00:00:00:12:34:56:78",
   )
+}
+```
+
+### Set Multiple Attributes
+
+This method shows how to update multiple attributes on a single device by passing in a JSON formatted variables.
+
+```graphql
+#Query
+mutation UpdateMultipleAttributes($attributes: Object!, $serviceId: String!) {
+	setAttributes(attributes: $attributes, serviceId: $serviceId)
+}
+
+#Variables
+{
+  "attributes": {
+    "$remoteit": {
+      "categoryA": "Uptime:1h, 06m",
+      "categoryB": "Version:navitas-5.4.1649680544",
+      "categoryC": "Serial:lps8k380254",
+      "categoryD": "GatewayID:a840411f41244150"
+    },
+    "MoreJsonAttributes": {
+      "version": "1.0"
+    },
+    "StringAttribute": "newvalue"
+  },
+  "serviceId": "80:00:00:00:01:12:12:12"
 }
 ```
 
