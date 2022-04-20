@@ -313,7 +313,7 @@ remoteit add --name "my ssh service" --port 22 --type 28
 
 
 
-You can also add a service which connects to an application on another device on the same LAN. This is also referred to as a [jumpbox](../features/connection-options/jump-boxes.md). The host name can be either an IPv4 IP address or mDNS address (i.e. raspberrypi.local) of the device which is running the application.
+You can also add a service which connects to an application on another device on the same LAN. This is also referred to as a [jumpbox](../features/connection-options/jump-service-bastion-host.md). The host name can be either an IPv4 IP address or mDNS address (i.e. raspberrypi.local) of the device which is running the application.
 
 {% tabs %}
 {% tab title="Linux/Mac" %}
