@@ -54,7 +54,7 @@ docker exec -it remoteit_docker_demo /bin/sh
 sh -c "$(curl -L https://downloads.remote.it/remoteit/install_agent.sh)"
 ```
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 ### Configure and Connect
 
