@@ -2,6 +2,14 @@
 
 remote.it is in the process of making available all functions in graphQL and will be eventually deprecate the REST-API. This documentation provides the REST-API where the function is not available via graphQL.
 
+## Remote.it Insomnia Collection
+
+We have developed an example set of GraphQL queries and mutations in a collection that you can import directly into insomnia to get started. You will still need to install the authentication plug-in [here](../using-developer-tools.md#add-the-plugin-to-insomnia) and create your access keys in your account before getting started.
+
+```
+$ git clone https://github.com/remoteit/code_samples.git
+```
+
 ## What is GraphQL?
 
 GraphQL is a data query language for API's, developed by Facebook in 2012 before being publicly released in 2015. GraphQL provides an alternative to the REST API.

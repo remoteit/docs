@@ -1,5 +1,13 @@
 # Devices and Services
 
+## Remote.it Insomnia Collection
+
+We have developed an example set of GraphQL queries and mutations in a collection that you can import directly into insomnia to get started. You will still need to install the authentication plug-in [here](../using-developer-tools.md#add-the-plugin-to-insomnia) and create your access keys in your account before getting started.
+
+```
+$ git clone https://github.com/remoteit/code_samples.git
+```
+
 ## Application Types
 
 Application types are service type definitions which are used as parameters for Get Devices By An Attribute and in services. In the case of services only the ID is returned so you will reference this response.

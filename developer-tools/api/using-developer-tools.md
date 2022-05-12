@@ -10,6 +10,14 @@ Insomnia is an API request IDE and a remote.it plugin is available to assist wit
 For graphQL, you can explore the schema, generate queries and mutations.\
 For the REST-API, you can create http requests.
 
+## Remote.it Insomnia Collection
+
+We have developed an example set of GraphQL queries and mutations in a collection that you can import directly into insomnia to get started. You will still need to install the authentication plug-in [here](using-developer-tools.md#add-the-plugin-to-insomnia) and create your access keys in your account before getting started.
+
+```
+$ git clone https://github.com/remoteit/code_samples.git
+```
+
 ## Download and Install Insomnia
 
 {% embed url="https://insomnia.rest/" %}
