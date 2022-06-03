@@ -27,6 +27,8 @@ After placing the binary and making it executable, you will need to install the 
 sudo remoteit agent install
 ```
 
+
+
 You can now start using CLI. See [Usage](../../developer-tools/cli-usage.md)
 {% endtab %}
 
@@ -45,6 +47,8 @@ After placing the binary and making it executable, you will need to install the 
 sudo remoteit agent install
 ```
 
+
+
 You can now start using CLI. See [Usage](../../developer-tools/cli-usage.md)
 {% endtab %}
 
@@ -59,7 +63,9 @@ You will need to install the agent using the following command as an Administrat
 remoteit agent install
 ```
 
-You can now start using CLI. See [Usage](broken-reference)
+
+
+You can now start using CLI. See [Usage](../../developer-tools/cli-usage.md)
 {% endtab %}
 {% endtabs %}
 
