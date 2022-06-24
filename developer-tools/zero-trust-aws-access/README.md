@@ -2,6 +2,8 @@
 
 You can use an EC2 instance as a Jump server (also known as a Bastion host) to other services running in the same VPC, such as a database or Kubernetes cluster. You can also add remote.it access to any services which are running on an existing EC2 instance. Setup only takes a couple of minutes. You can do all of this without any inbound rules in the AWS security groups, thereby blocking all ingress traffic and eliminating open ports to the internet.
 
+{% embed url="https://youtu.be/6kv_EYkfiyY" %}
+
 ## Creating a EC2 instance with Remote.It
 
 You will need:
