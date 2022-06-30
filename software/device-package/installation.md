@@ -272,8 +272,8 @@ These instructions apply to the remoteit Device Package Version 4 and higher.
 **If you remove remote.it software while using a remote.it connection you will lose access to the device through our service immediately.**
 {% endhint %}
 
-```
-sudo apt remove remoteit
-```
+Follow this link:
+
+[https://support.remote.it/hc/en-us/articles/360054866351-Removing-the-remoteit-package-or-Desktop-application](https://support.remote.it/hc/en-us/articles/360054866351-Removing-the-remoteit-package-or-Desktop-application)
 
 At this point, you can then go to your device list (either in the Desktop Application or in the web portal at [https://app.remote.it/#devices](https://app.remote.it/#devices) and delete the device to remove it from your device registry.
