@@ -383,9 +383,11 @@ remoteit modify --id <service id> --enable <boolean> --port <port> --hostname <h
 {% endtab %}
 {% endtabs %}
 
-### Generate peer to peer connection to service
+### Generate connection to service
 
-Once you have created a service on a **target device** you can generate a a persistent address on demand connection from the CLI on your **initiator** device. This requires the service id and **local port**. Verify there are not other connections on the local port before generating. Learn more about [peer to peer vs proxy](../features/connection-options/peer-2-peer-and-proxy.md).
+Once you have created a service on a **target device** you can generate a a persistent address on demand connection from the CLI on your **initiator** device. This requires the service id and **local port**. Verify there are not other connections on the local port before generating. Learn more about [peer to peer vs proxy](../features/connection-options/peer-2-peer-and-proxy.md). The connection will be attempted as peer to peer (p2p) first with a proxy failover if allowed. In some cases such as https and http it will be a reverse proxy connection.
+
+Below is a general connection add command for a peer to peer connection.
 
 {% tabs %}
 {% tab title="Linux/Mac" %}
@@ -424,6 +426,8 @@ Connections:
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 ### Unregister
 

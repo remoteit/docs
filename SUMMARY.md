@@ -61,6 +61,8 @@
 * [Docker](developer-tools/docker.md)
 * [Zero-Trust AWS Access](developer-tools/zero-trust-aws-access/README.md)
   * [AWS RDS (Postgres and MySQL)](developer-tools/zero-trust-aws-access/aws-rds-postgres-and-mysql.md)
+* [Zero Trust Azure Cloud Access](developer-tools/zero-trust-azure-cloud-access.md)
+* [Zero Trust Google Cloud Access](developer-tools/zero-trust-google-cloud-access.md)
 
 ## OEM & Bulk Provisioning
 

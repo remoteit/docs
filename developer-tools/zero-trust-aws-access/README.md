@@ -1,6 +1,8 @@
 # Zero-Trust AWS Access
 
-You can use an EC2 instance as a Jump server (also known as a Bastion host) to other services running in the same VPC, such as a database or Kubernetes cluster. You can also add remote.it access to any services which are running on an existing EC2 instance. Setup only takes a couple of minutes. You can do all of this without any inbound rules in the AWS security groups, thereby blocking all ingress traffic and eliminating open ports to the internet.
+You can use an EC2 instance as a Jump server to other services running in the same VPC, such as a database or Kubernetes cluster. You can also add remote.it access to any services which are running on an existing EC2 instance. Setup only takes a couple of minutes. You can do all of this without any inbound rules in the AWS security groups, thereby blocking all ingress traffic and eliminating open ports to the internet.
+
+With the target services setup such as databases, storage and web applications, you can simply add authorized users via email address in the Remote.It application. This works well with your remote workers and contractors by eliminating the need for IP allow lists to be maintained. It also works on CGNAT connections where your team may be connected via a cellular or satellite carrier where IP addresses are not known or are transient. For more information on Organizations, [click here](https://link.remote.it/support/organizations).&#x20;
 
 {% embed url="https://youtu.be/6kv_EYkfiyY" %}
 
