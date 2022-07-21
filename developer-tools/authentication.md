@@ -29,7 +29,7 @@ In addition, if you will be using the REST-API you will also need to retrieve yo
 
 You will need to follow the steps above with Key Management to generate your access key and secret before proceeding
 
-Create the following file to save all your [remote.it](http://remote.it/) credentials. The file must located be in \~/.remoteit/credentials (in your home directory). For windows, the directory is C:\Users>\[your Windows user name]>.remoteit\credentials with no extension.
+Create the following file to save all your [remote.it](http://remote.it/) credentials. The file must located be in \~/.remoteit/credentials (in your home directory). For windows, the directory is C:\Users\\\[your Windows user name]\\.remoteit\credentials with no extension.
 
 The file is in the standard ini file format:
 
