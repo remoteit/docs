@@ -31,7 +31,7 @@ You will need to follow the steps above with Key Management to generate your acc
 
 | Operating System | Folder                                         |
 | ---------------- | ---------------------------------------------- |
-| Linus/macOS      | \~/.remoteit (in your home directory)          |
+| Linux/macOS      | \~/.remoteit (in your home directory)          |
 | Windows          | C:\Users\\\[your Windows user name]\\.remoteit |
 
 The file is in the standard ini file format:
