@@ -10,3 +10,4 @@ This allows the developers to work with the database with their tools and in the
 We have a [video tutorial available at YouTube](https://link.remote.it/youtube/gcp). Written step by step guide is coming soon.
 {% endhint %}
 
+{% embed url="https://youtu.be/08iVlL8JWVU" %}
