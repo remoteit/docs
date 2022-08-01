@@ -4,7 +4,7 @@
 
 Here's what is required.&#x20;
 
-1. **Download and install the** [**Desktop**](software/desktop/overview-and-installation.md) **app** \
+1. **Download and install the** [**Desktop**](software/desktop/overview-and-installation.md) **app or use** [**https://app.remote.it**](https://app.remote.it)****\
    ****You will be using this to setup other devices and start connections
 2. **Install and configure remote.it on your target device**\
    ****(The device you will be connecting to)

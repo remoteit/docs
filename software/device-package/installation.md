@@ -8,7 +8,7 @@ This guide will step you through the set up of remote.it on **Debian, Ubuntu and
 Prerequisites:&#x20;
 
 1. You have a remote.it account (If not, please go ahead and create an account at [https://app.remote.it](https://app.remote.it))
-2. You have installed the remote.it Desktop application on a machine you will be using to configure and connect to your device. (This doesn't need to be on the same network as the device you are setting up) See [https://remote.it/download/](https://remote.it/download/) for the different options available.
+2. You are on [https://app.remote.it](https://app.remote.it) OR have installed the remote.it Desktop application on a machine you will be using to configure and connect to your device. (This doesn't need to be on the same network as the device you are setting up) See [https://remote.it/download/](https://remote.it/download/) for the different options available.
 3. SSH access to the device you want to install remote.it and connect to
 {% endhint %}
 
@@ -16,9 +16,9 @@ Prerequisites:&#x20;
 
 This quick install allows you to just paste a single command into the terminal of the target device. You must have the Desktop App installed and a remote.it account created before proceeding.
 
-### 1. Open the remote.it Desktop App
+### 1. Open the remote.it Desktop App or [https://app.remote.it](https://app.remote.it)
 
-Your desktop app must be version 3.5.2 or greater.&#x20;
+If using the desktop app, it must be version 3.5.2 or greater.&#x20;
 
 ### 2. Click add device and select "Raspberry Pi and Linux"
 
