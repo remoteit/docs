@@ -171,7 +171,7 @@ Registers this device to your account to allow access. This is not needed if you
 
 If you need to re-register, unregister first, then register. If you just need to move the device to another account, use transfer.&#x20;
 
-After registration, you will then need to add services to this device to support connections
+After registration, you can then add services to this device to allow other devices to connect to this device.
 
 {% tabs %}
 {% tab title="Linux/Mac" %}
