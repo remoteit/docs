@@ -9,7 +9,7 @@ The remote.it CLI has slightly different behavior if you are running as a root u
 
 ## Installation
 
-Download the binary for the platform and Architecture/Distribution to the device. Find the binaries here: [https://link.remote.it/download](https://link.remote.it/download)
+Download the binary for the platform and Architecture/Distribution to the device. Find the binaries here: [https://link.remote.it/download/cli](https://link.remote.it/download/cli)
 
 {% tabs %}
 {% tab title="Debian" %}

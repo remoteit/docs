@@ -1,14 +1,6 @@
 # Installation
 
-## Supported Platforms <a href="#desktop-supported-packages" id="desktop-supported-packages"></a>
-
-[Windows (x86\_64)](https://downloads.remote.it/desktop/latest/remoteit-installer.exe)
-
-[macOS (x86\_64)](https://downloads.remote.it/desktop/remoteit-installer.dmg)
-
-[Debian Linux (x86\_64)](https://downloads.remote.it/desktop/latest/remoteit-amd64-installer.deb)
-
-[Raspberry Pi (ARM v7)](https://downloads.remote.it/desktop/latest/remoteit-armv7l-installer.deb)
+Please see our [downloads page](https://link.remote.it/download/desktop) for a complete list of all of the supported platforms and architectures&#x20;
 
 ## Usage
 
