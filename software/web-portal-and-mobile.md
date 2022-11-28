@@ -4,8 +4,6 @@
 
 Access your device list, logs, define products for OEM registration and execute bulk scripting from our web app at [https://app.remote.it](https://app.remote.it)
 
-![](<../.gitbook/assets/web portal.png>)
-
 ### Mobile Apps
 
 Access SSH, RDP, web services and more on the go from your mobile devices. Remote.it offers iOS and Android apps.

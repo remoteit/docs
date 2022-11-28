@@ -8,7 +8,7 @@ The user who creates an Organization is the account that owns all the devices re
 
 Create is available in our desktop application for Linux, Windows, MacOS
 
-![](<../../.gitbook/assets/create org.png>)
+![](../../.gitbook/assets/Remote\_It\_-\_organization\_-\_Settings.png)
 
 ## Manage Access
 
@@ -18,10 +18,10 @@ Invite Licensed members to have access to the complete device list.
 
 Invite Unlicensed members to have access to the first 5 devices in the account.
 
-![](<../../.gitbook/assets/org manage access.png>)
+![](<../../.gitbook/assets/Remote\_It\_-\_organization\_-\_members (1).png>)
 
 ## Access
 
 Quickly switch between your personal device list and organizations without logging out so all connections stay online.
 
-![](<../../.gitbook/assets/org - quarters.png>)
+![](../../.gitbook/assets/Remote\_It\_-\_organization\_-\_members.png)

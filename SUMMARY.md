@@ -36,7 +36,7 @@
   * [VPN](features/services/vpn.md)
 * [Connection Options](features/connection-options/README.md)
   * [LAN Sharing](features/connection-options/lan-sharing.md)
-  * [Jump Service/Bastion Host](features/connection-options/jump-service-bastion-host.md)
+  * [Jump Service](features/connection-options/jump-service.md)
   * [Peer-2-Peer & Proxy](features/connection-options/peer-2-peer-and-proxy.md)
 * [Logging](features/logging.md)
 * [Organizations](features/organizations/README.md)
