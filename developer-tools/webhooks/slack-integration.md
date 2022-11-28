@@ -23,7 +23,7 @@ Please note that Slack may update their UI. If so, please refer to their documen
 
 ## Configure the webhook in remote.it
 
-1. Open your account section in remote.it [https://app.remote.it/#account](https://app.remote.it/#account) and scroll down to the Notifications
+1. Open the Settings link and then Notifications tab [https://app.remote.it/#/settings/notifications](https://app.remote.it/#/settings/notifications)
 2. Make sure the checkbox for webhook is selected, paste in the webhook url and save.
 
 ![](../../.gitbook/assets/Account\_-\_remote\_it.png)

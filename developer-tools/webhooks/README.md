@@ -12,7 +12,7 @@ If a delivery fails (i.e. server unavailable or responded with a non-200 HTTP st
 For additional information on Webhooks, you can use any of these resources:
 
 * [RequestBin: Webhooks – The Definitive Guide](https://requestbin.com/blog/working-with-webhooks/)
-* [requestbin.com](https://requestbin.com) is a great tool for testing webhooks
+* [requestbin.com](https://requestbin.com/) is a great tool for testing webhooks
 * [GitHub Developer Guide: Webhooks](https://developer.github.com/webhooks/)
 
 ## Enabling a Webhook
@@ -23,23 +23,21 @@ You can add a webhook endpoint to your account, by signing in to your account an
 A webhook url is not a email address or a general website url. If you wish to receive email notifications select the email checkbox.
 {% endhint %}
 
-![](../../.gitbook/assets/webhook-portal.png)
+![](../../.gitbook/assets/Remote\_It\_-\_Settings\_-\_notifications.png)
 
 ## Whats in the Webhook?
 
-The body of a webhook call contains the latest state information of the device or service. This can be recorded in a database to review later. You will recieve unique webhook notifications for the device and each service registered to that device when their state changes.
+The body of a webhook call contains the latest state information of the device or service. This can be recorded in a database to review later. You will receive unique webhook notifications for the device and each service registered to that device when their state changes.&#x20;
 
-![](<../../.gitbook/assets/webhook body.png>)
-
-| Value   | Description                              |
-| ------- | ---------------------------------------- |
-| Address | Public IP Address of the device/service  |
-| Device  | Unique ID of the device or service       |
-| Email   | Email address of the owner of the device |
-| Name    | Name of the device or service            |
-| State   | {online/offline} state being recorded    |
-| Time    | When the state change happened           |
-| Type    | Type of state change that happened       |
+| Value   | Description                                               |
+| ------- | --------------------------------------------------------- |
+| Address | Public IP Address of the device/service                   |
+| Device  | Unique ID of the device or service                        |
+| Email   | Email address of the owner of the device                  |
+| Name    | Name of the device or service                             |
+| State   | {online/offline} state being recorded                     |
+| Time    | When the state change happened in UTC time string format. |
+| Type    | Type of state change that happened                        |
 
 ## Notification Latency
 
