@@ -23,7 +23,7 @@ You can add a webhook endpoint to your account, by signing in to your account an
 A webhook url is not a email address or a general website url. If you wish to receive email notifications select the email checkbox.
 {% endhint %}
 
-![](../../.gitbook/assets/Remote\_It\_-\_Settings\_-\_notifications.png)
+![](<../../.gitbook/assets/Remote\_It\_-\_Settings\_-\_notifications (2).png>)
 
 ## Whats in the Webhook?
 
