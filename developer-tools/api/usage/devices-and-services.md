@@ -142,7 +142,7 @@ Other available parameters available:
 | platform    | \[Int]    | Array of platform IDs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | state       | String    | accepted values "active" and "inactive"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-Additional attributes will become available over time. Please refer to the schema documentation for the extensive list.
+**Additional attributes will become available over time**. Please refer to the schema documentation for the extensive list.
 
 {% hint style="info" %}
 This example only shows some of the variables and available attributes for the device and service collections.

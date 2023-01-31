@@ -4,17 +4,22 @@
 
 {% tabs %}
 {% tab title="Device Package" %}
-[Here](../../software/device-package/supported-platforms.md) for a detailed list of supported architectures.
+[Here](https://www.remote.it/download-list?products=device-package#Download-Results) for a detailed list of supported architectures.
 
 Installation includes the Service Agent for inbound connections only.
 
+* Axis
 * Linux
 * OpenWrt
+* NVIDIA Jetson
 * Raspberry Pi
+* Synology
+* Ubiquiti
+* and more!
 {% endtab %}
 
 {% tab title="CLI" %}
-[Here](../../software/device-package/supported-platforms.md) for a detailed list of supported architectures&#x20;
+[Here](https://www.remote.it/download-list?products=cli#Download-Results) for a detailed list of supported architectures&#x20;
 
 Installation includes a CLI used to setup and initiate outbound connections and Service Agent for inbound connections.
 
@@ -25,7 +30,7 @@ Installation includes a CLI used to setup and initiate outbound connections and 
 {% endtab %}
 
 {% tab title="Desktop" %}
-[Here](../../software/desktop/overview-and-installation.md#desktop-supported-packages) for a detailed list of supported architectures&#x20;
+[Here](https://www.remote.it/download-list?products=desktop#Download-Results) for a detailed list of supported architectures&#x20;
 
 Installation includes a GUI to monitor, setup and initiate services, connections and users. The CLI used to setup and initiate outbound connections and Service Agent for inbound connections.
 
@@ -36,13 +41,16 @@ Installation includes a GUI to monitor, setup and initiate services, connections
 {% endtab %}
 {% endtabs %}
 
-| **Platform**      | **Device Package** | **CLI**       | **Desktop** |
-| ----------------- | :----------------: | :-----------: | :---------: |
-| **Linux**         |        **X**       |     **X**     |    **X**    |
-| **Mac**           |                    |     **X**     |    **X**    |
-| **Raspberry  Pi** |        **X**       |     **X**     |    **X**    |
-| **Windows**       |                    |     **X**     |    **X**    |
-| **OpenWrt**       |        **X**       |               |             |
+| **Axis**          | **X** |       |       |
+| ----------------- | :---: | :---: | :---: |
+| **Linux**         | **X** | **X** | **X** |
+| **Mac**           |       | **X** | **X** |
+| **NVIDIA Jetson** | **X** |       |       |
+| **OpenWrt**       | **X** |       |       |
+| **Raspberry  Pi** | **X** | **X** | **X** |
+| **Synology**      | **X** |       |       |
+| **Windows**       |       | **X** | **X** |
+| **Ubiquiti**      | **X** |       |       |
 
 ## Package Components
 

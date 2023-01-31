@@ -46,7 +46,7 @@ remoteit version
 **Example output**
 
 ```
-1.8.7
+3.0.14
 ```
 
 ## Account

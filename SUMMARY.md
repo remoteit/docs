@@ -39,8 +39,7 @@
   * [Jump Service](features/connection-options/jump-service.md)
   * [Peer-2-Peer & Proxy](features/connection-options/peer-2-peer-and-proxy.md)
 * [Logging](features/logging.md)
-* [Organizations](features/organizations/README.md)
-  * [Device Grouping](features/organizations/device-grouping.md)
+* [Organizations](features/organizations.md)
 
 ## Developer Tools
 

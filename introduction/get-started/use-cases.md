@@ -28,7 +28,7 @@ That means&#x20;
 * Machine Learning in the cloud can be leveraged securely from a device in the field.&#x20;
 * CI/CD can be leveraged to deploy without opening additional access.
 
-## Cellular Devices
+## Cellular or Starlink Devices
 
 Accessing target devices over cellular networks using CGNAT is typically difficult, expensive or just plain impossible.&#x20;
 
