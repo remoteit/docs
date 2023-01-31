@@ -20,7 +20,7 @@ This quick install allows you to just paste a single command into the terminal o
 
 If using the desktop app, it must be version 3.5.2 or greater.&#x20;
 
-### 2. Click add device and select "Raspberry Pi and Linux"
+### 2. Click add device and select your system
 
 ![](../../.gitbook/assets/Screen\_Shot\_2022-02-08\_at\_12\_04\_30\_PM.png)
 
@@ -43,7 +43,7 @@ We recommend using the quick install method above since it will download the pac
 
 Open a terminal window on the device where remote.it will be installed, then download the package.&#x20;
 
-Example below is for a specific pi package. Please use the appropriate package url. This will place the file in your home directory [click here ](supported-platforms.md#device\_package\_supported\_platforms)for specific packages and urls.&#x20;
+Example below is for a specific pi package. Please use the appropriate package url. This will place the file in your home directory [click here ](https://www.remote.it/download-list?products=device-package#Download-Results)for specific packages and urls.&#x20;
 
 **For Debian OS distributions, if you are not sure of the architecture, you can run the following command:**
 
@@ -138,9 +138,9 @@ You will need this claim code to complete the setup in the next steps. Save it u
 
 ### 3. Claim and register the device
 
-Open your remote.it desktop application and log in. Then add the device using the registration claim code by clicking the + (Device Registration) in the upper left.
+Open your remote.it desktop application and log in. Then add the device using the registration claim code by clicking the + (Device Registration) in the upper left, then enter the claim code in the provided field.
 
-![](../../.gitbook/assets/screen\_shot\_2021-08-04\_at\_2\_41\_25\_pm.png)
+![](../../.gitbook/assets/Remote\_It\_-\_add.png)
 
 You have now successfully registered the device to your account and should see it in your device list. If you get a message that it was not found, this indicates that the device was already claimed.
 
@@ -155,13 +155,13 @@ The device itself must be online to set up any services. The services you define
 Click on the device to see its details and click the + in the Services panel to add a new service.\
 
 
-![](../../.gitbook/assets/screen\_shot\_2021-08-04\_at\_3\_02\_26\_pm-2.png)
+![](../../.gitbook/assets/Remote\_It\_-\_Devices\_-\_rpi-zero-w\_-\_details.png)
 
-Select the appropriate service type. Then provide a name, port, and service host address (Defaults are provided for most services). Only override default ports if you have assigned a different port for this service on your device. &#x20;
+Select the appropriate service type. Then provide a name and port (Defaults are provided for most services). Only override default port if you have assigned a different port for this service on your device.  Override the service host address if you are using this device as a [jump service](https://link.remote.it/support/jumpbox).
 
 Click save. You will now see the new service.&#x20;
 
-![](../../.gitbook/assets/screen\_shot\_2021-08-04\_at\_3\_05\_21\_pm.png)
+![](../../.gitbook/assets/Remote\_It\_-\_Devices\_-\_rpi-zero-w\_-\_SSH\_-\_connect.png)
 
 Repeat this process until you have all the services you want available via remote.it. You are now ready to connect and/or share this device. Visit [connections page](https://support.remote.it/hc/en-us/articles/360048935411-Connections) or the [sharing page](https://support.remote.it/hc/en-us/articles/360053354671-Device-Service-Sharing).
 
