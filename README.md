@@ -1,17 +1,21 @@
 # Get Started
 
+## Create a Remote.It Account
+
+Sign up here: [https://app.remote.it](https://app.remote.it)&#x20;
+
 ## Quick Start
 
 Here's what is required.&#x20;
 
-1. **Download and install the** [**Desktop**](software/desktop/overview-and-installation.md) **app or use** [**https://app.remote.it**](https://app.remote.it)****\
-   ****You will be using this to setup other devices and start connections
+1. **Download and install the** [**Desktop**](software/desktop/overview-and-installation.md) **app or use** [**https://app.remote.it**](https://app.remote.it)\
+   You will be using this to setup other devices and start connections
 2. **Install and configure remote.it on your target device**\
-   ****(The device you will be connecting to)
+   (The device you will be connecting to)
    1. **Windows or Mac**\
-      ****Install the [Desktop](software/desktop/) or [CLI](software/cli/)
+      Install the [Desktop](software/desktop/) or [CLI](software/cli/)
    2. **Raspberry Pi or Linux based systems, use the command provided in the Desktop to install and configure remote.it.**\
-      ****![](<.gitbook/assets/Screen\_Shot\_2022-02-08\_at\_12\_04\_30\_PM (1).png>)****
+      ![](<.gitbook/assets/Screen\_Shot\_2022-02-08\_at\_12\_04\_30\_PM (1).png>)
 3. **Connect!**
 
 Once configured you can then share the device or individual services to others.[ Learn more](https://link.remote.it/blog/manage-access).
