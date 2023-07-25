@@ -27,10 +27,7 @@ In addition, if you will be using the REST-API you will also need to retrieve yo
 
 You will need to follow the steps above with Key Management to generate your access key and secret before proceeding.  Then, create a file to save your Remote.It credentials.  The file name should be **credentials** with no extension.  The folder depends on your operating system.
 
-| Operating System | Folder                                         |
-| ---------------- | ---------------------------------------------- |
-| Linux/macOS      | \~/.remoteit (in your home directory)          |
-| Windows          | C:\Users\\\[your Windows user name]\\.remoteit |
+<table><thead><tr><th width="193.02230015369736">Operating System</th><th>Folder</th></tr></thead><tbody><tr><td>Linux/macOS</td><td>~/.remoteit (in your home directory)</td></tr><tr><td>Windows</td><td>C:\Users\[your Windows user name]\.remoteit</td></tr></tbody></table>
 
 The file is in the standard ini file format:
 
@@ -362,7 +359,7 @@ else:
 {% endtab %}
 
 {% tab title="C#" %}
-This example is using RestSharp to make the requests, and the built in cryptography library (System.Security.Cryptography) to sign the **** request. This demonstrates using a configuration manager to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
+This example is using RestSharp to make the requests, and the built in cryptography library (System.Security.Cryptography) to sign the request. This demonstrates using a configuration manager to safely reference the key and secret from environmental variables rather than including it in the code. You will need to set the environmental variables before executing.
 
 ExecuteRequest requires a string which is your graphQL query body.
 
