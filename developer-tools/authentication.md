@@ -32,13 +32,13 @@ You will need to follow the steps above with Key Management to generate your acc
 The file is in the standard ini file format:
 
 ```
-[default]
+[DEFAULT]
 R3_ACCESS_KEY_ID=Z5QCS6ZO7PXXXMVDNXXX
 R3_SECRET_ACCESS_KEY=XXXWC14Qsktnq/nbF+iXxXq2yc4sVPkQn3J0m5i
 R3_DEVELOPER_API_KEY=XXXXXXX
 ```
 
-You can save more than one key pair under different profiles (sections) in the Remote.It credentials file. Profile names are case-insensitive, cannot contain a period (.) and default is the default profile name.
+You can save more than one key pair under different profiles (sections) in the Remote.It credentials file. DEFAULT is the default profile name. Profiles should not have a "." in the name.
 
 ## API Request Signing
 
@@ -267,50 +267,34 @@ async function graphql(keyId, secret, query, variables) {
 {% endtab %}
 
 {% tab title="Python 3" %}
-This example is using a helper library `requests_http_signature==v0.1.0` for Python 3 which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environment variables rather than including it in the code. You will need to set the environment variables before executing.
+This example is using a helper library `requests_http_signature==v0.7.1` for Python 3 which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environment variables rather than including it in the code. You will need to set the environment variables before executing.
 
 **GraphQL**
 
-```
+````
+```python
 import os
-import requests
-import json
-from requests_http_signature import HTTPSignatureAuth
 from base64 import b64decode
 
+import requests
+from requests_http_signature import HTTPSignatureAuth, algorithms # using v 0.7.1
+
+url = 'https://api.remote.it/graphql/v1'
 key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key_secret_id = os.environ.get('R3_SECRET_ACCESS_KEY')
+key = b64decode(os.environ.get('R3_SECRET_ACCESS_KEY'))  # key is in base64 format
 
-body = {"query": "query { login { id email devices { items { id name }}}}"}
-host = 'api.remote.it'
-url_path = '/graphql/v1'
-content_type_header = 'application/json'
-content_length_header = str(len(body))
+auth = HTTPSignatureAuth(key_id=key_id, key=key, signature_algorithm=algorithms.HMAC_SHA256)
 
-headers = {
-    'host': host,
-    'path': url_path,
-    'content-type': content_type_header,
-    'content-length': content_length_header,
-}
+body = {"query": "query {login {id email devices {items {id name}}}}"}
 
-response = requests.post('https://' + host + url_path,
-                         json=body,
-                         auth=HTTPSignatureAuth(algorithm="hmac-sha256",
-                                                key=b64decode(key_secret_id),
-                                                key_id=key_id,
-                                                headers=[
-                                                    '(request-target)', 'host',
-                                                    'date', 'content-type',
-                                                    'content-length'
-                                                ]),
-                         headers=headers)
+response = requests.post(url, json=body, auth=auth)
 
 if response.status_code == 200:
     print(response.text)
 else:
     print(response.status_code)
 ```
+````
 
 **REST-API**
 

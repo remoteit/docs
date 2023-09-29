@@ -34,10 +34,7 @@ The following options apply only to "port proxies", namely all Service types exc
 
 ### Connect
 
-| Parameter | Data Type | Description                                                              |
-| --------- | --------- | ------------------------------------------------------------------------ |
-| serviceId | String    | The id of the service you will make a connection to                      |
-| hostIP    | String    | Used to restrict the range of IP addresses who can connect to the proxy. |
+<table><thead><tr><th>Parameter</th><th width="171.33333333333331">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>serviceId</td><td>String</td><td>The id of the service you will make a connection to</td></tr><tr><td>hostIP</td><td>String</td><td>Used to restrict the range of IP addresses who can connect to the proxy.</td></tr></tbody></table>
 
 
 
