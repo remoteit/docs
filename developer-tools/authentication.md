@@ -38,7 +38,7 @@ R3_SECRET_ACCESS_KEY=XXXWC14Qsktnq/nbF+iXxXq2yc4sVPkQn3J0m5i
 R3_DEVELOPER_API_KEY=XXXXXXX
 ```
 
-You can save more than one key pair under different profiles (sections) in the Remote.It credentials file. DEFAULT is the default profile name. Profiles should not have a "." in the name.
+You can save more than one key pair under different profiles (sections) in the Remote.It credentials file. DEFAULT is the default profile name. Profiles name is case sensitive and should not have a "." in the name.
 
 ## API Request Signing
 
@@ -63,8 +63,6 @@ These are examples of query requests only for the purposes of how to do the requ
 {% tabs %}
 {% tab title="bash/cURL" %}
 The examples reads the \~/.remoteit/credentials file for the variables of your access key, secret, and developer key.
-
-**GraphQL**
 
 ```bash
 #!/bin/bash
@@ -103,46 +101,7 @@ SIGNATURE_HEADER="Signature keyId=\"${R3_ACCESS_KEY_ID}\",algorithm=\"hmac-sha25
 curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} -d "${DATA}" --insecure
 ```
 
-**REST-API**
 
-{% hint style="warning" %}
-Please note, that you need the DEVELOPER API KEY in addition to the access key and access key secret. This example is for the purposes of demonstrating the REST-API request signing. For the device list, please use the graphQL API example above.
-{% endhint %}
-
-```bash
-#!/bin/bash
-source ~/.remoteit/credentials
-
-SECRET=`echo ${R3_SECRET_ACCESS_KEY} | base64 --decode`
-
-HOST="api.remote.it"
-URL_PATH="apv/v27/device/list/all"
-URL="https://{$HOST}/{$URL_PATH}"
-
-VERB="GET"
-
-CONTENT_TYPE="application/json"
-
-LC_VERB=`echo "${VERB}" | tr '[:upper:]' '[:lower:]'`
-
-DATE=$(LANG=en_US date "+%a, %d %b %Y %H:%M:%S %Z")
-DATA=''
-CONTENT_LENGTH=${#DATA}
-
-SIGNING_STRING="(request-target): ${LC_VERB} /${URL_PATH}
-host: ${HOST}
-date: ${DATE}
-content-type: ${CONTENT_TYPE}
-content-length: ${CONTENT_LENGTH}"
-
-echo ${SIGNING_STRING}
-
-SIGNATURE=`echo -n "${SIGNING_STRING}" | openssl dgst -binary -sha256 -hmac "${SECRET}" | base64`
-
-SIGNATURE_HEADER="Signature keyId=\"${R3_ACCESS_KEY_ID}\",algorithm=\"hmac-sha256\",headers=\"(request-target) host date content-type content-length\",signature=\"${SIGNATURE}\""
-
-curl --write-out -v -X ${VERB} -H "Authorization:${SIGNATURE_HEADER}" -H "DeveloperKey:${R3_DEVELOPER_API_KEY}" -H "Date:${DATE}" -H "Content-Type:${CONTENT_TYPE}" ${URL} --insecure
-```
 {% endtab %}
 
 {% tab title="Node" %}
@@ -267,79 +226,124 @@ async function graphql(keyId, secret, query, variables) {
 {% endtab %}
 
 {% tab title="Python 3" %}
-This example is using a helper library `requests_http_signature==v0.7.1` for Python 3 which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from environment variables rather than including it in the code. You will need to set the environment variables before executing.
+This example is using a helper library `requests_http_signature==v0.7.1` for Python 3 which will sign the request before submitting it to the server. This demonstrates how to safely reference the key and secret from the \~/.remoteit/credentials file.
 
-**GraphQL**
+Reference functions create a connection and have a disconnect.
 
 ````
 ```python
-import os
+import configparser
+import json
+import os.path
 from base64 import b64decode
 
 import requests
-from requests_http_signature import HTTPSignatureAuth, algorithms # using v 0.7.1
+from requests_http_signature import HTTPSignatureAuth, algorithms
 
-url = 'https://api.remote.it/graphql/v1'
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key = b64decode(os.environ.get('R3_SECRET_ACCESS_KEY'))  # key is in base64 format
+# File and URL Constants
+CREDENTIALS_FILE = "~/.remoteit/credentials"
+REMOTEIT_URL = 'https://api.remote.it/graphql/v1'
 
-auth = HTTPSignatureAuth(key_id=key_id, key=key, signature_algorithm=algorithms.HMAC_SHA256)
 
-body = {"query": "query {login {id email devices {items {id name}}}}"}
+def remoteit_authorizer(profile="DEFAULT"):
+    """Authorize remote.it API access using credentials from a file.
 
-response = requests.post(url, json=body, auth=auth)
+    Args:
+        profile (str, optional): Profile name in credentials file. Defaults to "DEFAULT".
 
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)
+    Returns:
+        HTTPSignatureAuth: Auth object to be used in requests.
+    """
+    # Resolve the full path for the credentials file
+    file = os.path.expanduser(CREDENTIALS_FILE)
+
+    # Check if the file exists
+    if not os.path.exists(file):
+        raise FileNotFoundError(f"remote.it credentials file not found: {file}")
+
+    # Parse the credentials file
+    config = configparser.ConfigParser()
+    try:
+        config.read(file)
+    except Exception as e:
+        raise Exception(f"remote.it credentials file error: {e}")
+
+    # Fetch credentials for the selected profile
+    credentials = config[profile]
+
+    # Validate existence of required keys
+    key_id = credentials.get('R3_ACCESS_KEY_ID')
+    key = credentials.get('R3_SECRET_ACCESS_KEY')
+    if not key_id or not key:
+        raise Exception("Missing required credentials")
+
+    # Create and return auth object
+    return HTTPSignatureAuth(key_id=key_id, key=b64decode(key), signature_algorithm=algorithms.HMAC_SHA256)
+
+
+def remoteit_api(auth, query, variables=None):
+    """Send a GraphQL query to remote.it API.
+
+    Args:
+        auth (HTTPSignatureAuth): Auth object.
+        query (str): GraphQL query string.
+        variables (dict, optional): Variables for the GraphQL query. Defaults to None.
+
+    Returns:
+        dict: Parsed JSON response from the API.
+    """
+    response = requests.post(REMOTEIT_URL, json={"query": query, "variables": variables}, auth=auth)
+    if response.status_code != 200:
+        raise Exception(f"remote.it API error: {response.status_code}")
+    return json.loads(response.text)
+
+
+def connect(auth, service_id):
+    """Connect to a remote.it service and return session details.
+
+    Args:
+        auth (HTTPSignatureAuth): Auth object.
+        service_id (str): The service ID.
+
+    Returns:
+        tuple: Session ID, host, and port.
+    """
+    query = "mutation connect($id: String!) {connect(serviceId: $id) {id host port}}"
+    response = remoteit_api(auth, query, variables={"id": service_id})
+    connection = response["data"]["connect"]
+    return connection["id"], connection["host"], connection["port"]
+
+
+def disconnect(auth, session_id):
+    """Disconnect a remote.it session.
+
+    Args:
+        auth (HTTPSignatureAuth): Auth object.
+        session_id (str): The session ID to disconnect.
+
+    Returns:
+        bool: True if successful, False otherwise.
+    """
+    query = "mutation disconnect($id: String!) {disconnect(connectionId: $id)}"
+    response = remoteit_api(auth, query, variables={"id": session_id})
+    return response["data"]["disconnect"]
+
+
+# Example usage
+if __name__ == "__main__":
+    # Initialize authorizer
+    authorizer = remoteit_authorizer()
+
+    # Connect to a service
+    service_id = "80:XX:XX:XX:XX:XX:XX:XX"
+    session_id, host, port = connect(authorizer, service_id)
+    print(f"Connected: session_id={session_id}, host={host}, port={port}")
+
+    # Disconnect from the service
+    status = disconnect(authorizer, session_id)
+    print(f"Disconnected: {status}")
 ```
 ````
-
-**REST-API**
-
-{% hint style="warning" %}
-Please note, that you need the DEVELOPER API KEY in addition to the access key and access key secret. This example is for the purposes of demonstrating the REST-API request signing. For the device list, please use the graphQL API example above.
-{% endhint %}
-
-```
-import requests
-from requests_http_signature import HTTPSignatureAuth
-from base64 import b64decode
-
-# For more on authentication see https://docs.remote.it/api-reference/authentication
-key_id = os.environ.get('R3_ACCESS_KEY_ID')
-key_secret_id = os.environ.get('R3_SECRET_ACCESS_KEY')
-api_key = os.environ.get('R3_DEVELOPER_API_KEY')
-
-body = ''  #update this with your data if posting with a body
-host = 'api.remote.it'
-url_path = '/apv/v27/device/list/all'
-content_type_header = 'application/json'
-content_length_header = str(len(body))
-headers = {
-    'host': host,
-    'content-type': content_type_header,
-    'content-length': content_length_header,
-    'DeveloperKey': api_key
-}
-response = requests.get('https://' + host + url_path,
-                        auth=HTTPSignatureAuth(algorithm="hmac-sha256",
-                                               key=b64decode(key_secret_id),
-                                               key_id=key_id,
-                                               headers=[
-                                                   '(request-target)', 'host',
-                                                   'date', 'content-type',
-                                                   'content-length'
-                                               ]),
-                        headers=headers)
-
-if response.status_code == 200:
-    print(response.text)
-else:
-    print(response.status_code)
-    print(response.text)
-```
 {% endtab %}
 
 {% tab title="C#" %}
