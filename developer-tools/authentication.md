@@ -230,8 +230,7 @@ This example is using a helper library `requests_http_signature==v0.7.1` for Pyt
 
 Reference functions create a connection and have a disconnect.
 
-````
-```python
+```
 import configparser
 import json
 import os.path
@@ -343,7 +342,6 @@ if __name__ == "__main__":
     status = disconnect(authorizer, session_id)
     print(f"Disconnected: {status}")
 ```
-````
 {% endtab %}
 
 {% tab title="C#" %}
